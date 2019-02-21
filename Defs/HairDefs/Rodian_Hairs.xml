@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>StarWarsRaces_RodianHair1</defName>
+    <label>spiky hair</label>
+    <texPath>Hairs/Rodian1</texPath>
+    <hairTags>
+        <li>StarWarsRaces_Rodian</li>
+    </hairTags>
+  </HairDef>
+</Defs>

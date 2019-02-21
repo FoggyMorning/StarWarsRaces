@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
+        <defName>StarWarsRaces_Rodian</defName>
+        <label>Rodian</label>
+        <description>Rodians are a reptilian species with antennae, green and scaled skin, large round pupil-less eyes, and snouts from the planet Rodia.</description>
+        <alienRace>
+            <generalSettings>
+                <alienPartGenerator>
+                    <useSkincolorForHair>true</useSkincolorForHair>
+                    <useGenderedHeads>true</useGenderedHeads>
+                    <aliencrowntypes>
+                        <li>Average_Normal</li>
+                        <li>Average_Pointy</li>
+                        <li>Average_Wide</li>
+                        <li>Narrow_Normal</li>
+                        <li>Narrow_Pointy</li>
+                        <li>Narrow_Wide</li>
+                    </aliencrowntypes>
+                    <!-- skin -->
+                    <alienskincolorgen Class="ColorGenerator_Options">
+                        <options>
+                            <!-- greens -->
+                            <li>
+                                <weight>50</weight>
+                                <only>RGBA(0.909, 0.709, 0.027,1)</only>
+                            </li>
+                            <li>
+                                <weight>1</weight>
+                                <only>RGBA(0.043, 0.4, 0.137,1)</only>
+                            </li>
+                            <li>
+                                <weight>1</weight>
+                                <only>RGBA(0.341, 0.678, 0.407,1)</only>
+                            </li>
+                            <li>
+                                <weight>1</weight>
+                                <only>RGBA(0.803, 0.803, 0,1)</only>
+                            </li>
+                            <!-- blues -->
+                            <li>
+                                <weight>50</weight>
+                                <only>RGBA(0.4, 0.545, 0.545,1)</only>
+                            </li>
+                            <li>
+                                <weight>10</weight>
+                                <only>RGBA(0.705, 0.803, 0.803,1)</only>
+                            </li>
+                            <li>
+                                <weight>10</weight>
+                                <only>RGBA(0.372, 0.623, 0.623,1)</only>
+                            </li>
+                            <li>
+                                <weight>10</weight>
+                                <only>RGBA(0.752, 0.850, 0.850,1)</only>
+                            </li>
+                            <li>
+                                <weight>10</weight>
+                                <only>RGBA(0.321, 0.545, 0.545,1)</only>
+                            </li>
+                        </options>
+                    </alienskincolorgen>
+                    <!-- eyes -->
+                    <alienskinsecondcolorgen Class="ColorGenerator_Options">
+                        <options>
+                            <!-- #003F87 -->
+                            <li>
+                                <weight>8</weight>
+                                <only>RGBA(0, 0.247, 0.529,1)</only>
+                            </li>
+                            <!-- #3063A5 -->
+                            <li>
+                                <weight>8</weight>
+                                <only>RGBA(0.188, 0.388, 0.647,1)</only>
+                            </li>
+                            <!-- #473C8B -->
+                            <li>
+                                <weight>8</weight>
+                                <only>RGBA(0.278, 0.235, 0.545,1)</only>
+                            </li>
+                            <!-- #CD2626 -->
+                            <li>
+                                <weight>8</weight>
+                                <only>RGBA(0.803, 0.149, 0.149,1)</only>
+                            </li>
+                            <!-- #CC1100  -->
+                            <li>
+                                <weight>8</weight>
+                                <only>RGBA(0.8, 0.066, 0,1)</only>
+                            </li>
+                        </options>
+                    </alienskinsecondcolorgen>
+                    <bodyAddons>
+                        <li>
+                            <path>Rodian/Antenna/Left_Antenna</path>
+                            <bodyPart>StarWarsRaces_LeftRodianAntenna</bodyPart>
+                            <drawSize>1</drawSize>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <layerOffset>0</layerOffset>
+                            <offsets>
+                                <south>
+                                    <crownTypes>
+                                        <Average_Normal>(-.42,.5)</Average_Normal>
+                                        <Average_Pointy>(-.42,.5)</Average_Pointy>
+                                        <Average_Wide>(-.42,.5)</Average_Wide>
+                                        <Narrow_Wide>(-.4,.5)</Narrow_Wide>
+                                        <Narrow_Normal>(-.4,.5)</Narrow_Normal>
+                                        <Narrow_Pointy>(-.4,.5)</Narrow_Pointy>
+                                    </crownTypes>
+                                </south>
+                                <north>
+                                    <crownTypes>
+                                        <Average_Normal>(0,.9)</Average_Normal>
+                                        <Average_Pointy>(0,.9)</Average_Pointy>
+                                        <Average_Wide>(0,.9)</Average_Wide>
+                                        <Narrow_Wide>(0,.9)</Narrow_Wide>
+                                        <Narrow_Normal>(0,.9)</Narrow_Normal>
+                                        <Narrow_Pointy>(0,.9)</Narrow_Pointy>
+                                    </crownTypes>
+                                </north>
+                                <east>
+                                    <crownTypes>
+                                        <Average_Normal>(-.5,.5)</Average_Normal>
+                                        <Average_Pointy>(-.5,.5)</Average_Pointy>
+                                        <Average_Wide>(-.5,.5)</Average_Wide>
+                                        <Narrow_Wide>(-.5,.5)</Narrow_Wide>
+                                        <Narrow_Normal>(-.5,.5)</Narrow_Normal>
+                                        <Narrow_Pointy>(-.5,.5)</Narrow_Pointy>
+                                    </crownTypes>
+                                </east>
+                            </offsets>
+                            <useSkinColor>true</useSkinColor>
+                            <hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>
+                        </li>
+                        <li>
+                            <path>Rodian/Antenna/Right_Antenna</path>
+                            <bodyPart>StarWarsRaces_RightRodianAntenna</bodyPart>
+                            <drawSize>1</drawSize>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <layerOffset>0</layerOffset>
+                            <offsets>
+                                <south>
+                                    <crownTypes>
+                                        <Average_Normal>(-.42,.5)</Average_Normal>
+                                        <Average_Pointy>(-.42,.5)</Average_Pointy>
+                                        <Average_Wide>(-.42,.5)</Average_Wide>
+                                        <Narrow_Wide>(-.4,.5)</Narrow_Wide>
+                                        <Narrow_Normal>(-.4,.5)</Narrow_Normal>
+                                        <Narrow_Pointy>(-.4,.5)</Narrow_Pointy>
+                                    </crownTypes>
+                                </south>
+                                <north>
+                                    <crownTypes>
+                                        <Average_Normal>(0,.9)</Average_Normal>
+                                        <Average_Pointy>(0,.9)</Average_Pointy>
+                                        <Average_Wide>(0,.9)</Average_Wide>
+                                        <Narrow_Wide>(0,.9)</Narrow_Wide>
+                                        <Narrow_Normal>(0,.9)</Narrow_Normal>
+                                        <Narrow_Pointy>(0,.9)</Narrow_Pointy>
+                                    </crownTypes>
+                                </north>
+                                <east>
+                                    <crownTypes>
+                                        <Average_Normal>(-.5,.5)</Average_Normal>
+                                        <Average_Pointy>(-.5,.5)</Average_Pointy>
+                                        <Average_Wide>(-.5,.5)</Average_Wide>
+                                        <Narrow_Wide>(-.5,.5)</Narrow_Wide>
+                                        <Narrow_Normal>(-.5,.5)</Narrow_Normal>
+                                        <Narrow_Pointy>(-.5,.5)</Narrow_Pointy>
+                                    </crownTypes>
+                                </east>
+                            </offsets>
+                            <useSkinColor>true</useSkinColor>
+                            <hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>
+                        </li>
+                        <li>
+                            <path>Rodian/Head/Ear</path>
+                            <bodyPart>Ear</bodyPart>
+                            <drawSize>1</drawSize>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <layerOffset>0</layerOffset>
+                            <offsets>
+                                <south>
+                                    <crownTypes>
+                                        <Average_Normal>(-.42,.5)</Average_Normal>
+                                        <Average_Pointy>(-.43,.5)</Average_Pointy>
+                                        <Average_Wide>(-.43,.5)</Average_Wide>
+                                        <Narrow_Wide>(-.42,.53)</Narrow_Wide>
+                                        <Narrow_Normal>(-.42,.53)</Narrow_Normal>
+                                        <Narrow_Pointy>(-.42,.53)</Narrow_Pointy>
+                                    </crownTypes>
+                                </south>
+                                <north>
+                                    <crownTypes>
+                                        <Average_Normal>(0,.9)</Average_Normal>
+                                        <Average_Pointy>(0,.9)</Average_Pointy>
+                                        <Average_Wide>(0,.9)</Average_Wide>
+                                        <Narrow_Wide>(0,.9)</Narrow_Wide>
+                                        <Narrow_Normal>(0,.9)</Narrow_Normal>
+                                        <Narrow_Pointy>(0,.9)</Narrow_Pointy>
+                                    </crownTypes>
+                                </north>
+                                <east>
+                                    <crownTypes>
+                                        <Average_Normal>(-.4,.5)</Average_Normal>
+                                        <Average_Pointy>(-.4,.7)</Average_Pointy>
+                                        <Average_Wide>(-.4,.5)</Average_Wide>
+                                        <Narrow_Wide>(-.45,.5)</Narrow_Wide>
+                                        <Narrow_Normal>(-.45,.5)</Narrow_Normal>
+                                        <Narrow_Pointy>(-.45,.5)</Narrow_Pointy>
+                                    </crownTypes>
+                                </east>
+                            </offsets>
+                            <useSkinColor>true</useSkinColor>
+                            <hiddenUnderApparelFor>
+                                <li>FullHead</li>
+                                <li>UpperHead</li>
+                            </hiddenUnderApparelFor>
+                        </li>
+                    </bodyAddons>
+                </alienPartGenerator>
+                <humanRecipeImport>true</humanRecipeImport>
+            </generalSettings>
+            <hairSettings>
+                <hasHair>true</hasHair>
+                <!-- never go grey -->
+                <getsGreyAt>9999999</getsGreyAt>
+                <hairTags>
+                    <li>StarWarsRaces_Rodian</li>
+                </hairTags>
+            </hairSettings>
+            <graphicPaths>
+                <li>
+                    <head>Rodian/Head/</head>
+                </li>
+            </graphicPaths>
+        </alienRace>
+        <tools>
+            <li>
+                <label>left fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8.2</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8.2</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <leatherDef>StarWarsRaces_Leather_Rodian</leatherDef>
+            <nameGenerator>StarWarsRaces_NamerPersonRodianM</nameGenerator>
+            <nameGeneratorFemale>StarWarsRaces_NamerPersonRodianF</nameGeneratorFemale>
+            <body>StarWarsRaces_Rodian_Body</body>
+            <bloodDef>StarWarsRaces_FilthBloodRodian</bloodDef>
+        </race>
+    </AlienRace.ThingDef_AlienRace>
+
+</Defs>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
+        <defName>StarWarsRaces_Wookie</defName>
+        <label>Wookie</label>
+        <description>Shaggy giants from an arboreal world, the tall and commanding Wookiee species is an impressive sight to even the most jaded spacer. 
+        Despite their fearsome and savage countenance, Wookiees are intelligent, sophisticated, loyal and trusting. Loyalty and bravery are near-sacred tenets in Wookiee society. 
+        When peaceful, Wookiees are tender and gentle. 
+        Their tempers, however, are short; when angered, Wookiees can fly into a berserker rage and will not stop until the object of their distemper is sufficiently destroyed.</description>
+        <statBases>
+            <!-- extra mass -->
+            <Mass>70</Mass>
+            <!-- fur and blubber provide some temp resistance -->
+            <ComfyTemperatureMin>0</ComfyTemperatureMin>
+            <ComfyTemperatureMax>45</ComfyTemperatureMax>
+            <!-- extra leather -->
+            <LeatherAmount>60</LeatherAmount>
+            <!-- extra value -->
+            <MarketValue>2750</MarketValue>
+            <!-- extra carrying capacity -->
+            <CarryingCapacity>80</CarryingCapacity>
+
+            <!--they are big and scary so have a stronger social impact-->
+            <ResearchSpeed>0.9</ResearchSpeed>
+            <MiningSpeed>0.9</MiningSpeed>
+            <SocialImpact>1.1</SocialImpact>
+            <PlantWorkSpeed>0.9</PlantWorkSpeed>
+            <ConstructionSpeed>0.9</ConstructionSpeed>
+        </statBases>
+        <alienRace>
+            <generalSettings>
+                <alienPartGenerator>
+                    <customDrawSize>( 1.0, 1.50 )</customDrawSize>
+                    <customHeadDrawSize>( 1.0, 1.2 )</customHeadDrawSize>
+                    <customPortraitDrawSize>( 1.0, 1.5 )</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>( 1.0, 1.2 )</customPortraitHeadDrawSize>
+                    <headOffset>(0,.2)</headOffset>
+                    <useSkincolorForHair>true</useSkincolorForHair>
+                    <useGenderedHeads>true</useGenderedHeads>
+                    <aliencrowntypes>
+                        <li>Average_Normal</li>
+                        <li>Average_Pointy</li>
+                        <li>Average_Wide</li>
+                        <li>Narrow_Normal</li>
+                        <li>Narrow_Pointy</li>
+                        <li>Narrow_Wide</li>
+                    </aliencrowntypes>
+                    <!-- skin -->
+                    <alienskincolorgen Class="ColorGenerator_Options">
+                        <options>
+                            <li>
+                                <weight>10</weight>
+                                <only>RGBA(0.623, 0.380, 0.149,1)</only>
+                            </li>
+                            <li>
+                                <!-- #843e30 -->
+                                <weight>10</weight>
+                                <only>RGBA(0.517, 0.243, 0.188,1)</only>
+                            </li>
+                            <li>
+                                <!-- #8b352d -->
+                                <weight>10</weight>
+                                <only>RGBA(0.545, 0.207, 0.176,1)</only>
+                            </li>
+                            <li>
+                                <!-- #784b44 -->
+                                <weight>10</weight>
+                                <only>RGBA(0.470, 0.294, 0.266,1)</only>
+                            </li>
+                            <li>
+                                <!-- #685855 -->
+                                <weight>10</weight>
+                                <only>RGBA(0.407, 0.345, 0.333,1)</only>
+                            </li>
+                            <li>
+                                <!-- #764c41 -->
+                                <weight>10</weight>
+                                <only>RGBA(0.462, 0.298, 0.254,1)</only>
+                            </li>
+                        </options>
+                    </alienskincolorgen>
+                    <bodyAddons>
+                    </bodyAddons>
+                </alienPartGenerator>
+                <humanRecipeImport>true</humanRecipeImport>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Nudist</defName>
+                        <chance>100</chance>
+                    </li>
+                </forcedRaceTraitEntries>
+            </generalSettings>
+            <hairSettings>
+                <hasHair>false</hasHair>
+            </hairSettings>
+            <graphicPaths>
+                <li>
+                    <head>Wookie/Head/</head>
+                    <body>Wookie/Body/</body>
+                </li>
+            </graphicPaths>
+            <raceRestriction>
+                <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+                <apparelList>
+                    <li>StarWarsRaces_Wookie_Bandolier</li>
+                </apparelList>
+            </raceRestriction>
+			<thoughtSettings>
+			</thoughtSettings>
+        </alienRace>
+        <tools>
+            <li>
+                <label>left fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>teeth</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.07</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <leatherDef>StarWarsRaces_Leather_Wookie</leatherDef>
+            <nameGenerator>StarWarsRaces_NamerPersonWookieM</nameGenerator>
+            <nameGeneratorFemale>StarWarsRaces_NamerPersonWookieF</nameGeneratorFemale>
+        </race>
+    </AlienRace.ThingDef_AlienRace>
+
+</Defs>

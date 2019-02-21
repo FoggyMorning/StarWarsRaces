@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Star Wars Races</name>
+	<author>Foggy Morning</author>
+	<url>https://github.com/FoggyMorning/StarWarsRaces</url>
+   <supportedVersions><li>1.0</li></supportedVersions>
+	<description>Adds the Wookie, Rodian and Twi'lek races.  Adds all three races to the PlayerColony and PlayerTribe factions.  Does not add any additional factions.
+	Includes new hats for Twi'leks only.  Adds a Wookie bandolier as well.  See the attached images.  
+	Should be compatible with other existing Star Wars mods that use the PlayerColony and PlayerTribe factions.</description>
+</ModMetaData>
