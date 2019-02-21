@@ -140,7 +140,7 @@
                     </alienskincolorgen>
                     <bodyAddons>
                         <li>
-                            <path>Twilek/LeftLekku/Lekku_Front_Left</path>
+                            <path>StarWarsRaces/Twilek/LeftLekku/Lekku_Front_Left</path>
                             <bodyPart>StarWarsRaces_Left_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -181,7 +181,7 @@
                         </li>
                         <li>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                            <path>Twilek/LeftLekku/Lekku_Rear_Left</path>
+                            <path>StarWarsRaces/Twilek/LeftLekku/Lekku_Rear_Left</path>
                             <bodyPart>StarWarsRaces_Left_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>false</inFrontOfBody>
@@ -222,7 +222,7 @@
                         </li>
                         <li>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                            <path>Twilek/RightLekku/Lekku_Front_Right</path>
+                            <path>StarWarsRaces/Twilek/RightLekku/Lekku_Front_Right</path>
                             <bodyPart>StarWarsRaces_Right_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -263,7 +263,7 @@
                         </li>
                         <li>
                             <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                            <path>Twilek/RightLekku/Lekku_Rear_Right</path>
+                            <path>StarWarsRaces/Twilek/RightLekku/Lekku_Rear_Right</path>
                             <bodyPart>StarWarsRaces_Right_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>false</inFrontOfBody>
@@ -309,7 +309,7 @@
             <graphicPaths>
                 <li>
                     <!-- <body></body> -->
-                    <head>Twilek/Head/</head>
+                    <head>StarWarsRaces/Twilek/Head/</head>
                 </li>
             </graphicPaths>
             <hairSettings>

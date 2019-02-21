@@ -3,7 +3,7 @@
   <HairDef>
     <defName>StarWarsRaces_RodianHair1</defName>
     <label>spiky hair</label>
-    <texPath>Hairs/Rodian1</texPath>
+    <texPath>StarWarsRaces/Rodian/Hairs/Rodian1</texPath>
     <hairTags>
         <li>StarWarsRaces_Rodian</li>
     </hairTags>

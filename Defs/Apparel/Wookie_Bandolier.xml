@@ -19,7 +19,7 @@
             </skillRequirements>
 		</recipeMaker>
     <graphicData>
-      <texPath>Wookie/Bandolier/Bandolier_Hulk_south</texPath>
+      <texPath>StarWarsRaces/Wookie/Bandolier/Bandolier_Hulk_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>30</costStuffCount>
@@ -39,7 +39,7 @@
       <bodyPartGroups>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Wookie/Bandolier/Bandolier</wornGraphicPath>
+      <wornGraphicPath>StarWarsRaces/Wookie/Bandolier/Bandolier</wornGraphicPath>
       <layers>
         <li>Belt</li>
       </layers>

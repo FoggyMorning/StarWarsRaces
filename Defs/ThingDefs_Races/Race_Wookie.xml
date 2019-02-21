@@ -95,8 +95,8 @@
             </hairSettings>
             <graphicPaths>
                 <li>
-                    <head>Wookie/Head/</head>
-                    <body>Wookie/Body/</body>
+                    <head>StarWarsRaces/Wookie/Head/</head>
+                    <body>StarWarsRaces/Wookie/Body/</body>
                 </li>
             </graphicPaths>
             <raceRestriction>

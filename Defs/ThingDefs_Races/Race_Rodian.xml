@@ -92,7 +92,7 @@
                     </alienskinsecondcolorgen>
                     <bodyAddons>
                         <li>
-                            <path>Rodian/Antenna/Left_Antenna</path>
+                            <path>StarWarsRaces/Rodian/Antenna/Left_Antenna</path>
                             <bodyPart>StarWarsRaces_LeftRodianAntenna</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -136,7 +136,7 @@
                             </hiddenUnderApparelFor>
                         </li>
                         <li>
-                            <path>Rodian/Antenna/Right_Antenna</path>
+                            <path>StarWarsRaces/Rodian/Antenna/Right_Antenna</path>
                             <bodyPart>StarWarsRaces_RightRodianAntenna</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -180,7 +180,7 @@
                             </hiddenUnderApparelFor>
                         </li>
                         <li>
-                            <path>Rodian/Head/Ear</path>
+                            <path>StarWarsRaces/Rodian/Head/Ear</path>
                             <bodyPart>Ear</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -237,7 +237,7 @@
             </hairSettings>
             <graphicPaths>
                 <li>
-                    <head>Rodian/Head/</head>
+                    <head>StarWarsRaces/Rodian/Head/</head>
                 </li>
             </graphicPaths>
         </alienRace>

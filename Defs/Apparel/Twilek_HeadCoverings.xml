@@ -22,7 +22,7 @@
 		</recipeMaker>
 		<description>A simple head covering with openings for Lekku.</description>
 		<graphicData>
-			<texPath>Twilek/Hats/Head_Cover1_south</texPath>
+			<texPath>StarWarsRaces/Twilek/Hats/Head_Cover1_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     	<costStuffCount>20</costStuffCount>
@@ -47,7 +47,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Twilek/Hats/Head_Cover1</wornGraphicPath>
+			<wornGraphicPath>StarWarsRaces/Twilek/Hats/Head_Cover1</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -82,7 +82,7 @@
 		</recipeMaker>
 		<description>A soft, thick cap. Great for keeping warm in winter, but with openings for Lekku.</description>
 		<graphicData>
-			<texPath>Twilek/Hats/Tuque_south</texPath>
+			<texPath>StarWarsRaces/Twilek/Hats/Tuque_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>25</costStuffCount>
@@ -104,7 +104,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Twilek/Hats/Tuque</wornGraphicPath>
+			<wornGraphicPath>StarWarsRaces/Twilek/Hats/Tuque</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -162,7 +162,7 @@
 		</costList>
 		<description>A simple head covering with openings for Lekku. Includes a set of goggles and ear protection.</description>
 		<graphicData>
-			<texPath>Twilek/Hats/Goggles_south</texPath>
+			<texPath>StarWarsRaces/Twilek/Hats/Goggles_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
         <costStuffCount>10</costStuffCount>
@@ -182,7 +182,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Twilek/Hats/Goggles</wornGraphicPath>
+			<wornGraphicPath>StarWarsRaces/Twilek/Hats/Goggles</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -222,7 +222,7 @@
 		</stuffCategories>
 		<description>A simple head wrap with openings for Lekku and a decorative symbol. Improves social impact.</description>
 		<graphicData>
-			<texPath>Twilek/Hats/Decorative_south</texPath>
+			<texPath>StarWarsRaces/Twilek/Hats/Decorative_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>50</costStuffCount>
@@ -242,7 +242,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Twilek/Hats/Decorative</wornGraphicPath>
+			<wornGraphicPath>StarWarsRaces/Twilek/Hats/Decorative</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
