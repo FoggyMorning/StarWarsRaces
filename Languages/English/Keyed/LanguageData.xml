@@ -10,11 +10,11 @@
 	<StarWarsRaces.IncludeWookieTip>Should Wookies be included?</StarWarsRaces.IncludeWookieTip>
 
     
-	<StarWarsRaces.spawnChanceVeryLow>Minimum</StarWarsRaces.spawnChanceVeryLow>
-	<StarWarsRaces.spawnChanceLow>Low</StarWarsRaces.spawnChanceLow>
-	<StarWarsRaces.spawnChanceNormal>Normal</StarWarsRaces.spawnChanceNormal>
-	<StarWarsRaces.spawnChanceHigh>High</StarWarsRaces.spawnChanceHigh>
-	<StarWarsRaces.spawnChanceVeryHigh>Very High</StarWarsRaces.spawnChanceVeryHigh>
-	<StarWarsRaces.spawnChanceInsane>Maximum</StarWarsRaces.spawnChanceInsane>
+	<StarWarsRaces.spawnChanceVeryLow>(Minimum - Colonists and Tribespeople of this species will NOT appear)</StarWarsRaces.spawnChanceVeryLow>
+	<StarWarsRaces.spawnChanceLow>(Low chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceLow>
+	<StarWarsRaces.spawnChanceNormal>(Normal chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceNormal>
+	<StarWarsRaces.spawnChanceHigh>(High chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceHigh>
+	<StarWarsRaces.spawnChanceVeryHigh>(Very High chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceVeryHigh>
+	<StarWarsRaces.spawnChanceInsane>(Maximum - This species will appear frequently, but Human colonists will no longer appear)</StarWarsRaces.spawnChanceInsane>
 
 </LanguageData>

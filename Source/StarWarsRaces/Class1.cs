@@ -58,9 +58,15 @@ namespace StarWarsRaces
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                this.strSpawnTwilek = ((int)this.spawnChanceTwilek).ToString();
-                this.strSpawnRodian = ((int)this.spawnChanceRodian).ToString();
-                this.strSpawnWookie = ((int)this.spawnChanceWookie).ToString();
+                strSpawnTwilek = ((int)spawnChanceTwilek).ToString();
+                strSpawnRodian = ((int)spawnChanceRodian).ToString();
+                strSpawnWookie = ((int)spawnChanceWookie).ToString();
+            }
+            if (Scribe.mode == LoadSaveMode.Saving)
+            {
+                string[] labels = new string[] { "Twilek", "Rodian", "Wookie" };
+                float[] chances = new float[] { spawnChanceTwilek, spawnChanceRodian, spawnChanceWookie };
+                LSUtil.LoadASpecies(labels, chances);
             }
         }
         private static string GetspawnChanceLabel(float spawnChance)
@@ -138,7 +144,6 @@ namespace StarWarsRaces
                                     if (kd == "StarWarsRaces_" + label + "Colonist" || kd == "StarWarsRaces_" + label + "Tribesperson")
                                     {
                                         pke.chance = chances[i] * 10;
-
                                     };
                                 };
                             };
@@ -201,7 +206,6 @@ namespace StarWarsRaces
             float[] chances = new float[] { SettingsController.Settings.spawnChanceTwilek, SettingsController.Settings.spawnChanceRodian, SettingsController.Settings.spawnChanceWookie };
             LSUtil.LoadASpecies(labels, chances);
         }
-
     }
 }
 
