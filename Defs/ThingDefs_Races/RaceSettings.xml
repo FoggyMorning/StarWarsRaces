@@ -7,10 +7,35 @@
                 <li>
                     <kindDefs>
                         <li>StarWarsRaces_RodianColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_RodianTribesperson</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_TwilekColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_TwilekTribesperson</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_WookieColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_WookieTribesperson</li>
                     </kindDefs>
                     <chance>70.0</chance>
@@ -20,10 +45,35 @@
                 <li>
                     <kindDefs>
                         <li>StarWarsRaces_RodianColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_RodianTribesperson</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_TwilekColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_TwilekTribesperson</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_WookieColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
                         <li>StarWarsRaces_WookieTribesperson</li>
                     </kindDefs>
                     <chance>70.0</chance>
@@ -34,8 +84,6 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>StarWarsRaces_RodianColonist</li>
-                                <li>StarWarsRaces_TwilekColonist</li>
                                 <li>StarWarsRaces_WookieColonist</li>
                             </kindDefs>
                             <chance>70.0</chance>
@@ -49,9 +97,59 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>StarWarsRaces_RodianTribesperson</li>
-                                <li>StarWarsRaces_TwilekTribesperson</li>
+                                <li>StarWarsRaces_RodianColonist</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_TwilekColonist</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
                                 <li>StarWarsRaces_WookieTribesperson</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerTribe</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_TwilekTribesperson</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerTribe</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_RodianTribesperson</li>
                             </kindDefs>
                             <chance>70.0</chance>
                         </li>
@@ -66,8 +164,6 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>StarWarsRaces_RodianColonist</li>
-                                <li>StarWarsRaces_TwilekColonist</li>
                                 <li>StarWarsRaces_WookieColonist</li>
                             </kindDefs>
                             <chance>70.0</chance>
@@ -81,9 +177,59 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>StarWarsRaces_RodianTribesperson</li>
-                                <li>StarWarsRaces_TwilekTribesperson</li>
+                                <li>StarWarsRaces_RodianColonist</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_TwilekColonist</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
                                 <li>StarWarsRaces_WookieTribesperson</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerTribe</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_TwilekTribesperson</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerTribe</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_RodianTribesperson</li>
                             </kindDefs>
                             <chance>70.0</chance>
                         </li>

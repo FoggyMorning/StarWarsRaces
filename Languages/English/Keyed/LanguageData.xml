@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<StarWarsRaces.SpeciesOfTheRim>Star Wars - Species of the Rim</StarWarsRaces.SpeciesOfTheRim>
+	<StarWarsRaces.IncludeTwilek>Include Twi leks</StarWarsRaces.IncludeTwilek>
+	<StarWarsRaces.IncludeTwilekTip>Should Twi leks be included?</StarWarsRaces.IncludeTwilekTip>
+	<StarWarsRaces.IncludeRodian>Include Rodians</StarWarsRaces.IncludeRodian>
+	<StarWarsRaces.IncludeRodianTip>Should Rodians be included?</StarWarsRaces.IncludeRodianTip>
+	<StarWarsRaces.IncludeWookie>Include Wookies</StarWarsRaces.IncludeWookie>
+	<StarWarsRaces.IncludeWookieTip>Should Wookies be included?</StarWarsRaces.IncludeWookieTip>
+
+    
+	<StarWarsRaces.spawnChanceVeryLow>Minimum</StarWarsRaces.spawnChanceVeryLow>
+	<StarWarsRaces.spawnChanceLow>Low</StarWarsRaces.spawnChanceLow>
+	<StarWarsRaces.spawnChanceNormal>Normal</StarWarsRaces.spawnChanceNormal>
+	<StarWarsRaces.spawnChanceHigh>High</StarWarsRaces.spawnChanceHigh>
+	<StarWarsRaces.spawnChanceVeryHigh>Very High</StarWarsRaces.spawnChanceVeryHigh>
+	<StarWarsRaces.spawnChanceInsane>Maximum</StarWarsRaces.spawnChanceInsane>
+
+</LanguageData>
