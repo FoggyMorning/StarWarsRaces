@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsRaces", "StarWarsRaces.csproj", "{405E8AE8-09C5-453B-8F19-257C74CC3947}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsRaces", "Source\StarWarsRaces\StarWarsRaces.csproj", "{405E8AE8-09C5-453B-8F19-257C74CC3947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -37,11 +37,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="AlienRace">
-      <HintPath>..\..\..\Aliens\Assemblies\AlienRace.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Aliens\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -53,7 +53,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -62,7 +62,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>SET RIMWORLD_DIR_STEAM="C:\Program Files (x86)\Steam\steamapps\common\RimWorld"
+SET TARGET_DIR=%25RIMWORLD_DIR_STEAM%25\Mods\$(SolutionName)\
+ECHO $(ProjectDir)
+ECHO $(SolutionDir)
+XCOPY /Q /T $(SolutionDir) %25TARGET_DIR%25
+XCOPY /Q /I /Y /E $(SolutionDir)About %25TARGET_DIR%25About
+XCOPY /Q /I /Y /E $(SolutionDir)Assemblies %25TARGET_DIR%25Assemblies
+XCOPY /Q /I /Y /E $(SolutionDir)Defs %25TARGET_DIR%25Defs
+XCOPY /Q /I /Y /E $(SolutionDir)Languages %25TARGET_DIR%25Languages
+XCOPY /Q /I /Y /E $(SolutionDir)Textures %25TARGET_DIR%25Textures
+DEL %25TARGET_DIR%25Assemblies\*.pdb</PostBuildEvent>
+  </PropertyGroup>
 </Project>
