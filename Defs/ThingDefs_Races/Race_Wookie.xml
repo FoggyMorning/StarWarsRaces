@@ -30,9 +30,9 @@
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
-                    <customDrawSize>( 1.0, 1.50 )</customDrawSize>
+                    <customDrawSize>( 1.25, 1.50 )</customDrawSize>
                     <customHeadDrawSize>( 1.0, 1.2 )</customHeadDrawSize>
-                    <customPortraitDrawSize>( 1.0, 1.5 )</customPortraitDrawSize>
+                    <customPortraitDrawSize>( 1.25, 1.5 )</customPortraitDrawSize>
                     <customPortraitHeadDrawSize>( 1.0, 1.2 )</customPortraitHeadDrawSize>
                     <headOffset>(0,.2)</headOffset>
                     <useSkincolorForHair>true</useSkincolorForHair>
@@ -101,6 +101,7 @@
             </graphicPaths>
             <raceRestriction>
                 <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+                <!-- only wookies can wear these so I don't have to worry about if there are textures for other races -->
                 <apparelList>
                     <li>StarWarsRaces_Wookie_Bandolier</li>
                 </apparelList>
@@ -166,7 +167,7 @@
             </li>
         </tools>
         <race>
-            <leatherDef>StarWarsRaces_Leather_Wookie</leatherDef>
+            <leatherDef>StarWarsRaces_Leather_Humanlike</leatherDef>
             <nameGenerator>StarWarsRaces_NamerPersonWookieM</nameGenerator>
             <nameGeneratorFemale>StarWarsRaces_NamerPersonWookieF</nameGeneratorFemale>
         </race>

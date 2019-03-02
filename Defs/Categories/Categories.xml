@@ -2,16 +2,44 @@
 <Defs>
   
 	<ThingCategoryDef>
+		<defName>StarWarsRaces_HatCategory</defName>
+		<label>Star Wars Races - Headgear</label>
+		<parent>Headgear</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>StarWarsRaces_TwilekHatCategory</defName>
 		<label>Star Wars Races - Twilek</label>
-		<parent>Headgear</parent>
+		<parent>StarWarsRaces_HatCategory</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>StarWarsRaces_EwokHatCategory</defName>
+		<label>Star Wars Races - Ewok</label>
+		<parent>StarWarsRaces_HatCategory</parent>
 		<resourceReadoutRoot>true</resourceReadoutRoot>
 	</ThingCategoryDef>
   
 	<ThingCategoryDef>
+		<defName>StarWarsRaces_ApparelCategory</defName>
+		<label>Star Wars Races - Apparel</label>
+		<parent>Apparel</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>StarWarsRaces_WookieAccesoriesCategory</defName>
 		<label>Star Wars Races - Wookie</label>
-		<parent>Apparel</parent>
+		<parent>StarWarsRaces_ApparelCategory</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>StarWarsRaces_EwokApparelCategory</defName>
+		<label>Star Wars Races - Ewok</label>
+		<parent>StarWarsRaces_ApparelCategory</parent>
 		<resourceReadoutRoot>true</resourceReadoutRoot>
 	</ThingCategoryDef>
 

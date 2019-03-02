@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>StarWarsRaces_EwokColonist</defName>
+    <race>StarWarsRaces_Ewok</race>
+    <label>colonist (ewok)</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>100</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>350</min>
+      <max>600</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>800</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+    <apparelRequired>
+        <li>StarWarsRaces_Ewok_Hood</li>
+        <li>StarWarsRaces_Ewok_Parka</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>StarWarsRaces_EwokTribesperson</defName>
+    <race>StarWarsRaces_Ewok</race>
+    <label>member (ewok)</label>
+    <defaultFactionType>PlayerTribe</defaultFactionType>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>200</min>
+      <max>200</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>50</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.02</techHediffsChance>
+    <apparelRequired>
+      <li>StarWarsRaces_Ewok_Hood</li>
+      <li>StarWarsRaces_Ewok_Parka</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+</Defs>

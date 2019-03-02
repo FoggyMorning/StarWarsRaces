@@ -8,7 +8,7 @@
     </thingCategories>
     <description>Belt designed for carrying ammunition. Makes reloading firearms faster.</description>
 		<recipeMaker>
-			<researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
+			<researchPrerequisite>StarWarsRaces_WookieBandolier</researchPrerequisite>
             <recipeUsers>
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>

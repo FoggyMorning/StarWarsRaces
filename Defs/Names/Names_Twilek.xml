@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonTwilekM</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TwilekfirstM] [Twileklast]</li>
+        <li>name->'[nicknames_m]' [TwilekfirstM]</li>
+        <li>name->[TwilekfirstM] '[nicknames_m]' [Twileklast]</li>
+        <li>name->[TwilekfirstM] '[nicknames_m]'</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TwilekfirstM</keyword>
+          <path>Twilek_Names/TwilekM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Twileklast</keyword>
+          <path>Twilek_Names/Twileklast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nicknames_m</keyword>
+          <path>Twilek_Names/Nicknames_M</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonTwilekF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TwilekfirstF] [Twileklast]</li>
+        <li>name->'[nicknames_f]' [TwilekfirstF]</li>
+        <li>name->[TwilekfirstF] '[nicknames_f]' [Twileklast]</li>
+        <li>name->[TwilekfirstF] '[nicknames_f]'</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TwilekfirstF</keyword>
+          <path>Twilek_Names/TwilekF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Twileklast</keyword>
+          <path>Twilek_Names/Twileklast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nicknames_f</keyword>
+          <path>Twilek_Names/Nicknames_F</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

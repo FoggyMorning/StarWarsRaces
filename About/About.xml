@@ -6,5 +6,19 @@
    <supportedVersions><li>1.0</li></supportedVersions>
 	<description>Adds the Wookie, Rodian and Twi'lek races.  Adds all three races to the PlayerColony and PlayerTribe factions.  Does not add any additional factions.
 	Includes new hats for Twi'leks only.  Adds a Wookie bandolier as well.  See the attached images.  
-	Should be compatible with other existing Star Wars mods that use the PlayerColony and PlayerTribe factions.</description>
+	Should be compatible with other existing Star Wars mods that use the PlayerColony and PlayerTribe factions.
+	
+	Update 2/23/2019
+	Now includes an options menu that lets you change the chance for the individual species to show up in game.
+
+	Update 3/2/2019
+	Adds Ewok species: includes ewok hook and parka/tabard 
+		Ewoks have a new body type "Oval"
+	Makes wookies slightly thicker
+	Fixed a few other bugs.  
+		Twi'leks can now use power armor and belts and should be able to use mod clothing that doesn't use the overhead layer.
+		Wookie Bandolier now correctly uses wookie apparel research
+		Wookie leather is no longer blue.  Now wookies and ewoks use 'humanlike leather'
+
+	</description>
 </ModMetaData>

@@ -315,15 +315,18 @@
             <hairSettings>
                 <hasHair>false</hasHair>
             </hairSettings>
-            <!-- can't wear human hats -->
             <raceRestriction>
                 <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+                <!-- only twileks can wear these so I don't have to worry about if there are textures for other races -->
                 <apparelList>
                     <li>StarWarsRaces_TwilekHeadCovering</li>
                     <li>StarWarsRaces_TwilekTuque</li>
                     <li>StarWarsRaces_TwilekGoggles</li>
                     <li>StarWarsRaces_TwilekDecorative</li>
                 </apparelList>
+                <!-- can't wear human hats -->
+                <!-- Twi'lek's weird heads make vanilla helmets look weird so don't allow them to wear them.
+                if there is a way to blacklist apparel I don't know about and you see this then let me know! -->
                 <whiteApparelList>
                     <li>Apparel_ShieldBelt</li>
                     <li>SmokepopBelt</li>
@@ -336,9 +339,12 @@
                     <li>Apparel_Duster</li>
                     <li>Apparel_Jacket</li>
                     <li>Apparel_PlateArmor</li>
+                    <li>Apparel_PowerArmor</li>
                     <li>Apparel_FlakVest</li>
                     <li>Apparel_FlakPants</li>
                     <li>Apparel_FlakJacket</li>
+                    <li>Apparel_ShieldBelt</li>
+                    <li>Apparel_SmokepopBelt</li>
                 </whiteApparelList>
             </raceRestriction>
         </alienRace>

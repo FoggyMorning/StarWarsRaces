@@ -40,6 +40,18 @@
                     </kindDefs>
                     <chance>70.0</chance>
                 </li>
+                <li>
+                    <kindDefs>
+                        <li>StarWarsRaces_EwokColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
+                        <li>StarWarsRaces_EwokTribesperson</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
             </alienslavekinds>
             <alienrefugeekinds>
                 <li>
@@ -75,6 +87,18 @@
                 <li>
                     <kindDefs>
                         <li>StarWarsRaces_WookieTribesperson</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
+                        <li>StarWarsRaces_EwokColonist</li>
+                    </kindDefs>
+                    <chance>70.0</chance>
+                </li>
+                <li>
+                    <kindDefs>
+                        <li>StarWarsRaces_EwokTribesperson</li>
                     </kindDefs>
                     <chance>70.0</chance>
                 </li>
@@ -158,6 +182,32 @@
                         <li>PlayerTribe</li>
                     </factionDefs>
                 </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_EwokTribesperson</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerTribe</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_EwokColonist</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li>
+                    </factionDefs>
+                </li>
             </alienwandererkinds>
             <startingColonists>
                 <li>
@@ -236,6 +286,32 @@
                     </pawnKindEntries>
                     <factionDefs>
                         <li>PlayerTribe</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_EwokTribesperson</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerTribe</li>
+                    </factionDefs>
+                </li>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>StarWarsRaces_EwokColonist</li>
+                            </kindDefs>
+                            <chance>70.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li>
                     </factionDefs>
                 </li>
             </startingColonists>

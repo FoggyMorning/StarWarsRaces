@@ -1,9 +1,6 @@
 ﻿using Verse;
 using UnityEngine;
-using Harmony;
 using AlienRace;
-using System;
-using System.Reflection;
 
 namespace StarWarsRaces
 {
@@ -24,51 +21,56 @@ namespace StarWarsRaces
     }
     public class Settings : ModSettings
     {
-        public float spawnChanceTwilek = 6f;
-        public float spawnChanceRodian = 6f;
-        public float spawnChanceWookie = 6f;
-        public string strSpawnTwilek = "";
-        public string strSpawnRodian = "";
-        public string strSpawnWookie = "";
+        public string[] RaceIdentif = new string[] { "Twilek", "Rodian", "Wookie", "Ewok" };
+        public float[] SpawnChance = new float[] { 5f, 5f, 5f, 5f };
+        private string[] spawnChanceString = new string[] { "", "", "", "" };
 
 
+
+
+        private Vector2 pos = new Vector2(0, 0);
         public void DoWindowContents(Rect canvas)
         {
             Listing_Standard list = new Listing_Standard
             {
-                ColumnWidth = canvas.width
+                ColumnWidth = canvas.width - 20
             };
             list.Begin(canvas);
 
-            list.Gap();
-            DrawSlider(list, "StarWarsRaces.IncludeTwilek".Translate() + " " + GetspawnChanceLabel(spawnChanceTwilek), ref spawnChanceTwilek, ref strSpawnTwilek, 0.0f, 10f);
-            list.Gap(24);
-            DrawSlider(list, "StarWarsRaces.IncludeRodian".Translate() + " " + GetspawnChanceLabel(spawnChanceRodian), ref spawnChanceRodian, ref strSpawnRodian, 0.0f, 10f);
-            list.Gap(24);
-            DrawSlider(list, "StarWarsRaces.IncludeWookie".Translate() + " " + GetspawnChanceLabel(spawnChanceWookie), ref spawnChanceWookie, ref strSpawnWookie, 0.0f, 10f);
-            list.Gap(24);
+
+            Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width, canvas.height);
+            list.BeginScrollView(canvas, ref pos, ref scrollView);
+
+            list.Gap(60);
+            for (int i = 0; i < RaceIdentif.Length; i++)
+            {
+                string include = "StarWarsRaces.Include" + RaceIdentif[i];
+                list.DrawSlider(include.Translate() + " " + GetspawnChanceLabel(SpawnChance[i]),
+                    ref SpawnChance[i], ref spawnChanceString[i], 0f, 10f);
+                list.Gap(24);
+            }
+            list.EndScrollView(ref scrollView);
             list.End();
         }
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.Look(ref spawnChanceTwilek, "spawnChanceTwilek", 6f);
-            Scribe_Values.Look(ref spawnChanceRodian, "spawnChanceRodian", 6f);
-            Scribe_Values.Look(ref spawnChanceWookie, "spawnChanceWookie", 6f);
-
-            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            for (int i = 0; i < RaceIdentif.Length; i++)
             {
-                strSpawnTwilek = ((int)spawnChanceTwilek).ToString();
-                strSpawnRodian = ((int)spawnChanceRodian).ToString();
-                strSpawnWookie = ((int)spawnChanceWookie).ToString();
+                string nameVal = "spawnChance" + RaceIdentif[i];
+                Scribe_Values.Look(ref SpawnChance[i], nameVal, 6f);
+
+                if (Scribe.mode == LoadSaveMode.PostLoadInit)
+                {
+                    spawnChanceString[i] = ((int)SpawnChance[i]).ToString();
+                }
             }
             if (Scribe.mode == LoadSaveMode.Saving)
             {
-                string[] labels = new string[] { "Twilek", "Rodian", "Wookie" };
-                float[] chances = new float[] { spawnChanceTwilek, spawnChanceRodian, spawnChanceWookie };
-                LSUtil.LoadASpecies(labels, chances);
+                SettingsUtil.LoadAllSpecies(RaceIdentif, SpawnChance);
             }
         }
+
         private static string GetspawnChanceLabel(float spawnChance)
         {
             if (spawnChance <= 0.0)
@@ -93,7 +95,11 @@ namespace StarWarsRaces
             }
             return "StarWarsRaces.spawnChanceInsane".Translate();
         }
-        public static void DrawSlider(Listing_Standard list, string label, ref float value, ref string buffer, float min, float max)
+    }
+
+    public static class SettingsUtil
+    {
+        public static void DrawSlider(this Listing_Standard list, string label, ref float value, ref string buffer, float min, float max)
         {
             float f;
             string s = buffer;
@@ -114,10 +120,6 @@ namespace StarWarsRaces
                 buffer = ((int)value).ToString();
             }
         }
-    }
-
-    public static class LSUtil
-    {
         public static string ModTextEntryLabeled(this Listing_Standard ls, string label, string buffer, int lineCount = 1)
         {
             Rect rect = ls.GetRect(Text.LineHeight * (float)lineCount);
@@ -126,7 +128,7 @@ namespace StarWarsRaces
             ls.Gap(ls.verticalSpacing);
             return result;
         }
-        public static void LoadASpecies(string[] labels, float[] chances)
+        public static void LoadAllSpecies(string[] labels, float[] chances)
         {
             for (int i = 0; i < labels.Length; i++)
             {
@@ -141,7 +143,7 @@ namespace StarWarsRaces
                             {
                                 foreach (string kd in pke.kindDefs)
                                 {
-                                    if (kd == "StarWarsRaces_" + label + "Colonist" || kd == "StarWarsRaces_" + label + "Tribesperson")
+                                    if (kd.Contains(label))
                                     {
                                         pke.chance = chances[i] * 10;
                                     };
@@ -154,7 +156,7 @@ namespace StarWarsRaces
                             {
                                 foreach (string kd in pke.kindDefs)
                                 {
-                                    if (kd == "StarWarsRaces_" + label + "Colonist" || kd == "StarWarsRaces_" + label + "Tribesperson")
+                                    if (kd.Contains(label))
                                     {
                                         pke.chance = chances[i] * 10;
 
@@ -166,7 +168,7 @@ namespace StarWarsRaces
                         {
                             foreach (string kd in ark.kindDefs)
                             {
-                                if (kd == "StarWarsRaces_" + label + "Colonist" || kd == "StarWarsRaces_" + label + "Tribesperson")
+                                if (kd.Contains(label))
                                 {
                                     ark.chance = chances[i] * 10;
 
@@ -177,7 +179,7 @@ namespace StarWarsRaces
                         {
                             foreach (string kd in ask.kindDefs)
                             {
-                                if (kd == "StarWarsRaces_" + label + "Colonist" || kd == "StarWarsRaces_" + label + "Tribesperson")
+                                if (kd.Contains(label))
                                 {
                                     ask.chance = chances[i] * 10;
 
@@ -189,22 +191,6 @@ namespace StarWarsRaces
                     }
                 }
             }
-        }
-    }
-    [StaticConstructorOnStartup]
-    internal static class Main
-    {
-        static Main()
-        {
-            HarmonyInstance harmony = HarmonyInstance.Create("com.rimworld.mod.starwarsraces.speciesoftherim");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
-            LongEventHandler.QueueLongEvent(new Action(Init), "LibraryStartup", false, null);
-        }
-        private static void Init()
-        {
-            string[] labels = new string[] { "Twilek", "Rodian", "Wookie" };
-            float[] chances = new float[] { SettingsController.Settings.spawnChanceTwilek, SettingsController.Settings.spawnChanceRodian, SettingsController.Settings.spawnChanceWookie };
-            LSUtil.LoadASpecies(labels, chances);
         }
     }
 }
