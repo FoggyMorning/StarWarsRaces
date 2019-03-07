@@ -20,5 +20,9 @@
 		Wookie Bandolier now correctly uses wookie apparel research
 		Wookie leather is no longer blue.  Now wookies and ewoks use 'humanlike leather'
 
+	Update 3/5/2019
+		Twilek now correctly will be able to use mod apparel that is not in the overhead layer.
+		All Star Wars races added by this mod will sometimes appear as part of the Pirate faction.
+		If you are using the Star Wars Factions mod then the races from this mod will sometimes appear as part of the Rebel and Scum/Bounty Hunters factions.
 	</description>
 </ModMetaData>

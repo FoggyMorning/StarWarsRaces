@@ -328,9 +328,6 @@
                 <!-- Twi'lek's weird heads make vanilla helmets look weird so don't allow them to wear them.
                 if there is a way to blacklist apparel I don't know about and you see this then let me know! -->
                 <whiteApparelList>
-                    <li>Apparel_ShieldBelt</li>
-                    <li>SmokepopBelt</li>
-                    <li>Apparel_PowerArmor</li>
                     <li>Apparel_TribalA</li>
                     <li>Apparel_Parka</li>
                     <li>Apparel_Pants</li>
@@ -345,6 +342,42 @@
                     <li>Apparel_FlakJacket</li>
                     <li>Apparel_ShieldBelt</li>
                     <li>Apparel_SmokepopBelt</li>
+                    <li>Apparel_WarVeil</li>
+                    <li>Apparel_WarMask</li>
+                    <li>PJ_CompArmor</li>
+                    <li>PJ_GenFlight_Y</li>
+                    <li>PJ_ImpUniform</li>
+                    <li>PJ_ImpUniformBlack</li>
+                    <li>PJ_STOffUniform</li>
+                    <li>PJ_ImpNAVYSHELL</li>
+                    <li>PJ_ImpUniformBlackSHELL</li>
+                    <li>PJ_ImpUniformGrnSHELL</li>
+                    <li>PJ_ImpUniformBrownSHELL</li>
+                    <li>PJ_ImpUniformISBSHELL</li>
+                    <li>PJ_TroopArmor</li>
+                    <li>PJ_TroopArmorJO</li>
+                    <li>PJ_TroopArmorNCO</li>
+                    <li>PJ_TroopArmorSO</li>
+                    <li>PJ_TroopArmorSh</li>
+                    <li>PJ_TroopArmorShC</li>
+                    <li>PJ_TroopArmorShSL</li>
+                    <li>PJ_TroopArmorDT</li>
+                    <li>PJ_TroopArmorDTC</li>
+                    <li>PJ_Apparel_Pants</li>
+                    <li>PJ_JFac_Robe</li>
+                    <li>PJ_SithFac_Robe</li>
+                    <li>PJ_MandoArmor</li>
+                    <li>PJ_VetMandoArmor</li>
+                    <li>PJ_BarkMandoArmor</li>
+                    <li>PJ_RebOfficer</li>
+                    <li>PJ_RebFlight</li>
+                    <li>PJ_RebBFlight</li>
+                    <li>PJ_Reb_TroopJacket</li>
+                    <li>PJ_Reb_ScoutJacket</li>
+                    <li>PJ_Reb_ScoutLAVJacket</li>
+                    <li>PJ_Reb_CamoJacket</li>
+                    <li>PJ_RebCollarShirt</li>
+                    <li>PJ_Apparel_XVestPlate</li>
                 </whiteApparelList>
             </raceRestriction>
         </alienRace>

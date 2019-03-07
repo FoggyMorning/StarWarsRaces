@@ -188,9 +188,6 @@
                 </apparelList>
                 <!-- all vanilla apparel has oval body textures, but any added via mods won't so don't even allow them to wear it. -->
                 <whiteApparelList>
-                    <li>Apparel_ShieldBelt</li>
-                    <li>SmokepopBelt</li>
-                    <li>Apparel_PowerArmor</li>
                     <li>Apparel_TribalA</li>
                     <li>Apparel_Parka</li>
                     <li>Apparel_Pants</li>

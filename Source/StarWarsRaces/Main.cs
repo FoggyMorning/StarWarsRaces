@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using AlienRace;
@@ -22,43 +23,77 @@ namespace StarWarsRaces
             string[] labels = SettingsController.Settings.RaceIdentif;
             float[] chances = SettingsController.Settings.SpawnChance;
             SettingsUtil.LoadAllSpecies(labels, chances);
+
             AddApparelToTwilek(chances[0]);
-            /*
-            bool flag = Factions.IsStarWarsFactionsLoaded();
-            if (flag)
+
+            Log.Message("Working on adding StarWarsRaces to the Pirate Faction=======================================", false);
+            FactionDef pirateFact = DefDatabase<FactionDef>.GetNamed("Pirate", true);
+            PawnGroupMaker[] pgmsPirate = pirateFact.pawnGroupMakers.ToArray();
+            for (int x = 0; x < pgmsPirate.Length; x++)
             {
-                Log.Message("Working on Rebel Faction=======================================", false);
+                pirateFact.pawnGroupMakers[x] = Factions.AddPawnKindsToFactions(pgmsPirate[x], labels, chances);
+            }
+
+            DefDatabase<FactionDef>.AddAllInMods();
+            if (Factions.IsStarWarsFactionsLoaded())
+            {
+                Log.Message("Working on adding StarWarsRaces to the Rebel Faction=======================================", false);
                 FactionDef rebFact = DefDatabase<FactionDef>.GetNamed("PJ_RebelFac", true);
                 PawnGroupMaker[] pgmsReb = rebFact.pawnGroupMakers.ToArray();
                 for (int i = 0; i < pgmsReb.Length; i++)
                 {
-                    rebFact.pawnGroupMakers[i].AddAllRacesAsOptions(labels, chances, false);
+                    rebFact.pawnGroupMakers[i] = Factions.AddPawnKindsToFactions(pgmsReb[i], labels, chances);
                 }
-                Log.Message("Working on Scum Faction=======================================", false);
+
+                Log.Message("Working on adding StarWarsRaces to the Scum Faction=======================================", false);
                 FactionDef scumFact = DefDatabase<FactionDef>.GetNamed("PJ_Bounty", true);
                 PawnGroupMaker[] pgmsScum = scumFact.pawnGroupMakers.ToArray();
                 for (int j = 0; j < pgmsScum.Length; j++)
                 {
-                    scumFact.pawnGroupMakers[j].AddAllRacesAsOptions(labels, chances, false);
+                    scumFact.pawnGroupMakers[j] = Factions.AddPawnKindsToFactions(pgmsScum[j], labels, chances);
                 }
             }
-            */
+
+
         }
         private static void AddApparelToTwilek(float chance)
         {
-            if (!(chance <= 0f))
+            if ((chance <= 0f))
             {
-                ThingDef_AlienRace t = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Twilek", true);
-                foreach (ThingDef a in DefDatabase<ThingDef>.AllDefsListForReading)
+                return;
+            }
+            string message = "Adding apparel to twilek white apparel list: ";
+            ThingDef_AlienRace twilekRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Twilek");
+            foreach (ThingDef aThingDef in DefDatabase<ThingDef>.AllDefsListForReading)
+            {
+                if (aThingDef.IsApparel && 
+                    !aThingDef.apparel.layers.Contains(DefDatabase<ApparelLayerDef>.GetNamed("Overhead")))
                 {
-                    bool flag2 = a.IsApparel && !a.apparel.layers.Contains(DefDatabase<ApparelLayerDef>.GetNamed("Overhead", true)) && !t.alienRace.raceRestriction.whiteApparelList.Contains(a.ToString());
-                    if (flag2)
+                    if (RaceRestrictionSettings.apparelRestrictionDict.ContainsKey(key: aThingDef))
+                    { continue; }
+                    if (!RaceRestrictionSettings.apparelWhiteDict.ContainsKey(aThingDef))
                     {
-                        t.alienRace.raceRestriction.whiteApparelList.Add(a.ToString());
+                        message += aThingDef.defName + ", ";
+                        RaceRestrictionSettings.apparelWhiteDict.Add(
+                            aThingDef, 
+                            new List<ThingDef_AlienRace>{
+                                twilekRace
+                            }
+                        );
+                        continue;
+                    }
+                    List<ThingDef_AlienRace> s = RaceRestrictionSettings.apparelWhiteDict.TryGetValue(aThingDef);
+                    if (!s.Contains(twilekRace))
+                    {
+                        message += aThingDef.defName + ", ";
+                        s.Add(twilekRace);
                     }
                 }
             }
+            if (message != "Adding apparel to twilek white apparel list: ")
+            {
+                Log.Message(message);
+            }
         }
-
     }
 }
