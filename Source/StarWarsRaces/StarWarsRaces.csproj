@@ -37,7 +37,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="AlienRace">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Aliens\Assemblies\AlienRace.dll</HintPath>
+      <HintPath>..\..\..\AlienRaces\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -74,6 +74,7 @@
 SET TARGET_DIR=%25RIMWORLD_DIR_STEAM%25\Mods\$(SolutionName)\
 ECHO $(ProjectDir)
 ECHO $(SolutionDir)
+RD /S /Q  %25TARGET_DIR%25
 XCOPY /Q /T $(SolutionDir) %25TARGET_DIR%25
 XCOPY /Q /I /Y /E $(SolutionDir)About %25TARGET_DIR%25About
 XCOPY /Q /I /Y /E $(SolutionDir)Assemblies %25TARGET_DIR%25Assemblies

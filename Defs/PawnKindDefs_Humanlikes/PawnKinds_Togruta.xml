@@ -2,16 +2,17 @@
 <Defs>
 
   <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>StarWarsRaces_EwokColonist</defName>
-    <race>StarWarsRaces_Ewok</race>
-    <label>colonist (Ewok)</label>
+    <defName>StarWarsRaces_TogrutaColonist</defName>
+    <race>StarWarsRaces_Togruta</race>
+    <label>colonist (togruta)</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <backstoryCategories>
-      <li>Tribal</li>
+      <li>Spacer</li>
     </backstoryCategories>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
-      <li>StarWarsRaces_EwokApparelTag</li>
+      <li>StarWarsRaces_TogrutaApparelTag</li>
+      <li>IndustrialBasic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>100</apparelAllowHeadgearChance>
     <apparelMoney>
@@ -28,23 +29,20 @@
       <li>Poor</li>
       <li>Simple</li>
     </techHediffsTags>
-    <apparelRequired>
-      <li>StarWarsRaces_Ewok_Hood</li>
-      <li>StarWarsRaces_Ewok_Parka</li>
-    </apparelRequired>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>StarWarsRaces_EwokTribesperson</defName>
-    <race>StarWarsRaces_Ewok</race>
-    <label>member (Ewok)</label>
+    <defName>StarWarsRaces_TogrutaTribesperson</defName>
+    <race>StarWarsRaces_Togruta</race>
+    <label>member (togruta)</label>
     <defaultFactionType>PlayerTribe</defaultFactionType>
     <backstoryCategories>
       <li>Tribal</li>
     </backstoryCategories>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
-      <li>StarWarsRaces_EwokApparelTag</li>
+      <li>StarWarsRaces_TogrutaApparelTag</li>
+      <li>IndustrialBasic</li>
     </apparelTags>
     <apparelMoney>
       <min>200</min>
@@ -59,10 +57,6 @@
       <li>Poor</li>
     </techHediffsTags>
     <techHediffsChance>0.02</techHediffsChance>
-    <apparelRequired>
-      <li>StarWarsRaces_Ewok_Hood</li>
-      <li>StarWarsRaces_Ewok_Parka</li>
-    </apparelRequired>
   </PawnKindDef>
 
 </Defs>

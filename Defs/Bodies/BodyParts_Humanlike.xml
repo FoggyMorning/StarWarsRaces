@@ -4,7 +4,7 @@
   <BodyPartDef>
     <defName>StarWarsRaces_Left_Lekku</defName>
     <label>left lekku</label>
-    <hitPoints>25</hitPoints>
+    <hitPoints>10</hitPoints>
     <skinCovered>true</skinCovered>
     <bleedRate>2</bleedRate>
     <beautyRelated>true</beautyRelated>
@@ -19,7 +19,7 @@
   <BodyPartDef>
     <defName>StarWarsRaces_Right_Lekku</defName>
     <label>right lekku</label>
-    <hitPoints>25</hitPoints>
+    <hitPoints>10</hitPoints>
     <skinCovered>true</skinCovered>
     <bleedRate>2</bleedRate>
     <beautyRelated>true</beautyRelated>
@@ -28,6 +28,58 @@
     <canSuggestAmputation>true</canSuggestAmputation>
     <tags>
       <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  
+  <BodyPartDef>
+    <defName>StarWarsRaces_Togruta_Right_Lekku</defName>
+    <label>right lekku</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>true</skinCovered>
+    <bleedRate>2</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <solid>false</solid>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>StarWarsRaces_Togruta_Left_Lekku</defName>
+    <label>left lekku</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>true</skinCovered>
+    <bleedRate>2</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <solid>false</solid>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>StarWarsRaces_Togruta_Rear_Lekku</defName>
+    <label>rear lekku</label>
+    <hitPoints>25</hitPoints>
+    <skinCovered>true</skinCovered>
+    <bleedRate>2</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <solid>false</solid>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>StarWarsRaces_Togruta_Montral</defName>
+    <label>montral</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>false</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>HearingSource</li>
+      <li>SightSource</li>
     </tags>
   </BodyPartDef>
 
