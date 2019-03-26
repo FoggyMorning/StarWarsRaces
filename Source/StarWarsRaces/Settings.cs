@@ -21,9 +21,9 @@ namespace StarWarsRaces
     }
     public class Settings : ModSettings
     {
-        public string[] RaceIdentif = new string[] { "Twilek", "Rodian", "Wookie", "Ewok" };
-        public float[] SpawnChance = new float[] { 5f, 5f, 5f, 5f };
-        private string[] spawnChanceString = new string[] { "", "", "", "" };
+        public string[] RaceIdentif = new string[] { "Twilek", "Rodian", "Wookie", "Ewok", "Togruta" };
+        public float[] SpawnChance = new float[] { 5f, 5f, 5f, 5f, 5f };
+        private string[] spawnChanceString = new string[] { "", "", "", "", "" };
 
 
 

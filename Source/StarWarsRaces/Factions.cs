@@ -184,7 +184,40 @@ namespace StarWarsRaces
                         }
                     }
                     break;
-                    
+                case ("Togruta"):
+                    ThingDef_AlienRace thisRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Togruta");
+                    pk.race = thisRace;
+
+                    // apparel tags
+                    if (pk.apparelTags == null)
+                    {
+                        pk.apparelTags = new List<string>();
+                    }
+                    pk.apparelTags.Add("StarWarsRaces_TogrutaApparelTag");
+                    pk.apparelTags.RemoveDuplicates<string>();
+
+
+                    // gotta remove the non-white-listed required apparel.
+                    if (!pk.apparelRequired.NullOrEmpty<ThingDef>())
+                    {
+                        pk.apparelRequired.RemoveDuplicates<ThingDef>();
+                        List<ThingDef> required = pk.apparelRequired.ListFullCopy<ThingDef>();
+                        for (int i = 0; i < required.Count; i++)
+                        {
+                            ThingDef entry = required[i];
+                            // if  in the white list then add to the list of required apparel
+                            if (!thisRace.alienRace.raceRestriction.whiteApparelList.Contains(entry.defName))
+                            {
+                                pk.apparelRequired.Remove(entry);
+                            }
+                        }
+                        if (pk.apparelRequired.Count <= 0)
+                        {
+                            pk.apparelRequired = null;
+                        }
+                    }
+                    break;
+
                 case ("Wookie"):
                     ThingDef_AlienRace wookieRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Wookie");
                     pk.race = wookieRace;
@@ -214,7 +247,6 @@ namespace StarWarsRaces
                     pk.apparelTags.Add("Neolithic");
                     pk.apparelRequired = new List<ThingDef>
                     {
-                        DefDatabase<ThingDef>.GetNamed("StarWarsRaces_Ewok_Parka"),
                         DefDatabase<ThingDef>.GetNamed("StarWarsRaces_Ewok_Hood")
                     }; 
                     pk.apparelAllowHeadgearChance = 100f;

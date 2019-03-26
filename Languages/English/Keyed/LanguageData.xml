@@ -10,6 +10,8 @@
 	<StarWarsRaces.IncludeWookieTip>Should Wookies be included?</StarWarsRaces.IncludeWookieTip>
 	<StarWarsRaces.IncludeEwok>Include Ewoks</StarWarsRaces.IncludeEwok>
 	<StarWarsRaces.IncludeEwokTip>Should Ewoks be included?</StarWarsRaces.IncludeEwokTip>
+	<StarWarsRaces.IncludeTogruta>Include Togruta</StarWarsRaces.IncludeTogruta>
+	<StarWarsRaces.IncludeTogrutaTip>Should Togruta be included?</StarWarsRaces.IncludeTogrutaTip>
 
     
 	<StarWarsRaces.spawnChanceVeryLow>(Minimum - Colonists and Tribespeople of this species will NOT appear)</StarWarsRaces.spawnChanceVeryLow>

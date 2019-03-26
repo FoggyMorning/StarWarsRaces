@@ -5,9 +5,9 @@
     <rulePack>
       <rulesStrings>
         <li>name->[WookiefirstM]</li>
-        <li>name->'[nicknames_m]' [WookiefirstM]</li>
-        <li>name->[WookiefirstM] '[nicknames_m]'</li>
-        <li>name->[WookiefirstM] '[nicknames_m]'</li>
+        <li>name->[nicknames_m] [WookiefirstM]</li>
+        <li>name->[WookiefirstM] [nicknames_m]</li>
+        <li>name->[WookiefirstM] [nicknames_m]</li>
 
       </rulesStrings>
       <rulesRaw>
@@ -28,9 +28,9 @@
     <rulePack>
       <rulesStrings>
         <li>name->[WookiefirstF]</li>
-        <li>name->'[nicknames_f]' [WookiefirstF]</li>
-        <li>name->[WookiefirstF] '[nicknames_f]'</li>
-        <li>name->[WookiefirstF] '[nicknames_f]'</li>
+        <li>name->[nicknames_f] [WookiefirstF]</li>
+        <li>name->[WookiefirstF] [nicknames_f]</li>
+        <li>name->[WookiefirstF] [nicknames_f]</li>
 
       </rulesStrings>
       <rulesRaw>

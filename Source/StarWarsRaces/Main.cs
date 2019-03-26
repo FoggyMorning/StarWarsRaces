@@ -25,6 +25,7 @@ namespace StarWarsRaces
             SettingsUtil.LoadAllSpecies(labels, chances);
 
             AddApparelToTwilek(chances[0]);
+            AddApparelToTogruta(chances[4]);
 
             Log.Message("Working on adding StarWarsRaces to the Pirate Faction=======================================", false);
             FactionDef pirateFact = DefDatabase<FactionDef>.GetNamed("Pirate", true);
@@ -91,6 +92,45 @@ namespace StarWarsRaces
                 }
             }
             if (message != "Adding apparel to twilek white apparel list: ")
+            {
+                Log.Message(message);
+            }
+        }
+        private static void AddApparelToTogruta(float chance)
+        {
+            if ((chance <= 0f))
+            {
+                return;
+            }
+            string message = "Adding apparel to togruta white apparel list: ";
+            ThingDef_AlienRace thisRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Togruta");
+            foreach (ThingDef aThingDef in DefDatabase<ThingDef>.AllDefsListForReading)
+            {
+                if (aThingDef.IsApparel &&
+                    !aThingDef.apparel.layers.Contains(DefDatabase<ApparelLayerDef>.GetNamed("Overhead")))
+                {
+                    if (RaceRestrictionSettings.apparelRestrictionDict.ContainsKey(key: aThingDef))
+                    { continue; }
+                    if (!RaceRestrictionSettings.apparelWhiteDict.ContainsKey(aThingDef))
+                    {
+                        message += aThingDef.defName + ", ";
+                        RaceRestrictionSettings.apparelWhiteDict.Add(
+                            aThingDef,
+                            new List<ThingDef_AlienRace>{
+                                thisRace
+                            }
+                        );
+                        continue;
+                    }
+                    List<ThingDef_AlienRace> s = RaceRestrictionSettings.apparelWhiteDict.TryGetValue(aThingDef);
+                    if (!s.Contains(thisRace))
+                    {
+                        message += aThingDef.defName + ", ";
+                        s.Add(thisRace);
+                    }
+                }
+            }
+            if (message != "Adding apparel to togruta white apparel list: ")
             {
                 Log.Message(message);
             }

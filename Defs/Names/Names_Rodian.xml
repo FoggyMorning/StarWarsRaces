@@ -6,9 +6,9 @@
     <rulePack>
       <rulesStrings>
         <li>name->[RodianfirstM] [Rodianlast]</li>
-        <li>name->'[NicknamesM]' [RodianfirstM]</li>
-        <li>name->[RodianfirstM] '[NicknamesM]' [Rodianlast]</li>
-        <li>name->[RodianfirstM] '[NicknamesM]'</li>
+        <li>name->[NicknamesM] [RodianfirstM]</li>
+        <li>name->[RodianfirstM] [NicknamesM] [Rodianlast]</li>
+        <li>name->[RodianfirstM] [NicknamesM]</li>
 
       </rulesStrings>
       <rulesRaw>
@@ -33,9 +33,9 @@
     <rulePack>
       <rulesStrings>
         <li>name->[RodianfirstF] [Rodianlast]</li>
-        <li>name->'[NicknamesF]' [RodianfirstF]</li>
-        <li>name->[RodianfirstF] '[NicknamesF]' [Rodianlast]</li>
-        <li>name->[RodianfirstF] '[NicknamesF]'</li>
+        <li>name->[NicknamesF] [RodianfirstF]</li>
+        <li>name->[RodianfirstF] [NicknamesF] [Rodianlast]</li>
+        <li>name->[RodianfirstF] [NicknamesF]</li>
 
       </rulesStrings>
       <rulesRaw>

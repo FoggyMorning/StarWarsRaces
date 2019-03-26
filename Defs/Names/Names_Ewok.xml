@@ -6,9 +6,9 @@
     <rulePack>
       <rulesStrings>
         <li>name->[EwokfirstM] [Ewoklast]</li>
-        <li>name->'[NicknamesM]' [EwokfirstM]</li>
-        <li>name->[EwokfirstM] '[NicknamesM]' [Ewoklast]</li>
-        <li>name->[EwokfirstM] '[NicknamesM]'</li>
+        <li>name->[NicknamesM] [EwokfirstM]</li>
+        <li>name->[EwokfirstM] [NicknamesM] [Ewoklast]</li>
+        <li>name->[EwokfirstM] [NicknamesM]</li>
 
       </rulesStrings>
       <rulesRaw>
@@ -33,9 +33,9 @@
     <rulePack>
       <rulesStrings>
         <li>name->[EwokfirstF] [Ewoklast]</li>
-        <li>name->'[NicknamesF]' [EwokfirstF]</li>
-        <li>name->[EwokfirstF] '[NicknamesF]' [Ewoklast]</li>
-        <li>name->[EwokfirstF] '[NicknamesF]'</li>
+        <li>name->[NicknamesF] [EwokfirstF]</li>
+        <li>name->[EwokfirstF] [NicknamesF] [Ewoklast]</li>
+        <li>name->[EwokfirstF] [NicknamesF]</li>
 
       </rulesStrings>
       <rulesRaw>
