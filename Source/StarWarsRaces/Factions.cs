@@ -21,11 +21,12 @@ namespace StarWarsRaces
             loadedFactions = false;
             foreach (ModContentPack ResolvedMod in LoadedModManager.RunningMods)
             {
-                if (loadedFactions) break; //Save some loading
                 if (ResolvedMod.Name.Contains("Star Wars - Factions"))
                 {
-                    Log.Message("Star Wars - Factions Detected.");
+                    //Log.Message("Star Wars - Factions Detected.");
                     loadedFactions = true;
+                    modCheck = true;
+                    return;
                 }
             }
             modCheck = true;

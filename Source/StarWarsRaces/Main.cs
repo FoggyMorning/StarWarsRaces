@@ -27,7 +27,7 @@ namespace StarWarsRaces
             AddApparelToTwilek(chances[0]);
             AddApparelToTogruta(chances[4]);
 
-            Log.Message("Working on adding StarWarsRaces to the Pirate Faction=======================================", false);
+            //Log.Message("Working on adding StarWarsRaces to the Pirate Faction=======================================", false);
             FactionDef pirateFact = DefDatabase<FactionDef>.GetNamed("Pirate", true);
             PawnGroupMaker[] pgmsPirate = pirateFact.pawnGroupMakers.ToArray();
             for (int x = 0; x < pgmsPirate.Length; x++)
@@ -38,7 +38,7 @@ namespace StarWarsRaces
             DefDatabase<FactionDef>.AddAllInMods();
             if (Factions.IsStarWarsFactionsLoaded())
             {
-                Log.Message("Working on adding StarWarsRaces to the Rebel Faction=======================================", false);
+                //Log.Message("Working on adding StarWarsRaces to the Rebel Faction=======================================", false);
                 FactionDef rebFact = DefDatabase<FactionDef>.GetNamed("PJ_RebelFac", true);
                 PawnGroupMaker[] pgmsReb = rebFact.pawnGroupMakers.ToArray();
                 for (int i = 0; i < pgmsReb.Length; i++)
@@ -46,7 +46,7 @@ namespace StarWarsRaces
                     rebFact.pawnGroupMakers[i] = Factions.AddPawnKindsToFactions(pgmsReb[i], labels, chances);
                 }
 
-                Log.Message("Working on adding StarWarsRaces to the Scum Faction=======================================", false);
+                //Log.Message("Working on adding StarWarsRaces to the Scum Faction=======================================", false);
                 FactionDef scumFact = DefDatabase<FactionDef>.GetNamed("PJ_Bounty", true);
                 PawnGroupMaker[] pgmsScum = scumFact.pawnGroupMakers.ToArray();
                 for (int j = 0; j < pgmsScum.Length; j++)
@@ -93,7 +93,7 @@ namespace StarWarsRaces
             }
             if (message != "Adding apparel to twilek white apparel list: ")
             {
-                Log.Message(message);
+                //Log.Message(message);
             }
         }
         private static void AddApparelToTogruta(float chance)
@@ -132,7 +132,7 @@ namespace StarWarsRaces
             }
             if (message != "Adding apparel to togruta white apparel list: ")
             {
-                Log.Message(message);
+                //Log.Message(message);
             }
         }
     }
