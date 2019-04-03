@@ -7,45 +7,33 @@
 	<description>Adds the Wookie, Rodian, Twi'lek, Ewok, and Togruta races to the PlayerColony and PlayerTribe factions.  
 This makes them available at game start for all scenarios that use those factions.   Does not add any additional factions.
 Additionally all three races can show up as refugees, wanderers, or slaves during game play.  
-They will also now show up as part of the Pirate faction.
+They will also now show up as part of the Pirate faction by default.
 	
-Rodians have antenna and do not have a bite attack.
-Twi'leks have Lekku setup as body addons.  Includes new hats for Twi'leks only.  (Twi'leks can not use vanilla hats/helmets)  
-Wookies are slightly taller than other pawns.  Adds a Wookie bandolier as well.  (Wookies are nudists)
-Ewoks are smaller than other pawns and have tribal backstories.
-Togruta are normal size, but have multiple addons including three lekku and the montrals.  Each head has a distinct face paint as well.
+[h1] What's different? [/h1]
+
+- Rodians have the same stats as humans, but have antenna which function as a hearing source, and do not have a bite attack.
+- Twi'leks ave the same stats as humans, but have Lekku (the head tentacles) setup as body addons.  The Lekku count as a manipulation source.  Includes new hats for Twi'leks only with a small research requirement to unlock. Twi'leks can not use vanilla hats/helmets.
+- Wookies are slightly taller than other pawns. They do more melee damage, have additional health, increased comfortable temperature range, and work slightly slower in construction, mining, and plants.  Adds a Wookie bandolier as well with a small research requirement to unlock.  Wookies are all nudists, but can still wear bandoliers.
+- Ewoks have the same stats as humans, but are smaller than other pawns and have tribal backstories.
+- Togruta have the same stats as humans,  but have multiple addons including three lekku and the montrals.  The Montrals count as vision and hearing sources.  Togruta heads have a distinct face paints as well. Togruta can not use hats/helmets.
 
 	
+[h1] Credits [/h1]
 Should be compatible with other existing Star Wars mods including any others that add the same species.
-
 Thanks to erdelf for the Alien Race framework!
+Thanks to the owners and creators of Star Wars.
+
+
+[h1] Updates [/h1]
+Update 4/2/2019
+    - Updated In-game Settings.  Includes options to include in all default factions.  Adds a copy of the colonist to the outlander civil faction to allow you to select them when using Prepare Carefully.  Likewise with the tribal civil faction and the tribal members.
 
 Update 3/27/2019
 	- Adds the Togruta race.
 		- Togruta can't wear any hats due to their montrals which are both a vision and a hearing source.
 	- Fixed an issue with Rodian antenna.
 
-Quick fix 3/8/2019
-      - Pants and T-shirts now work for Ewoks if you are also using Vindar's "Medieval Times" mod
-Quick fix 3/5/2019
-      - Raiderpedes mod now works with Pirate group spawning.
-      - Pants and FlakPants now have textures for Ewoks if you are using Apparello 2 or the XND visible pants mods.
-
-Update 3/5/2019
-	- Twilek now correctly will be able to use mod apparel that is not in the overhead layer.
-	- All Star Wars races added by this mod will sometimes appear as part of the Pirate faction.
-	- Support for "Star Wars - Factions" If you are using the Star Wars Factions mod then the races from this mod will sometimes appear as part of the Rebel and Scum/Bounty Hunters factions.
 
 
-Update 3/2/2019
-	- Adds Ewok species: includes ewok hook and parka/tabard 
-	- Ewoks have a new body type "Oval"
-	- Makes wookies slightly thicker
-	- Fixed a few other bugs.  
-		- Twi'leks can now use power armor and belts and should be able to use mod clothing that doesn't use the overhead layer.
-		- Wookie Bandolier now correctly uses wookie apparel research
-		- Wookie leather is no longer blue.  Now wookies and ewoks use 'humanlike leather'
-2/23/2019
-	- Now includes an options menu that lets you change the chance for the individual species to show up in game.
 	</description>
 </ModMetaData>

@@ -30,10 +30,10 @@
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
-                    <customDrawSize>( 1.25, 1.50 )</customDrawSize>
-                    <customHeadDrawSize>( 1.0, 1.2 )</customHeadDrawSize>
-                    <customPortraitDrawSize>( 1.25, 1.5 )</customPortraitDrawSize>
-                    <customPortraitHeadDrawSize>( 1.0, 1.2 )</customPortraitHeadDrawSize>
+                    <customDrawSize>( 1.5, 1.5 )</customDrawSize>
+                    <customHeadDrawSize>( 1.2, 1.2 )</customHeadDrawSize>
+                    <customPortraitDrawSize>( 1.5, 1.5 )</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>( 1.2, 1.2 )</customPortraitHeadDrawSize>
                     <headOffset>(0,.2)</headOffset>
                     <useSkincolorForHair>true</useSkincolorForHair>
                     <useGenderedHeads>true</useGenderedHeads>

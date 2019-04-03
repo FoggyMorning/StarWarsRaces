@@ -109,7 +109,8 @@
                         <bodyPart>StarWarsRaces_Togruta_Montral</bodyPart>
                         <drawSize>1</drawSize>
                         <inFrontOfBody>true</inFrontOfBody>
-                        <layerOffset>.01</layerOffset>
+                        <!-- in front of body but behind war maks -->
+                        <layerOffset>-.29</layerOffset>
                         <drawnInBed>true</drawnInBed>
                         <offsets>
                           <south>
@@ -206,7 +207,7 @@
                             <bodyPart>StarWarsRaces_Togruta_Left_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>false</inFrontOfBody>
-                            <layerOffset>0</layerOffset>
+                            <layerOffset>-.01</layerOffset>
                           <drawnInBed>false</drawnInBed>
                             <offsets>
                                 <south>
@@ -304,7 +305,7 @@
                             <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>false</inFrontOfBody>
-                            <layerOffset>0</layerOffset>
+                            <layerOffset>-.01</layerOffset>
                           <drawnInBed>false</drawnInBed>
                             <offsets>
                                 <south>

@@ -2,23 +2,21 @@
 <LanguageData>
 
 	<StarWarsRaces.SpeciesOfTheRim>Star Wars - Species of the Rim</StarWarsRaces.SpeciesOfTheRim>
-	<StarWarsRaces.IncludeTwilek>Include Twi leks</StarWarsRaces.IncludeTwilek>
-	<StarWarsRaces.IncludeTwilekTip>Should Twi leks be included?</StarWarsRaces.IncludeTwilekTip>
+	<StarWarsRaces.IncludeTwilek>Include Twi'leks</StarWarsRaces.IncludeTwilek>
+	<StarWarsRaces.IncludeTwilekTip>Percentage chance that Twi'leks will appear.</StarWarsRaces.IncludeTwilekTip>
 	<StarWarsRaces.IncludeRodian>Include Rodians</StarWarsRaces.IncludeRodian>
-	<StarWarsRaces.IncludeRodianTip>Should Rodians be included?</StarWarsRaces.IncludeRodianTip>
+	<StarWarsRaces.IncludeRodianTip>Percentage chance that Rodians will appear.</StarWarsRaces.IncludeRodianTip>
 	<StarWarsRaces.IncludeWookie>Include Wookies</StarWarsRaces.IncludeWookie>
-	<StarWarsRaces.IncludeWookieTip>Should Wookies be included?</StarWarsRaces.IncludeWookieTip>
+	<StarWarsRaces.IncludeWookieTip>Percentage chance that Wookies will appear.</StarWarsRaces.IncludeWookieTip>
 	<StarWarsRaces.IncludeEwok>Include Ewoks</StarWarsRaces.IncludeEwok>
-	<StarWarsRaces.IncludeEwokTip>Should Ewoks be included?</StarWarsRaces.IncludeEwokTip>
+	<StarWarsRaces.IncludeEwokTip>Percentage chance that Ewoks will appear.</StarWarsRaces.IncludeEwokTip>
 	<StarWarsRaces.IncludeTogruta>Include Togruta</StarWarsRaces.IncludeTogruta>
-	<StarWarsRaces.IncludeTogrutaTip>Should Togruta be included?</StarWarsRaces.IncludeTogrutaTip>
+	<StarWarsRaces.IncludeTogrutaTip>Percentage chance that Togruta will appear.</StarWarsRaces.IncludeTogrutaTip>
 
-    
-	<StarWarsRaces.spawnChanceVeryLow>(Minimum - Colonists and Tribespeople of this species will NOT appear)</StarWarsRaces.spawnChanceVeryLow>
-	<StarWarsRaces.spawnChanceLow>(Low chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceLow>
-	<StarWarsRaces.spawnChanceNormal>(Normal chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceNormal>
-	<StarWarsRaces.spawnChanceHigh>(High chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceHigh>
-	<StarWarsRaces.spawnChanceVeryHigh>(Very High chance for Colonists and Tribespeople of this species to appear)</StarWarsRaces.spawnChanceVeryHigh>
-	<StarWarsRaces.spawnChanceInsane>(Maximum - This species will appear frequently, but Human colonists will no longer appear)</StarWarsRaces.spawnChanceInsane>
-
+  <StarWarsRaces.IncludeHeader>Percentage chance that the race will randomly appear.</StarWarsRaces.IncludeHeader>
+  <StarWarsRaces.IncludeSubHeader>At 0% the race will no longer appear.  At 100% a race will appear frequently, but Humans will rarely appear.</StarWarsRaces.IncludeSubHeader>
+  <StarWarsRaces.IncludeInPirate>Include in Pirate Faction.</StarWarsRaces.IncludeInPirate>
+  <StarWarsRaces.IncludeInOutlander>Include in Outlander Factions.</StarWarsRaces.IncludeInOutlander>
+  <StarWarsRaces.IncludeInTribal>Include in Tribal Factions.</StarWarsRaces.IncludeInTribal>
+  
 </LanguageData>

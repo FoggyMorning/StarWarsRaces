@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="StarWarsRaces_Twilek_PirateBase" Abstract="True">
+    <race>StarWarsRaces_Twilek</race>
+    <defaultFactionType>Pirate</defaultFactionType>
+    <backstoryCategories>
+      <li>Raider</li>
+    </backstoryCategories>
+    <chemicalAddictionChance>0.12</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+
+  </PawnKindDef>
+
+  <!-- Povery tier - drifter -->
+  
+  <PawnKindDef ParentName="StarWarsRaces_Twilek_PirateBase">
+    <defName>StarWarsRaces_Twilek_Drifter</defName>
+    <label>drifter (twi'lek)</label>
+    <combatPower>35</combatPower>
+    <invNutrition>0</invNutrition>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>0.6</max>
+    </gearHealthRange>
+    <itemQuality>Poor</itemQuality>
+    <apparelMoney>
+      <min>90</min>
+      <max>280</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>60</min>
+      <max>200</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>50</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>30</min>
+            <max>70</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Low tier - scavenger, thrasher -->
+
+  <PawnKindDef ParentName="StarWarsRaces_Twilek_PirateBase" Name="StarWarsRaces_Twilek_PirateScavTierBase" Abstract="True">
+    <combatPower>45</combatPower>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <itemQuality>Poor</itemQuality>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <gearHealthRange>
+      <min>0.4</min>
+      <max>1.1</max>
+    </gearHealthRange>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>50</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>50</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="StarWarsRaces_Twilek_PirateScavTierBase">
+    <defName>StarWarsRaces_Twilek_Scavenger</defName>
+    <label>scavenger gunner (twi'lek)</label>
+    <apparelMoney>
+      <min>300</min>
+      <max>500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>200</min>
+      <max>300</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Twilek_PirateScavTierBase">
+    <defName>StarWarsRaces_Twilek_Thrasher</defName>
+    <label>scavenger thrasher (twi'lek)</label>
+    <race>StarWarsRaces_Twilek</race>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>
+      <min>300</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Outlander</li>
+		</apparelTags>
+    <weaponMoney>
+      <min>100</min>
+      <max>160</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Mid tier - pirate -->
+
+  <PawnKindDef ParentName="StarWarsRaces_Twilek_PirateBase">
+    <defName>StarWarsRaces_Twilek_Pirate</defName>
+    <label>pirate gunner (twi'lek)</label>
+    <race>StarWarsRaces_Twilek</race>
+    <combatPower>65</combatPower>
+    <maxGenerationAge>65</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>2.3</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>400</min>
+      <max>1000</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>250</min>
+      <max>345</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>800</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>40</min>
+            <max>80</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+</Defs>

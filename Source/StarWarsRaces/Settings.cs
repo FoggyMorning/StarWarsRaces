@@ -1,6 +1,6 @@
 ﻿using Verse;
 using UnityEngine;
-using AlienRace;
+using System.Linq;
 
 namespace StarWarsRaces
 {
@@ -21,9 +21,20 @@ namespace StarWarsRaces
     }
     public class Settings : ModSettings
     {
-        public string[] RaceIdentif = new string[] { "Twilek", "Rodian", "Wookie", "Ewok", "Togruta" };
-        public float[] SpawnChance = new float[] { 5f, 5f, 5f, 5f, 5f };
-        private string[] spawnChanceString = new string[] { "", "", "", "", "" };
+        public static string[] RaceIdentif = new string[] {
+            "Twilek",
+            "Rodian",
+            "Wookie",
+            "Ewok",
+            "Togruta"
+        };
+        public string[] labels = RaceIdentif;
+        private static int num = RaceIdentif.Length;
+        const float defaultSpawnChance = 1.5f;
+        public float[] SpawnChance = Enumerable.Repeat(defaultSpawnChance, num).ToArray();
+        public bool IncludeInPirate = true;
+        public bool IncludeInOutlander = false;
+        public bool IncludeInTribal = false;
 
 
 
@@ -31,166 +42,83 @@ namespace StarWarsRaces
         private Vector2 pos = new Vector2(0, 0);
         public void DoWindowContents(Rect canvas)
         {
+
             Listing_Standard list = new Listing_Standard
             {
                 ColumnWidth = canvas.width - 20
             };
             list.Begin(canvas);
 
+            Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width + 1.50f, canvas.height);
 
-            Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width, canvas.height);
             list.BeginScrollView(canvas, ref pos, ref scrollView);
 
             list.Gap(60);
+            list.GapLine();
+            list.Label("StarWarsRaces.IncludeHeader".Translate());
+            list.Label("StarWarsRaces.IncludeSubHeader".Translate());
+            list.GapLine();
             for (int i = 0; i < RaceIdentif.Length; i++)
             {
-                string include = "StarWarsRaces.Include" + RaceIdentif[i];
-                list.DrawSlider(include.Translate() + " " + GetspawnChanceLabel(SpawnChance[i]),
-                    ref SpawnChance[i], ref spawnChanceString[i], 0f, 10f);
-                list.Gap(24);
+                list.SliderLabelled(("StarWarsRaces.Include" + RaceIdentif[i]).Translate(), ref SpawnChance[i],
+                    ("StarWarsRaces.Include"+RaceIdentif[i]+"Tip").Translate(), 0f, 10f, (SpawnChance[i] * 10f).ToString("0.00") + "%");
+                list.Gap(list.verticalSpacing);
             }
+
+            list.GapLine();
+            Rect rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
+            Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInPirate").Translate(), ref IncludeInPirate);
+
+            list.GapLine();
+            rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
+            Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInOutlander").Translate(), ref IncludeInOutlander);
+
+            list.GapLine();
+            rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
+            Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInTribal").Translate(), ref IncludeInTribal);
+
             list.EndScrollView(ref scrollView);
+
             list.End();
+
+
+
         }
         public override void ExposeData()
         {
             base.ExposeData();
             for (int i = 0; i < RaceIdentif.Length; i++)
             {
-                string nameVal = "spawnChance" + RaceIdentif[i];
-                Scribe_Values.Look(ref SpawnChance[i], nameVal, 6f);
-
-                if (Scribe.mode == LoadSaveMode.PostLoadInit)
-                {
-                    spawnChanceString[i] = ((int)SpawnChance[i]).ToString();
-                }
+                Scribe_Values.Look(ref SpawnChance[i], "spawnChance" + RaceIdentif[i], defaultSpawnChance);
             }
+            Scribe_Values.Look(ref IncludeInPirate, "StarWarsRaces.IncludeAsPirate", false);
+            Scribe_Values.Look(ref IncludeInOutlander, "StarWarsRaces.IncludeInOutlander", false);
+            Scribe_Values.Look(ref IncludeInTribal, "StarWarsRaces.IncludeInTribal", false);
             if (Scribe.mode == LoadSaveMode.Saving)
             {
-                SettingsUtil.LoadAllSpecies(RaceIdentif, SpawnChance);
+                Factions.AdjustAlienRaceSettingsSpawnChance(RaceIdentif, SpawnChance);
+                Factions.AddAliensToNPCFactions(RaceIdentif, SpawnChance);
             }
-        }
-
-        private static string GetspawnChanceLabel(float spawnChance)
-        {
-            if (spawnChance <= 0.0)
-            {
-                return "StarWarsRaces.spawnChanceVeryLow".Translate();
-            }
-            else if (spawnChance < .75)
-            {
-                return "StarWarsRaces.spawnChanceLow".Translate();
-            }
-            else if (spawnChance < 1.5)
-            {
-                return "StarWarsRaces.spawnChanceNormal".Translate();
-            }
-            else if (spawnChance < 4)
-            {
-                return "StarWarsRaces.spawnChanceHigh".Translate();
-            }
-            else if (spawnChance < 8)
-            {
-                return "StarWarsRaces.spawnChanceVeryHigh".Translate();
-            }
-            return "StarWarsRaces.spawnChanceInsane".Translate();
         }
     }
 
     public static class SettingsUtil
     {
-        public static void DrawSlider(this Listing_Standard list, string label, ref float value, ref string buffer, float min, float max)
+        // got this function from AUTOMATIC's gradient hair mod.
+        public static void SliderLabelled(this Listing_Standard listing, string label, ref float val, string tooltip, float min, float max, string format)
         {
-            float f;
-            string s = buffer;
-            buffer = list.ModTextEntryLabeled(label, buffer);
-            if (!s.Equals(buffer))
-            {
-                if (float.TryParse(buffer, out f))
-                {
-                    if (f > 0)
-                        value = f;
-                }
-            }
+            Rect rect = listing.GetRect(Text.LineHeight);
 
-            f = value;
-            value = list.Slider(value, min, max);
-            if (f != value)
-            {
-                buffer = ((int)value).ToString();
-            }
-        }
-        public static string ModTextEntryLabeled(this Listing_Standard ls, string label, string buffer, int lineCount = 1)
-        {
-            Rect rect = ls.GetRect(Text.LineHeight * (float)lineCount);
-            Widgets.Label(new Rect(rect.x, rect.y, rect.width - 75, rect.height), label);
-            string result = Widgets.TextField(new Rect(rect.xMax - 65, rect.y, 65, rect.height), buffer);
-            ls.Gap(ls.verticalSpacing);
-            return result;
-        }
-        public static void LoadAllSpecies(string[] labels, float[] chances)
-        {
-            for (int i = 0; i < labels.Length; i++)
-            {
-                string label = labels[i];
-                foreach (RaceSettings rs in DefDatabase<RaceSettings>.AllDefsListForReading)
-                {
-                    if (rs.defName == "StarWarsRaces_Settings")
-                    {
-                        foreach (FactionPawnKindEntry sc in rs.pawnKindSettings.startingColonists)
-                        {
-                            foreach (PawnKindEntry pke in sc.pawnKindEntries)
-                            {
-                                foreach (string kd in pke.kindDefs)
-                                {
-                                    if (kd.Contains(label))
-                                    {
-                                        pke.chance = chances[i] * 10;
-                                    };
-                                };
-                            };
-                        };
-                        foreach (FactionPawnKindEntry awk in rs.pawnKindSettings.alienwandererkinds)
-                        {
-                            foreach (PawnKindEntry pke in awk.pawnKindEntries)
-                            {
-                                foreach (string kd in pke.kindDefs)
-                                {
-                                    if (kd.Contains(label))
-                                    {
-                                        pke.chance = chances[i] * 10;
+            TextAnchor anchor = Text.Anchor;
+            Text.Anchor = TextAnchor.MiddleLeft;
+            Widgets.Label(rect.LeftPart(0.5f), label);
+            val = Widgets.HorizontalSlider(rect.RightPart(0.5f).LeftPart(0.8f), val, min, max, true);
+            Text.Anchor = TextAnchor.MiddleRight;
+            Widgets.Label(rect.RightPart(0.1f), string.Format(format, val));
+            if (!tooltip.NullOrEmpty()) TooltipHandler.TipRegion(rect, tooltip);
+            Text.Anchor = anchor;
 
-                                    };
-                                };
-                            };
-                        };
-                        foreach (PawnKindEntry ark in rs.pawnKindSettings.alienrefugeekinds)
-                        {
-                            foreach (string kd in ark.kindDefs)
-                            {
-                                if (kd.Contains(label))
-                                {
-                                    ark.chance = chances[i] * 10;
-
-                                };
-                            };
-                        };
-                        foreach (PawnKindEntry ask in rs.pawnKindSettings.alienslavekinds)
-                        {
-                            foreach (string kd in ask.kindDefs)
-                            {
-                                if (kd.Contains(label))
-                                {
-                                    ask.chance = chances[i] * 10;
-
-                                };
-                            };
-                        };
-                        break;
-
-                    }
-                }
-            }
+            listing.Gap(listing.verticalSpacing);
         }
     }
 }
