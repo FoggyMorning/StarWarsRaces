@@ -110,7 +110,7 @@
                         <drawSize>1</drawSize>
                         <inFrontOfBody>true</inFrontOfBody>
                         <!-- in front of body but behind war maks -->
-                        <layerOffset>-.29</layerOffset>
+                        <layerOffset>-.27</layerOffset>
                         <drawnInBed>true</drawnInBed>
                         <offsets>
                           <south>
