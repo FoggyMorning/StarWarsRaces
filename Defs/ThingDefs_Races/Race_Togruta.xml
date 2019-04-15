@@ -109,8 +109,8 @@
                         <bodyPart>StarWarsRaces_Togruta_Montral</bodyPart>
                         <drawSize>1</drawSize>
                         <inFrontOfBody>true</inFrontOfBody>
-                        <!-- in front of body but behind war maks -->
-                        <layerOffset>-.27</layerOffset>
+                        <!-- in front of head, but behind light sabers for all views but north-->
+                        <layerOffset>-.29</layerOffset>
                         <drawnInBed>true</drawnInBed>
                         <offsets>
                           <south>
@@ -158,7 +158,9 @@
                             <bodyPart>StarWarsRaces_Togruta_Left_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
-                            <layerOffset>.02</layerOffset>
+                            <!-- in front of montrals, body, and head but behind light sabers -->
+                            <!-- only south and west views -->
+                            <layerOffset>-.285</layerOffset>
                           <drawnInBed>true</drawnInBed>
                             <offsets>
                                 <south>
@@ -206,8 +208,10 @@
                             <path>StarWarsRaces/Togruta/Lekku/Left/RearOfHead/Lekku_Left_Rear</path>
                             <bodyPart>StarWarsRaces_Togruta_Left_Lekku</bodyPart>
                             <drawSize>1</drawSize>
-                            <inFrontOfBody>false</inFrontOfBody>
-                            <layerOffset>-.01</layerOffset>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <!-- behind of montrals, body, and head but in front of light sabers -->
+                            <!-- only north and east views -->
+                            <layerOffset>-.31</layerOffset>
                           <drawnInBed>false</drawnInBed>
                             <offsets>
                                 <south>
@@ -256,7 +260,9 @@
                             <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
-                            <layerOffset>0.02</layerOffset>
+                            <!-- in front of montrals, body, and head but behind light sabers -->
+                            <!-- only south and east views -->
+                            <layerOffset>-.285</layerOffset>
                           <drawnInBed>true</drawnInBed>
                             <offsets>
                                 <south>
@@ -304,8 +310,10 @@
                             <path>StarWarsRaces/Togruta/Lekku/Right/RearOfHead/Lekku_Right_Rear</path>
                             <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
                             <drawSize>1</drawSize>
-                            <inFrontOfBody>false</inFrontOfBody>
-                            <layerOffset>-.01</layerOffset>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <!-- behind of montrals, body, and head but in front of light sabers -->
+                            <!-- only north and west views -->
+                            <layerOffset>-.31</layerOffset>
                           <drawnInBed>false</drawnInBed>
                             <offsets>
                                 <south>
@@ -353,7 +361,10 @@
                         <bodyPart>StarWarsRaces_Togruta_Rear_Lekku</bodyPart>
                         <drawSize>1</drawSize>
                         <inFrontOfBody>true</inFrontOfBody>
-                        <layerOffset>0.015</layerOffset>
+                        <!-- south view, not visible-->
+                        <!-- north view in front of head, body and other addons -->
+                        <!-- east/west view - in front of montrals, behind front left/right lekku, in front of rear left/right lekku -->
+                        <layerOffset>-.27</layerOffset>
                         <drawnInBed>true</drawnInBed>
                         <offsets>
                           <south>

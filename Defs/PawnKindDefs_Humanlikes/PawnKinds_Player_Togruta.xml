@@ -42,7 +42,7 @@
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
       <li>StarWarsRaces_TogrutaApparelTag</li>
-      <li>IndustrialBasic</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>
       <min>200</min>
@@ -102,7 +102,7 @@
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
       <li>StarWarsRaces_TogrutaApparelTag</li>
-      <li>IndustrialBasic</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>
       <min>200</min>
