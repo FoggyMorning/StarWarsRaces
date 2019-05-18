@@ -97,7 +97,7 @@
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <!-- in front of head, but behind light sabers for all views but north-->
-              <layerOffset>-.29</layerOffset>
+              <layerOffset>0</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>
@@ -142,7 +142,7 @@
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <!-- in front of head, but behind light sabers for all views but north-->
-              <layerOffset>-.29</layerOffset>
+              <layerOffset>0</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>
@@ -187,7 +187,7 @@
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <!-- in front of head, but behind light sabers for all views but north-->
-              <layerOffset>-.29</layerOffset>
+              <layerOffset>0</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>

@@ -75,7 +75,7 @@
               <bodyPart>Ear</bodyPart>
               <drawSize>0.65</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
-              <layerOffset>-.285</layerOffset>
+              <layerOffset>0</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>
@@ -123,7 +123,7 @@
               <bodyPart>Ear</bodyPart>
               <drawSize>0.65</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
-              <layerOffset>-.285</layerOffset>
+              <layerOffset>0</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>

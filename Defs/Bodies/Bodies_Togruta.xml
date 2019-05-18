@@ -177,7 +177,7 @@
                 </li>
                 <li>
                   <def>StarWarsRaces_Togruta_Montral</def>
-                  <customLabel>head</customLabel>
+                  <customLabel>montral</customLabel>
                   <coverage>0.2</coverage>
                   <height>Top</height>
                   <groups>
@@ -188,6 +188,7 @@
                   <parts>
                     <li>
                       <def>StarWarsRaces_Togruta_Left_Lekku</def>
+                      <customLabel>left lekku</customLabel>
                       <coverage>0.05</coverage>
                       <height>Top</height>
                       <groups>
@@ -196,6 +197,7 @@
                     </li>
                     <li>
                       <def>StarWarsRaces_Togruta_Right_Lekku</def>
+                      <customLabel>right lekku</customLabel>
                       <coverage>0.05</coverage>
                       <height>Top</height>
                       <groups>
@@ -204,6 +206,7 @@
                     </li>
                     <li>
                       <def>StarWarsRaces_Togruta_Rear_Lekku</def>
+                      <customLabel>rear lekku</customLabel>
                       <coverage>0.1</coverage>
                       <height>Top</height>
                       <groups>

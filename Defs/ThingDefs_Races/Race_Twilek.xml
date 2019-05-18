@@ -3,12 +3,10 @@
   <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
     <defName>StarWarsRaces_Twilek</defName>
     <label>Twi'lek</label>
-    <description>
-      Twi'leks are tall, thin humanoids with skin pigment that spans a rainbow of colors.
+    <description>Twi'leks are tall, thin humanoids with skin pigment that spans a rainbow of colors.
       Their most distinctive feature is a pair of prehensile tentacles that grow from the base of their skulls.
       These Lekku are vital to the health of the Twi'lek, which is unfortunate because they prevent the Twi'lek from wearing most forms of head protection.
-      Some have theorized that this obvious weakness is why the Twi'lek people have been so heavily targetted by slavers.
-    </description>
+      Some have theorized that this obvious weakness is why the Twi'lek people have been so heavily targetted by slavers.</description>
     <alienRace>
       <generalSettings>
         <alienPartGenerator>
@@ -146,7 +144,7 @@
               <bodyPart>StarWarsRaces_Left_Lekku</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
-              <layerOffset>-.285</layerOffset>
+              <layerOffset>0.01</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>
@@ -186,8 +184,8 @@
               <path>StarWarsRaces/Twilek/LeftLekku/Lekku_Rear_Left</path>
               <bodyPart>StarWarsRaces_Left_Lekku</bodyPart>
               <drawSize>1</drawSize>
-              <inFrontOfBody>true</inFrontOfBody>
-              <layerOffset>-.31</layerOffset>
+              <inFrontOfBody>false</inFrontOfBody>
+              <layerOffset>0</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>
@@ -228,7 +226,7 @@
               <bodyPart>StarWarsRaces_Right_Lekku</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
-              <layerOffset>-.285</layerOffset>
+              <layerOffset>0.01</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>
@@ -268,8 +266,8 @@
               <path>StarWarsRaces/Twilek/RightLekku/Lekku_Rear_Right</path>
               <bodyPart>StarWarsRaces_Right_Lekku</bodyPart>
               <drawSize>1</drawSize>
-              <inFrontOfBody>true</inFrontOfBody>
-              <layerOffset>-.31</layerOffset>
+              <inFrontOfBody>false</inFrontOfBody>
+              <layerOffset>0</layerOffset>
               <offsets>
                 <south>
                   <crownTypes>
