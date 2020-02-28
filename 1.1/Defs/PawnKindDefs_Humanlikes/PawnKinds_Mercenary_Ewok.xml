@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="StarWarsRaces_Ewok_MercenaryBase" Abstract="True" ParentName="MercenaryBase">
+    <race>StarWarsRaces_Ewok</race>
+    <apparelRequired>
+      <li>StarWarsRaces_Ewok_Hood</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Ewok_GrenadierBase" ParentName="StarWarsRaces_Ewok_MercenaryBase">
+    <race>StarWarsRaces_Ewok</race>
+    <combatPower>65</combatPower>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>2.3</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>BeltDefensePop</li>
+      <li>StarWarsRaces_EwokApparelTag</li>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>400</min>
+      <max>700</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>500</min>
+      <max>500</max>
+    </weaponMoney>
+    <techHediffsChance>0.05</techHediffsChance>
+    <techHediffsMoney>
+      <min>500</min>
+      <max>500</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  <!-- Low merc tier - grenadiers -->
+
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_GrenadierBase">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_Grenadier_Destructive</defName>
+    <label>grenadier (ewok)</label>
+    <canBeSapper>true</canBeSapper>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_GrenadierBase">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_Grenadier_EMP</defName>
+    <label>EMP grenadier (ewok)</label>
+    <weaponTags>
+      <li>GrenadeEMP</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_GrenadierBase">
+    <defName>StarWarsRaces_Ewok_Grenadier_Smoke</defName>
+    <label>smoke grenadier (ewok)</label>
+    <weaponTags>
+      <li>GrenadeSmoke</li>
+    </weaponTags>
+    <weaponMoney>400~400</weaponMoney>
+  </PawnKindDef>
+
+  <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryBase" Name="StarWarsRaces_Ewok_MercenaryMidTierBase" Abstract="True">
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>
+      <min>700</min>
+      <max>1200</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryMidTierBase" Name="StarWarsRaces_Ewok_MercenaryGunnerBase" Abstract="True">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_Mercenary_Gunner</defName>
+    <label>mercenary gunner (ewok)</label>
+    <combatPower>90</combatPower>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>3.2</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>BeltDefensePop</li>
+      <li>StarWarsRaces_EwokApparelTag</li>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>330</min>
+      <max>650</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <combatEnhancingDrugsChance>0.05</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryGunnerBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Gunner</defName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryGunnerBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Gunner_Acidifier</defName>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryMidTierBase" Name="StarWarsRaces_Ewok_MercenarySniperBase" Abstract="True">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_Mercenary_Sniper</defName>
+    <label>mercenary sniper (ewok)</label>
+    <combatPower>110</combatPower>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>3.2</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>600</min>
+      <max>600</max>
+    </weaponMoney>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+      <li>Neolithic</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenarySniperBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Sniper</defName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenarySniperBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Sniper_Acidifier</defName>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryMidTierBase" Name="StarWarsRaces_Ewok_MercenarySlasherBase" Abstract="True">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_Mercenary_Slasher</defName>
+    <label>mercenary slasher (ewok)</label>
+    <combatPower>150</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>3.2</max>
+    </gearHealthRange>
+    <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>300</min>
+      <max>1400</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>200</min>
+      <max>500</max>
+    </weaponMoney>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>180</min>
+            <max>400</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+      <li>Neolithic</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenarySlasherBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Slasher</defName>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenarySlasherBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Slasher_Acidifier</defName>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryMidTierBase">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_Mercenary_Heavy</defName>
+    <label>heavy mercenary (ewok)</label>
+    <labelPlural>heavy mercenaries</labelPlural>
+    <combatPower>150</combatPower>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>3.2</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>BeltDefensePop</li>
+      <li>StarWarsRaces_EwokApparelTag</li>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>200</min>
+      <max>350</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>1200</min>
+      <max>1200</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>GunSingleUse</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Elite tier - merc elite, pirate boss -->
+
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Ewok_MercenaryEliteTierBase" ParentName="StarWarsRaces_Ewok_MercenaryBase">
+    <combatPower>150</combatPower>
+    <maxGenerationAge>45</maxGenerationAge>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>2500</min>
+      <max>3500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>500</min>
+      <max>1400</max>
+    </weaponMoney>
+    <weaponTags>
+			<li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>1200</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsChance>0.35</techHediffsChance>
+    <combatEnhancingDrugsChance>0.80</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+    <biocodeWeaponChance>0.3</biocodeWeaponChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryEliteTierBase">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_PirateBoss</defName>
+    <label>boss (ewok)</label>
+    <labelPlural>bosses</labelPlural>
+    <factionLeader>true</factionLeader>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <canBeSapper>true</canBeSapper>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryEliteTierBase" Name="StarWarsRaces_Ewok_MercenaryEliteBase" Abstract="True">
+    <race>StarWarsRaces_Ewok</race>
+    <defName>StarWarsRaces_Ewok_Mercenary_Elite</defName>
+    <label>elite mercenary (ewok)</label>
+    <labelPlural>elite mercenaries</labelPlural>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryEliteBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Elite</defName>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="StarWarsRaces_Ewok_MercenaryEliteBase">
+    <defName>StarWarsRaces_Ewok_Mercenary_Elite_Acidifier</defName>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+  </PawnKindDef>
+
+</Defs>

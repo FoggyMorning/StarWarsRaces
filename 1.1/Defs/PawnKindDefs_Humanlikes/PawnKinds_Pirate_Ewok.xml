@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Povery tier - drifter -->
+
+    <PawnKindDef ParentName="PirateBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Drifter</defName>
+        <label>drifter (ewok)</label>
+        <combatPower>35</combatPower>
+        <invNutrition>0</invNutrition>
+        <gearHealthRange>
+            <min>0.2</min>
+            <max>0.6</max>
+        </gearHealthRange>
+        <itemQuality>Poor</itemQuality>
+        <apparelMoney>
+            <min>90</min>
+            <max>280</max>
+        </apparelMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>StarWarsRaces_Ewok_Hood</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>StarWarsRaces_EwokApparelTag</li>
+            <li>Neolithic</li>
+        </apparelTags>
+        <weaponMoney>
+            <min>60</min>
+            <max>200</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeBasic</li>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <techHediffsMoney>
+            <min>50</min>
+            <max>50</max>
+        </techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <inventoryOptions>
+            <skipChance>0.9</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>30</min>
+                        <max>70</max>
+                    </countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>
+                        <min>1</min>
+                        <max>1</max>
+                    </countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Low tier - scavenger, thrasher -->
+
+    <PawnKindDef ParentName="PirateScavTierBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Scavenger</defName>
+        <label>scavenger gunner (ewok)</label>
+        <apparelMoney>
+            <min>300</min>
+            <max>500</max>
+        </apparelMoney>
+        <weaponMoney>
+            <min>200</min>
+            <max>300</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+            <li>Neolithic</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>StarWarsRaces_Ewok_Hood</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="PirateScavTierBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Thrasher</defName>
+        <label>scavenger thrasher (ewok)</label>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>
+            <min>300</min>
+            <max>800</max>
+        </apparelMoney>
+        <apparelTags>
+            <li>Outlander</li>
+            <li>StarWarsRaces_EwokApparelTag</li>
+            <li>Neolithic</li>
+        </apparelTags>
+        <weaponMoney>
+            <min>100</min>
+            <max>160</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeBasic</li>
+            <li>MedievalMeleeBasic</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>StarWarsRaces_Ewok_Hood</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <!-- Mid tier - pirate -->
+
+    <PawnKindDef ParentName="PirateBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Pirate</defName>
+        <label>pirate gunner (ewok)</label>
+        <combatPower>65</combatPower>
+        <maxGenerationAge>65</maxGenerationAge>
+        <gearHealthRange>
+            <min>0.7</min>
+            <max>2.3</max>
+        </gearHealthRange>
+        <apparelMoney>
+            <min>400</min>
+            <max>1000</max>
+        </apparelMoney>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+            <li>IndustrialMilitaryBasic</li>
+            <li>IndustrialMilitaryAdvanced</li>
+            <li>StarWarsRaces_EwokApparelTag</li>
+            <li>Neolithic</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+        <weaponMoney>
+            <min>250</min>
+            <max>345</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>NeolithicRangedDecent</li>
+        </weaponTags>
+        <techHediffsChance>0.04</techHediffsChance>
+        <techHediffsMoney>
+            <min>50</min>
+            <max>800</max>
+        </techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <inventoryOptions>
+            <skipChance>0.8</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>Silver</thingDef>
+                    <countRange>
+                        <min>40</min>
+                        <max>80</max>
+                    </countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>
+                        <min>1</min>
+                        <max>1</max>
+                    </countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <apparelRequired>
+            <li>StarWarsRaces_Ewok_Hood</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+</Defs>

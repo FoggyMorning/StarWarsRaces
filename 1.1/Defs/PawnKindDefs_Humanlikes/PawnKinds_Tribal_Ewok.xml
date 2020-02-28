@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef ParentName="TribalBase" Name="StarWarsRaces_Ewok_TribalBase" Abstract="True">
+        <race>StarWarsRaces_Ewok</race>
+        <defaultFactionType>TribeCivil</defaultFactionType>
+        <maxGenerationAge>60</maxGenerationAge>
+        <chemicalAddictionChance>0.05</chemicalAddictionChance>
+        <invNutrition>2.55</invNutrition>
+        <invFoodDef>Pemmican</invFoodDef>
+        <apparelTags>
+            <li>Neolithic</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>StarWarsRaces_Ewok_Hood</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <!-- Poverty tier - penitent -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_Penitent</defName>
+        <label>penitent (ewok)</label>
+        <combatPower>35</combatPower>
+        <chemicalAddictionChance>0.10</chemicalAddictionChance>
+        <invNutrition>0</invNutrition>
+        <itemQuality>Poor</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>90~150</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeBasic</li>
+        </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+    </PawnKindDef>
+
+    <!-- Low tier - archer -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_Archer</defName>
+        <label>archer (ewok)</label>
+    <combatPower>48</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>180~350</apparelMoney>
+    <weaponMoney>80~80</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.03</techHediffsChance>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <!-- Mid tier - warrior, hunter, trader -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_Warrior</defName>
+        <label>warrior (ewok)</label>
+    <combatPower>60</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalBase" Name="StarWarsRaces_Ewok_Tribal_Hunter">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_Hunter</defName>
+        <label>hunter (ewok)</label>
+    <combatPower>65</combatPower>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <weaponMoney>100~100</weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="Tribal_Hunter">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_Trader</defName>
+        <label>trader (ewok)</label>
+        <trader>true</trader>
+        <apparelRequired Inherit="False">
+            <li>StarWarsRaces_Ewok_Hood</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <!-- High tier - berserker, heavy archer, chief melee, chief ranged -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_Berserker</defName>
+        <label>berserker (ewok)</label>
+        <combatPower>90</combatPower>
+        <canBeSapper>true</canBeSapper>
+    <apparelMoney>200~550</apparelMoney>
+    <weaponMoney>300~300</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_HeavyArcher</defName>
+        <label>heavy archer (ewok)</label>
+        <combatPower>90</combatPower>
+    <apparelMoney>200~550</apparelMoney>
+    <weaponMoney>250~250</weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedHeavy</li>
+        </weaponTags>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalBase" Name="StarWarsRaces_Ewok_TribalChiefBase" Abstract="True">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_ChiefMelee</defName>
+        <combatPower>130</combatPower>
+        <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+        <minGenerationAge>30</minGenerationAge>
+        <maxGenerationAge>999</maxGenerationAge>
+        <itemQuality>Normal</itemQuality>
+        <factionLeader>true</factionLeader>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>
+            <min>450</min>
+            <max>750</max>
+        </apparelMoney>
+        <apparelRequired>
+            <li>Apparel_PlateArmor</li>
+        </apparelRequired>
+        <weaponMoney>
+            <min>500</min>
+            <max>1000</max>
+        </weaponMoney>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalChiefBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_ChiefMelee</defName>
+        <label>berserker chief (ewok)</label>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Ewok_TribalChiefBase">
+        <race>StarWarsRaces_Ewok</race>
+        <defName>StarWarsRaces_Ewok_Tribal_ChiefRanged</defName>
+        <label>archer chief (ewok)</label>
+        <weaponTags>
+            <li>NeolithicRangedChief</li>
+        </weaponTags>
+        <apparelTags>
+            <li>StarWarsRaces_EwokApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+</Defs>

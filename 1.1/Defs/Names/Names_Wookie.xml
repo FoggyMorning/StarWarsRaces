@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonWookieM</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[WookiefirstM]</li>
+        <li>name->[nicknames_m] [WookiefirstM]</li>
+        <li>name->[WookiefirstM] [nicknames_m]</li>
+        <li>name->[WookiefirstM] [nicknames_m]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>WookiefirstM</keyword>
+          <path>Wookie_Names/WookieM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nicknames_m</keyword>
+          <path>Wookie_Names/Nicknames_M</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonWookieF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[WookiefirstF]</li>
+        <li>name->[nicknames_f] [WookiefirstF]</li>
+        <li>name->[WookiefirstF] [nicknames_f]</li>
+        <li>name->[WookiefirstF] [nicknames_f]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>WookiefirstF</keyword>
+          <path>Wookie_Names/WookieF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nicknames_f</keyword>
+          <path>Wookie_Names/Nicknames_F</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>
