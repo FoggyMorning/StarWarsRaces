@@ -64,7 +64,7 @@ namespace StarWarsRaces
                     ("StarWarsRaces.Include"+RaceIdentif[i]+"Tip").Translate(), 0f, 10f, (SpawnChance[i] * 10f).ToString("0.00") + "%");
                 list.Gap(list.verticalSpacing);
             }
-
+            /*
             list.GapLine();
             Rect rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
             Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInPirate").Translate(), ref IncludeInPirate);
@@ -76,7 +76,7 @@ namespace StarWarsRaces
             list.GapLine();
             rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
             Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInTribal").Translate(), ref IncludeInTribal);
-
+            */
             list.EndScrollView(ref scrollView);
 
             list.End();
@@ -91,13 +91,13 @@ namespace StarWarsRaces
             {
                 Scribe_Values.Look(ref SpawnChance[i], "spawnChance" + RaceIdentif[i], defaultSpawnChance);
             }
-            Scribe_Values.Look(ref IncludeInPirate, "StarWarsRaces.IncludeAsPirate", false);
-            Scribe_Values.Look(ref IncludeInOutlander, "StarWarsRaces.IncludeInOutlander", false);
-            Scribe_Values.Look(ref IncludeInTribal, "StarWarsRaces.IncludeInTribal", false);
+            //Scribe_Values.Look(ref IncludeInPirate, "StarWarsRaces.IncludeAsPirate", false);
+            //Scribe_Values.Look(ref IncludeInOutlander, "StarWarsRaces.IncludeInOutlander", false);
+            //Scribe_Values.Look(ref IncludeInTribal, "StarWarsRaces.IncludeInTribal", false);
             if (Scribe.mode == LoadSaveMode.Saving)
             {
                 Factions.AdjustAlienRaceSettingsSpawnChance(RaceIdentif, SpawnChance);
-                Factions.AddAliensToNPCFactions(RaceIdentif, SpawnChance);
+                //Factions.AddAliensToNPCFactions(RaceIdentif, SpawnChance);
             }
         }
     }
