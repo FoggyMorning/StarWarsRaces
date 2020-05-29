@@ -19,15 +19,12 @@ namespace StarWarsRaces
 
         private static void ModCheck()
         {
-            loadedFactions = false;
+            modCheck = true;
             if (ModsConfig.ActiveModsInLoadOrder.Any(m => m.Name == "Star Wars - Factions"))
             {
                 loadedFactions = true;
-                modCheck = true;
                 return;
             }
-            modCheck = true;
-            loadedFactions = false;
             return;
         }
 
@@ -219,26 +216,35 @@ namespace StarWarsRaces
             pk.defName = defname;
             pk.label = pkOld.label + " (" + label + ")";
 
+            pk.allowRoyalApparelRequirements = pkOld.allowRoyalApparelRequirements;
+            pk.allowRoyalRoomRequirements = pkOld.allowRoyalRoomRequirements;
+            pk.alternateGraphicChance = pkOld.alternateGraphicChance;
+            pk.alternateGraphics = pkOld.alternateGraphics.ListFullCopyOrNull<AlternateGraphic>();
             pk.apparelRequired = pkOld.apparelRequired.ListFullCopyOrNull<ThingDef>();
+            pk.apparelDisallowTags = pkOld.apparelDisallowTags.ListFullCopyOrNull<string>();
             pk.apparelTags = pkOld.apparelTags.ListFullCopyOrNull<string>();
-            pk.apparelAllowHeadgearChance = pkOld.apparelAllowHeadgearChance;
+            pk.apparelAllowHeadgearChance = pkOld.apparelAllowHeadgearChance;   
             pk.aiAvoidCover = pkOld.aiAvoidCover;
             pk.apparelColor = pkOld.apparelColor;
             pk.apparelIgnoreSeasons = pkOld.apparelIgnoreSeasons;
             pk.apparelMoney = new FloatRange(min:pkOld.apparelMoney.min, max:pkOld.apparelMoney.max);
             pk.backstoryCategories = pkOld.backstoryCategories.ListFullCopyOrNull<string>();
+            pk.backstoryFilters = pkOld.backstoryFilters.ListFullCopyOrNull<BackstoryCategoryFilter>();
+            pk.backstoryFiltersOverride = pkOld.backstoryFiltersOverride.ListFullCopyOrNull<BackstoryCategoryFilter>();
             pk.backstoryCryptosleepCommonality = pkOld.backstoryCryptosleepCommonality;
             pk.baseRecruitDifficulty = pkOld.baseRecruitDifficulty;
+            pk.biocodeWeaponChance = pkOld.biocodeWeaponChance;
             pk.canArriveManhunter = pkOld.canArriveManhunter;
             pk.canBeSapper = pkOld.canBeSapper;
             pk.chemicalAddictionChance = pkOld.chemicalAddictionChance;
             pk.combatEnhancingDrugsChance = pkOld.combatEnhancingDrugsChance;
-            pk.combatEnhancingDrugsCount = new IntRange(min:pkOld.combatEnhancingDrugsCount.min, max:pkOld.combatEnhancingDrugsCount.max);
+            pk.combatEnhancingDrugsCount = pkOld.combatEnhancingDrugsCount;
             pk.combatPower = pkOld.combatPower;
-            pk.defPackage = pkOld.defPackage;
             pk.defaultFactionType = pkOld.defaultFactionType;
             pk.description = pkOld.description;
+            pk.defendPointRadius = pkOld.defendPointRadius;
             pk.destroyGearOnDrop = pkOld.destroyGearOnDrop;
+            pk.disallowedTraits = pkOld.disallowedTraits.ListFullCopyOrNull<TraitDef>();
             pk.ecoSystemWeight = pkOld.ecoSystemWeight;
             pk.factionLeader = pkOld.factionLeader;
             pk.fixedInventory = pkOld.fixedInventory.ListFullCopyOrNull<ThingDefCountClass>();
@@ -246,20 +252,33 @@ namespace StarWarsRaces
             pk.forceNormalGearQuality = pkOld.forceNormalGearQuality;
             pk.gearHealthRange = new FloatRange(min: pkOld.gearHealthRange.min, max: pkOld.gearHealthRange.max);
             pk.generated = pkOld.generated;
+            pk.hairTags = pkOld.hairTags;
             pk.inventoryOptions = pkOld.inventoryOptions;
             pk.invFoodDef = pkOld.invFoodDef;
             pk.invNutrition = pkOld.invNutrition;
             pk.isFighter = pkOld.isFighter;
             pk.itemQuality = pkOld.itemQuality;
-            pk.lifeStages = pkOld.lifeStages;
+            pk.labelMale = pkOld.labelMale;
+            pk.labelMalePlural = pkOld.labelMalePlural;
+            pk.labelFemale = pkOld.labelFemale;
+            pk.labelFemalePlural = pkOld.labelFemalePlural;
+            pk.labelPlural = pkOld.labelPlural;
+            pk.lifeStages = pkOld.lifeStages.ListFullCopyOrNull<PawnKindLifeStage>();
             pk.maxGenerationAge = pkOld.maxGenerationAge;
             pk.minGenerationAge = pkOld.minGenerationAge;
             pk.modContentPack = pkOld.modContentPack;
             pk.modExtensions = pkOld.modExtensions;
+            pk.royalTitleChance = pkOld.royalTitleChance;
+            pk.skills = pkOld.skills.ListFullCopyOrNull<SkillRange>(); ;
+            pk.specificApparelRequirements = pkOld.specificApparelRequirements.ListFullCopyOrNull<SpecificApparelRequirement>(); ;
             pk.trader = pkOld.trader;
+            pk.titleSelectOne = pkOld.titleSelectOne.ListFullCopyOrNull<RoyalTitleDef>(); ;
+            pk.techHediffsRequired = pkOld.techHediffsRequired.ListFullCopyOrNull<ThingDef>(); ;
             pk.techHediffsChance = pkOld.techHediffsChance;
+            pk.techHediffsMaxAmount = pkOld.techHediffsMaxAmount;
             pk.techHediffsMoney = new FloatRange(min: pkOld.techHediffsMoney.min, max: pkOld.techHediffsMoney.max);
             pk.techHediffsTags = pkOld.techHediffsTags.ListFullCopyOrNull<string>();
+            pk.techHediffsDisallowTags = pkOld.techHediffsDisallowTags.ListFullCopyOrNull<string>();
             pk.weaponMoney = new FloatRange(min: pkOld.weaponMoney.min, max: pkOld.weaponMoney.max);
             pk.weaponTags = pkOld.weaponTags.ListFullCopyOrNull<string>();
             pk.wildGroupSize = pkOld.wildGroupSize;
@@ -269,6 +288,7 @@ namespace StarWarsRaces
                 case ("Twilek"):
                     ThingDef_AlienRace twilekRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Twilek");
                     pk.race = twilekRace;
+                    /*
                     
                     // apparel tags
                     if (pk.apparelTags == null)
@@ -289,7 +309,7 @@ namespace StarWarsRaces
                         for (int i = 0; i < required.Count; i++)
                         {
                             ThingDef entry = required[i];
-                            // if  in the white list then add to the list of required apparel
+                            // if  in the white list then readd to the list of required apparel
                             if (!twilekRace.alienRace.raceRestriction.whiteApparelList.Contains(entry.defName))
                             {
                                 pk.apparelRequired.Remove(entry);
@@ -300,10 +320,13 @@ namespace StarWarsRaces
                             pk.apparelRequired = null;
                         }
                     }
+                    */
                     break;
                 case ("Togruta"):
                     ThingDef_AlienRace thisRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Togruta");
                     pk.race = thisRace;
+                    pk.apparelAllowHeadgearChance = 0f;
+                    /*
 
                     // apparel tags
                     if (pk.apparelTags == null)
@@ -322,7 +345,7 @@ namespace StarWarsRaces
                         for (int i = 0; i < required.Count; i++)
                         {
                             ThingDef entry = required[i];
-                            // if  in the white list then add to the list of required apparel
+                            // if  in the white list then readd to the list of required apparel
                             if (!thisRace.alienRace.raceRestriction.whiteApparelList.Contains(entry.defName))
                             {
                                 pk.apparelRequired.Remove(entry);
@@ -333,11 +356,12 @@ namespace StarWarsRaces
                             pk.apparelRequired = null;
                         }
                     }
+                    */
                     break;
-
                 case ("Wookie"):
                     ThingDef_AlienRace wookieRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Wookie");
                     pk.race = wookieRace;
+                    /*
                     // wookies are usually naked except for the bandolier
                     // remove all required apparel except the bandolier
                     if (pk.apparelTags.NullOrEmpty<string>())
@@ -345,15 +369,12 @@ namespace StarWarsRaces
                         pk.apparelTags = new List<string>();
                     }
                     pk.apparelTags.Add("StarWarsRaces_WookieApparelTag");
-                    pk.apparelRequired = new List<ThingDef>
-                    {
-                        DefDatabase<ThingDef>.GetNamed("StarWarsRaces_Wookie_Bandolier")
-                    };
-                    pk.apparelAllowHeadgearChance = pkOld.apparelAllowHeadgearChance;
+                    */
                     break;
                 case ("Ewok"):
                     ThingDef_AlienRace ewokRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Ewok");
                     pk.race = ewokRace;
+                    /*
                     // ewoks are usually naked except for the traditional hood and wrap or some other primitive items
                     // remove all required apparel except those items
                     if (pk.apparelTags.NullOrEmpty<string>())
@@ -361,20 +382,7 @@ namespace StarWarsRaces
                         pk.apparelTags = new List<string>();
                     }
                     pk.apparelTags.Add("StarWarsRaces_EwokApparelTag");
-                    pk.apparelTags.Add("Neolithic");
-                    pk.apparelRequired = new List<ThingDef>
-                    {
-                        DefDatabase<ThingDef>.GetNamed("StarWarsRaces_Ewok_Hood")
-                    }; 
-                    pk.apparelAllowHeadgearChance = 100f;
-                    pk.weaponTags.Add("NeolithicMeleeBasic");
-                    pk.weaponTags.Add("NeolithicRangedBasic");
-                    pk.weaponTags.Add("NeolithicMeleeDecent");
-                    pk.weaponTags.Add("NeolithicRangedDecent");
-                    pk.weaponTags.Add("NeolithicMeleeAdvanced");
-                    pk.weaponTags.Add("NeolithicRangedHeavy");
-                    pk.weaponTags.Add("MedievalMeleeAdvanced");
-                    pk.weaponTags.Add("NeolithicRangedChief");
+                    */
                     break;
                 default:
                     ThingDef_AlienRace newRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_" + label);

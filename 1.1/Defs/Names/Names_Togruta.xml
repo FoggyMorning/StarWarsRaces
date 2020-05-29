@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonTogrutaM</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TogrutafirstM] [Togrutalast]</li>
+        <li>name->[nicknames_m] [TogrutafirstM]</li>
+        <li>name->[TogrutafirstM] [nicknames_m] [Togrutalast]</li>
+        <li>name->[TogrutafirstM] [nicknames_m]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TogrutafirstM</keyword>
+          <path>Togruta_Names/TogrutaM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Togrutalast</keyword>
+          <path>Togruta_Names/Togrutalast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nicknames_m</keyword>
+          <path>Togruta_Names/Nicknames_M</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonTogrutaF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TogrutafirstF] [Togrutalast]</li>
+        <li>name->[nicknames_f] [TogrutafirstF]</li>
+        <li>name->[TogrutafirstF] [nicknames_f] [Togrutalast]</li>
+        <li>name->[TogrutafirstF] [nicknames_f]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TogrutafirstF</keyword>
+          <path>Togruta_Names/TogrutaF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Togrutalast</keyword>
+          <path>Togruta_Names/Togrutalast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nicknames_f</keyword>
+          <path>Togruta_Names/Nicknames_F</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

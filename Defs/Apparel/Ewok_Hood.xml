@@ -69,7 +69,7 @@
       <li>StarWarsRaces_EwokApparelCategory</li>
     </thingCategories>
     <graphicData>
-      <texPath>StarWarsRaces/Ewok/Clothing/Ewok_Parka_Oval_south</texPath>
+      <texPath>StarWarsRaces/Ewok/Clothing/Ewok_Parka_Male_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>30</costStuffCount>

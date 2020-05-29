@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>StarWarsRaces_ResearchTab</defName>
+        <label>Star Wars Races</label>
+    </ResearchTabDef>
+
+    <ResearchProjectDef Name="StarWarsRaces_Research" Abstract="True">
+        <techLevel>Neolithic</techLevel>
+        <tab>StarWarsRaces_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectTagDef>
+        <defName>StarWarsRaces_Research_Twilek</defName>
+    </ResearchProjectTagDef>
+
+    <ResearchProjectTagDef>
+        <defName>StarWarsRaces_Research_Wookie</defName>
+    </ResearchProjectTagDef>
+
+    <ResearchProjectTagDef>
+        <defName>StarWarsRaces_Research_Ewok</defName>
+    </ResearchProjectTagDef>
+
+    <ResearchProjectDef ParentName="StarWarsRaces_Research">
+        <defName>StarWarsRaces_TwilekBasicHats</defName>
+        <label>Twilek Head Coverings</label>
+        <description>Twilek head coverings</description>
+        <baseCost>100</baseCost>
+        <tags>
+            <li>StarWarsRaces_Research_Twilek</li>
+        </tags>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="StarWarsRaces_Research">
+        <defName>StarWarsRaces_WookieBandolier</defName>
+        <label>Wookie Bandoliers</label>
+        <description>Wookie Bandoliers</description>
+        <baseCost>100</baseCost>
+        <tags>
+            <li>StarWarsRaces_Research_Wookie</li>
+        </tags>
+        <researchViewX>0</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+
+    <ResearchProjectDef ParentName="StarWarsRaces_Research">
+        <defName>StarWarsRaces_EwokApparel</defName>
+        <label>Ewok Tribal Clothing</label>
+        <description>Hoods and tabards for ewok tribals</description>
+        <baseCost>100</baseCost>
+        <tags>
+            <li>StarWarsRaces_Research_Ewok</li>
+        </tags>
+        <researchViewX>0</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+
+
+</Defs>
