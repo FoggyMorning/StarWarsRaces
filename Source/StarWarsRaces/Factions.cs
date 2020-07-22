@@ -358,17 +358,17 @@ namespace StarWarsRaces
                     }
                     */
                     break;
-                case ("Wookie"):
-                    ThingDef_AlienRace wookieRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Wookie");
-                    pk.race = wookieRace;
+                case ("Wookiee"):
+                    ThingDef_AlienRace wookieeRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Wookiee");
+                    pk.race = wookieeRace;
                     /*
-                    // wookies are usually naked except for the bandolier
+                    // wookiees are usually naked except for the bandolier
                     // remove all required apparel except the bandolier
                     if (pk.apparelTags.NullOrEmpty<string>())
                     {
                         pk.apparelTags = new List<string>();
                     }
-                    pk.apparelTags.Add("StarWarsRaces_WookieApparelTag");
+                    pk.apparelTags.Add("StarWarsRaces_WookieeApparelTag");
                     */
                     break;
                 case ("Ewok"):

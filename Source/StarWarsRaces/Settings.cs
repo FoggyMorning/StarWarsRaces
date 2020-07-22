@@ -24,7 +24,7 @@ namespace StarWarsRaces
         public static string[] RaceIdentif = new string[] {
             "Twilek",
             "Rodian",
-            "Wookie",
+            "Wookiee",
             "Ewok",
             "Togruta"
         };
