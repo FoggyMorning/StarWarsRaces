@@ -20,9 +20,9 @@
             <!-- extra carrying capacity -->
             <CarryingCapacity>80</CarryingCapacity>
 
-            <!--they are big and scary so have a stronger social impact-->
             <ResearchSpeed>0.9</ResearchSpeed>
             <MiningSpeed>0.9</MiningSpeed>
+            <!--they are big and scary so have a stronger social impact-->
             <SocialImpact>1.1</SocialImpact>
             <PlantWorkSpeed>0.9</PlantWorkSpeed>
             <ConstructionSpeed>0.9</ConstructionSpeed>
@@ -85,7 +85,7 @@
                             </second>
                         </li>
                         <li>
-                        <name>hair</name>
+                            <name>hair</name>
                             <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
                                 <colorChannel>skin_1</colorChannel>
                             </first>
@@ -94,39 +94,6 @@
                             </second>
                         </li>
                     </colorChannels>
-                    <alienskincolorgen Class="ColorGenerator_Options">
-                        <options>
-                            <li>
-                                <weight>10</weight>
-                                <only>RGBA(0.623, 0.380, 0.149,1)</only>
-                            </li>
-                            <li>
-                                <!-- #843e30 -->
-                                <weight>10</weight>
-                                <only>RGBA(0.517, 0.243, 0.188,1)</only>
-                            </li>
-                            <li>
-                                <!-- #8b352d -->
-                                <weight>10</weight>
-                                <only>RGBA(0.545, 0.207, 0.176,1)</only>
-                            </li>
-                            <li>
-                                <!-- #784b44 -->
-                                <weight>10</weight>
-                                <only>RGBA(0.470, 0.294, 0.266,1)</only>
-                            </li>
-                            <li>
-                                <!-- #685855 -->
-                                <weight>10</weight>
-                                <only>RGBA(0.407, 0.345, 0.333,1)</only>
-                            </li>
-                            <li>
-                                <!-- #764c41 -->
-                                <weight>10</weight>
-                                <only>RGBA(0.462, 0.298, 0.254,1)</only>
-                            </li>
-                        </options>
-                    </alienskincolorgen>
                     <bodyAddons>
                     </bodyAddons>
                 </alienPartGenerator>
@@ -134,7 +101,7 @@
                 <forcedRaceTraitEntries>
                     <li>
                         <defName>Nudist</defName>
-                        <chance>100</chance>
+                        <chance>25</chance>
                     </li>
                 </forcedRaceTraitEntries>
             </generalSettings>
@@ -147,15 +114,8 @@
                     <body>StarWarsRaces/Wookiee/Body/</body>
                 </li>
             </graphicPaths>
-            <raceRestriction>
-                <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
-                <!-- only Wookiees can wear these so I don't have to worry about if there are textures for other races -->
-                <apparelList>
-                    <li>StarWarsRaces_Wookiee_Bandolier</li>
-                </apparelList>
-            </raceRestriction>
-			<thoughtSettings>
-			</thoughtSettings>
+            <thoughtSettings>
+            </thoughtSettings>
         </alienRace>
         <tools>
             <li>

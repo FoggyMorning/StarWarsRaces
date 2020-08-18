@@ -19,133 +19,133 @@
             <li>Narrow_Pointy</li>
             <li>Narrow_Wide</li>
           </aliencrowntypes>
-            <colorChannels>
-                <li>
-                  <name>skin</name>
-                  <first Class="ColorGenerator_Options">
-                    <options>
-                      <li>
-                        <!-- #663d8f -->
-                        <weight>8</weight>
-                        <only>RGBA(0.4, 0.239, 0.560,1)</only>
-                      </li>
-                      <li>
-                        <!-- #4e4583 -->
-                        <weight>8</weight>
-                        <only>RGBA(0.4, 0.239, 0.560,1)</only>
-                      </li>
-                      <li>
-                        <!-- #bf6453 -->
-                        <weight>8</weight>
-                        <only>RGBA(0.749, 0.392, 0.325,1)</only>
-                      </li>
-                      <li>
-                        <!-- #bf6453 -->
-                        <weight>8</weight>
-                        <only>RGBA(0.8, 0.356, 0.274,1)</only>
-                      </li>
-                      <li>
-                        <!-- #C2BD55 -->
-                        <weight>4</weight>
-                        <only>RGBA(0.760, 0.741, 0.333,1)</only>
-                      </li>
-                      <li>
-                        <!-- #625C26 -->
-                        <weight>2</weight>
-                        <only>RGBA(0.384, 0.360, 0.149,1)</only>
-                      </li>
-                      <li>
-                        <!-- #BC6429 -->
-                        <weight>1</weight>
-                        <only>RGBA(0.737, 0.392, 0.160,1)</only>
-                      </li>
-                      <li>
-                        <!-- #E18F21 -->
-                        <weight>1</weight>
-                        <only>RGBA(0.882, 0.560, 0.129,1)</only>
-                      </li>
-                      <li>
-                        <!-- #8ABDD8 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.541, 0.741, 0.847,1)</only>
-                      </li>
-                      <li>
-                        <!-- #DBD3C8 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.858, 0.827, 0.784,1)</only>
-                      </li>
-                      <li>
-                        <!-- #D3EC21 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.827, 0.925, 0.129,1)</only>
-                      </li>
-                      <li>
-                        <!-- #FFFF2F -->
-                        <weight>10</weight>
-                        <only>RGBA(1, 1, 0.184,1)</only>
-                      </li>
-                      <li>
-                        <!-- #FBB906 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.984, 0.725, 0.023,1)</only>
-                      </li>
-                      <li>
-                        <!-- #FB9904 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.984, 0.6, 0.015,1)</only>
-                      </li>
-                      <li>
-                        <!-- #FC4F08 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.988, 0.309, 0.031,1)</only>
-                      </li>
-                      <li>
-                        <!-- #FF231D -->
-                        <weight>10</weight>
-                        <only>RGBA(1, 0.137, 0.113,1)</only>
-                      </li>
-                      <li>
-                        <!-- #B11B55 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.694, 0.105, 0.333,1)</only>
-                      </li>
-                      <li>
-                        <!-- #730896 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.450, 0.031, 0.588,1)</only>
-                      </li>
-                      <li>
-                        <!-- #320771 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.196, 0.027, 0.443,1)</only>
-                      </li>
-                      <li>
-                        <!-- #1549DD -->
-                        <weight>10</weight>
-                        <only>RGBA(0.082, 0.286, 0.866,1)</only>
-                      </li>
-                      <li>
-                        <!-- #0591D2 -->
-                        <weight>10</weight>
-                        <only>RGBA(0.019, 0.568, 0.823,1)</only>
-                      </li>
-                      <li>
-                        <!-- #3E7A17 -->
-                        <weight>40</weight>
-                        <only>RGBA(0.243, 0.478, 0.090,1)</only>
-                      </li>
-                      <li>
-                        <!-- #D3E92C -->
-                        <weight>40</weight>
-                        <only>RGBA(0.827, 0.913, 0.172,1)</only>
-                      </li>
-                    </options>
-                  </first>
-                  <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                      <colorChannel>skin_1</colorChannel>
-                  </second>
-                </li>
-            </colorChannels>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- #663d8f -->
+                    <weight>8</weight>
+                    <only>RGBA(0.4, 0.239, 0.560,1)</only>
+                  </li>
+                  <li>
+                    <!-- #4e4583 -->
+                    <weight>8</weight>
+                    <only>RGBA(0.4, 0.239, 0.560,1)</only>
+                  </li>
+                  <li>
+                    <!-- #bf6453 -->
+                    <weight>8</weight>
+                    <only>RGBA(0.749, 0.392, 0.325,1)</only>
+                  </li>
+                  <li>
+                    <!-- #bf6453 -->
+                    <weight>8</weight>
+                    <only>RGBA(0.8, 0.356, 0.274,1)</only>
+                  </li>
+                  <li>
+                    <!-- #C2BD55 -->
+                    <weight>4</weight>
+                    <only>RGBA(0.760, 0.741, 0.333,1)</only>
+                  </li>
+                  <li>
+                    <!-- #625C26 -->
+                    <weight>2</weight>
+                    <only>RGBA(0.384, 0.360, 0.149,1)</only>
+                  </li>
+                  <li>
+                    <!-- #BC6429 -->
+                    <weight>1</weight>
+                    <only>RGBA(0.737, 0.392, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #E18F21 -->
+                    <weight>1</weight>
+                    <only>RGBA(0.882, 0.560, 0.129,1)</only>
+                  </li>
+                  <li>
+                    <!-- #8ABDD8 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.541, 0.741, 0.847,1)</only>
+                  </li>
+                  <li>
+                    <!-- #DBD3C8 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.858, 0.827, 0.784,1)</only>
+                  </li>
+                  <li>
+                    <!-- #D3EC21 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.827, 0.925, 0.129,1)</only>
+                  </li>
+                  <li>
+                    <!-- #FFFF2F -->
+                    <weight>10</weight>
+                    <only>RGBA(1, 1, 0.184,1)</only>
+                  </li>
+                  <li>
+                    <!-- #FBB906 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.984, 0.725, 0.023,1)</only>
+                  </li>
+                  <li>
+                    <!-- #FB9904 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.984, 0.6, 0.015,1)</only>
+                  </li>
+                  <li>
+                    <!-- #FC4F08 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.988, 0.309, 0.031,1)</only>
+                  </li>
+                  <li>
+                    <!-- #FF231D -->
+                    <weight>10</weight>
+                    <only>RGBA(1, 0.137, 0.113,1)</only>
+                  </li>
+                  <li>
+                    <!-- #B11B55 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.694, 0.105, 0.333,1)</only>
+                  </li>
+                  <li>
+                    <!-- #730896 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.450, 0.031, 0.588,1)</only>
+                  </li>
+                  <li>
+                    <!-- #320771 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.196, 0.027, 0.443,1)</only>
+                  </li>
+                  <li>
+                    <!-- #1549DD -->
+                    <weight>10</weight>
+                    <only>RGBA(0.082, 0.286, 0.866,1)</only>
+                  </li>
+                  <li>
+                    <!-- #0591D2 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.019, 0.568, 0.823,1)</only>
+                  </li>
+                  <li>
+                    <!-- #3E7A17 -->
+                    <weight>40</weight>
+                    <only>RGBA(0.243, 0.478, 0.090,1)</only>
+                  </li>
+                  <li>
+                    <!-- #D3E92C -->
+                    <weight>40</weight>
+                    <only>RGBA(0.827, 0.913, 0.172,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
           <bodyAddons>
             <li>
               <path>StarWarsRaces/Twilek/LeftLekku/Lekku_Front_Left</path>
@@ -328,61 +328,6 @@
           <li>StarWarsRaces_TwilekGoggles</li>
           <li>StarWarsRaces_TwilekDecorative</li>
         </apparelList>
-        <!-- can't wear human hats -->
-        <!-- Twi'lek's weird heads make vanilla helmets look weird so don't allow them to wear them.
-                if there is a way to blacklist apparel I don't know about and you see this then let me know! -->
-        <!-- <whiteApparelList>
-          <li>Apparel_TribalA</li>
-          <li>Apparel_Parka</li>
-          <li>Apparel_Pants</li>
-          <li>Apparel_BasicShirt</li>
-          <li>Apparel_CollarShirt</li>
-          <li>Apparel_Duster</li>
-          <li>Apparel_Jacket</li>
-          <li>Apparel_PlateArmor</li>
-          <li>Apparel_PowerArmor</li>
-          <li>Apparel_FlakVest</li>
-          <li>Apparel_FlakPants</li>
-          <li>Apparel_FlakJacket</li>
-          <li>Apparel_ShieldBelt</li>
-          <li>Apparel_SmokepopBelt</li>
-          <li>Apparel_WarVeil</li>
-          <li>Apparel_WarMask</li>
-          <li>PJ_CompArmor</li>
-          <li>PJ_GenFlight_Y</li>
-          <li>PJ_ImpUniform</li>
-          <li>PJ_ImpUniformBlack</li>
-          <li>PJ_STOffUniform</li>
-          <li>PJ_ImpNAVYSHELL</li>
-          <li>PJ_ImpUniformBlackSHELL</li>
-          <li>PJ_ImpUniformGrnSHELL</li>
-          <li>PJ_ImpUniformBrownSHELL</li>
-          <li>PJ_ImpUniformISBSHELL</li>
-          <li>PJ_TroopArmor</li>
-          <li>PJ_TroopArmorJO</li>
-          <li>PJ_TroopArmorNCO</li>
-          <li>PJ_TroopArmorSO</li>
-          <li>PJ_TroopArmorSh</li>
-          <li>PJ_TroopArmorShC</li>
-          <li>PJ_TroopArmorShSL</li>
-          <li>PJ_TroopArmorDT</li>
-          <li>PJ_TroopArmorDTC</li>
-          <li>PJ_Apparel_Pants</li>
-          <li>PJ_JFac_Robe</li>
-          <li>PJ_SithFac_Robe</li>
-          <li>PJ_MandoArmor</li>
-          <li>PJ_VetMandoArmor</li>
-          <li>PJ_BarkMandoArmor</li>
-          <li>PJ_RebOfficer</li>
-          <li>PJ_RebFlight</li>
-          <li>PJ_RebBFlight</li>
-          <li>PJ_Reb_TroopJacket</li>
-          <li>PJ_Reb_ScoutJacket</li>
-          <li>PJ_Reb_ScoutLAVJacket</li>
-          <li>PJ_Reb_CamoJacket</li>
-          <li>PJ_RebCollarShirt</li>
-          <li>PJ_Apparel_XVestPlate</li>
-        </whiteApparelList> -->
       </raceRestriction>
     </alienRace>
     <tools>

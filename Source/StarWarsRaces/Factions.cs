@@ -205,7 +205,12 @@ namespace StarWarsRaces
             }
 
             string defname = "StarWarsRaces_" + label + "_" + pawnKindLabel;
-            createNewPawnKind(PawnKindDef.Named(pawnKindLabel), label, defname);
+            PawnKindDef pkOld = PawnKindDef.Named(pawnKindLabel);
+            if (pkOld.factionLeader)
+            {
+                return null;
+            }
+            createNewPawnKind(pkOld, label, defname);
             return new PawnGenOption
             {
                 selectionWeight = sw,

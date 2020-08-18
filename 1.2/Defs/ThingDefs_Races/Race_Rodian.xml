@@ -94,12 +94,12 @@
             </li>
             <li>
               <name>hair</name>
-                <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                    <colorChannel>skin_1</colorChannel>
-                </first>
-                <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                    <colorChannel>skin_2</colorChannel>
-                </second>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_2</colorChannel>
+              </second>
             </li>
           </colorChannels>
           <bodyAddons>

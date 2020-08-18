@@ -8,6 +8,9 @@
     <defaultFactionType>PlayerColony</defaultFactionType>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
     <apparelMoney>
       <min>350</min>
       <max>600</max>
