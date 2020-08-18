@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef Name="StarWarsRaces_Wookie_OutlanderBase" Abstract="True">
-    <race>StarWarsRaces_Wookie</race>
+  <PawnKindDef Name="StarWarsRaces_Wookiee_OutlanderBase" Abstract="True">
+    <race>StarWarsRaces_Wookiee</race>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
@@ -11,7 +11,7 @@
     </backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <apparelTags>
-      <li>StarWarsRaces_WookieApparelTag</li>
+      <li>StarWarsRaces_WookieeApparelTag</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.70</skipChance>
@@ -28,8 +28,8 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="StarWarsRaces_Wookie_OutlanderBase">
-    <defName>StarWarsRaces_Wookie_Villager</defName>
+  <PawnKindDef ParentName="StarWarsRaces_Wookiee_OutlanderBase">
+    <defName>StarWarsRaces_Wookiee_Villager</defName>
     <label>villager (wookie)</label>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -62,8 +62,8 @@
     </techHediffsTags>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="StarWarsRaces_Wookie_OutlanderBase">
-    <defName>StarWarsRaces_Wookie_Town_Guard</defName>
+  <PawnKindDef ParentName="StarWarsRaces_Wookiee_OutlanderBase">
+    <defName>StarWarsRaces_Wookiee_Town_Guard</defName>
     <label>town guard (wookie)</label>
     <combatPower>55</combatPower>
     <isFighter>true</isFighter>
@@ -98,8 +98,8 @@
     </techHediffsTags>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="StarWarsRaces_Wookie_OutlanderBase">
-    <defName>StarWarsRaces_Wookie_Town_Trader</defName>
+  <PawnKindDef ParentName="StarWarsRaces_Wookiee_OutlanderBase">
+    <defName>StarWarsRaces_Wookiee_Town_Trader</defName>
     <label>town trader (wookie)</label>
     <trader>true</trader>
     <combatPower>40</combatPower>
@@ -140,8 +140,8 @@
     </techHediffsTags>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="StarWarsRaces_Wookie_OutlanderBase">
-    <defName>StarWarsRaces_Wookie_Town_Councilman</defName>
+  <PawnKindDef ParentName="StarWarsRaces_Wookiee_OutlanderBase">
+    <defName>StarWarsRaces_Wookiee_Town_Councilman</defName>
     <label>town councilman (wookie)</label>
     <labelPlural>town councilmen</labelPlural>
     <combatPower>40</combatPower>

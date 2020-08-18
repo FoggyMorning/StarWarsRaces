@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
+    <defName>StarWarsRaces_Ewok</defName>
+    <label>Ewok</label>
+    <description>The Ewoks are sentient furred bipeds native to the moon of Endor.</description>
+    <alienRace>
+      <generalSettings>
+        <alienPartGenerator>
+          <customDrawSize>( 0.65, 0.65 )</customDrawSize>
+          <customHeadDrawSize>( 0.65, 0.65 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 0.65, 0.65 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 0.65, 0.65 )</customPortraitHeadDrawSize>
+          <headOffset>(0,-0.1)</headOffset>
+          <useGenderedHeads>false</useGenderedHeads>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.623, 0.380, 0.149,1)</only>
+                  </li>
+                  <li>
+                    <!-- #843e30 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.517, 0.243, 0.188,1)</only>
+                  </li>
+                  <li>
+                    <!-- #8b352d -->
+                    <weight>10</weight>
+                    <only>RGBA(0.545, 0.207, 0.176,1)</only>
+                  </li>
+                  <li>
+                    <!-- #784b44 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.470, 0.294, 0.266,1)</only>
+                  </li>
+                  <li>
+                    <!-- #685855 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.407, 0.345, 0.333,1)</only>
+                  </li>
+                  <li>
+                    <!-- #764c41 -->
+                    <weight>10</weight>
+                    <only>RGBA(0.462, 0.298, 0.254,1)</only>
+                  </li>
+                </options>
+              </first>
+              <!-- eyes -->
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.698, 0.615, 0.541,1)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.694, 0.478, 0.282,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>hair</name>
+                <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                    <colorChannel>skin_1</colorChannel>
+                </first>
+                <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                    <colorChannel>skin_2</colorChannel>
+                </second>
+            </li>
+          </colorChannels>
+          <aliencrowntypes>
+            <li>Female_Average_PatternA_Normal</li>
+            <li>Female_Average_PatternB_Normal</li>
+            <li>Male_Average_PatternA_Normal</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+          
+            <!-- hidden
+            <li>Oval</li>
+            -->
+          </alienbodytypes>
+          <bodyAddons>
+            <li>
+              <path>StarWarsRaces/Ewok/Ear/LeftEar</path>
+              <bodyPart>Ear</bodyPart>
+              <drawSize>0.65</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Female_Average_PatternA_Normal>( -0.42, 0.45 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( -0.42, 0.45 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( -0.42, 0.45 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Female_Average_PatternA_Normal>( 0.0, 0.8 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( 0.0, 0.8 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( 0.0, 0.8 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <!-- hidden -->
+                  <crownTypes>
+                    <Female_Average_PatternA_Normal>( 0,0 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( 0,0 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( 0,0 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                </east>
+                <west>
+                  <crownTypes>
+                    <Female_Average_PatternA_Normal>( -0.6, 0.45 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( -0.6, 0.45 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( -0.6, 0.45 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                  <bodyTypes>
+                    <Male>(0.01,0.0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                </west>
+              </offsets>
+              <hiddenUnderApparelFor>
+              </hiddenUnderApparelFor>
+            </li>
+            <li>
+              <path>StarWarsRaces/Ewok/Ear/RightEar</path>
+              <bodyPart>Ear</bodyPart>
+              <drawSize>0.65</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Female_Average_PatternA_Normal>( -0.42, 0.45 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( -0.42, 0.45 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( -0.42, 0.45 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Female_Average_PatternA_Normal>( 0.0, 0.8 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( 0.0, 0.8 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( 0.0, 0.8 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Female_Average_PatternA_Normal>( -0.6, 0.45 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( -0.6, 0.45 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( -0.6, 0.45 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                  <bodyTypes>
+                    <Male>(0.01,0.0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                </east>
+                <west>
+                  <crownTypes>
+                    <!-- hidden -->
+                    <Female_Average_PatternA_Normal>( 0,0 )</Female_Average_PatternA_Normal>
+                    <Female_Average_PatternB_Normal>( 0,0 )</Female_Average_PatternB_Normal>
+                    <Male_Average_PatternA_Normal>( 0,0 )</Male_Average_PatternA_Normal>
+                  </crownTypes>
+                </west>
+              </offsets>
+              <hiddenUnderApparelFor>
+              </hiddenUnderApparelFor>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+        <humanRecipeImport>true</humanRecipeImport>
+      </generalSettings>
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+      <graphicPaths>
+        <li>
+          <head>StarWarsRaces/Ewok/Head/</head>
+        </li>
+      </graphicPaths>
+    </alienRace>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <leatherDef>StarWarsRaces_Leather_Humanlike</leatherDef>
+      <nameGenerator>StarWarsRaces_NamerPersonEwokM</nameGenerator>
+      <nameGeneratorFemale>StarWarsRaces_NamerPersonEwokF</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

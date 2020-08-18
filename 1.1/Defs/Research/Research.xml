@@ -16,7 +16,7 @@
     </ResearchProjectTagDef>
 
     <ResearchProjectTagDef>
-        <defName>StarWarsRaces_Research_Wookie</defName>
+        <defName>StarWarsRaces_Research_Wookiee</defName>
     </ResearchProjectTagDef>
 
     <ResearchProjectTagDef>
@@ -36,12 +36,12 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="StarWarsRaces_Research">
-        <defName>StarWarsRaces_WookieBandolier</defName>
-        <label>Wookie Bandoliers</label>
-        <description>Wookie Bandoliers</description>
+        <defName>StarWarsRaces_WookieeBandolier</defName>
+        <label>Wookiee Bandoliers</label>
+        <description>Wookiee Bandoliers</description>
         <baseCost>100</baseCost>
         <tags>
-            <li>StarWarsRaces_Research_Wookie</li>
+            <li>StarWarsRaces_Research_Wookiee</li>
         </tags>
         <researchViewX>0</researchViewX>
         <researchViewY>1</researchViewY>

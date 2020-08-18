@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <PawnKindDef Name="StarWarsRaces_Wookie_PirateBase" Abstract="True">
-        <race>StarWarsRaces_Wookie</race>
+    <PawnKindDef Name="StarWarsRaces_Wookiee_PirateBase" Abstract="True">
+        <race>StarWarsRaces_Wookiee</race>
         <defaultFactionType>Pirate</defaultFactionType>
         <backstoryCategories>
             <li>Raider</li>
@@ -11,15 +11,15 @@
         <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
         <invNutrition>2.55</invNutrition>
         <apparelTags>
-            <li>StarWarsRaces_WookieApparelTag</li>
+            <li>StarWarsRaces_WookieeApparelTag</li>
         </apparelTags>
 
     </PawnKindDef>
 
     <!-- Povery tier - drifter -->
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_PirateBase">
-        <defName>StarWarsRaces_Wookie_Drifter</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_PirateBase">
+        <defName>StarWarsRaces_Wookiee_Drifter</defName>
         <label>drifter (wookie)</label>
         <combatPower>35</combatPower>
         <invNutrition>0</invNutrition>
@@ -75,7 +75,7 @@
 
     <!-- Low tier - scavenger, thrasher -->
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_PirateBase" Name="StarWarsRaces_Wookie_PirateScavTierBase" Abstract="True">
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_PirateBase" Name="StarWarsRaces_Wookiee_PirateScavTierBase" Abstract="True">
         <combatPower>45</combatPower>
         <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
         <itemQuality>Poor</itemQuality>
@@ -117,8 +117,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_PirateScavTierBase">
-        <defName>StarWarsRaces_Wookie_Scavenger</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_PirateScavTierBase">
+        <defName>StarWarsRaces_Wookiee_Scavenger</defName>
         <label>scavenger gunner (wookie)</label>
         <apparelMoney>
             <min>300</min>
@@ -133,10 +133,10 @@
         </weaponTags>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_PirateScavTierBase">
-        <defName>StarWarsRaces_Wookie_Thrasher</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_PirateScavTierBase">
+        <defName>StarWarsRaces_Wookiee_Thrasher</defName>
         <label>scavenger thrasher (wookie)</label>
-        <race>StarWarsRaces_Wookie</race>
+        <race>StarWarsRaces_Wookiee</race>
         <canBeSapper>true</canBeSapper>
         <apparelMoney>
             <min>300</min>
@@ -158,10 +158,10 @@
 
     <!-- Mid tier - pirate -->
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_PirateBase">
-        <defName>StarWarsRaces_Wookie_Pirate</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_PirateBase">
+        <defName>StarWarsRaces_Wookiee_Pirate</defName>
         <label>pirate gunner (wookie)</label>
-        <race>StarWarsRaces_Wookie</race>
+        <race>StarWarsRaces_Wookiee</race>
         <combatPower>65</combatPower>
         <maxGenerationAge>65</maxGenerationAge>
         <gearHealthRange>

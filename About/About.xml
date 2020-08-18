@@ -3,7 +3,7 @@
 	<name>Star Wars Races</name>
 	<author>Foggy Morning</author>
 	<url>https://github.com/FoggyMorning/StarWarsRaces</url>
-   <supportedVersions><li>1.0</li><li>1.1</li></supportedVersions>
+   <supportedVersions><li>1.0</li><li>1.1</li><li>1.2</li></supportedVersions>
    
   <packageId>FoggyMorning.StarWarsRaces</packageId>
   
@@ -18,7 +18,7 @@
       <li>erdelf.HumanoidAlienRaces</li>
     </loadAfter>
 	
-	<description>Adds the Wookie, Rodian, Twi'lek, Ewok, and Togruta races to the PlayerColony and PlayerTribe factions.  
+	<description>Adds the Wookiee, Rodian, Twi'lek, Ewok, and Togruta races to the PlayerColony and PlayerTribe factions.  
 This makes them available at game start for all scenarios that use those factions.   Does not add any additional factions.
 Additionally all three races can show up as refugees, wanderers, or slaves during game play.  
 They will also now show up as part of the Pirate faction by default.
@@ -27,7 +27,7 @@ They will also now show up as part of the Pirate faction by default.
 
 - Rodians have the same stats as humans, but have antenna which function as a hearing source, and do not have a bite attack.
 - Twi'leks ave the same stats as humans, but have Lekku (the head tentacles) setup as body addons.  The Lekku count as a manipulation source.  Includes new hats for Twi'leks only with a small research requirement to unlock. Twi'leks can not use vanilla hats/helmets.
-- Wookies are slightly taller than other pawns. They do more melee damage, have additional health, increased comfortable temperature range, and work slightly slower in construction, mining, and plants.  Adds a Wookie bandolier as well with a small research requirement to unlock.  Wookies are all nudists, but can still wear bandoliers.
+- Wookiees are slightly taller than other pawns. They do more melee damage, have additional health, increased comfortable temperature range, and work slightly slower in construction, mining, and plants.  Adds a Wookiee bandolier as well with a small research requirement to unlock.  Wookiees are all nudists, but can still wear bandoliers.
 - Ewoks have the same stats as humans, but are smaller than other pawns and have tribal backstories.
 - Togruta have the same stats as humans,  but have multiple addons including three lekku and the montrals.  The Montrals count as vision and hearing sources.  Togruta heads have a distinct face paints as well. Togruta can not use hats/helmets.
 
@@ -36,18 +36,6 @@ They will also now show up as part of the Pirate faction by default.
 Should be compatible with other existing Star Wars mods including any others that add the same species.
 Thanks to erdelf for the Alien Race framework!
 Thanks to the owners and creators of Star Wars.
-
-
-[h1] Updates [/h1]
-Update 4/2/2019
-    - Updated In-game Settings.  Includes options to include in all default factions.  Adds a copy of the colonist to the outlander civil faction to allow you to select them when using Prepare Carefully.  Likewise with the tribal civil faction and the tribal members.
-
-Update 3/27/2019
-	- Adds the Togruta race.
-		- Togruta can't wear any hats due to their montrals which are both a vision and a hearing source.
-	- Fixed an issue with Rodian antenna.
-
-
 
 	</description>
 </ModMetaData>
