@@ -149,7 +149,7 @@
             </graphicPaths>
             <raceRestriction>
                 <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
-                <!-- only wookiees can wear these so I don't have to worry about if there are textures for other races -->
+                <!-- only Wookiees can wear these so I don't have to worry about if there are textures for other races -->
                 <apparelList>
                     <li>StarWarsRaces_Wookiee_Bandolier</li>
                 </apparelList>

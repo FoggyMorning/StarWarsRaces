@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
  <ThingDef ParentName="ApparelBase">
-    <defName>StarWarsRaces_Wookie_Bandolier</defName>
-    <label>wookie bandolier</label>
+    <defName>StarWarsRaces_Wookiee_Bandolier</defName>
+    <label>Wookiee bandolier</label>
     <thingCategories>
-      <li>StarWarsRaces_WookieAccesoriesCategory</li>
+      <li>StarWarsRaces_WookieeAccesoriesCategory</li>
     </thingCategories>
     <description>Belt designed for carrying ammunition. Makes reloading firearms faster.</description>
 		<recipeMaker>
-			<researchPrerequisite>StarWarsRaces_WookieBandolier</researchPrerequisite>
+			<researchPrerequisite>StarWarsRaces_WookieeBandolier</researchPrerequisite>
             <recipeUsers>
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
@@ -19,7 +19,7 @@
             </skillRequirements>
 		</recipeMaker>
     <graphicData>
-      <texPath>StarWarsRaces/Wookie/Bandolier/Bandolier_Hulk_south</texPath>
+      <texPath>StarWarsRaces/Wookiee/Bandolier/Bandolier_Hulk_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>30</costStuffCount>
@@ -40,15 +40,15 @@
       <bodyPartGroups>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>StarWarsRaces/Wookie/Bandolier/Bandolier</wornGraphicPath>
+      <wornGraphicPath>StarWarsRaces/Wookiee/Bandolier/Bandolier</wornGraphicPath>
       <layers>
         <li>Belt</li>
       </layers>
       <tags>
-        <li>StarWarsRaces_WookieApparelTag</li>
+        <li>StarWarsRaces_WookieeApparelTag</li>
       </tags>
       <defaultOutfitTags>
-        <li>StarWarsRaces_WookieApparelTag</li>
+        <li>StarWarsRaces_WookieeApparelTag</li>
       </defaultOutfitTags>
     </apparel>
 

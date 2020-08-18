@@ -30,13 +30,13 @@
         </li>
         <li>
           <kindDefs>
-            <li>StarWarsRaces_WookieColonist</li>
+            <li>StarWarsRaces_WookieeColonist</li>
           </kindDefs>
           <chance>70.0</chance>
         </li>
         <li>
           <kindDefs>
-            <li>StarWarsRaces_WookieTribesperson</li>
+            <li>StarWarsRaces_WookieeTribesperson</li>
           </kindDefs>
           <chance>70.0</chance>
         </li>
@@ -93,13 +93,13 @@
         </li>
         <li>
           <kindDefs>
-            <li>StarWarsRaces_WookieColonist</li>
+            <li>StarWarsRaces_WookieeColonist</li>
           </kindDefs>
           <chance>70.0</chance>
         </li>
         <li>
           <kindDefs>
-            <li>StarWarsRaces_WookieTribesperson</li>
+            <li>StarWarsRaces_WookieeTribesperson</li>
           </kindDefs>
           <chance>70.0</chance>
         </li>
@@ -133,7 +133,7 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-                <li>StarWarsRaces_WookieColonist</li>
+                <li>StarWarsRaces_WookieeColonist</li>
               </kindDefs>
               <chance>70.0</chance>
             </li>
@@ -172,7 +172,7 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-                <li>StarWarsRaces_WookieTribesperson</li>
+                <li>StarWarsRaces_WookieeTribesperson</li>
               </kindDefs>
               <chance>70.0</chance>
             </li>
@@ -265,7 +265,7 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-                <li>StarWarsRaces_WookieColonist</li>
+                <li>StarWarsRaces_WookieeColonist</li>
               </kindDefs>
               <chance>70.0</chance>
             </li>
@@ -304,7 +304,7 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-                <li>StarWarsRaces_WookieTribesperson</li>
+                <li>StarWarsRaces_WookieeTribesperson</li>
               </kindDefs>
               <chance>70.0</chance>
             </li>

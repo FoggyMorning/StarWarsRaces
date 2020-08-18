@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <PawnKindDef Name="StarWarsRaces_Wookie_MercenaryBase" Abstract="True">
-        <race>StarWarsRaces_Wookie</race>
+    <PawnKindDef Name="StarWarsRaces_Wookiee_MercenaryBase" Abstract="True">
+        <race>StarWarsRaces_Wookiee</race>
         <defaultFactionType>Pirate</defaultFactionType>
         <backstoryCategories>
             <li>Raider</li>
@@ -18,14 +18,14 @@
             <max>2</max>
         </combatEnhancingDrugsCount>
         <apparelTags>
-            <li>StarWarsRaces_WookieApparelTag</li>
+            <li>StarWarsRaces_WookieeApparelTag</li>
         </apparelTags>
     </PawnKindDef>
 
     <!-- Low merc tier - grenadiers -->
 
-    <PawnKindDef Abstract="True" Name="StarWarsRaces_Wookie_GrenadierBase" ParentName="StarWarsRaces_Wookie_MercenaryBase">
-        <race>StarWarsRaces_Wookie</race>
+    <PawnKindDef Abstract="True" Name="StarWarsRaces_Wookiee_GrenadierBase" ParentName="StarWarsRaces_Wookiee_MercenaryBase">
+        <race>StarWarsRaces_Wookiee</race>
         <combatPower>65</combatPower>
         <gearHealthRange>
             <min>0.7</min>
@@ -73,8 +73,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_GrenadierBase">
-        <defName>StarWarsRaces_Wookie_Grenadier_Destructive</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_GrenadierBase">
+        <defName>StarWarsRaces_Wookiee_Grenadier_Destructive</defName>
         <label>grenadier (wookie)</label>
         <canBeSapper>true</canBeSapper>
         <weaponTags>
@@ -82,8 +82,8 @@
         </weaponTags>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_GrenadierBase">
-        <defName>StarWarsRaces_Wookie_Grenadier_EMP</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_GrenadierBase">
+        <defName>StarWarsRaces_Wookiee_Grenadier_EMP</defName>
         <label>EMP grenadier (wookie)</label>
         <weaponTags>
             <li>GrenadeEMP</li>
@@ -92,7 +92,7 @@
 
     <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_MercenaryBase" Name="StarWarsRaces_Wookie_MercenaryMidTierBase" Abstract="True">
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_MercenaryBase" Name="StarWarsRaces_Wookiee_MercenaryMidTierBase" Abstract="True">
         <techHediffsChance>0.15</techHediffsChance>
         <techHediffsMoney>
             <min>700</min>
@@ -104,8 +104,8 @@
         </techHediffsTags>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_MercenaryMidTierBase">
-        <defName>StarWarsRaces_Wookie_Mercenary_Gunner</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_MercenaryMidTierBase">
+        <defName>StarWarsRaces_Wookiee_Mercenary_Gunner</defName>
         <label>mercenary gunner (wookie)</label>
         <combatPower>90</combatPower>
         <gearHealthRange>
@@ -153,8 +153,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_MercenaryMidTierBase">
-        <defName>StarWarsRaces_Wookie_Mercenary_Sniper</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_MercenaryMidTierBase">
+        <defName>StarWarsRaces_Wookiee_Mercenary_Sniper</defName>
         <label>mercenary sniper (wookie)</label>
         <combatPower>110</combatPower>
         <gearHealthRange>
@@ -196,8 +196,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_MercenaryMidTierBase">
-        <defName>StarWarsRaces_Wookie_Mercenary_Slasher</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_MercenaryMidTierBase">
+        <defName>StarWarsRaces_Wookiee_Mercenary_Slasher</defName>
         <label>mercenary slasher (wookie)</label>
         <combatPower>150</combatPower>
         <canBeSapper>true</canBeSapper>
@@ -245,8 +245,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_MercenaryMidTierBase">
-        <defName>StarWarsRaces_Wookie_Mercenary_Heavy</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_MercenaryMidTierBase">
+        <defName>StarWarsRaces_Wookiee_Mercenary_Heavy</defName>
         <label>heavy mercenary (wookie)</label>
         <labelPlural>heavy mercenaries</labelPlural>
         <combatPower>150</combatPower>
@@ -274,7 +274,7 @@
 
     <!-- Elite tier - merc elite, pirate boss -->
 
-    <PawnKindDef Abstract="True" Name="StarWarsRaces_Wookie_MercenaryEliteTierBase" ParentName="StarWarsRaces_Wookie_MercenaryBase">
+    <PawnKindDef Abstract="True" Name="StarWarsRaces_Wookiee_MercenaryEliteTierBase" ParentName="StarWarsRaces_Wookiee_MercenaryBase">
         <combatPower>150</combatPower>
         <maxGenerationAge>45</maxGenerationAge>
         <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
@@ -314,8 +314,8 @@
         </combatEnhancingDrugsCount>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_MercenaryEliteTierBase">
-        <defName>StarWarsRaces_Wookie_PirateBoss</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_MercenaryEliteTierBase">
+        <defName>StarWarsRaces_Wookiee_PirateBoss</defName>
         <label>boss (wookie)</label>
         <labelPlural>bosses</labelPlural>
         <factionLeader>true</factionLeader>
@@ -335,8 +335,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="StarWarsRaces_Wookie_MercenaryEliteTierBase">
-        <defName>StarWarsRaces_Wookie_Mercenary_Elite</defName>
+    <PawnKindDef ParentName="StarWarsRaces_Wookiee_MercenaryEliteTierBase">
+        <defName>StarWarsRaces_Wookiee_Mercenary_Elite</defName>
         <label>elite mercenary (wookie)</label>
         <labelPlural>elite mercenaries</labelPlural>
         <inventoryOptions>

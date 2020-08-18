@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
-        <defName>StarWarsRaces_Wookie</defName>
-        <label>Wookie</label>
+        <defName>StarWarsRaces_Wookiee</defName>
+        <label>Wookiee</label>
         <description>Shaggy giants from an arboreal world, the tall and commanding Wookiee species is an impressive sight to even the most jaded spacer. 
         Despite their fearsome and savage countenance, Wookiees are intelligent, sophisticated, loyal and trusting. Loyalty and bravery are near-sacred tenets in Wookiee society. 
         When peaceful, Wookiees are tender and gentle. 
@@ -95,15 +95,15 @@
             </hairSettings>
             <graphicPaths>
                 <li>
-                    <head>StarWarsRaces/Wookie/Head/</head>
-                    <body>StarWarsRaces/Wookie/Body/</body>
+                    <head>StarWarsRaces/Wookiee/Head/</head>
+                    <body>StarWarsRaces/Wookiee/Body/</body>
                 </li>
             </graphicPaths>
             <raceRestriction>
                 <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
-                <!-- only wookies can wear these so I don't have to worry about if there are textures for other races -->
+                <!-- only Wookiees can wear these so I don't have to worry about if there are textures for other races -->
                 <apparelList>
-                    <li>StarWarsRaces_Wookie_Bandolier</li>
+                    <li>StarWarsRaces_Wookiee_Bandolier</li>
                 </apparelList>
             </raceRestriction>
 			<thoughtSettings>
@@ -168,8 +168,8 @@
         </tools>
         <race>
             <leatherDef>StarWarsRaces_Leather_Humanlike</leatherDef>
-            <nameGenerator>StarWarsRaces_NamerPersonWookieM</nameGenerator>
-            <nameGeneratorFemale>StarWarsRaces_NamerPersonWookieF</nameGeneratorFemale>
+            <nameGenerator>StarWarsRaces_NamerPersonWookieeM</nameGenerator>
+            <nameGeneratorFemale>StarWarsRaces_NamerPersonWookieeF</nameGeneratorFemale>
         </race>
     </AlienRace.ThingDef_AlienRace>
 

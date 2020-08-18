@@ -30,8 +30,8 @@
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
-		<defName>StarWarsRaces_WookieAccesoriesCategory</defName>
-		<label>Star Wars Races - Wookie</label>
+		<defName>StarWarsRaces_WookieeAccesoriesCategory</defName>
+		<label>Star Wars Races - Wookiee</label>
 		<parent>StarWarsRaces_ApparelCategory</parent>
 		<resourceReadoutRoot>true</resourceReadoutRoot>
 	</ThingCategoryDef>

@@ -2,13 +2,13 @@
 <Defs>
 
   <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>StarWarsRaces_WookieColonist</defName>
-    <race>StarWarsRaces_Wookie</race>
-    <label>colonist (wookie)</label>
+    <defName>StarWarsRaces_WookieeColonist</defName>
+    <race>StarWarsRaces_Wookiee</race>
+    <label>colonist (wookiee)</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
-      <li>StarWarsRaces_WookieApparelTag</li>
+      <li>StarWarsRaces_WookieeApparelTag</li>
     </apparelTags>
     <apparelAllowHeadgearChance>50</apparelAllowHeadgearChance>
     <apparelMoney>
@@ -27,18 +27,18 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <apparelRequired>
-      <li>StarWarsRaces_Wookie_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier</li>
     </apparelRequired>
   </PawnKindDef>
   
   <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>StarWarsRaces_WookieTribesperson</defName>
-    <race>StarWarsRaces_Wookie</race>
-    <label>member (wookie)</label>
+    <defName>StarWarsRaces_WookieeTribesperson</defName>
+    <race>StarWarsRaces_Wookiee</race>
+    <label>member (wookiee)</label>
     <defaultFactionType>PlayerTribe</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
-      <li>StarWarsRaces_WookieApparelTag</li>
+      <li>StarWarsRaces_WookieeApparelTag</li>
     </apparelTags>
     <apparelAllowHeadgearChance>50</apparelAllowHeadgearChance>
     <apparelMoney>
@@ -55,19 +55,19 @@
     </techHediffsTags>
     <techHediffsChance>0.02</techHediffsChance>
     <apparelRequired>
-      <li>StarWarsRaces_Wookie_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier</li>
     </apparelRequired>
   </PawnKindDef>
 
 <!-- prepare carefully -->
   <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>StarWarsRaces_WookieColonist_PrepareCarefully</defName>
-    <race>StarWarsRaces_Wookie</race>
-    <label>colonist (wookie)</label>
+    <defName>StarWarsRaces_WookieeColonist_PrepareCarefully</defName>
+    <race>StarWarsRaces_Wookiee</race>
+    <label>colonist (wookiee)</label>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
-      <li>StarWarsRaces_WookieApparelTag</li>
+      <li>StarWarsRaces_WookieeApparelTag</li>
     </apparelTags>
     <apparelAllowHeadgearChance>50</apparelAllowHeadgearChance>
     <apparelMoney>
@@ -86,19 +86,19 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <apparelRequired>
-      <li>StarWarsRaces_Wookie_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier</li>
     </apparelRequired>
   </PawnKindDef>
   
 <!-- prepare carefully -->
   <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>StarWarsRaces_WookieTribesperson_PrepareCarefully</defName>
-    <race>StarWarsRaces_Wookie</race>
-    <label>member (wookie)</label>
+    <defName>StarWarsRaces_WookieeTribesperson_PrepareCarefully</defName>
+    <race>StarWarsRaces_Wookiee</race>
+    <label>member (wookiee)</label>
     <defaultFactionType>TribeCivil</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
-      <li>StarWarsRaces_WookieApparelTag</li>
+      <li>StarWarsRaces_WookieeApparelTag</li>
     </apparelTags>
     <apparelAllowHeadgearChance>50</apparelAllowHeadgearChance>
     <apparelMoney>
@@ -115,7 +115,7 @@
     </techHediffsTags>
     <techHediffsChance>0.02</techHediffsChance>
     <apparelRequired>
-      <li>StarWarsRaces_Wookie_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier</li>
     </apparelRequired>
   </PawnKindDef>
 

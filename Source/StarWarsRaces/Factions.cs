@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Verse;
+﻿using Verse;
 using RimWorld;
 using AlienRace;
 using System.Linq;
@@ -129,6 +128,15 @@ namespace StarWarsRaces
                 if (SettingsController.Settings.IncludeInTribal)
                 {
                     FactionDef f = DefDatabase<FactionDef>.GetNamed("TribeRough", true);
+                    PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
+                    for (int x = 0; x < g.Length; x++)
+                    {
+                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i]);
+                    }
+                }
+                if (SettingsController.Settings.IncludeInTribal)
+                {
+                    FactionDef f = DefDatabase<FactionDef>.GetNamed("TribeSavage", true);
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
@@ -358,17 +366,17 @@ namespace StarWarsRaces
                     }
                     */
                     break;
-                case ("Wookie"):
-                    ThingDef_AlienRace wookieRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Wookie");
-                    pk.race = wookieRace;
+                case ("Wookiee"):
+                    ThingDef_AlienRace WookieeRace = DefDatabase<ThingDef_AlienRace>.GetNamed("StarWarsRaces_Wookiee");
+                    pk.race = WookieeRace;
                     /*
-                    // wookies are usually naked except for the bandolier
+                    // Wookiees are usually naked except for the bandolier
                     // remove all required apparel except the bandolier
                     if (pk.apparelTags.NullOrEmpty<string>())
                     {
                         pk.apparelTags = new List<string>();
                     }
-                    pk.apparelTags.Add("StarWarsRaces_WookieApparelTag");
+                    pk.apparelTags.Add("StarWarsRaces_WookieeApparelTag");
                     */
                     break;
                 case ("Ewok"):
