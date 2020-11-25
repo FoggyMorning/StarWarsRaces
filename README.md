@@ -1,3 +1,3 @@
 # StarWarsRaces
 mod for the game rimworld
-https://github.com/FoggyMorning/StarWarsRaces
+https://steamcommunity.com/sharedfiles/filedetails/?id=1662194938
