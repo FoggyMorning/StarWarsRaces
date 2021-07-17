@@ -110,8 +110,11 @@
                             <bodyPart>montral</bodyPart>
                             <drawSize>1</drawSize>
                             <inFrontOfBody>true</inFrontOfBody>
-                            <!-- in front of head, but behind light sabers for all views but north-->
-                            <layerOffset>0</layerOffset>
+                            <!-- in front of head, but behind light sabers for all views but north
+                                the sweet spot so they are behind hats/helmets but still in front of the head/face.
+                                Thanks to Delta1138 on steam for finding the layeroffset
+                            -->
+                            <layerOffset>-.2692</layerOffset>
                             <drawnInBed>true</drawnInBed>
                             <offsets>
                                 <south>
