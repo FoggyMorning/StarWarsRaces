@@ -95,7 +95,7 @@ namespace StarWarsRaces
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInOutlander)
@@ -104,7 +104,7 @@ namespace StarWarsRaces
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInOutlander)
@@ -113,7 +113,7 @@ namespace StarWarsRaces
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInTribal)
@@ -122,7 +122,7 @@ namespace StarWarsRaces
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInTribal)
@@ -131,7 +131,7 @@ namespace StarWarsRaces
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInTribal)
@@ -140,7 +140,7 @@ namespace StarWarsRaces
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i]);
                     }
                 }
 
@@ -151,38 +151,38 @@ namespace StarWarsRaces
                     PawnGroupMaker[] pgmsReb = rebFact.pawnGroupMakers.ToArray();
                     for (int j = 0; j < pgmsReb.Length; j++)
                     {
-                        rebFact.pawnGroupMakers[j] = addPawnKindsToFactions(pgmsReb[j], labels[i]);
+                        rebFact.pawnGroupMakers[j] = AddPawnKindsToFactions(pgmsReb[j], labels[i]);
                     }
 
                     FactionDef scumFact = DefDatabase<FactionDef>.GetNamed("PJ_Bounty", true);
                     PawnGroupMaker[] pgmsScum = scumFact.pawnGroupMakers.ToArray();
                     for (int j = 0; j < pgmsScum.Length; j++)
                     {
-                        scumFact.pawnGroupMakers[j] = addPawnKindsToFactions(pgmsScum[j], labels[i]);
+                        scumFact.pawnGroupMakers[j] = AddPawnKindsToFactions(pgmsScum[j], labels[i]);
                     }
                 }
             }
         }
 
  
-        private static PawnGroupMaker addPawnKindsToFactions(PawnGroupMaker pgm, string label)
+        private static PawnGroupMaker AddPawnKindsToFactions(PawnGroupMaker pgm, string label)
         {
                 // groups can be either an options or a guards for whatever reason, so check for both.
                 PawnGenOption[] options = pgm.options.ToArray();
                 for (int i = 0; i < options.Length; i++)
                 {
-                    PawnGenOption pgo = makePawnGenOption(options[i], label);
-                    if (pgo != null) { pgm.addPawn(pgo, false); }
+                    PawnGenOption pgo = MakePawnGenOption(options[i], label);
+                    if (pgo != null) { pgm.AddPawn(pgo, false); }
                 }
                 PawnGenOption[] guards = pgm.guards.ToArray();
                 for (int j = 0; j < guards.Length; j++)
                 {
-                    PawnGenOption pgo = makePawnGenOption(guards[j], label);
-                    if (pgo != null) { pgm.addPawn(pgo, true); }
+                    PawnGenOption pgo = MakePawnGenOption(guards[j], label);
+                    if (pgo != null) { pgm.AddPawn(pgo, true); }
                 }
             return pgm;
         }
-        private static void addPawn(this PawnGroupMaker pgm, PawnGenOption pgo, bool isTrader = false)
+        private static void AddPawn(this PawnGroupMaker pgm, PawnGenOption pgo, bool isTrader = false)
         {
             if (pgo.kind == null) { return; };
             if (isTrader)
@@ -192,7 +192,7 @@ namespace StarWarsRaces
             }
             pgm.options.Add(pgo);
         }
-        private static PawnGenOption makePawnGenOption(PawnGenOption existing, string label)
+        private static PawnGenOption MakePawnGenOption(PawnGenOption existing, string label)
         {
             string pawnKindLabel = existing.kind.defName;
             float sw = existing.selectionWeight * 0.075f;
@@ -210,7 +210,7 @@ namespace StarWarsRaces
             {
                 return null;
             }
-            createNewPawnKind(pkOld, label, defname);
+            CreateNewPawnKind(pkOld, label, defname);
             return new PawnGenOption
             {
                 selectionWeight = sw,
@@ -218,75 +218,76 @@ namespace StarWarsRaces
             };
         }
         
-        private static void createNewPawnKind(PawnKindDef pkOld, string label, string defname)
+        private static void CreateNewPawnKind(PawnKindDef pkOld, string label, string defname)
         {
             // if it already exists then don't recreate it
             if (DefDatabase<PawnKindDef>.GetNamedSilentFail(defname) != null)
             {
                 return;
             }
-            PawnKindDef pk = new PawnKindDef();
-            pk.defName = defname;
-            pk.label = pkOld.label + " (" + label + ")";
+            PawnKindDef pk = new PawnKindDef
+            {
+                defName = defname,
+                label = pkOld.label + " (" + label + ")",
 
-            pk.allowRoyalApparelRequirements = pkOld.allowRoyalApparelRequirements;
-            pk.allowRoyalRoomRequirements = pkOld.allowRoyalRoomRequirements;
-            pk.alternateGraphicChance = pkOld.alternateGraphicChance;
-            pk.alternateGraphics = pkOld.alternateGraphics.ListFullCopyOrNull<AlternateGraphic>();
-            pk.apparelRequired = pkOld.apparelRequired.ListFullCopyOrNull<ThingDef>();
-            pk.apparelDisallowTags = pkOld.apparelDisallowTags.ListFullCopyOrNull<string>();
-            pk.apparelTags = pkOld.apparelTags.ListFullCopyOrNull<string>();
-            pk.apparelAllowHeadgearChance = pkOld.apparelAllowHeadgearChance;   
-            pk.aiAvoidCover = pkOld.aiAvoidCover;
-            pk.apparelColor = pkOld.apparelColor;
-            pk.apparelIgnoreSeasons = pkOld.apparelIgnoreSeasons;
-            pk.apparelMoney = new FloatRange(min:pkOld.apparelMoney.min, max:pkOld.apparelMoney.max);
-            pk.backstoryCategories = pkOld.backstoryCategories.ListFullCopyOrNull<string>();
-            pk.backstoryFilters = pkOld.backstoryFilters.ListFullCopyOrNull<BackstoryCategoryFilter>();
-            pk.backstoryFiltersOverride = pkOld.backstoryFiltersOverride.ListFullCopyOrNull<BackstoryCategoryFilter>();
-            pk.backstoryCryptosleepCommonality = pkOld.backstoryCryptosleepCommonality;
-            pk.baseRecruitDifficulty = pkOld.baseRecruitDifficulty;
-            pk.biocodeWeaponChance = pkOld.biocodeWeaponChance;
-            pk.canArriveManhunter = pkOld.canArriveManhunter;
-            pk.canBeSapper = pkOld.canBeSapper;
-            pk.chemicalAddictionChance = pkOld.chemicalAddictionChance;
-            pk.combatEnhancingDrugsChance = pkOld.combatEnhancingDrugsChance;
-            pk.combatEnhancingDrugsCount = pkOld.combatEnhancingDrugsCount;
-            pk.combatPower = pkOld.combatPower;
-            pk.defaultFactionType = pkOld.defaultFactionType;
-            pk.description = pkOld.description;
-            pk.defendPointRadius = pkOld.defendPointRadius;
-            pk.destroyGearOnDrop = pkOld.destroyGearOnDrop;
-            pk.disallowedTraits = pkOld.disallowedTraits.ListFullCopyOrNull<TraitDef>();
-            pk.ecoSystemWeight = pkOld.ecoSystemWeight;
-            pk.factionLeader = pkOld.factionLeader;
-            pk.fixedInventory = pkOld.fixedInventory.ListFullCopyOrNull<ThingDefCountClass>();
-            pk.fleeHealthThresholdRange = new FloatRange(min: pkOld.fleeHealthThresholdRange.min, max: pkOld.fleeHealthThresholdRange.max);
-            pk.forceNormalGearQuality = pkOld.forceNormalGearQuality;
-            pk.gearHealthRange = new FloatRange(min: pkOld.gearHealthRange.min, max: pkOld.gearHealthRange.max);
-            pk.generated = pkOld.generated;
-            pk.hairTags = pkOld.hairTags;
-            pk.inventoryOptions = pkOld.inventoryOptions;
-            pk.invFoodDef = pkOld.invFoodDef;
-            pk.invNutrition = pkOld.invNutrition;
-            pk.isFighter = pkOld.isFighter;
-            pk.itemQuality = pkOld.itemQuality;
-            pk.labelMale = pkOld.labelMale;
-            pk.labelMalePlural = pkOld.labelMalePlural;
-            pk.labelFemale = pkOld.labelFemale;
-            pk.labelFemalePlural = pkOld.labelFemalePlural;
-            pk.labelPlural = pkOld.labelPlural;
-            pk.lifeStages = pkOld.lifeStages.ListFullCopyOrNull<PawnKindLifeStage>();
-            pk.maxGenerationAge = pkOld.maxGenerationAge;
-            pk.minGenerationAge = pkOld.minGenerationAge;
-            pk.modContentPack = pkOld.modContentPack;
-            pk.modExtensions = pkOld.modExtensions;
-            pk.royalTitleChance = pkOld.royalTitleChance;
-            pk.skills = pkOld.skills.ListFullCopyOrNull<SkillRange>(); ;
-            pk.specificApparelRequirements = pkOld.specificApparelRequirements.ListFullCopyOrNull<SpecificApparelRequirement>(); ;
+                allowRoyalApparelRequirements = pkOld.allowRoyalApparelRequirements,
+                allowRoyalRoomRequirements = pkOld.allowRoyalRoomRequirements,
+                alternateGraphicChance = pkOld.alternateGraphicChance,
+                alternateGraphics = pkOld.alternateGraphics.ListFullCopyOrNull<AlternateGraphic>(),
+                apparelRequired = pkOld.apparelRequired.ListFullCopyOrNull<ThingDef>(),
+                apparelDisallowTags = pkOld.apparelDisallowTags.ListFullCopyOrNull<string>(),
+                apparelTags = pkOld.apparelTags.ListFullCopyOrNull<string>(),
+                apparelAllowHeadgearChance = pkOld.apparelAllowHeadgearChance,
+                aiAvoidCover = pkOld.aiAvoidCover,
+                apparelColor = pkOld.apparelColor,
+                apparelIgnoreSeasons = pkOld.apparelIgnoreSeasons,
+                apparelMoney = new FloatRange(min: pkOld.apparelMoney.min, max: pkOld.apparelMoney.max),
+                backstoryCategories = pkOld.backstoryCategories.ListFullCopyOrNull<string>(),
+                backstoryFilters = pkOld.backstoryFilters.ListFullCopyOrNull<BackstoryCategoryFilter>(),
+                backstoryFiltersOverride = pkOld.backstoryFiltersOverride.ListFullCopyOrNull<BackstoryCategoryFilter>(),
+                backstoryCryptosleepCommonality = pkOld.backstoryCryptosleepCommonality,
+                baseRecruitDifficulty = pkOld.baseRecruitDifficulty,
+                biocodeWeaponChance = pkOld.biocodeWeaponChance,
+                canArriveManhunter = pkOld.canArriveManhunter,
+                canBeSapper = pkOld.canBeSapper,
+                chemicalAddictionChance = pkOld.chemicalAddictionChance,
+                combatEnhancingDrugsChance = pkOld.combatEnhancingDrugsChance,
+                combatEnhancingDrugsCount = pkOld.combatEnhancingDrugsCount,
+                combatPower = pkOld.combatPower,
+                defaultFactionType = pkOld.defaultFactionType,
+                description = pkOld.description,
+                defendPointRadius = pkOld.defendPointRadius,
+                destroyGearOnDrop = pkOld.destroyGearOnDrop,
+                disallowedTraits = pkOld.disallowedTraits.ListFullCopyOrNull<TraitDef>(),
+                ecoSystemWeight = pkOld.ecoSystemWeight,
+                factionLeader = pkOld.factionLeader,
+                fixedInventory = pkOld.fixedInventory.ListFullCopyOrNull<ThingDefCountClass>(),
+                fleeHealthThresholdRange = new FloatRange(min: pkOld.fleeHealthThresholdRange.min, max: pkOld.fleeHealthThresholdRange.max),
+                forceNormalGearQuality = pkOld.forceNormalGearQuality,
+                gearHealthRange = new FloatRange(min: pkOld.gearHealthRange.min, max: pkOld.gearHealthRange.max),
+                generated = pkOld.generated,
+                inventoryOptions = pkOld.inventoryOptions,
+                invFoodDef = pkOld.invFoodDef,
+                invNutrition = pkOld.invNutrition,
+                isFighter = pkOld.isFighter,
+                itemQuality = pkOld.itemQuality,
+                labelMale = pkOld.labelMale,
+                labelMalePlural = pkOld.labelMalePlural,
+                labelFemale = pkOld.labelFemale,
+                labelFemalePlural = pkOld.labelFemalePlural,
+                labelPlural = pkOld.labelPlural,
+                lifeStages = pkOld.lifeStages.ListFullCopyOrNull<PawnKindLifeStage>(),
+                maxGenerationAge = pkOld.maxGenerationAge,
+                minGenerationAge = pkOld.minGenerationAge,
+                modContentPack = pkOld.modContentPack,
+                modExtensions = pkOld.modExtensions,
+                royalTitleChance = pkOld.royalTitleChance,
+                skills = pkOld.skills.ListFullCopyOrNull<SkillRange>()
+            };
+            pk.specificApparelRequirements = pkOld.specificApparelRequirements.ListFullCopyOrNull<SpecificApparelRequirement>();
             pk.trader = pkOld.trader;
-            pk.titleSelectOne = pkOld.titleSelectOne.ListFullCopyOrNull<RoyalTitleDef>(); ;
-            pk.techHediffsRequired = pkOld.techHediffsRequired.ListFullCopyOrNull<ThingDef>(); ;
+            pk.titleSelectOne = pkOld.titleSelectOne.ListFullCopyOrNull<RoyalTitleDef>(); 
+            pk.techHediffsRequired = pkOld.techHediffsRequired.ListFullCopyOrNull<ThingDef>(); 
             pk.techHediffsChance = pkOld.techHediffsChance;
             pk.techHediffsMaxAmount = pkOld.techHediffsMaxAmount;
             pk.techHediffsMoney = new FloatRange(min: pkOld.techHediffsMoney.min, max: pkOld.techHediffsMoney.max);
@@ -295,6 +296,9 @@ namespace StarWarsRaces
             pk.weaponMoney = new FloatRange(min: pkOld.weaponMoney.min, max: pkOld.weaponMoney.max);
             pk.weaponTags = pkOld.weaponTags.ListFullCopyOrNull<string>();
             pk.wildGroupSize = pkOld.wildGroupSize;
+            pk.initialResistanceRange = pkOld.initialResistanceRange.GetValueOrDefault();
+            pk.initialWillRange = pkOld.initialWillRange.GetValueOrDefault();
+
 
             switch (label)
             {

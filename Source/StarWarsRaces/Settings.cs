@@ -36,22 +36,15 @@ namespace StarWarsRaces
         public bool IncludeInOutlander = false;
         public bool IncludeInTribal = false;
 
-
-
-
         private Vector2 pos = new Vector2(0, 0);
         public void DoWindowContents(Rect canvas)
         {
 
             Listing_Standard list = new Listing_Standard
             {
-                ColumnWidth = canvas.width - 20
+                ColumnWidth = canvas.width
             };
             list.Begin(canvas);
-
-            Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width + 1.50f, canvas.height);
-
-            list.BeginScrollView(canvas, ref pos, ref scrollView);
 
             list.Gap(60);
             list.GapLine();
@@ -77,11 +70,7 @@ namespace StarWarsRaces
             rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
             Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInTribal").Translate(), ref IncludeInTribal);
             
-            list.EndScrollView(ref scrollView);
-
             list.End();
-
-
 
         }
         public override void ExposeData()
@@ -101,7 +90,6 @@ namespace StarWarsRaces
             }
         }
     }
-
     public static class SettingsUtil
     {
         // got this function from AUTOMATIC's gradient hair mod.
@@ -122,4 +110,3 @@ namespace StarWarsRaces
         }
     }
 }
-
