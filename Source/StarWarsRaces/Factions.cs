@@ -408,8 +408,6 @@ namespace StarWarsRaces
                     
             }
             DefDatabase<PawnKindDef>.Add(pk);
-            DefDatabase<PawnKindDef>.ErrorCheckAllDefs();
-            DefDatabase<PawnKindDef>.ResolveAllReferences();
         }
         
     }

@@ -19,18 +19,18 @@
     </loadAfter>
 	
 	<description>Adds the Wookiee, Rodian, Twi'lek, Ewok, and Togruta races to the PlayerColony and PlayerTribe factions.  
-This makes them available at game start for all scenarios that use those factions.   Does not add any additional factions.
+This makes them available at game start for all scenarios that use those factions. 
+Does not add any additional factions.
 Additionally all three races can show up as refugees, wanderers, or slaves during game play.  
-They will also now show up as part of the Pirate faction by default.
+They will also now show up as part of the Pirate, Outlander, and Tribal factions by default.  You can disable this in the settings.
 	
 [h1] What's different? [/h1]
 
-- Rodians have the same stats as humans, but have antenna which function as a hearing source, and do not have a bite attack.
-- Twi'leks ave the same stats as humans, but have Lekku (the head tentacles) setup as body addons.  The Lekku count as a manipulation source.  Includes new hats for Twi'leks only with a small research requirement to unlock. Twi'leks can not use vanilla hats/helmets.
-- Wookiees are slightly taller than other pawns. They do more melee damage, have additional health, increased comfortable temperature range, and work slightly slower in construction, mining, and plants.  Adds a Wookiee bandolier as well with a small research requirement to unlock.  Wookiees are all nudists, but can still wear bandoliers.
-- Ewoks have the same stats as humans, but are smaller than other pawns and have tribal backstories.
-- Togruta have the same stats as humans,  but have multiple addons including three lekku and the montrals.  The Montrals count as vision and hearing sources.  Togruta heads have a distinct face paints as well. Togruta can not use hats/helmets.
-
+- Rodians have the same stats as humans
+- Twi'leks ave the same stats as humans
+- Wookiees are bigger and tougher than humans
+- Ewoks have the same stats as humans, but are smaller than other pawns and always have tribal backstories.
+- Togruta have the same stats as humans
 	
 [h1] Credits [/h1]
 Should be compatible with other existing Star Wars mods including any others that add the same species.

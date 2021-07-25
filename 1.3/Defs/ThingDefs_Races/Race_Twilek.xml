@@ -324,9 +324,20 @@
           <head>StarWarsRaces/Twilek/Head/</head>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>false</hasHair>
-      </hairSettings>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
       <raceRestriction>
         <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
         <!-- only twileks can wear these so I don't have to worry about if there are textures for other races -->

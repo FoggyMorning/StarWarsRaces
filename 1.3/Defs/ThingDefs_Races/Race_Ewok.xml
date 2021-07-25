@@ -189,9 +189,20 @@
         </alienPartGenerator>
         <humanRecipeImport>true</humanRecipeImport>
       </generalSettings>
-      <hairSettings>
-        <hasHair>false</hasHair>
-      </hairSettings>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
       <graphicPaths>
         <li>
           <head>StarWarsRaces/Ewok/Head/</head>
