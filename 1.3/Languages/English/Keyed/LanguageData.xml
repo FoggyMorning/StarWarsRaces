@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<StarWarsRaces.SpeciesOfTheRim>Star Wars - Species of the Rim</StarWarsRaces.SpeciesOfTheRim>
-	<StarWarsRaces.IncludeTwilek>Include Twi'leks</StarWarsRaces.IncludeTwilek>
-	<StarWarsRaces.IncludeTwilekTip>Percentage chance that Twi'leks will appear.</StarWarsRaces.IncludeTwilekTip>
-	<StarWarsRaces.IncludeRodian>Include Rodians</StarWarsRaces.IncludeRodian>
-	<StarWarsRaces.IncludeRodianTip>Percentage chance that Rodians will appear.</StarWarsRaces.IncludeRodianTip>
-	<StarWarsRaces.IncludeWookiee>Include Wookiees</StarWarsRaces.IncludeWookiee>
-	<StarWarsRaces.IncludeWookieeTip>Percentage chance that Wookiees will appear.</StarWarsRaces.IncludeWookieeTip>
-	<StarWarsRaces.IncludeEwok>Include Ewoks</StarWarsRaces.IncludeEwok>
-	<StarWarsRaces.IncludeEwokTip>Percentage chance that Ewoks will appear.</StarWarsRaces.IncludeEwokTip>
-	<StarWarsRaces.IncludeTogruta>Include Togruta</StarWarsRaces.IncludeTogruta>
-	<StarWarsRaces.IncludeTogrutaTip>Percentage chance that Togruta will appear.</StarWarsRaces.IncludeTogrutaTip>
-
-  <StarWarsRaces.IncludeHeader>Percentage chance that the race will randomly appear.</StarWarsRaces.IncludeHeader>
-  <StarWarsRaces.IncludeSubHeader>At 0% the race will no longer appear.  At 100% a race will appear frequently, but Humans will rarely appear.</StarWarsRaces.IncludeSubHeader>
-  <StarWarsRaces.IncludeInPirate>Include in Pirate Faction.</StarWarsRaces.IncludeInPirate>
-  <StarWarsRaces.IncludeInOutlander>Include in Outlander Factions.</StarWarsRaces.IncludeInOutlander>
-  <StarWarsRaces.IncludeInTribal>Include in Tribal Factions.</StarWarsRaces.IncludeInTribal>
-  
+	<StarWarsRaces.SpeciesOfTheRim>Star Wars - Species of the Rim</StarWarsRaces.SpeciesOfTheRim>  
 </LanguageData>

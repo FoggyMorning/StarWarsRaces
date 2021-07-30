@@ -17,12 +17,9 @@ namespace StarWarsRaces
         }
         private static void InitLib()
         {
-            string[] labels = SettingsController.Settings.labels;
-            float[] chances = SettingsController.Settings.SpawnChance;
-
-            Factions.AdjustAlienRaceSettingsSpawnChance(labels, chances);
-            Factions.AddAliensToNPCFactions(labels, chances);
-
+            SettingsController.Settings.ExposeData();
+            RaceSettingsUpdater.AdjustSpawnChance();
+            Factions.AddAliensToNPCFactions();
         }
     }
 }
