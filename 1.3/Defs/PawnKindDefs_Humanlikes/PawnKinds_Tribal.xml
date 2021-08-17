@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Penitent" ParentName="TribalBase">
+    <defName>StarWarsRaces_Tribal_Penitent</defName>
+    <label>penitent</label>
+    <combatPower>40</combatPower>
+    <chemicalAddictionChance>0.10</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>90~150</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>10~17</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Penitent">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>penitent (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Penitent">
+    <race>StarWarsRaces_Togruta</race>
+    <label>penitent (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Penitent">
+    <race>StarWarsRaces_Rodian</race>
+    <label>penitent (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Penitent">
+    <race>StarWarsRaces_Ewok</race>
+    <label>penitent (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Penitent">
+    <race>StarWarsRaces_Twilek</race>
+    <label>penitent (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Archer" ParentName="TribalBase">
+    <defName>StarWarsRaces_Tribal_Archer</defName>
+    <label>archer</label>
+    <combatPower>45</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>180~350</apparelMoney>
+    <weaponMoney>80~80</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.03</techHediffsChance>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>17~27</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Archer">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>archer (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Archer">
+    <race>StarWarsRaces_Togruta</race>
+    <label>archer (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Archer">
+    <race>StarWarsRaces_Rodian</race>
+    <label>archer (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Archer">
+    <race>StarWarsRaces_Ewok</race>
+    <label>archer (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Archer">
+    <race>StarWarsRaces_Twilek</race>
+    <label>archer (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Warrior" ParentName="TribalBase">
+    <defName>StarWarsRaces_Tribal_Warrior</defName>
+    <label>warrior</label>
+    <combatPower>50</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarVeil</li>
+    </apparelRequired>
+    <weaponMoney>150~150</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeDecent</li>
+    </weaponTags>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>5~9</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Warrior">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>warrior (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Warrior">
+    <race>StarWarsRaces_Togruta</race>
+    <label>warrior (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Warrior">
+    <race>StarWarsRaces_Rodian</race>
+    <label>warrior (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Warrior">
+    <race>StarWarsRaces_Ewok</race>
+    <label>warrior (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Warrior">
+    <race>StarWarsRaces_Twilek</race>
+    <label>warrior (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Hunter" ParentName="TribalBase">
+    <defName>StarWarsRaces_Tribal_Hunter</defName>
+    <label>hunter</label>
+    <combatPower>60</combatPower>
+    <backstoryFiltersOverride>
+      <li>
+        <categoriesAdulthood>
+          <li>TribalHunter</li>
+        </categoriesAdulthood>
+      </li>
+    </backstoryFiltersOverride>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarVeil</li>
+    </apparelRequired>
+    <weaponMoney>100~100</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>10~16</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Hunter">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>hunter (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Hunter">
+    <race>StarWarsRaces_Togruta</race>
+    <label>hunter (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Hunter">
+    <race>StarWarsRaces_Rodian</race>
+    <label>hunter (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Hunter">
+    <race>StarWarsRaces_Ewok</race>
+    <label>hunter (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Hunter">
+    <race>StarWarsRaces_Twilek</race>
+    <label>hunter (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Trader" ParentName="Tribal_Hunter">
+    <defName>StarWarsRaces_Tribal_Trader</defName>
+    <label>trader</label>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_TribalHeaddress</li>
+    </apparelRequired>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>9~15</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Trader">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>trader (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Trader">
+    <race>StarWarsRaces_Togruta</race>
+    <label>trader (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Trader">
+    <race>StarWarsRaces_Rodian</race>
+    <label>trader (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Trader">
+    <race>StarWarsRaces_Ewok</race>
+    <label>trader (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Trader">
+    <race>StarWarsRaces_Twilek</race>
+    <label>trader (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Berserker" ParentName="TribalBase">
+    <defName>StarWarsRaces_Tribal_Berserker</defName>
+    <label>berserker</label>
+    <combatPower>65</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>200~550</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarMask</li>
+    </apparelRequired>
+    <weaponMoney>300~300</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>13~20</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Berserker">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>berserker (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Berserker">
+    <race>StarWarsRaces_Togruta</race>
+    <label>berserker (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Berserker">
+    <race>StarWarsRaces_Rodian</race>
+    <label>berserker (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Berserker">
+    <race>StarWarsRaces_Ewok</race>
+    <label>berserker (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Berserker">
+    <race>StarWarsRaces_Twilek</race>
+    <label>berserker (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_HeavyArcher" ParentName="TribalBase">
+    <defName>StarWarsRaces_Tribal_HeavyArcher</defName>
+    <label>heavy archer</label>
+    <combatPower>75</combatPower>
+    <apparelMoney>200~550</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarMask</li>
+    </apparelRequired>
+    <weaponMoney>250~250</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>14~22</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_HeavyArcher">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>heavy archer (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_HeavyArcher">
+    <race>StarWarsRaces_Togruta</race>
+    <label>heavy archer (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_HeavyArcher">
+    <race>StarWarsRaces_Rodian</race>
+    <label>heavy archer (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_HeavyArcher">
+    <race>StarWarsRaces_Ewok</race>
+    <label>heavy archer (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_HeavyArcher">
+    <race>StarWarsRaces_Twilek</race>
+    <label>heavy archer (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_ChiefMelee" ParentName="TribalChiefBase">
+    <defName>StarWarsRaces_Tribal_ChiefMelee</defName>
+    <label>berserker chief</label>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <initialResistanceRange>38~58</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefMelee">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>berserker chief (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefMelee">
+    <race>StarWarsRaces_Togruta</race>
+    <label>berserker chief (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefMelee">
+    <race>StarWarsRaces_Rodian</race>
+    <label>berserker chief (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefMelee">
+    <race>StarWarsRaces_Ewok</race>
+    <label>berserker chief (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefMelee">
+    <race>StarWarsRaces_Twilek</race>
+    <label>berserker chief (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_ChiefRanged" ParentName="TribalChiefBase">
+    <defName>StarWarsRaces_Tribal_ChiefRanged</defName>
+    <label>archer chief</label>
+    <weaponTags>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>16~26</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefRanged">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>archer chief (wookie)</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefRanged">
+    <race>StarWarsRaces_Togruta</race>
+    <label>archer chief (togruta)</label>
+    <defName>StarWarsRaces_Togruta_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefRanged">
+    <race>StarWarsRaces_Rodian</race>
+    <label>archer chief (rodian)</label>
+    <defName>StarWarsRaces_Rodian_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefRanged">
+    <race>StarWarsRaces_Ewok</race>
+    <label>archer chief (ewok)</label>
+    <defName>StarWarsRaces_Ewok_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefRanged">
+    <race>StarWarsRaces_Twilek</race>
+    <label>archer chief (twi'lek)</label>
+    <defName>StarWarsRaces_Twilek_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+</Defs>
