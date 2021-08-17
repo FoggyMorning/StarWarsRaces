@@ -195,6 +195,19 @@
       <leatherDef>StarWarsRaces_Leather_Humanlike</leatherDef>
       <nameGenerator>StarWarsRaces_NamerPersonWookieeM</nameGenerator>
       <nameGeneratorFemale>StarWarsRaces_NamerPersonWookieeF</nameGeneratorFemale>
+      <ageGenerationCurve>
+        <points>
+          <li>(17,0)</li>
+          <li>(18,100)</li>
+          <li>(350,100)</li>
+          <li>(360,30)</li>
+          <li>(370,18)</li>
+          <li>(380,10)</li>
+          <li>(390,3)</li>
+          <li>(400,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <lifeExpectancy>400</lifeExpectancy>
     </race>
   </AlienRace.ThingDef_AlienRace>
 
