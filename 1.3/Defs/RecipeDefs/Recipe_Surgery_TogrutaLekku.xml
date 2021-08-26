@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>StarWarsRaces_Togruta_Thing_Lekku</defName>
+    <label>lekku</label>
+    <description>A biological togruta lekku. Primarily decorative.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Togruta_Install_NaturalLekku</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>190</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>StarWarsRaces_Togruta_Install_NaturalLekku</defName>
+    <label>install togruta lekku</label>
+    <description>Install a biological lekku.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Togruta_Thing_Lekku</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>Installing lekku.</jobString>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Togruta_Thing_Lekku</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Togruta_Thing_Lekku</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_Togruta_Right_Lekku</li>
+      <li>StarWarsRaces_Togruta_Left_Lekku</li>
+      <li>StarWarsRaces_Togruta_Rear_Lekku</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>StarWarsRaces_Togruta_ProstheticLekku</defName>
+    <label>cloth togruta lekku</label>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Togruta_Install_ProstheticLekku</RecipeDef>
+    </descriptionHyperlinks>
+    <description>A Togruta lekku prosthesis made of cloth. While it lacks a neural interface or any mechanisms, Togruta lekkus are largely ornamental and this one does the job just fine.</description>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>StarWarsRaces_Togruta_Install_ProstheticLekku</defName>
+    <label>install cloth togruta lekku</label>
+    <description>Install a cloth togruta lekku.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Togruta_ProstheticLekku</ThingDef>
+      <HediffDef>StarWarsRaces_Togruta_Hediff_ProstheticLekku</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing cloth togruta lekku.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Togruta_ProstheticLekku</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Togruta_ProstheticLekku</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_Togruta_Right_Lekku</li>
+      <li>StarWarsRaces_Togruta_Left_Lekku</li>
+      <li>StarWarsRaces_Togruta_Rear_Lekku</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>StarWarsRaces_Togruta_Hediff_ProstheticLekku</addsHediff>
+  </RecipeDef>
+  
+</Defs>

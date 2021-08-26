@@ -200,8 +200,6 @@
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 	</ThingDef>
 
-
-
 	<!-- basically a Tribal Headdress -->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>StarWarsRaces_TwilekDecorative</defName>

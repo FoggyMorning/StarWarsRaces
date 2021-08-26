@@ -413,6 +413,12 @@
       <body>StarWarsRaces_Twilek_Body</body>
       <bloodDef>StarWarsRaces_FilthBloodTwilek</bloodDef>
     </race>
+    <!-- add to base list -->
+		<recipes>
+			<li>StarWarsRaces_Twilek_Install_ProstheticLekku</li>
+			<li>StarWarsRaces_Twilek_Install_BionicLekku</li>
+      <li>StarWarsRaces_Twilek_Install_NaturalLekku</li>
+		</recipes>
   </AlienRace.ThingDef_AlienRace>
 
 </Defs>

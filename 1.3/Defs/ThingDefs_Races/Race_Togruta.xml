@@ -111,7 +111,6 @@
           <bodyAddons>
             <li>
               <path>StarWarsRaces/Togruta/Montral/Montral</path>
-              <bodyPart>montral</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <!-- in front of head, but behind light sabers for all views but north
@@ -515,6 +514,11 @@
     <race>
       <body>StarWarsRaces_Togruta_Body</body>
     </race>
+    <!-- add to base list -->
+		<recipes>
+			<li>StarWarsRaces_Togruta_Install_ProstheticLekku</li>
+      <li>StarWarsRaces_Togruta_Install_NaturalLekku</li>
+		</recipes>
   </AlienRace.ThingDef_AlienRace>
 
 </Defs>

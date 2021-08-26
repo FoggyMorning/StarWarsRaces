@@ -104,13 +104,13 @@
           </colorChannels>
           <bodyAddons>
             <li>
+            <!-- render the mohawk of spines as an addon -->
               <path>StarWarsRaces/Rodian/Hairs/Rodian1</path>
               <bodyPart>Head</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
-                  <!-- in front of head, but behind light sabers for all views but north-->
                   <layerOffset>0</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.35 )</Average_Normal>
@@ -122,7 +122,6 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <!-- in front of head, but behind light sabers for all views but north-->
                   <layerOffset>0</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
@@ -134,7 +133,6 @@
                   </crownTypes>
                 </north>
                 <east>
-                  <!-- in front of head, but behind light sabers for all views but north-->
                   <layerOffset>0</layerOffset>
                   <crownTypes>
                     <Average_Normal>( -0.1, 0.33 )</Average_Normal>
@@ -159,6 +157,7 @@
               </hiddenUnderApparelFor>
             </li>
             <li>
+            <!-- left antenna is not visible from the east unless the other antenna is destroyed -->
               <path>StarWarsRaces/Rodian/Antenna/Left_Antenna</path>
               <bodyPart>StarWarsRaces_LeftRodianAntenna</bodyPart>
               <drawSize>1</drawSize>
@@ -207,6 +206,7 @@
               </hiddenUnderApparelFor>
             </li>
             <li>
+            <!-- right antenna is not visible from the west unless the left antenna is destroyed -->
               <path>StarWarsRaces/Rodian/Antenna/Right_Antenna</path>
               <bodyPart>StarWarsRaces_RightRodianAntenna</bodyPart>
               <drawSize>1</drawSize>
@@ -255,6 +255,7 @@
               </hiddenUnderApparelFor>
             </li>
             <li>
+            <!-- ears rendered as one addon instead of two -->
               <path>StarWarsRaces/Rodian/Head/Ear</path>
               <bodyPart>Ear</bodyPart>
               <drawSize>1</drawSize>
@@ -387,6 +388,11 @@
       <body>StarWarsRaces_Rodian_Body</body>
       <bloodDef>StarWarsRaces_FilthBloodRodian</bloodDef>
     </race>
+		<recipes>
+			<li>StarWarsRaces_Rodian_Install_ProstheticAntenna</li>
+			<li>StarWarsRaces_Rodian_Install_BionicAntenna</li>
+      <li>StarWarsRaces_Rodian_Install_NaturalAntenna</li>
+		</recipes>
   </AlienRace.ThingDef_AlienRace>
 
 </Defs>

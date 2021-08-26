@@ -174,46 +174,43 @@
                     <li>Teeth</li>
                     <li>FullHead</li>
                   </groups>
-                </li>
-                <li>
-                  <def>StarWarsRaces_Togruta_Montral</def>
-                  <customLabel>montral</customLabel>
-                  <coverage>0.2</coverage>
-                  <height>Top</height>
-                  <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
-                    <li>HeadAttackTool</li>
-                  </groups>
                   <parts>
                     <li>
-                      <def>StarWarsRaces_Togruta_Left_Lekku</def>
-                      <customLabel>left lekku</customLabel>
-                      <coverage>0.05</coverage>
-                      <height>Top</height>
-                      <groups>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>StarWarsRaces_Togruta_Right_Lekku</def>
-                      <customLabel>right lekku</customLabel>
-                      <coverage>0.05</coverage>
-                      <height>Top</height>
-                      <groups>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>StarWarsRaces_Togruta_Rear_Lekku</def>
-                      <customLabel>rear lekku</customLabel>
-                      <coverage>0.1</coverage>
-                      <height>Top</height>
+                      <def>Tongue</def>
+                      <coverage>0</coverage>
+                      <depth>Inside</depth>
                       <groups>
                         <li>FullHead</li>
                       </groups>
                     </li>
                   </parts>
+                </li>
+                <li>
+                  <def>StarWarsRaces_Togruta_Left_Lekku</def>
+                  <customLabel>left lekku</customLabel>
+                  <coverage>0.05</coverage>
+                  <height>Top</height>
+                  <groups>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>StarWarsRaces_Togruta_Right_Lekku</def>
+                  <customLabel>right lekku</customLabel>
+                  <coverage>0.05</coverage>
+                  <height>Top</height>
+                  <groups>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>StarWarsRaces_Togruta_Rear_Lekku</def>
+                  <customLabel>rear lekku</customLabel>
+                  <coverage>0.1</coverage>
+                  <height>Top</height>
+                  <groups>
+                    <li>FullHead</li>
+                  </groups>
                 </li>
               </parts>
             </li>
