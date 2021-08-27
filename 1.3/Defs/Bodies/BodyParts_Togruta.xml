@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <BodyPartDef>
+    <defName>StarWarsRaces_Togruta_Montral</defName>
+    <label>montral</label>
+    <hitPoints>1000</hitPoints>
+    <skinCovered>false</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>HearingSource</li>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
 
   <BodyPartDef>
     <defName>StarWarsRaces_Togruta_Right_Lekku</defName>
