@@ -602,7 +602,9 @@
               </parts>
             </li>
           </parts>
-        </corePart>
-      </BodyDef>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
 
-    </Defs>
+</Defs>

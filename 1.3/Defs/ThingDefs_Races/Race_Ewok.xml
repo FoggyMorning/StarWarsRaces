@@ -5,7 +5,25 @@
     <label>Ewok</label>
     <description>The Ewoks are sentient furred bipeds native to the moon of Endor.</description>
     <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>ClothedNudist</li>
+          <li>Naked</li>
+        </cannotReceiveThoughts>
+
+        <ateThoughtSpecific>
+        </ateThoughtSpecific>
+
+        <replacerList>
+        </replacerList>
+      </thoughtSettings>
       <generalSettings>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Nudist</defName>
+            <chance>0</chance>
+          </li>
+        </forcedRaceTraitEntries>
         <alienPartGenerator>
           <customDrawSize>( 0.65, 0.65 )</customDrawSize>
           <customHeadDrawSize>( 0.65, 0.65 )</customHeadDrawSize>

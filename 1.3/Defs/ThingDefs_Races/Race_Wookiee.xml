@@ -28,6 +28,18 @@
       <ConstructionSpeed>0.9</ConstructionSpeed>
     </statBases>
     <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>ClothedNudist</li>
+          <li>Naked</li>
+        </cannotReceiveThoughts>
+
+        <ateThoughtSpecific>
+        </ateThoughtSpecific>
+
+        <replacerList>
+        </replacerList>
+      </thoughtSettings>
       <generalSettings>
         <alienPartGenerator>
           <customDrawSize>( 1.5, 1.5 )</customDrawSize>
@@ -107,7 +119,7 @@
         <forcedRaceTraitEntries>
           <li>
             <defName>Nudist</defName>
-            <chance>25</chance>
+            <chance>0</chance>
           </li>
         </forcedRaceTraitEntries>
       </generalSettings>
@@ -131,8 +143,6 @@
           <body>StarWarsRaces/Wookiee/Body/</body>
         </li>
       </graphicPaths>
-      <thoughtSettings>
-      </thoughtSettings>
     </alienRace>
     <tools>
       <li>
