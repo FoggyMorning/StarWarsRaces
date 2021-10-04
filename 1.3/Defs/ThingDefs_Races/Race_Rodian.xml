@@ -105,6 +105,7 @@
           <bodyAddons>
             <li>
             <!-- render the mohawk of spines as an addon -->
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Rodian/Hairs/Rodian1</path>
               <bodyPart>Head</bodyPart>
               <drawSize>1</drawSize>
@@ -152,12 +153,15 @@
                 </east>
               </offsets>
               <hiddenUnderApparelFor>
-                <li>FullHead</li>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>StarWarsRaces_RodianSpines</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
             <!-- left antenna is not visible from the east unless the other antenna is destroyed -->
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Rodian/Antenna/Left_Antenna</path>
               <bodyPart>StarWarsRaces_LeftRodianAntenna</bodyPart>
               <drawSize>1</drawSize>
@@ -201,12 +205,15 @@
                 </east>
               </offsets>
               <hiddenUnderApparelFor>
-                <li>FullHead</li>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>StarWarsRaces_RodianAntenna</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
             <!-- right antenna is not visible from the west unless the left antenna is destroyed -->
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Rodian/Antenna/Right_Antenna</path>
               <bodyPart>StarWarsRaces_RightRodianAntenna</bodyPart>
               <drawSize>1</drawSize>
@@ -250,12 +257,15 @@
                 </east>
               </offsets>
               <hiddenUnderApparelFor>
-                <li>FullHead</li>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>StarWarsRaces_RodianAntenna</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
             <!-- ears rendered as one addon instead of two -->
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Rodian/Head/Ear</path>
               <bodyPart>Ear</bodyPart>
               <drawSize>1</drawSize>
@@ -306,9 +316,11 @@
                 </east>
               </offsets>
               <hiddenUnderApparelFor>
-                <li>FullHead</li>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>StarWarsRaces_RodianEars</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -323,6 +335,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>
