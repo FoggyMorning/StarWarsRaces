@@ -104,6 +104,7 @@
           </alienbodytypes>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Ewok/Ear/LeftEar</path>
               <bodyPart>Ear</bodyPart>
               <drawSize>0.65</drawSize>
@@ -111,49 +112,31 @@
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( -0.0, 0.22 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( -0.0, 0.22 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( -0.0, 0.22 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
+                  <offset>( -0.0, 0.22 )</offset>
                 </south>
                 <north>
                   <layerOffset>0</layerOffset>
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( 0.0, 0.22 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( 0.0, 0.22 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( 0.0, 0.22 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
+                  <offset>( -0.0, 0.22 )</offset>
                 </north>
                 <east>
                   <layerOffset>0</layerOffset>
-                  <!-- hidden -->
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( 0,0 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( 0,0 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( 0,0 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
+                  <offset>( -0.0, 0.0 )</offset>
                 </east>
                 <west>
+                  <!-- hidden -->
                   <layerOffset>0</layerOffset>
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( -0.1, 0.22 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( -0.1, 0.22 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( -0.1, 0.22 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
-                  <bodyTypes>
-                    <Male>(0.0,0.0)</Male>
-                    <Female>(0,0)</Female>
-                    <Fat>(0,0)</Fat>
-                    <Thin>(0,0)</Thin>
-                    <Hulk>(0,0)</Hulk>
-                  </bodyTypes>
+                  <offset>( -0.1, 0.22 )</offset>
                 </west>
               </offsets>
               <hiddenUnderApparelFor>
+                <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>StarWarsRaces_EwokEars</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Ewok/Ear/RightEar</path>
               <bodyPart>Ear</bodyPart>
               <drawSize>0.65</drawSize>
@@ -161,47 +144,28 @@
               <offsets>
                 <south>
                   <layerOffset>0</layerOffset>
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( -0.0, 0.22 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( -0.0, 0.22 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( -0.0, 0.22 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
+                  <offset>( -0.0, 0.22 )</offset>
                 </south>
                 <north>
                   <layerOffset>0</layerOffset>
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( 0.0, 0.22 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( 0.0, 0.22 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( 0.0, 0.22 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
+                  <offset>( -0.0, 0.22 )</offset>
                 </north>
                 <east>
                   <layerOffset>0</layerOffset>
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( -0.1, 0.22 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( -0.1, 0.22 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( -0.1, 0.22 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
+                  <offset>( -0.1, 0.22 )</offset>
                 </east>
                 <west>
                   <!-- hidden -->
                   <layerOffset>0</layerOffset>
-                  <crownTypes>
-                    <Female_Average_PatternA_Normal>( -0.0, 0.0 )</Female_Average_PatternA_Normal>
-                    <Female_Average_PatternB_Normal>( -0.0, 0.0 )</Female_Average_PatternB_Normal>
-                    <Male_Average_PatternA_Normal>( -0.0, 0.0 )</Male_Average_PatternA_Normal>
-                  </crownTypes>
-                  <bodyTypes>
-                    <Male>(0.0,0.0)</Male>
-                    <Female>(0,0)</Female>
-                    <Fat>(0,0)</Fat>
-                    <Thin>(0,0)</Thin>
-                    <Hulk>(0,0)</Hulk>
-                  </bodyTypes>
+                  <offset>( 0.0, 0.0 )</offset>
                 </west>
               </offsets>
               <hiddenUnderApparelFor>
+                <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>StarWarsRaces_EwokEars</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -216,6 +180,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>
