@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
     <defName>StarWarsRaces_Togruta</defName>
@@ -14,7 +14,15 @@
             <li>Average_Pointy</li>
             <li>Narrow_Pointy</li>
             <li>Narrow_Normal</li>
+            <li>Narrow_Wide</li>
           </aliencrowntypes>
+          <alienbodytypes>
+            <li>Female</li>
+            <li>Male</li>
+            <li>Thin</li>
+            <li>Fat</li>
+            <li>Hulk</li>
+          </alienbodytypes>
           <colorChannels>
             <li>
               <name>skin</name>
@@ -111,6 +119,8 @@
           <bodyAddons>
             <li>
               <path>StarWarsRaces/Togruta/Montral/Montral</path>
+              <bodyPart>Skull</bodyPart>
+              <drawnDesiccated>false</drawnDesiccated>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <!-- in front of head, but behind light sabers for all views but north
@@ -146,24 +156,18 @@
                 <east>
                   <layerOffset>-.2692</layerOffset>
                   <crownTypes>
-                    <Narrow_Normal>( -0.1, 0.37 )</Narrow_Normal>
-                    <Narrow_Wide>( -0.1, 0.37 )</Narrow_Wide>
-                    <Narrow_Pointy>( -0.1, 0.37 )</Narrow_Pointy>
-                    <Average_Normal>( -0.06, 0.29 )</Average_Normal>
-                    <Average_Wide>( -0.1, 0.37 )</Average_Wide>
-                    <Average_Pointy>( -0.1, 0.37 )</Average_Pointy>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( -0.06, 0.38 )</Average_Normal>
+                    <Average_Wide>( -0.06, 0.38 )</Average_Wide>
+                    <Average_Pointy>( -0.06, 0.38 )</Average_Pointy>
                   </crownTypes>
-                  <bodyTypes>
-                    <Male>( 0.0, 0.0 )</Male>
-                    <Female>( 0.0, 0.0 )</Female>
-                    <Fat>( 0.0, 0.0 )</Fat>
-                    <Thin>( 0.0, 0.0 )</Thin>
-                    <Hulk>( 0.0, 0.0)</Hulk>
-                  </bodyTypes>
                 </east>
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Togruta/Lekku/Left/FrontOfHead/Lekku_Left_Front</path>
               <bodyPart>left lekku</bodyPart>
               <drawSize>1</drawSize>
@@ -197,24 +201,18 @@
                 <east>
                   <layerOffset>0.01</layerOffset>
                   <crownTypes>
-                    <Narrow_Normal>( -0.1, 0.37 )</Narrow_Normal>
-                    <Narrow_Wide>( -0.1, 0.37 )</Narrow_Wide>
-                    <Narrow_Pointy>( -0.1, 0.37 )</Narrow_Pointy>
-                    <Average_Normal>( -0.06, 0.29 )</Average_Normal>
-                    <Average_Wide>( -0.1, 0.37 )</Average_Wide>
-                    <Average_Pointy>( -0.1, 0.37 )</Average_Pointy>
+                    <Narrow_Normal>( 0.03, 0.22 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.03, 0.22 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.03, 0.22 )</Narrow_Pointy>
+                    <Average_Normal>( -0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( -0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( -0.03, 0.22 )</Average_Pointy>
                   </crownTypes>
-                  <bodyTypes>
-                    <Male>( 0.0, 0.0 )</Male>
-                    <Female>( 0.0, 0.0 )</Female>
-                    <Fat>( 0.0, 0.0 )</Fat>
-                    <Thin>( 0.0, 0.0 )</Thin>
-                    <Hulk>( 0.0, 0.0)</Hulk>
-                  </bodyTypes>
                 </east>
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <path>StarWarsRaces/Togruta/Lekku/Left/RearOfHead/Lekku_Left_Rear</path>
               <bodyPart>left lekku</bodyPart>
@@ -248,25 +246,20 @@
                 </north>
                 <east>
                   <layerOffset>0</layerOffset>
+                  <offset>( 0.08, 0.09 )</offset>
                   <crownTypes>
-                    <Narrow_Normal>( -0.1, 0.37 )</Narrow_Normal>
-                    <Narrow_Wide>( -0.1, 0.37 )</Narrow_Wide>
-                    <Narrow_Pointy>( -0.1, 0.37 )</Narrow_Pointy>
-                    <Average_Normal>( -0.06, 0.29 )</Average_Normal>
-                    <Average_Wide>( -0.1, 0.37 )</Average_Wide>
-                    <Average_Pointy>( -0.1, 0.37 )</Average_Pointy>
+                    <Narrow_Normal>( 0.09, 0.26 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.09, 0.26 )</Narrow_Wide>
+                    <Narrow_Pointy> 0.09, 0.26 )</Narrow_Pointy>
+                    <Average_Normal>( 0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( 0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( 0.03, 0.22 )</Average_Pointy>
                   </crownTypes>
-                  <bodyTypes>
-                    <Male>( 0.0, 0.0 )</Male>
-                    <Female>( 0.0, 0.0 )</Female>
-                    <Fat>( 0.0, 0.0 )</Fat>
-                    <Thin>( 0.0, 0.0 )</Thin>
-                    <Hulk>( 0.0, 0.0)</Hulk>
-                  </bodyTypes>
                 </east>
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <path>StarWarsRaces/Togruta/Lekku/Right/FrontOfHead/Lekku_Right_Front</path>
               <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
@@ -300,25 +293,20 @@
                 </north>
                 <east>
                   <layerOffset>-.01</layerOffset>
+                  <offset>( 0.025, 0.05 )</offset>
                   <crownTypes>
-                    <Narrow_Normal>( -0.1, 0.37 )</Narrow_Normal>
-                    <Narrow_Wide>( -0.1, 0.37 )</Narrow_Wide>
-                    <Narrow_Pointy>( -0.1, 0.37 )</Narrow_Pointy>
-                    <Average_Normal>( -0.06, 0.29 )</Average_Normal>
-                    <Average_Wide>( -0.1, 0.37 )</Average_Wide>
-                    <Average_Pointy>( -0.1, 0.37 )</Average_Pointy>
+                    <Narrow_Normal>( 0.03, 0.22 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.03, 0.22 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.03, 0.22 )</Narrow_Pointy>
+                    <Average_Normal>( -0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( -0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( -0.03, 0.22 )</Average_Pointy>
                   </crownTypes>
-                  <bodyTypes>
-                    <Male>( 0.0, 0.0 )</Male>
-                    <Female>( 0.0, 0.0 )</Female>
-                    <Fat>( 0.0, 0.0 )</Fat>
-                    <Thin>( 0.0, 0.0 )</Thin>
-                    <Hulk>( 0.0, 0.0)</Hulk>
-                  </bodyTypes>
                 </east>
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <path>StarWarsRaces/Togruta/Lekku/Right/RearOfHead/Lekku_Right_Rear</path>
               <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
@@ -353,24 +341,25 @@
                 <east>
                   <layerOffset>-0.01</layerOffset>
                   <crownTypes>
-                    <Narrow_Normal>( -0.1, 0.37 )</Narrow_Normal>
-                    <Narrow_Wide>( -0.1, 0.37 )</Narrow_Wide>
-                    <Narrow_Pointy>( -0.1, 0.37 )</Narrow_Pointy>
-                    <Average_Normal>( -0.06, 0.29 )</Average_Normal>
-                    <Average_Wide>( -0.1, 0.37 )</Average_Wide>
-                    <Average_Pointy>( -0.1, 0.37 )</Average_Pointy>
+                    <Narrow_Normal>( 0.09, 0.26 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.09, 0.26 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.09, 0.26 )</Narrow_Pointy>
+                    <Average_Normal>( 0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( 0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( 0.03, 0.22 )</Average_Pointy>
                   </crownTypes>
-                  <bodyTypes>
+                  <!-- <bodyTypes>
                     <Male>( 0.0, 0.0 )</Male>
                     <Female>( 0.0, 0.0 )</Female>
                     <Fat>( 0.0, 0.0 )</Fat>
                     <Thin>( 0.0, 0.0 )</Thin>
                     <Hulk>( 0.0, 0.0)</Hulk>
-                  </bodyTypes>
+                  </bodyTypes> -->
                 </east>
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Togruta/Lekku/Rear/Lekku_Rear</path>
               <bodyPart>StarWarsRaces_Togruta_Rear_Lekku</bodyPart>
               <drawSize>1</drawSize>
@@ -389,7 +378,7 @@
                   </crownTypes>
                 </south>
                 <north>
-              <!-- north view in front of head, body and other addons -->
+                  <!-- north view in front of head, body and other addons -->
                   <layerOffset>-0.01</layerOffset>
                   <crownTypes>
                     <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
@@ -401,15 +390,15 @@
                   </crownTypes>
                 </north>
                 <east>
-              <!-- east/west view - in front of montrals, behind front left/right lekku, in front of rear left/right lekku -->
-                  <layerOffset>-0.01</layerOffset>
+                  <!-- east/west view - in front of montrals, behind front left/right lekku, in front of rear left/right lekku -->
+                  <layerOffset>-0.34</layerOffset>
                   <crownTypes>
-                    <Narrow_Normal>( -0.1, 0.38 )</Narrow_Normal>
-                    <Narrow_Wide>( -0.1, 0.38 )</Narrow_Wide>
-                    <Narrow_Pointy>( -0.1, 0.38 )</Narrow_Pointy>
-                    <Average_Normal>( -0.06, 0.29 )</Average_Normal>
-                    <Average_Wide>( -0.1, 0.38 )</Average_Wide>
-                    <Average_Pointy>( -0.1, 0.38 )</Average_Pointy>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( -0.06, 0.38 )</Average_Normal>
+                    <Average_Wide>( -0.06, 0.38 )</Average_Wide>
+                    <Average_Pointy>( -0.06, 0.38 )</Average_Pointy>
                   </crownTypes>
                 </east>
               </offsets>
@@ -437,11 +426,16 @@
             <hasStyle>false</hasStyle>
           </value>
         </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
       </styleSettings>
       <raceRestriction>
         <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
-        <apparelList>
-        </apparelList>
+        <apparelList></apparelList>
       </raceRestriction>
     </alienRace>
     <tools>
@@ -515,10 +509,10 @@
       <body>StarWarsRaces_Togruta_Body</body>
     </race>
     <!-- add to base list -->
-		<recipes>
-			<li>StarWarsRaces_Togruta_Install_ProstheticLekku</li>
+    <recipes>
+      <li>StarWarsRaces_Togruta_Install_ProstheticLekku</li>
       <li>StarWarsRaces_Togruta_Install_NaturalLekku</li>
-		</recipes>
+    </recipes>
   </AlienRace.ThingDef_AlienRace>
 
 </Defs>

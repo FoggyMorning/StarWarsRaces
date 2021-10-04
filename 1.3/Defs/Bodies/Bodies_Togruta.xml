@@ -145,7 +145,7 @@
                 <li>
                   <def>Eye</def>
                   <customLabel>left eye</customLabel>
-                  <coverage>0.07</coverage>
+                  <coverage>0.17</coverage>
                   <groups>
                     <li>FullHead</li>
                     <li>Eyes</li>
@@ -154,7 +154,7 @@
                 <li>
                   <def>Eye</def>
                   <customLabel>right eye</customLabel>
-                  <coverage>0.07</coverage>
+                  <coverage>0.17</coverage>
                   <groups>
                     <li>FullHead</li>
                     <li>Eyes</li>
@@ -188,7 +188,7 @@
                 <li>
                   <def>StarWarsRaces_Togruta_Montral</def>
                   <customLabel>montral</customLabel>
-                  <coverage>0.2</coverage>
+                  <coverage>0</coverage>
                   <height>Top</height>
                   <groups>
                     <li>UpperHead</li>
