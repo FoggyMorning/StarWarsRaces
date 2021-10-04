@@ -28,6 +28,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>villager (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Villager</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Villager">
     <race>StarWarsRaces_Togruta</race>
@@ -43,6 +46,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>villager (ewok)</label>
     <defName>StarWarsRaces_Ewok_Villager</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Villager">
     <race>StarWarsRaces_Twilek</race>
@@ -79,6 +85,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>town guard (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Town_Guard</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Town_Guard">
     <race>StarWarsRaces_Togruta</race>
@@ -94,6 +103,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>town guard (ewok)</label>
     <defName>StarWarsRaces_Ewok_Town_Guard</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Town_Guard">
     <race>StarWarsRaces_Twilek</race>
@@ -136,6 +148,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>town trader (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Town_Trader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Town_Trader">
     <race>StarWarsRaces_Togruta</race>
@@ -151,6 +166,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>town trader (ewok)</label>
     <defName>StarWarsRaces_Ewok_Town_Trader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Town_Trader">
     <race>StarWarsRaces_Twilek</race>
@@ -193,6 +211,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>town councilman (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Town_Councilman</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Town_Councilman">
     <race>StarWarsRaces_Togruta</race>
@@ -208,6 +229,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>town councilman (ewok)</label>
     <defName>StarWarsRaces_Ewok_Town_Councilman</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Town_Councilman">
     <race>StarWarsRaces_Twilek</race>

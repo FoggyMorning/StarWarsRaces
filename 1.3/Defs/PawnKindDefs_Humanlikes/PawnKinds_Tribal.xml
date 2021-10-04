@@ -25,6 +25,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>penitent (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_Penitent</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Penitent">
     <race>StarWarsRaces_Togruta</race>
@@ -40,6 +43,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>penitent (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_Penitent</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Penitent">
     <race>StarWarsRaces_Twilek</race>
@@ -72,6 +78,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>archer (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_Archer</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Archer">
     <race>StarWarsRaces_Togruta</race>
@@ -87,6 +96,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>archer (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_Archer</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Archer">
     <race>StarWarsRaces_Twilek</race>
@@ -115,6 +127,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>warrior (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_Warrior</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Warrior">
     <race>StarWarsRaces_Togruta</race>
@@ -130,6 +145,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>warrior (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_Warrior</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Warrior">
     <race>StarWarsRaces_Twilek</race>
@@ -166,6 +184,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>hunter (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_Hunter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Hunter">
     <race>StarWarsRaces_Togruta</race>
@@ -181,6 +202,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>hunter (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_Hunter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Hunter">
     <race>StarWarsRaces_Twilek</race>
@@ -201,6 +225,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>trader (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_Trader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Trader">
     <race>StarWarsRaces_Togruta</race>
@@ -216,6 +243,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>trader (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_Trader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Trader">
     <race>StarWarsRaces_Twilek</race>
@@ -242,6 +272,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>berserker (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_Berserker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Berserker">
     <race>StarWarsRaces_Togruta</race>
@@ -257,6 +290,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>berserker (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_Berserker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Berserker">
     <race>StarWarsRaces_Twilek</race>
@@ -285,6 +321,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>heavy archer (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_HeavyArcher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_HeavyArcher">
     <race>StarWarsRaces_Togruta</race>
@@ -300,6 +339,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>heavy archer (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_HeavyArcher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_HeavyArcher">
     <race>StarWarsRaces_Twilek</race>
@@ -319,6 +361,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>berserker chief (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_ChiefMelee</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefMelee">
     <race>StarWarsRaces_Togruta</race>
@@ -334,6 +379,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>berserker chief (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_ChiefMelee</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefMelee">
     <race>StarWarsRaces_Twilek</race>
@@ -355,6 +403,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>archer chief (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Tribal_ChiefRanged</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefRanged">
     <race>StarWarsRaces_Togruta</race>
@@ -370,6 +421,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>archer chief (ewok)</label>
     <defName>StarWarsRaces_Ewok_Tribal_ChiefRanged</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_ChiefRanged">
     <race>StarWarsRaces_Twilek</race>

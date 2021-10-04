@@ -11,6 +11,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>space refugee (wookie)</label>
     <defName>StarWarsRaces_Wookiee_SpaceRefugee</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_SpaceRefugee">
     <race>StarWarsRaces_Togruta</race>
@@ -26,6 +29,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>space refugee (ewok)</label>
     <defName>StarWarsRaces_Ewok_SpaceRefugee</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_SpaceRefugee">
     <race>StarWarsRaces_Twilek</race>
@@ -47,6 +53,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>space refugee (wookie)</label>
     <defName>StarWarsRaces_Wookiee_SpaceRefugee_Clothed</defName>
+    <apparelRequired>
+      <li>StarWarsRaces_Wookiee_Bandolier_Tribalwear</li>
+    </apparelRequired>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_SpaceRefugee_Clothed">
     <race>StarWarsRaces_Togruta</race>
@@ -62,6 +71,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>space refugee (ewok)</label>
     <defName>StarWarsRaces_Ewok_SpaceRefugee_Clothed</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_SpaceRefugee_Clothed">
     <race>StarWarsRaces_Twilek</race>
@@ -111,6 +123,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>ancient soldier (wookie)</label>
     <defName>StarWarsRaces_Wookiee_AncientSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_AncientSoldier">
     <race>StarWarsRaces_Togruta</race>

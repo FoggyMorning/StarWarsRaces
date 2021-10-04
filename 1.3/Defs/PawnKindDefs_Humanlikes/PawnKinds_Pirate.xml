@@ -38,6 +38,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>drifter (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Drifter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Drifter">
     <race>StarWarsRaces_Togruta</race>
@@ -53,6 +56,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>drifter (ewok)</label>
     <defName>StarWarsRaces_Ewok_Drifter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Drifter">
     <race>StarWarsRaces_Twilek</race>
@@ -73,6 +79,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>scavenger gunner (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Scavenger</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Scavenger">
     <race>StarWarsRaces_Togruta</race>
@@ -88,6 +97,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>scavenger gunner (ewok)</label>
     <defName>StarWarsRaces_Ewok_Scavenger</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Scavenger">
     <race>StarWarsRaces_Twilek</race>
@@ -115,6 +127,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>scavenger thrasher (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Thrasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Thrasher">
     <race>StarWarsRaces_Togruta</race>
@@ -130,6 +145,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>scavenger thrasher (ewok)</label>
     <defName>StarWarsRaces_Ewok_Thrasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Thrasher">
     <race>StarWarsRaces_Twilek</race>
@@ -179,6 +197,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>pirate gunner (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Pirate</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Pirate">
     <race>StarWarsRaces_Togruta</race>
@@ -194,6 +215,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>pirate gunner (ewok)</label>
     <defName>StarWarsRaces_Ewok_Pirate</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Pirate">
     <race>StarWarsRaces_Twilek</race>

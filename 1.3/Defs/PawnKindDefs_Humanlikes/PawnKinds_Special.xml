@@ -41,6 +41,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>slave (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Slave</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Slave">
     <race>StarWarsRaces_Togruta</race>
@@ -56,6 +59,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>slave (ewok)</label>
     <defName>StarWarsRaces_Ewok_Slave</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Slave">
     <race>StarWarsRaces_Twilek</race>

@@ -27,7 +27,7 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <apparelRequired>
-      <li>StarWarsRaces_Wookiee_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier_Tribalwear</li>
     </apparelRequired>
     <initialResistanceRange>13~21</initialResistanceRange>
   </PawnKindDef>
@@ -56,7 +56,7 @@
     </techHediffsTags>
     <techHediffsChance>0.02</techHediffsChance>
     <apparelRequired>
-      <li>StarWarsRaces_Wookiee_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier_Tribalwear</li>
     </apparelRequired>
     <initialResistanceRange>9~15</initialResistanceRange>
   </PawnKindDef>
@@ -88,7 +88,7 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <apparelRequired>
-      <li>StarWarsRaces_Wookiee_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier_Tribalwear</li>
     </apparelRequired>
     <initialResistanceRange>13~21</initialResistanceRange>
   </PawnKindDef>
@@ -118,7 +118,7 @@
     </techHediffsTags>
     <techHediffsChance>0.02</techHediffsChance>
     <apparelRequired>
-      <li>StarWarsRaces_Wookiee_Bandolier</li>
+      <li>StarWarsRaces_Wookiee_Bandolier_Tribalwear</li>
     </apparelRequired>
     <initialResistanceRange>9~15</initialResistanceRange>
   </PawnKindDef>

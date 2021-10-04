@@ -15,6 +15,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>grenadier (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Grenadier_Destructive</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Grenadier_Destructive">
     <race>StarWarsRaces_Togruta</race>
@@ -30,6 +33,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>grenadier (ewok)</label>
     <defName>StarWarsRaces_Ewok_Grenadier_Destructive</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Grenadier_Destructive">
     <race>StarWarsRaces_Twilek</race>
@@ -49,6 +55,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>EMP grenadier (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Grenadier_EMP</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Grenadier_EMP">
     <race>StarWarsRaces_Togruta</race>
@@ -64,6 +73,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>EMP grenadier (ewok)</label>
     <defName>StarWarsRaces_Ewok_Grenadier_EMP</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Grenadier_EMP">
     <race>StarWarsRaces_Twilek</race>
@@ -84,6 +96,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>smoke grenadier (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Grenadier_Smoke</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Grenadier_Smoke">
     <race>StarWarsRaces_Togruta</race>
@@ -99,6 +114,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>smoke grenadier (ewok)</label>
     <defName>StarWarsRaces_Ewok_Grenadier_Smoke</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Grenadier_Smoke">
     <race>StarWarsRaces_Twilek</race>
@@ -113,6 +131,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>mercenary gunner (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Gunner</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner">
     <race>StarWarsRaces_Togruta</race>
@@ -128,6 +149,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>mercenary gunner (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Gunner</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner">
     <race>StarWarsRaces_Twilek</race>
@@ -145,6 +169,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>mercenary gunner (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Gunner_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner_Acidifier">
     <race>StarWarsRaces_Togruta</race>
@@ -160,6 +187,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>mercenary gunner (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Gunner_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner_Acidifier">
     <race>StarWarsRaces_Twilek</race>
@@ -174,6 +204,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>mercenary sniper (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Sniper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper">
     <race>StarWarsRaces_Togruta</race>
@@ -189,6 +222,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>mercenary sniper (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Sniper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper">
     <race>StarWarsRaces_Twilek</race>
@@ -206,6 +242,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>mercenary sniper (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Sniper_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper_Acidifier">
     <race>StarWarsRaces_Togruta</race>
@@ -221,6 +260,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>mercenary sniper (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Sniper_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper_Acidifier">
     <race>StarWarsRaces_Twilek</race>
@@ -235,6 +277,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>mercenary slasher (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Slasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher">
     <race>StarWarsRaces_Togruta</race>
@@ -250,6 +295,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>mercenary slasher (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Slasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher">
     <race>StarWarsRaces_Twilek</race>
@@ -267,6 +315,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>mercenary slasher (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Slasher_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher_Acidifier">
     <race>StarWarsRaces_Togruta</race>
@@ -282,6 +333,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>mercenary slasher (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Slasher_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher_Acidifier">
     <race>StarWarsRaces_Twilek</race>
@@ -314,6 +368,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>heavy mercenary (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Heavy</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Heavy">
     <race>StarWarsRaces_Togruta</race>
@@ -329,6 +386,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>heavy mercenary (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Heavy</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Heavy">
     <race>StarWarsRaces_Twilek</race>
@@ -348,6 +408,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>boss (wookie)</label>
     <defName>StarWarsRaces_Wookiee_PirateBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PirateBoss">
     <race>StarWarsRaces_Togruta</race>
@@ -363,6 +426,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>boss (ewok)</label>
     <defName>StarWarsRaces_Ewok_PirateBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PirateBoss">
     <race>StarWarsRaces_Twilek</race>
@@ -377,6 +443,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>elite mercenary (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Elite</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite">
     <race>StarWarsRaces_Togruta</race>
@@ -392,6 +461,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>elite mercenary (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Elite</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite">
     <race>StarWarsRaces_Twilek</race>
@@ -409,6 +481,9 @@
     <race>StarWarsRaces_Wookiee</race>
     <label>elite mercenary (wookie)</label>
     <defName>StarWarsRaces_Wookiee_Mercenary_Elite_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite_Acidifier">
     <race>StarWarsRaces_Togruta</race>
@@ -424,6 +499,9 @@
     <race>StarWarsRaces_Ewok</race>
     <label>elite mercenary (ewok)</label>
     <defName>StarWarsRaces_Ewok_Mercenary_Elite_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite_Acidifier">
     <race>StarWarsRaces_Twilek</race>
