@@ -148,6 +148,7 @@
           </colorChannels>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>StarWarsRaces/Twilek/LeftLekku/Lekku_Front_Left</path>
               <bodyPart>StarWarsRaces_Left_Lekku</bodyPart>
               <drawSize>1</drawSize>
@@ -189,6 +190,7 @@
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <path>StarWarsRaces/Twilek/LeftLekku/Lekku_Rear_Left</path>
               <bodyPart>StarWarsRaces_Left_Lekku</bodyPart>
@@ -231,6 +233,7 @@
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <path>StarWarsRaces/Twilek/RightLekku/Lekku_Front_Right</path>
               <bodyPart>StarWarsRaces_Right_Lekku</bodyPart>
@@ -273,6 +276,7 @@
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <path>StarWarsRaces/Twilek/RightLekku/Lekku_Rear_Right</path>
               <bodyPart>StarWarsRaces_Right_Lekku</bodyPart>
@@ -333,6 +337,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

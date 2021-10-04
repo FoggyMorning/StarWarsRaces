@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!-- war veil stats -->
@@ -11,33 +11,33 @@
 		<techLevel>Neolithic</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
-            <recipeUsers>
-                <li>ElectricTailoringBench</li>
-                <li>HandTailoringBench</li>
-                <li>CraftingSpot</li>
-            </recipeUsers>
-            <skillRequirements>
-                <Crafting>1</Crafting>
-            </skillRequirements>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>1</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<description>A simple head covering with openings for Lekku.</description>
 		<graphicData>
 			<texPath>StarWarsRaces/Twilek/Hats/Head_Cover1_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-    	<costStuffCount>20</costStuffCount>
+		<costStuffCount>20</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
-            <WorkToMake>1400</WorkToMake>
-            <MaxHitPoints>100</MaxHitPoints>
-            <Mass>0.08</Mass>
-            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
+			<WorkToMake>1400</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.08</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
@@ -71,14 +71,14 @@
 		</thingCategories>
 		<recipeMaker>
 			<researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
-            <recipeUsers>
-                <li>ElectricTailoringBench</li>
-                <li>HandTailoringBench</li>
-                <li>CraftingSpot</li>
-            </recipeUsers>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<description>A soft, thick cap. Great for keeping warm in winter, but with openings for Lekku.</description>
 		<graphicData>
@@ -87,18 +87,17 @@
 		</graphicData>
 		<costStuffCount>25</costStuffCount>
 		<stuffCategories>
-            <li>Fabric</li>
+			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
-            <WorkToMake>1200</WorkToMake>
-            <Mass>0.07</Mass>
-            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>0.8</EquipDelay>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.07</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
 		</statBases>
-		<equippedStatOffsets>
-		</equippedStatOffsets>
+		<equippedStatOffsets></equippedStatOffsets>
 		<generateCommonality>0.01</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
@@ -118,21 +117,21 @@
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
-				<weight>10</weight>
-				<only>(0.33,0.33,0.33,1)</only>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
 				</li>
 				<li>
-				<weight>10</weight>
-				<only>(0.65,0.65,0.65,1)</only>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65,1)</only>
 				</li>
 				<li>
-				<weight>6</weight>
-				<min>(0.3,0.3,0.3,1)</min>
-				<max>(0.5,0.5,0.5,1)</max>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
 				</li>
 				<li>
-				<weight>10</weight>
-				<only>(0.9,0.9,0.9,1)</only>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9,1)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -147,14 +146,14 @@
 		</thingCategories>
 		<recipeMaker>
 			<researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
-            <recipeUsers>
-                <li>ElectricTailoringBench</li>
-                <li>HandTailoringBench</li>
-                <li>CraftingSpot</li>
-            </recipeUsers>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Leathery</li>
@@ -169,7 +168,7 @@
 			<texPath>StarWarsRaces/Twilek/Hats/Goggles_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-        <costStuffCount>10</costStuffCount>
+		<costStuffCount>10</costStuffCount>
 		<statBases>
 			<WorkToMake>6000</WorkToMake>
 			<Mass>0.14</Mass>
@@ -178,8 +177,8 @@
 			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
-			<equippedStatOffsets>
-		<SocialImpact>0.10</SocialImpact>
+		<equippedStatOffsets>
+			<SocialImpact>0.10</SocialImpact>
 		</equippedStatOffsets>
 		<generateCommonality>0.01</generateCommonality>
 		<apparel>
@@ -210,14 +209,14 @@
 		<techLevel>Neolithic</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
-            <recipeUsers>
-                <li>ElectricTailoringBench</li>
-                <li>HandTailoringBench</li>
-                <li>CraftingSpot</li>
-            </recipeUsers>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Metallic</li>
