@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef Name="StarWarsRaces_Twilek_TribalBase" Abstract="True">
+        <race>StarWarsRaces_Twilek</race>
+        <defaultFactionType>TribeCivil</defaultFactionType>
+        <backstoryCategories>
+            <li>Tribal</li>
+        </backstoryCategories>
+        <maxGenerationAge>60</maxGenerationAge>
+        <chemicalAddictionChance>0.05</chemicalAddictionChance>
+        <invNutrition>2.55</invNutrition>
+        <invFoodDef>Pemmican</invFoodDef>
+        <apparelTags>
+            <li>Neolithic</li>
+            <li>StarWarsRaces_TwilekApparelTag</li>
+        </apparelTags>
+    </PawnKindDef>
+
+    <!-- Poverty tier - penitent -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalBase">
+        <defName>StarWarsRaces_Twilek_Tribal_Penitent</defName>
+        <label>penitent (twi'lek)</label>
+        <combatPower>35</combatPower>
+        <chemicalAddictionChance>0.10</chemicalAddictionChance>
+        <invNutrition>0</invNutrition>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>
+            <min>0.2</min>
+            <max>1.1</max>
+        </gearHealthRange>
+        <apparelMoney>
+            <min>50</min>
+            <max>100</max>
+        </apparelMoney>
+        <weaponMoney>
+            <min>90</min>
+            <max>150</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeBasic</li>
+        </weaponTags>
+        <techHediffsMoney>
+            <min>50</min>
+            <max>50</max>
+        </techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+    </PawnKindDef>
+
+    <!-- Low tier - archer -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalBase">
+        <defName>StarWarsRaces_Twilek_Tribal_Archer</defName>
+        <label>archer (twi'lek)</label>
+        <combatPower>48</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>
+            <min>0.5</min>
+            <max>1.8</max>
+        </gearHealthRange>
+        <apparelMoney>
+            <min>180</min>
+            <max>350</max>
+        </apparelMoney>
+        <weaponMoney>
+            <min>80</min>
+            <max>80</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedBasic</li>
+        </weaponTags>
+        <techHediffsMoney>
+            <min>50</min>
+            <max>50</max>
+        </techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+    </PawnKindDef>
+
+    <!-- Mid tier - warrior, hunter, trader -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalBase">
+        <defName>StarWarsRaces_Twilek_Tribal_Warrior</defName>
+        <label>warrior (twi'lek)</label>
+        <combatPower>60</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>
+            <min>0.5</min>
+            <max>1.8</max>
+        </gearHealthRange>
+        <apparelMoney>
+            <min>200</min>
+            <max>300</max>
+        </apparelMoney>
+        <apparelRequired>
+            <li>Apparel_WarVeil</li>
+        </apparelRequired>
+        <weaponMoney>
+            <min>150</min>
+            <max>150</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalBase" Name="StarWarsRaces_Twilek_Tribal_Hunter">
+        <defName>StarWarsRaces_Twilek_Tribal_Hunter</defName>
+        <label>hunter (twi'lek)</label>
+        <combatPower>65</combatPower>
+        <gearHealthRange>
+            <min>0.5</min>
+            <max>1.8</max>
+        </gearHealthRange>
+        <apparelMoney>
+            <min>200</min>
+            <max>300</max>
+        </apparelMoney>
+        <apparelRequired>
+            <li>Apparel_WarVeil</li>
+        </apparelRequired>
+        <weaponMoney>
+            <min>100</min>
+            <max>100</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedDecent</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_Tribal_Hunter">
+        <defName>StarWarsRaces_Twilek_Tribal_Trader</defName>
+        <label>trader (twi'lek)</label>
+        <trader>true</trader>
+    </PawnKindDef>
+
+    <!-- High tier - berserker, heavy archer, chief melee, chief ranged -->
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalBase">
+        <defName>StarWarsRaces_Twilek_Tribal_Berserker</defName>
+        <label>berserker (twi'lek)</label>
+        <combatPower>90</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>
+            <min>200</min>
+            <max>550</max>
+        </apparelMoney>
+        <apparelRequired>
+            <li>Apparel_WarMask</li>
+        </apparelRequired>
+        <weaponMoney>
+            <min>300</min>
+            <max>300</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalBase">
+        <defName>StarWarsRaces_Twilek_Tribal_HeavyArcher</defName>
+        <label>heavy archer (twi'lek)</label>
+        <combatPower>90</combatPower>
+        <apparelMoney>
+            <min>200</min>
+            <max>550</max>
+        </apparelMoney>
+        <apparelRequired>
+            <li>Apparel_WarMask</li>
+        </apparelRequired>
+        <weaponMoney>
+            <min>250</min>
+            <max>250</max>
+        </weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedHeavy</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalBase" Name="StarWarsRaces_Twilek_TribalChiefBase" Abstract="True">
+        <defName>StarWarsRaces_Twilek_Tribal_ChiefMelee</defName>
+        <combatPower>130</combatPower>
+        <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+        <minGenerationAge>30</minGenerationAge>
+        <maxGenerationAge>999</maxGenerationAge>
+        <itemQuality>Normal</itemQuality>
+        <factionLeader>true</factionLeader>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>
+            <min>450</min>
+            <max>750</max>
+        </apparelMoney>
+        <apparelRequired>
+            <li>Apparel_PlateArmor</li>
+        </apparelRequired>
+        <weaponMoney>
+            <min>500</min>
+            <max>1000</max>
+        </weaponMoney>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalChiefBase">
+        <defName>StarWarsRaces_Twilek_Tribal_ChiefMelee</defName>
+        <label>berserker chief (twi'lek)</label>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="StarWarsRaces_Twilek_TribalChiefBase">
+        <defName>StarWarsRaces_Twilek_Tribal_ChiefRanged</defName>
+        <label>archer chief (twi'lek)</label>
+        <weaponTags>
+            <li>NeolithicRangedChief</li>
+        </weaponTags>
+    </PawnKindDef>
+
+</Defs>

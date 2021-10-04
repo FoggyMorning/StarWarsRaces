@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>StarWarsRaces_Ewok_Hood</defName>
+    <label>ewok hood</label>
+    <description>Simple hood made of primitive material.</description>
+    <recipeMaker>
+			<researchPrerequisite>StarWarsRaces_EwokApparel</researchPrerequisite>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>1</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>StarWarsRaces_EwokHatCategory</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>StarWarsRaces/Ewok/Hat/Head_Covering_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <Mass>0.10</Mass>
+      <WorkToMake>1000</WorkToMake>
+    </statBases>
+    <generateCommonality>0.000000001</generateCommonality>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>StarWarsRaces/Ewok/Hat/Head_Covering1</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_EwokApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_EwokApparelTag</li>
+      </defaultOutfitTags>
+    </apparel>
+
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>StarWarsRaces_Ewok_Parka</defName>
+    <label>ewok tabard</label>
+    <description>A bit of leather that covers the shoulders, chest and back.</description>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>1</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>StarWarsRaces_EwokApparelCategory</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>StarWarsRaces/Ewok/Clothing/Ewok_Parka_Male_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <Mass>0.10</Mass>
+      <WorkToMake>4000</WorkToMake>
+    </statBases>
+    <generateCommonality>0.000000001</generateCommonality>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>StarWarsRaces/Ewok/Clothing/Ewok_Parka</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_EwokApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_EwokApparelTag</li>
+      </defaultOutfitTags>
+    </apparel>
+
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+</Defs>
