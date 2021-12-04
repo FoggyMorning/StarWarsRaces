@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
     <defName>StarWarsRaces_Wookiee</defName>
@@ -34,11 +34,9 @@
           <li>Naked</li>
         </cannotReceiveThoughts>
 
-        <ateThoughtSpecific>
-        </ateThoughtSpecific>
+        <ateThoughtSpecific></ateThoughtSpecific>
 
-        <replacerList>
-        </replacerList>
+        <replacerList></replacerList>
       </thoughtSettings>
       <generalSettings>
         <alienPartGenerator>
@@ -112,8 +110,7 @@
               </second>
             </li>
           </colorChannels>
-          <bodyAddons>
-          </bodyAddons>
+          <bodyAddons></bodyAddons>
         </alienPartGenerator>
         <humanRecipeImport>true</humanRecipeImport>
         <forcedRaceTraitEntries>
