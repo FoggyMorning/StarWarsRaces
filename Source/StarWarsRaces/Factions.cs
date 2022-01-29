@@ -57,11 +57,11 @@ namespace StarWarsRaces
                 {
                     UpdateNPCFaction("PJ_RebelFac", speciesControl.Label);
                 }
-                if (speciesControl.Rebels)
+                if (speciesControl.Scum)
                 {
                     UpdateNPCFaction("PJ_Bounty", speciesControl.Label);
                 }
-                if (speciesControl.Rebels)
+                if (speciesControl.Empire)
                 {
                     UpdateNPCFaction("PJ_GalacticEmpire", speciesControl.Label);
                 }
