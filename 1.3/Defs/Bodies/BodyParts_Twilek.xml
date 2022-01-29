@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>StarWarsRaces_Left_Lekku</defName>
+    <label>Twi'lek left lekku</label>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Twilek_Install_NaturalLekku</RecipeDef>
+    </descriptionHyperlinks>
+    <hitPoints>10</hitPoints>
+    <skinCovered>true</skinCovered>
+    <bleedRate>2</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <solid>false</solid>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <spawnThingOnRemoved>StarWarsRaces_Twilek_Thing_Lekku</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>StarWarsRaces_Right_Lekku</defName>
+    <label>Twi'lek right lekku</label>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Twilek_Install_NaturalLekku</RecipeDef>
+    </descriptionHyperlinks>
+    <hitPoints>10</hitPoints>
+    <skinCovered>true</skinCovered>
+    <bleedRate>2</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <solid>false</solid>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <spawnThingOnRemoved>StarWarsRaces_Twilek_Thing_Lekku</spawnThingOnRemoved>
+  </BodyPartDef>
+
+</Defs>

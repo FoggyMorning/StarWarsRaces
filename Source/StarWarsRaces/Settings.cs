@@ -1,6 +1,5 @@
 ﻿using Verse;
 using UnityEngine;
-using System.Linq;
 
 namespace StarWarsRaces
 {
@@ -21,105 +20,151 @@ namespace StarWarsRaces
     }
     public class Settings : ModSettings
     {
-        public static string[] RaceIdentif = new string[] {
-            "Twilek",
-            "Rodian",
-            "Wookiee",
-            "Ewok",
-            "Togruta"
-        };
-        public string[] labels = RaceIdentif;
-        private static int num = RaceIdentif.Length;
-        const float defaultSpawnChance = 1.5f;
-        public float[] SpawnChance = Enumerable.Repeat(defaultSpawnChance, num).ToArray();
-        public bool IncludeInPirate = true;
-        public bool IncludeInOutlander = false;
-        public bool IncludeInTribal = false;
-
-
-
-
-        private Vector2 pos = new Vector2(0, 0);
+        private Vector2 scrollPosition;
+        public SpeciesControl Twilek = new SpeciesControl("Twilek");
+        public SpeciesControl Togruta = new SpeciesControl("Togruta");
+        public SpeciesControl Wookiee = new SpeciesControl("Wookiee");
+        public SpeciesControl Ewok = new SpeciesControl("Ewok");
+        public SpeciesControl Rodian = new SpeciesControl("Rodian");
         public void DoWindowContents(Rect canvas)
         {
-
-            Listing_Standard list = new Listing_Standard
-            {
-                ColumnWidth = canvas.width - 20
+            SpeciesControl[] speciesList = new SpeciesControl[] {
+                Twilek,
+                Togruta,
+                Wookiee,
+                Ewok,
+                Rodian,
             };
-            list.Begin(canvas);
+            GUI.BeginGroup(position: canvas);
+            Widgets.BeginScrollView(
+                outRect: canvas, 
+                scrollPosition: ref this.scrollPosition, 
+                viewRect: new Rect(x: 0f, y: 0f, width: canvas.width, height: 55 * 55f)
+            );
 
-            Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width + 1.50f, canvas.height);
-
-            list.BeginScrollView(canvas, ref pos, ref scrollView);
-
-            list.Gap(60);
-            list.GapLine();
-            list.Label("StarWarsRaces.IncludeHeader".Translate());
-            list.Label("StarWarsRaces.IncludeSubHeader".Translate());
-            list.GapLine();
-            for (int i = 0; i < RaceIdentif.Length; i++)
+            float num = 6f;
+            float grower = 40f;
+            Text.Font = GameFont.Small;
+            Rect rect;
+            Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+            rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: 40f);
+            Text.Font = GameFont.Medium;
+            Widgets.Label(rect, "Colonist, Wanderer, Refugees, and Slaves");
+            Text.Font = GameFont.Small;
+            for (int x =0; x < speciesList.Length; x++)
             {
-                list.SliderLabelled(("StarWarsRaces.Include" + RaceIdentif[i]).Translate(), ref SpawnChance[i],
-                    ("StarWarsRaces.Include"+RaceIdentif[i]+"Tip").Translate(), 0f, 10f, (SpawnChance[i] * 10f).ToString("0.00") + "%");
-                list.Gap(list.verticalSpacing);
+                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                Widgets.Label(rect, speciesList[x].Label + " settings");
+                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " as possible colonists", ref speciesList[x].Colonist);
+                rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " as possible wanderers", ref speciesList[x].Wanderer);
+                rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " as possible refugees", ref speciesList[x].Refugee);
+                rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " as potential slaves", ref speciesList[x].Slave);
             }
-            
-            list.GapLine();
-            Rect rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
-            Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInPirate").Translate(), ref IncludeInPirate);
-
-            list.GapLine();
-            rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
-            Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInOutlander").Translate(), ref IncludeInOutlander);
-
-            list.GapLine();
-            rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
-            Widgets.CheckboxLabeled(rect, ("StarWarsRaces.IncludeInTribal").Translate(), ref IncludeInTribal);
-            
-            list.EndScrollView(ref scrollView);
-
-            list.End();
-
-
-
+            Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+            rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: 40f);
+            Text.Font = GameFont.Medium;
+            Widgets.Label(rect, "Factions: Pirate, Outlander, and Tribals");
+            Text.Font = GameFont.Small;
+            for (int x = 0; x < speciesList.Length; x++)
+            {
+                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                Widgets.Label(rect, speciesList[x].Label + " settings");
+                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in pirate faction", ref speciesList[x].Pirate);
+                rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in outlander factions", ref speciesList[x].Outlander);
+                rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in tribal factions", ref speciesList[x].Tribal);
+            }
+            if (Factions.IsStarWarsFactionsLoaded())
+            {
+                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: 40f);
+                Text.Font = GameFont.Medium;
+                Widgets.Label(rect, "Star Wars Factions");
+                Text.Font = GameFont.Small;
+                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+            }
+                for (int x = 0; x < speciesList.Length; x++)
+            {
+                if (Factions.IsStarWarsFactionsLoaded())
+                {
+                    Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                    rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                    Widgets.Label(rect, speciesList[x].Label + " settings");
+                    Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                    rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                    Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars rebel faction", ref speciesList[x].Rebels);
+                    rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                    Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars bounty hunter faction", ref speciesList[x].Scum);
+                    rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                    Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars empire faction", ref speciesList[x].Empire);
+                }
+            }
+            Widgets.EndScrollView();
+            GUI.EndGroup();
         }
+
+
+        public float spawnChance = 70f;
         public override void ExposeData()
         {
+            SpeciesControl[] speciesList = new SpeciesControl[] {
+                Twilek,
+                Togruta,
+                Wookiee,
+                Ewok,
+                Rodian,
+            };
             base.ExposeData();
-            for (int i = 0; i < RaceIdentif.Length; i++)
+            Scribe_Values.Look(ref spawnChance, "StarWarsRaces.SpawnChance", 70f);
+            for (int x = 0; x < speciesList.Length; x++)
             {
-                Scribe_Values.Look(ref SpawnChance[i], "spawnChance" + RaceIdentif[i], defaultSpawnChance);
+                Scribe_Values.Look(ref speciesList[x].Colonist, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsColonist", true);
+                Scribe_Values.Look(ref speciesList[x].Wanderer, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsWanderer", true);
+                Scribe_Values.Look(ref speciesList[x].Refugee, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsRefugee", true);
+                Scribe_Values.Look(ref speciesList[x].Slave, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsSlave", false);
+
+                Scribe_Values.Look(ref speciesList[x].Pirate, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsPirate", true);
+                Scribe_Values.Look(ref speciesList[x].Outlander, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsOutlander", false);
+                Scribe_Values.Look(ref speciesList[x].Tribal, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsTribal", false);
+
+                Scribe_Values.Look(ref speciesList[x].Rebels, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsRebels", true);
+                Scribe_Values.Look(ref speciesList[x].Scum, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsBounty", true);
+                Scribe_Values.Look(ref speciesList[x].Empire, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsEmpire", false);
+
             }
-            Scribe_Values.Look(ref IncludeInPirate, "StarWarsRaces.IncludeAsPirate", false);
-            Scribe_Values.Look(ref IncludeInOutlander, "StarWarsRaces.IncludeInOutlander", false);
-            Scribe_Values.Look(ref IncludeInTribal, "StarWarsRaces.IncludeInTribal", false);
             if (Scribe.mode == LoadSaveMode.Saving)
             {
-                Factions.AdjustAlienRaceSettingsSpawnChance(RaceIdentif, SpawnChance);
-                Factions.AddAliensToNPCFactions(RaceIdentif, SpawnChance);
+                RaceSettingsUpdater.AdjustSpawnChance();
+                Factions.AddAliensToNPCFactions();
             }
         }
     }
-
-    public static class SettingsUtil
+    public class SpeciesControl
     {
-        // got this function from AUTOMATIC's gradient hair mod.
-        public static void SliderLabelled(this Listing_Standard listing, string label, ref float val, string tooltip, float min, float max, string format)
+        public string Label;
+        public SpeciesControl(string label)
         {
-            Rect rect = listing.GetRect(Text.LineHeight);
-
-            TextAnchor anchor = Text.Anchor;
-            Text.Anchor = TextAnchor.MiddleLeft;
-            Widgets.Label(rect.LeftPart(0.5f), label);
-            val = Widgets.HorizontalSlider(rect.RightPart(0.5f).LeftPart(0.8f), val, min, max, true);
-            Text.Anchor = TextAnchor.MiddleRight;
-            Widgets.Label(rect.RightPart(0.1f), string.Format(format, val));
-            if (!tooltip.NullOrEmpty()) TooltipHandler.TipRegion(rect, tooltip);
-            Text.Anchor = anchor;
-
-            listing.Gap(listing.verticalSpacing);
+            Label = label;
         }
+        public bool Colonist = true;
+        public bool Wanderer = true;
+        public bool Refugee = true;
+        public bool Slave = true;
+        public bool Pirate = true;
+        public bool Outlander = false;
+        public bool Tribal = false;
+        public bool Rebels = true;
+        public bool Scum = true;
+        public bool Empire = false;
     }
 }
-

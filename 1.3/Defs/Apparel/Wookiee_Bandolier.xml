@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- legacy version -->
+  <ThingDef ParentName="ApparelBase">
+    <defName>StarWarsRaces_Wookiee_Bandolier</defName>
+    <label>wookiee bandolier</label>
+    <thingCategories>
+      <li>StarWarsRaces_WookieeAccesoriesCategory</li>
+    </thingCategories>
+    <description>Belt designed for carrying ammunition. Makes reloading firearms faster.</description>
+    <graphicData>
+      <texPath>StarWarsRaces/Wookiee/Bandolier/Bandolier_Hulk_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Leathery</li>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <Mass>0.10</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.07</AimingDelayFactor>
+    </equippedStatOffsets>
+    <generateCommonality>0.01</generateCommonality>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>StarWarsRaces/Wookiee/Bandolier/Bandolier</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_WookieeApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_WookieeApparelTag</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  <!-- updated to cover legs and torso for nudity reasons -->
+  <ThingDef ParentName="ApparelBase">
+    <defName>StarWarsRaces_Wookiee_Bandolier_Tribalwear</defName>
+    <label>wookiee bandolier (tribalwear version)</label>
+    <thingCategories>
+      <li>StarWarsRaces_WookieeAccesoriesCategory</li>
+    </thingCategories>
+    <description>A full-body garment crafted using neolithic tools. While it may look primitive, it is effective at insulating the wearer.</description>
+    <recipeMaker>
+      <researchPrerequisite>StarWarsRaces_WookieeBandolier</researchPrerequisite>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>StarWarsRaces/Wookiee/Bandolier/Bandolier_Hulk_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>60</costStuffCount>
+    <tradeability>Sellable</tradeability>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.07</AimingDelayFactor>
+    </equippedStatOffsets>
+    <generateCommonality>0.01</generateCommonality>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>StarWarsRaces/Wookiee/Bandolier/Bandolier</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_WookieeApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_WookieeApparelTag</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+</Defs>

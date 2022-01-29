@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="StarWarsRace_Base">
+    <defName>StarWarsRaces_Togruta</defName>
+    <label>Togruta</label>
+    <description>Togrutas were a carnivorous humanoid species from the planet Shili. The species exhibited head-tails which were similar to those of Twi'leks. Unlike Twi'leks, a Togurta's lekku ran parallel to the head as opposed to behind, making it appear as though they were wearing a headdress. Togruta were also distinguished by montrals, large hollow horn-like projections from the top of their heads, that gave the species a form of passive echolocation. In order to protect themselves from dangerous predators, and to hunt their own prey, Togruta banded together in tribes and relied on their natural pigmentation to disrupt and confuse slow-witted beasts. Togruta worked well in large groups, and individualism was seen as abnormal within their culture, although it was also a necessary quality in leaders.</description>
+    <alienRace>
+      <generalSettings>
+        <alienPartGenerator>
+          <useGenderedHeads>true</useGenderedHeads>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+            <li>Average_Wide</li>
+            <li>Average_Pointy</li>
+            <li>Narrow_Pointy</li>
+            <li>Narrow_Normal</li>
+            <li>Narrow_Wide</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+            <li>Female</li>
+            <li>Male</li>
+            <li>Thin</li>
+            <li>Fat</li>
+            <li>Hulk</li>
+          </alienbodytypes>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- #e6850f orange-ish -->
+                    <weight>80</weight>
+                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                  </li>
+                  <li>
+                    <!-- #3965a7 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7f2929 red-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #9b60a4 purple-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #609ca4 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #60a47c green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                  </li>
+                  <li>
+                    <!-- #80a460 green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- #3965a7 blue-ish -->
+                    <weight>80</weight>
+                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                  </li>
+                  <li>
+                    <!-- #e6850f orange-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7f2929 red-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7e7f29 yellow-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.494, 0.498, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #9b60a4 purple-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #609ca4 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #60a47c green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                  </li>
+                  <li>
+                    <!-- #80a460 green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                  </li>
+                  <li>
+                    <!-- #a48160 brown-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.643, 0.505, 0.376,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li>
+              <path>StarWarsRaces/Togruta/Montral/Montral</path>
+              <bodyPart>Skull</bodyPart>
+              <drawnDesiccated>false</drawnDesiccated>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <!-- in front of head, but behind light sabers for all views but north
+              Thanks to Delta1138 from steam for finding this layeroffset that is behind hats and in front of heads
+                  ...the sweet spot so they are behind hats/helmets but still in front of the head/face.
+                  ...when they wear the jedi (or any headgear) hood, the horns stick out behind the
+                  apparel but the lekku render on the front, looks pretty good tbh.
+              -->
+              <drawnInBed>true</drawnInBed>
+              <offsets>
+                <south>
+                  <layerOffset>-.2692</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>-.2692</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-.2692</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( -0.06, 0.38 )</Average_Normal>
+                    <Average_Wide>( -0.06, 0.38 )</Average_Wide>
+                    <Average_Pointy>( -0.06, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>StarWarsRaces/Togruta/Lekku/Left/FrontOfHead/Lekku_Left_Front</path>
+              <bodyPart>left lekku</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <!-- in front of montrals, body, and head but behind light sabers -->
+              <!-- only south and west views -->
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <layerOffset>0.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>0.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.03, 0.22 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.03, 0.22 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.03, 0.22 )</Narrow_Pointy>
+                    <Average_Normal>( -0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( -0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( -0.03, 0.22 )</Average_Pointy>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <path>StarWarsRaces/Togruta/Lekku/Left/RearOfHead/Lekku_Left_Rear</path>
+              <bodyPart>left lekku</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>false</inFrontOfBody>
+              <!-- behind of montrals, body, and head but in front of light sabers -->
+              <!-- only north and east views -->
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>0</layerOffset>
+                  <offset>( 0.08, 0.09 )</offset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.09, 0.26 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.09, 0.26 )</Narrow_Wide>
+                    <Narrow_Pointy> 0.09, 0.26 )</Narrow_Pointy>
+                    <Average_Normal>( 0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( 0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( 0.03, 0.22 )</Average_Pointy>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <path>StarWarsRaces/Togruta/Lekku/Right/FrontOfHead/Lekku_Right_Front</path>
+              <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <!-- in front of montrals, body, and head but behind light sabers -->
+              <!-- only south and east views -->
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <layerOffset>.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-.01</layerOffset>
+                  <offset>( 0.025, 0.05 )</offset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.03, 0.22 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.03, 0.22 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.03, 0.22 )</Narrow_Pointy>
+                    <Average_Normal>( -0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( -0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( -0.03, 0.22 )</Average_Pointy>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <path>StarWarsRaces/Togruta/Lekku/Right/RearOfHead/Lekku_Right_Rear</path>
+              <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>false</inFrontOfBody>
+              <!-- behind of montrals, body, and head but in front of light sabers -->
+              <!-- only north and west views -->
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.09, 0.26 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.09, 0.26 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.09, 0.26 )</Narrow_Pointy>
+                    <Average_Normal>( 0.03, 0.22 )</Average_Normal>
+                    <Average_Wide>( 0.03, 0.22 )</Average_Wide>
+                    <Average_Pointy>( 0.03, 0.22 )</Average_Pointy>
+                  </crownTypes>
+                  <!-- <bodyTypes>
+                    <Male>( 0.0, 0.0 )</Male>
+                    <Female>( 0.0, 0.0 )</Female>
+                    <Fat>( 0.0, 0.0 )</Fat>
+                    <Thin>( 0.0, 0.0 )</Thin>
+                    <Hulk>( 0.0, 0.0)</Hulk>
+                  </bodyTypes> -->
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>StarWarsRaces/Togruta/Lekku/Rear/Lekku_Rear</path>
+              <bodyPart>StarWarsRaces_Togruta_Rear_Lekku</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>false</inFrontOfBody>
+              <drawnInBed>true</drawnInBed>
+              <offsets>
+                <south>
+                  <!-- south view, not visible-->
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.0 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.0 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.0 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.0 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.0 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.0 )</Average_Pointy>
+                  </crownTypes>
+                </south>
+                <north>
+                  <!-- north view in front of head, body and other addons -->
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( 0.0, 0.38 )</Average_Normal>
+                    <Average_Wide>( 0.0, 0.38 )</Average_Wide>
+                    <Average_Pointy>( 0.0, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </north>
+                <east>
+                  <!-- east/west view - in front of montrals, behind front left/right lekku, in front of rear left/right lekku -->
+                  <layerOffset>-0.34</layerOffset>
+                  <crownTypes>
+                    <Narrow_Normal>( 0.0, 0.38 )</Narrow_Normal>
+                    <Narrow_Wide>( 0.0, 0.38 )</Narrow_Wide>
+                    <Narrow_Pointy>( 0.0, 0.38 )</Narrow_Pointy>
+                    <Average_Normal>( -0.06, 0.38 )</Average_Normal>
+                    <Average_Wide>( -0.06, 0.38 )</Average_Wide>
+                    <Average_Pointy>( -0.06, 0.38 )</Average_Pointy>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+        <humanRecipeImport>true</humanRecipeImport>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <!-- <body></body> -->
+          <head>StarWarsRaces/Togruta/Head/</head>
+        </li>
+      </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <raceRestriction>
+        <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+        <apparelList></apparelList>
+      </raceRestriction>
+    </alienRace>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <!-- powerful carnivorous bite -->
+        <power>18.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <!-- montral bash -->
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+    <race>
+      <body>StarWarsRaces_Togruta_Body</body>
+    </race>
+    <!-- add to base list -->
+    <recipes>
+      <li>StarWarsRaces_Togruta_Install_ProstheticLekku</li>
+      <li>StarWarsRaces_Togruta_Install_NaturalLekku</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+
+</Defs>
