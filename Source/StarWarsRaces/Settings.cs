@@ -1,5 +1,6 @@
 ﻿using Verse;
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace StarWarsRaces
 {
@@ -21,14 +22,14 @@ namespace StarWarsRaces
     public class Settings : ModSettings
     {
         private Vector2 scrollPosition;
-        public SpeciesControl Twilek = new SpeciesControl("Twilek");
-        public SpeciesControl Togruta = new SpeciesControl("Togruta");
-        public SpeciesControl Wookiee = new SpeciesControl("Wookiee");
-        public SpeciesControl Ewok = new SpeciesControl("Ewok");
-        public SpeciesControl Rodian = new SpeciesControl("Rodian");
+        public SpeciesControl Twilek = new SpeciesControl("StarWarsRaces_Twilek");
+        public SpeciesControl Togruta = new SpeciesControl("StarWarsRaces_Togruta");
+        public SpeciesControl Wookiee = new SpeciesControl("StarWarsRaces_Wookiee");
+        public SpeciesControl Ewok = new SpeciesControl("StarWarsRaces_Ewok");
+        public SpeciesControl Rodian = new SpeciesControl("StarWarsRaces_Rodian");
         public void DoWindowContents(Rect canvas)
         {
-            SpeciesControl[] speciesList = new SpeciesControl[] {
+            List<SpeciesControl> speciesList = new List<SpeciesControl> {
                 Twilek,
                 Togruta,
                 Wookiee,
@@ -37,8 +38,8 @@ namespace StarWarsRaces
             };
             GUI.BeginGroup(position: canvas);
             Widgets.BeginScrollView(
-                outRect: canvas, 
-                scrollPosition: ref this.scrollPosition, 
+                outRect: canvas,
+                scrollPosition: ref this.scrollPosition,
                 viewRect: new Rect(x: 0f, y: 0f, width: canvas.width, height: 55 * 55f)
             );
 
@@ -51,7 +52,7 @@ namespace StarWarsRaces
             Text.Font = GameFont.Medium;
             Widgets.Label(rect, "Colonist, Wanderer, Refugees, and Slaves");
             Text.Font = GameFont.Small;
-            for (int x =0; x < speciesList.Length; x++)
+            for (int x = 0; x < speciesList.Count; x++)
             {
                 Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
                 rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
@@ -71,7 +72,7 @@ namespace StarWarsRaces
             Text.Font = GameFont.Medium;
             Widgets.Label(rect, "Factions: Pirate, Outlander, and Tribals");
             Text.Font = GameFont.Small;
-            for (int x = 0; x < speciesList.Length; x++)
+            for (int x = 0; x < speciesList.Count; x++)
             {
                 Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
                 rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
@@ -84,40 +85,40 @@ namespace StarWarsRaces
                 rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
                 Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in tribal factions", ref speciesList[x].Tribal);
             }
-            if (Factions.IsStarWarsFactionsLoaded())
-            {
-                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
-                rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: 40f);
-                Text.Font = GameFont.Medium;
-                Widgets.Label(rect, "Star Wars Factions");
-                Text.Font = GameFont.Small;
-                Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
-            }
-                for (int x = 0; x < speciesList.Length; x++)
-            {
-                if (Factions.IsStarWarsFactionsLoaded())
-                {
-                    Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
-                    rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
-                    Widgets.Label(rect, speciesList[x].Label + " settings");
-                    Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
-                    rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
-                    Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars rebel faction", ref speciesList[x].Rebels);
-                    rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
-                    Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars bounty hunter faction", ref speciesList[x].Scum);
-                    rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
-                    Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars empire faction", ref speciesList[x].Empire);
-                }
-            }
+             if (Factions.IsStarWarsFactionsLoaded())
+             {
+                 Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                 rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: 40f);
+                 Text.Font = GameFont.Medium;
+                 Widgets.Label(rect, "Star Wars Factions");
+                 Text.Font = GameFont.Small;
+                 Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+             }
+             for (int x = 0; x < speciesList.Count; x++)
+             {
+                 if (Factions.IsStarWarsFactionsLoaded())
+                 {
+                     Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                     rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                     Widgets.Label(rect, speciesList[x].Label + " settings");
+                     Widgets.DrawLineHorizontal(x: 0, y: num += grower, length: canvas.width);
+                     rect = new Rect(x: 0f, y: num, width: canvas.width - 16f, height: grower);
+                     Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars rebel faction", ref speciesList[x].Rebels);
+                     rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                     Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars bounty hunter faction", ref speciesList[x].Scum);
+                     rect = new Rect(x: 0f, y: num += grower, width: canvas.width - 16f, height: grower);
+                     Widgets.CheckboxLabeled(rect, "include " + speciesList[x].Label + " in Star Wars empire faction", ref speciesList[x].Empire);
+                 }
+             }
             Widgets.EndScrollView();
             GUI.EndGroup();
         }
 
 
-        public float spawnChance = 70f;
+        public float spawnChance = 20f;
         public override void ExposeData()
         {
-            SpeciesControl[] speciesList = new SpeciesControl[] {
+            List<SpeciesControl> speciesList = new List<SpeciesControl> { 
                 Twilek,
                 Togruta,
                 Wookiee,
@@ -125,23 +126,69 @@ namespace StarWarsRaces
                 Rodian,
             };
             base.ExposeData();
-            Scribe_Values.Look(ref spawnChance, "StarWarsRaces.SpawnChance", 70f);
-            for (int x = 0; x < speciesList.Length; x++)
+            Scribe_Values.Look(ref spawnChance, "StarWarsRaces.SpawnChance", 20f);
+            for (int x = 0; x < speciesList.Count; x++)
             {
-                Scribe_Values.Look(ref speciesList[x].Colonist, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsColonist", true);
-                Scribe_Values.Look(ref speciesList[x].Wanderer, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsWanderer", true);
-                Scribe_Values.Look(ref speciesList[x].Refugee, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsRefugee", true);
-                Scribe_Values.Look(ref speciesList[x].Slave, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsSlave", false);
-
-                Scribe_Values.Look(ref speciesList[x].Pirate, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsPirate", true);
-                Scribe_Values.Look(ref speciesList[x].Outlander, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsOutlander", false);
-                Scribe_Values.Look(ref speciesList[x].Tribal, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsTribal", false);
-
-                Scribe_Values.Look(ref speciesList[x].Rebels, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsRebels", true);
-                Scribe_Values.Look(ref speciesList[x].Scum, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsBounty", true);
-                Scribe_Values.Look(ref speciesList[x].Empire, "StarWarsRaces." + speciesList[x].Label + ".IncludeAsEmpire", false);
+                string label = speciesList[x].Label.Replace('_', '.');
+                Scribe_Values.Look(ref speciesList[x].Colonist, label + ".IncludeAsColonist", true);
+                Scribe_Values.Look(ref speciesList[x].Wanderer, label + ".IncludeAsWanderer", true);
+                Scribe_Values.Look(ref speciesList[x].Refugee, label + ".IncludeAsRefugee", true);
+                Scribe_Values.Look(ref speciesList[x].Slave, label + ".IncludeAsSlave", false);
 
             }
+            SpeciesControl t = speciesList.Find(x => x.Label == Twilek.Label);
+            string replacedLabel = t.Label.Replace('_', '.');
+            Scribe_Values.Look(ref t.Pirate, replacedLabel + ".IncludeAsPirate", true);
+            Scribe_Values.Look(ref t.Outlander, replacedLabel + ".IncludeAsOutlander", false);
+            Scribe_Values.Look(ref t.Tribal, replacedLabel + ".IncludeAsTribal", false);
+
+            Scribe_Values.Look(ref t.Rebels, replacedLabel + ".IncludeAsRebels", true);
+            Scribe_Values.Look(ref t.Scum, replacedLabel + ".IncludeAsBounty", true);
+            Scribe_Values.Look(ref t.Empire, replacedLabel + ".IncludeAsEmpire", false);
+
+
+            t = speciesList.Find(x => x.Label == Togruta.Label);
+            replacedLabel = t.Label.Replace('_', '.');
+            Scribe_Values.Look(ref t.Pirate, replacedLabel + ".IncludeAsPirate", true);
+            Scribe_Values.Look(ref t.Outlander, replacedLabel + ".IncludeAsOutlander", false);
+            Scribe_Values.Look(ref t.Tribal, replacedLabel + ".IncludeAsTribal", false);
+
+            Scribe_Values.Look(ref t.Rebels, replacedLabel + ".IncludeAsRebels", true);
+            Scribe_Values.Look(ref t.Scum, replacedLabel + ".IncludeAsBounty", true);
+            Scribe_Values.Look(ref t.Empire, replacedLabel + ".IncludeAsEmpire", false);
+
+
+            t = speciesList.Find(x => x.Label == Wookiee.Label);
+            replacedLabel = t.Label.Replace('_', '.');
+            Scribe_Values.Look(ref t.Pirate, replacedLabel + ".IncludeAsPirate", false);
+            Scribe_Values.Look(ref t.Outlander, replacedLabel + ".IncludeAsOutlander", true);
+            Scribe_Values.Look(ref t.Tribal, replacedLabel + ".IncludeAsTribal", true);
+
+            Scribe_Values.Look(ref t.Rebels, replacedLabel + ".IncludeAsRebels", true);
+            Scribe_Values.Look(ref t.Scum, replacedLabel + ".IncludeAsBounty", true);
+            Scribe_Values.Look(ref t.Empire, replacedLabel + ".IncludeAsEmpire", false);
+
+
+            t = speciesList.Find(x => x.Label == Rodian.Label);
+            replacedLabel = t.Label.Replace('_', '.');
+            Scribe_Values.Look(ref t.Pirate, replacedLabel + ".IncludeAsPirate", true);
+            Scribe_Values.Look(ref t.Outlander, replacedLabel + ".IncludeAsOutlander", true);
+            Scribe_Values.Look(ref t.Tribal, replacedLabel + ".IncludeAsTribal", false);
+
+            Scribe_Values.Look(ref t.Rebels, replacedLabel + ".IncludeAsRebels", true);
+            Scribe_Values.Look(ref t.Scum, replacedLabel + ".IncludeAsBounty", true);
+            Scribe_Values.Look(ref t.Empire, replacedLabel + ".IncludeAsEmpire", false);
+
+
+            t = speciesList.Find(x => x.Label == Ewok.Label);
+            replacedLabel = t.Label.Replace('_', '.');
+            Scribe_Values.Look(ref t.Pirate, replacedLabel + ".IncludeAsPirate", false);
+            Scribe_Values.Look(ref t.Outlander, replacedLabel + ".IncludeAsOutlander", false);
+            Scribe_Values.Look(ref t.Tribal, replacedLabel + ".IncludeAsTribal", true);
+
+            Scribe_Values.Look(ref t.Rebels, replacedLabel + ".IncludeAsRebels", true);
+            Scribe_Values.Look(ref t.Scum, replacedLabel + ".IncludeAsBounty", false);
+            Scribe_Values.Look(ref t.Empire, replacedLabel + ".IncludeAsEmpire", false);
             if (Scribe.mode == LoadSaveMode.Saving)
             {
                 RaceSettingsUpdater.AdjustSpawnChance();

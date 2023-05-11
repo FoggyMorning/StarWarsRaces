@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Male -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>StarWarsRaces_Ewok_Male_Average_PatternA_Normal</defName>
+    <graphicPath>StarWarsRaces/Ewok/Head/Male_Average_PatternA_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+
+  <!-- Female -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>StarWarsRaces_Ewok_Female_Average_PatternA_Normal</defName>
+    <graphicPath>StarWarsRaces/Ewok/Head/Female_Average_PatternA_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>StarWarsRaces_Ewok_Female_Average_PatternB_Normal</defName>
+    <graphicPath>StarWarsRaces/Ewok/Head/Female_Average_PatternB_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>StarWarsRaces_Ewok_Female_Average_PatternC_Normal</defName>
+    <graphicPath>StarWarsRaces/Ewok/Head/Female_Average_PatternC_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+</Defs>

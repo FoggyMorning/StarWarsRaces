@@ -10,10 +10,8 @@
           <li>ClothedNudist</li>
           <li>Naked</li>
         </cannotReceiveThoughts>
-
         <ateThoughtSpecific>
         </ateThoughtSpecific>
-
         <replacerList>
         </replacerList>
       </thoughtSettings>
@@ -96,12 +94,78 @@
             <li>Female_Average_PatternB_Normal</li>
             <li>Male_Average_PatternA_Normal</li>
           </aliencrowntypes>
-          <alienbodytypes>
-
-            <!-- hidden
-            <li>Oval</li>
-            -->
-          </alienbodytypes>
+          <anchorReplacements Inherit="False">
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>RightEye</tag>
+                <offset>(-0.2, 0, 0.00)</offset>
+                <canMirror>true</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>true</canMirror>
+                <offset>(0.2, 0, 0.00)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>East</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+                <offset>(0.15, 0, 0.00)</offset> 
+              </replacement>
+							<offsets>
+								<east>
+									<bodyTypes>
+										<Male>( 0.25,0.00)</Male> 
+										<Female>( 0.35,0.00)</Female>
+										<Hulk>( 0.32,0.00)</Hulk>
+										<Thin>( 0.32,0.00)</Thin>
+										<Fat>( 0.32,0.00)</Fat>
+									</bodyTypes>
+								</east>
+							</offsets>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>West</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+                <offset>(-0.22, 0, 0.00)</offset>
+              </replacement>
+							<offsets>
+								<west>
+									<bodyTypes>
+										<Male>( -0.25,0.00)</Male> 
+										<Female>( -0.35,0.00)</Female>
+										<Hulk>( -0.32,0.00)</Hulk>
+										<Thin>( -0.32,0.00)</Thin>
+										<Fat>( -0.32,0.00)</Fat>
+									</bodyTypes>
+								</west>
+							</offsets>
+            </li>
+          </anchorReplacements>
           <bodyAddons>
             <li>
               <drawnDesiccated>false</drawnDesiccated>

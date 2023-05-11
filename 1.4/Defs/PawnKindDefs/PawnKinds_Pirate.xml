@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Drifter" ParentName="PirateBase">
+    <label>drifter</label>
+    <combatPower>35</combatPower>
+    <invNutrition>0</invNutrition>
+    <gearHealthRange>0.2~0.6</gearHealthRange>
+    <itemQuality>Poor</itemQuality>
+    <apparelMoney>90~280</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <weaponMoney>60~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineHerbal</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>7~12</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Drifter">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie drifter</label>
+    <defName>StarWarsRaces_Wookiee_Drifter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Drifter">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta drifter</label>
+    <defName>StarWarsRaces_Togruta_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Drifter">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian drifter</label>
+    <defName>StarWarsRaces_Rodian_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Drifter">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok drifter</label>
+    <defName>StarWarsRaces_Ewok_Drifter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Drifter">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek drifter</label>
+    <defName>StarWarsRaces_Twilek_Drifter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_ScavengerBase" ParentName="PirateScavTierBase">
+    <label>scavenger gunner</label>
+    <apparelMoney>300~500</apparelMoney>
+    <weaponMoney>200~300</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <initialResistanceRange>17~26</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_ScavengerBase">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie scavenger gunner</label>
+    <defName>StarWarsRaces_Wookiee_Scavenger</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_ScavengerBase">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta scavenger gunner</label>
+    <defName>StarWarsRaces_Togruta_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_ScavengerBase">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian scavenger gunner</label>
+    <defName>StarWarsRaces_Rodian_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_ScavengerBase">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok scavenger gunner</label>
+    <defName>StarWarsRaces_Ewok_Scavenger</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_ScavengerBase">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek scavenger gunner</label>
+    <defName>StarWarsRaces_Twilek_Scavenger</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Thrasher" ParentName="PirateScavTierBase">
+    <label>scavenger thrasher</label>
+    <race>Human</race>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>300~800</apparelMoney>
+    <apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+    <weaponMoney>100~160</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <initialResistanceRange>14~23</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Thrasher">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie scavenger thrasher</label>
+    <defName>StarWarsRaces_Wookiee_Thrasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Thrasher">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta scavenger thrasher</label>
+    <defName>StarWarsRaces_Togruta_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Thrasher">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian scavenger thrasher</label>
+    <defName>StarWarsRaces_Rodian_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Thrasher">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok scavenger thrasher</label>
+    <defName>StarWarsRaces_Ewok_Thrasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Thrasher">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek scavenger thrasher</label>
+    <defName>StarWarsRaces_Twilek_Thrasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PirateKindBase" ParentName="PirateBase">
+    <label>pirate gunner</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <maxGenerationAge>65</maxGenerationAge>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelMoney>400~1000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponMoney>250~345</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
+    <initialWillRange>2~3</initialWillRange>
+    <initialResistanceRange>7~12</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateKindBase">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie pirate gunner</label>
+    <defName>StarWarsRaces_Wookiee_Pirate</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateKindBase">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta pirate gunner</label>
+    <defName>StarWarsRaces_Togruta_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateKindBase">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian pirate gunner</label>
+    <defName>StarWarsRaces_Rodian_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateKindBase">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok pirate gunner</label>
+    <defName>StarWarsRaces_Ewok_Pirate</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateKindBase">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek pirate gunner</label>
+    <defName>StarWarsRaces_Twilek_Pirate</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+</Defs>

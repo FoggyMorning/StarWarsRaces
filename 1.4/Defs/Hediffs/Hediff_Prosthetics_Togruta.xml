@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>StarWarsRaces_Togruta_Hediff_ProstheticLekku</defName>
+    <label>cloth togruta lekku</label>
+    <labelNoun>a cloth togruta lekku</labelNoun>
+    <description>An installed cloth togruta lekku.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Togruta_ProstheticLekku</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>StarWarsRaces_Togruta_ProstheticLekku</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+</Defs>

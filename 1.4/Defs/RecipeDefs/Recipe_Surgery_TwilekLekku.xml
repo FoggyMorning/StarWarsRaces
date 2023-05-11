@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>StarWarsRaces_Twilek_Thing_Lekku</defName>
+    <label>lekku</label>
+    <description>A biological twi'lek lekku. Primarily decorative, but is slightly prehinsile.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Twilek_Install_NaturalLekku</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>StarWarsRaces_Twilek_Install_NaturalLekku</defName>
+    <label>install twi'lek lekku</label>
+    <description>Install a biological lekku.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Twilek_Thing_Lekku</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>Installing lekku.</jobString>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Twilek_Thing_Lekku</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Twilek_Thing_Lekku</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_Left_Lekku</li>
+      <li>StarWarsRaces_Right_Lekku</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>StarWarsRaces_Twilek_ProstheticLekku</defName>
+    <label>cloth twi'lek lekku</label>
+    <description>A Twi'lek lekku prosthesis made of cloth. While it lacks a neural interface or any mechanisms, Twi'lek lekkus are largely ornamental and this one does the job just fine.</description>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Twilek_Install_ProstheticLekku</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>StarWarsRaces_Twilek_BionicLekku</defName>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Twilek_Install_BionicLekku</RecipeDef>
+    </descriptionHyperlinks>
+    <label>bionic twi'lek lekku</label>
+    <description>An advanced lekku prosthesis. It consists of a lightweight and flexible core anchored to the skull with artifical muscle fibers and controlled by a local expert system. It increases the manipulation potential of a lekku considerably.</description>
+    <costList>
+      <Synthread>10</Synthread>
+      <Plasteel>1</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>StarWarsRaces_Twilek_Install_ProstheticLekku</defName>
+    <label>install cloth twi'lek lekku</label>
+    <description>Install a cloth twi'lek lekku.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Twilek_ProstheticLekku</ThingDef>
+      <HediffDef>StarWarsRaces_Twilek_Hediff_ProstheticLekku</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing cloth twi'lek lekku.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Twilek_ProstheticLekku</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Twilek_ProstheticLekku</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_Right_Lekku</li>
+      <li>StarWarsRaces_Left_Lekku</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>StarWarsRaces_Twilek_Hediff_ProstheticLekku</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>StarWarsRaces_Twilek_Install_BionicLekku</defName>
+    <label>install bionic twi'lek lekku</label>
+    <description>Install a bionic twi'lek lekku.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Twilek_BionicLekku</ThingDef>
+      <HediffDef>StarWarsRaces_Twilek_Hediff_BionicLekku</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing bionic twi'lek lekku.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Twilek_BionicLekku</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Twilek_BionicLekku</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_Right_Lekku</li>
+      <li>StarWarsRaces_Left_Lekku</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>StarWarsRaces_Twilek_Hediff_BionicLekku</addsHediff>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Ewok" ParentName="HumanRace">
+    <defName>StarWarsRaces_Ewok</defName>
+    <label>Ewok</label>
+    <description>Ewoks were sentient humanoids, averaging about one meter in height. Omnivorous,
+      they were covered in fur from head to toe, with brown and black as the most common colors.
+      Most Ewoks had solid-colored fur, though a few sported stripes. Ewoks had large, bright eyes,
+      small humanoid noses, and hands that possessed two fingers and an opposable thumb.
+      Despite their small size, Ewoks were physically strong enough to overpower combat-trained
+      humans.
+      https://starwars.fandom.com/wiki/Ewok</description>
+    <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>ClothedNudist</li>
+          <li>Naked</li>
+        </cannotReceiveThoughts>
+      </thoughtSettings>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <disallowedTraits>
+          <li>
+            <defName>Nudist</defName>
+          </li>
+          <li>
+            <defName>Undergrounder</defName>
+          </li>
+        </disallowedTraits>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Cannibal</defName>
+            <chance>50</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <customDrawSize>( 0.65, 0.65 )</customDrawSize>
+          <customHeadDrawSize>( 0.65, 0.65 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 0.65, 0.65 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 0.65, 0.65 )</customPortraitHeadDrawSize>
+          <headOffset>(0,-0.1)</headOffset>
+          <headTypes Inherit="False">
+            <li>StarWarsRaces_Ewok_Female_Average_PatternA_Normal</li>
+            <li>StarWarsRaces_Ewok_Female_Average_PatternB_Normal</li>
+            <li>StarWarsRaces_Ewok_Female_Average_PatternC_Normal</li>
+            <li>StarWarsRaces_Ewok_Male_Average_PatternA_Normal</li>
+
+            <li MayRequire="Ludeon.RimWorld.Biotech">Gaunt</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Gaunt</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average1</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average2</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average3</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Male_HeavyJawNormal</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Female_HeavyJawNormal</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow1</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow2</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow3</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy1</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy2</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy3</li>
+          </headTypes>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(0.623, 0.380, 0.149,1)</only>
+                  </li>
+                  <li>
+                    <!-- #843e30 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.517, 0.243, 0.188,1)</only>
+                  </li>
+                  <li>
+                    <!-- #8b352d -->
+                    <weight>100</weight>
+                    <only>RGBA(0.545, 0.207, 0.176,1)</only>
+                  </li>
+                  <li>
+                    <!-- #784b44 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.470, 0.294, 0.266,1)</only>
+                  </li>
+                  <li>
+                    <!-- #685855 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.407, 0.345, 0.333,1)</only>
+                  </li>
+                  <li>
+                    <!-- #764c41 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.462, 0.298, 0.254,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(7,7,7, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(9,9,9, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(10,10,10, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(12,12,12, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(14,14,14, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(16,16,16, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(18,18,18, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(20,20,20, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(22,22,22, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(24,24,2, 2554)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(26,26,26, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(28,28,28, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(30,30,30, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(35,35,35, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(40,40,40, 255)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(0.698, 0.615, 0.541,1)</only>
+                  </li>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(0.694, 0.478, 0.282,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.86, 0.84, 0.78,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.85, 0.77, 0.61,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(228, 213, 195, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(214, 201, 185, 255)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(179, 166, 159, 255)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_2</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons Inherit="False">
+            <li>
+              <headtypeGraphics>
+                <!-- fucking biotech -->
+                <Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Gaunt>
+              </headtypeGraphics>
+              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
+                <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Pig>
+                <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Floppy>
+                <Ears_Cat MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Cat>
+                <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Pointed>
+                <Ears_Human MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Human>
+              </geneGraphics>
+              <debug>false</debug>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>StarWarsRaces/Ewok/Ear/LeftEar</path>
+              <bodyPart>Ear</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <offset>( -0.0293, 0.0227 )</offset>
+                </south>
+                <north>
+                  <offset>( -0.0, 0.007 )</offset>
+                </north>
+                <east>
+                  <offset>( -0.0, 0.0 )</offset>
+                </east>
+                <west>
+                  <offset>( -0.1, -0.0458 )</offset>
+                </west>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag>
+                <li>StarWarsRaces_EwokEars</li>
+              </hiddenUnderApparelTag>
+            </li>
+            <li>
+              <headtypeGraphics>
+                <!-- fucking biotech -->
+                <Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Gaunt>
+              </headtypeGraphics>
+              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
+                <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Pig>
+                <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Floppy>
+                <Ears_Cat MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Cat>
+                <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Pointed>
+                <Ears_Human MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Human>
+              </geneGraphics>
+              <debug>false</debug>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>StarWarsRaces/Ewok/Ear/RightEar</path>
+              <bodyPart>Ear</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <offset>( 0.025, 0.0227 )</offset>
+                </south>
+                <north>
+                  <offset>( -0.0, 0.007 )</offset>
+                </north>
+                <east>
+                  <offset>( -0.1, -0.0458 )</offset>
+                </east>
+                <west>
+                  <offset>( 0.0, 0.0 )</offset>
+                </west>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag>
+                <li>StarWarsRaces_EwokEars</li>
+              </hiddenUnderApparelTag>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <styleSettings Inherit="False">
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <graphicPaths>
+        <skinShader>Cutout</skinShader>
+        <head>
+          <headtypeGraphics>
+            <StarWarsRaces_Ewok_Male_Average_PatternA_Normal>
+              StarWarsRaces/Ewok/Head/Male_Average_PatternA_Normal</StarWarsRaces_Ewok_Male_Average_PatternA_Normal>
+
+            <StarWarsRaces_Ewok_Female_Average_PatternA_Normal>
+              StarWarsRaces/Ewok/Head/Female_Average_PatternA_Normal</StarWarsRaces_Ewok_Female_Average_PatternA_Normal>
+            <StarWarsRaces_Ewok_Female_Average_PatternB_Normal>
+              StarWarsRaces/Ewok/Head/Female_Average_PatternB_Normal</StarWarsRaces_Ewok_Female_Average_PatternB_Normal>
+            <StarWarsRaces_Ewok_Female_Average_PatternC_Normal>
+              StarWarsRaces/Ewok/Head/Female_Average_PatternC_Normal</StarWarsRaces_Ewok_Female_Average_PatternC_Normal>
+
+            <!-- fucking biotech -->
+            <Gaunt MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/Genes/None_Gaunt_Average</Gaunt>
+            <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Gaunt_Normal</Furskin_Gaunt>
+            <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Average1_Normal</Furskin_Average1>
+            <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Average2_Normal</Furskin_Average2>
+            <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Average3_Normal</Furskin_Average3>
+            <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/Male/Male_HeavyJaw_Normal</Male_HeavyJawNormal>
+            <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/Female/Female_HeavyJaw_Normal</Female_HeavyJawNormal>
+            <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Narrow1_Normal</Furskin_Narrow1>
+            <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Narrow2_Normal</Furskin_Narrow2>
+            <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Narrow3_Normal</Furskin_Narrow3>
+            <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Wide1_Normal</Furskin_Heavy1>
+            <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Wide2_Normal</Furskin_Heavy2>
+            <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Wide3_Normal</Furskin_Heavy3>
+          </headtypeGraphics>
+        </head>
+      </graphicPaths>
+      <raceRestriction>
+        <blackEndoCategories>
+          <li>Melanin</li>
+        </blackEndoCategories>
+      </raceRestriction>
+    </alienRace>
+    <race>
+      <leatherDef>StarWarsRaces_Leather_Humanlike</leatherDef>
+      <nameGenerator>StarWarsRaces_NamerPersonEwokM</nameGenerator>
+      <nameGeneratorFemale>StarWarsRaces_NamerPersonEwokF</nameGeneratorFemale>
+      <hediffGiverSets Inherit="False">
+        <li>OrganicStandard</li>
+        <li>SWR_HediffGiverSet_Ewok</li>
+      </hediffGiverSets>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>
