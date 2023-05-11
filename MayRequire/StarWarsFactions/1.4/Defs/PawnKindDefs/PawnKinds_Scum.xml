@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_ScumSoldier" ParentName="PJ_SVBase">
+    <label>Soldier</label>
+    <weaponMoney>
+      <min>2040</min>
+      <max>3000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ImpBlaster</li>
+      <li>Blaster</li>
+      <li>IonBlaster</li>
+    </weaponTags>
+    <combatPower>75</combatPower>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumSoldier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie Soldier</label>
+    <defName>StarWarsRaces_Wookiee_PJ_ScumSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumSoldier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta Soldier</label>
+    <defName>StarWarsRaces_Togruta_PJ_ScumSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumSoldier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian Soldier</label>
+    <defName>StarWarsRaces_Rodian_PJ_ScumSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumSoldier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok Soldier</label>
+    <defName>StarWarsRaces_Ewok_PJ_ScumSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumSoldier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek Soldier</label>
+    <defName>StarWarsRaces_Twilek_PJ_ScumSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_Ruffian" ParentName="PJ_SVBase">
+    <label>ruffian</label>
+    <weaponTags>
+      <li>ImpBlaster</li>
+      <li>Blaster</li>
+    </weaponTags>
+    <apparelMoney>
+      <min>6070</min>
+      <max>6070</max>
+    </apparelMoney>
+    <combatPower>85</combatPower>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_Ruffian">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie ruffian</label>
+    <defName>StarWarsRaces_Wookiee_PJ_Ruffian</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_Ruffian">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta ruffian</label>
+    <defName>StarWarsRaces_Togruta_PJ_Ruffian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_Ruffian">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian ruffian</label>
+    <defName>StarWarsRaces_Rodian_PJ_Ruffian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_Ruffian">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok ruffian</label>
+    <defName>StarWarsRaces_Ewok_PJ_Ruffian</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_Ruffian">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek ruffian</label>
+    <defName>StarWarsRaces_Twilek_PJ_Ruffian</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_ScumBoss">
+    <label>boss</label>
+    <race>Human</race>
+    <factionLeader>true</factionLeader>
+    <combatPower>250</combatPower>
+    <defaultFactionType>PJ_Bounty</defaultFactionType>
+    <initialWillRange>2~5</initialWillRange>
+    <initialResistanceRange>25~44</initialResistanceRange>
+    <invNutrition>2.55</invNutrition>
+    <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
+    <maxGenerationAge>85</maxGenerationAge>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>Soldier</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>Spacer</li>
+      <li>PJ_Mando</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>7570</min>
+      <max>8170</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>2040</min>
+      <max>3000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ImpBlaster</li>
+      <li>BlasterRifle</li>
+      <li>Blaster</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>5000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>1</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.55</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>200</min>
+            <max>5000</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineUltratech</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>5</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumBoss">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie boss</label>
+    <defName>StarWarsRaces_Wookiee_PJ_ScumBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumBoss">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta boss</label>
+    <defName>StarWarsRaces_Togruta_PJ_ScumBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumBoss">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian boss</label>
+    <defName>StarWarsRaces_Rodian_PJ_ScumBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumBoss">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok boss</label>
+    <defName>StarWarsRaces_Ewok_PJ_ScumBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScumBoss">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek boss</label>
+    <defName>StarWarsRaces_Twilek_PJ_ScumBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_BountyHunter">
+    <label>Bounty hunter</label>
+    <race>Human</race>
+    <factionLeader>false</factionLeader>
+    <combatPower>150</combatPower>
+    <defaultFactionType>PJ_Bounty</defaultFactionType>
+    <initialWillRange>2~5</initialWillRange>
+    <initialResistanceRange>25~44</initialResistanceRange>
+    <invNutrition>2.55</invNutrition>
+    <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
+    <maxGenerationAge>45</maxGenerationAge>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>2570</min>
+      <max>3000</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Soldier</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>Spacer</li>
+      <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>1480</min>
+      <max>2300</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>ImpSCBlaster</li>
+      <li>BlasterRifle</li>
+      <li>Blaster</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>5000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>1</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.01</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>200</min>
+            <max>500</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineUltratech</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_BountyHunter">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie Bounty hunter</label>
+    <defName>StarWarsRaces_Wookiee_PJ_BountyHunter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_BountyHunter">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta Bounty hunter</label>
+    <defName>StarWarsRaces_Togruta_PJ_BountyHunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_BountyHunter">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian Bounty hunter</label>
+    <defName>StarWarsRaces_Rodian_PJ_BountyHunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_BountyHunter">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok Bounty hunter</label>
+    <defName>StarWarsRaces_Ewok_PJ_BountyHunter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_BountyHunter">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek Bounty hunter</label>
+    <defName>StarWarsRaces_Twilek_PJ_BountyHunter</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+</Defs>

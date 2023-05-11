@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@ParentName="ArmorPJHelmetMakeableBase"]/apparel/tags</xpath>
+    <value>
+      <li>StarWarsRaces_EwokEars</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="PJ_ImpNavyH"]/apparel/tags</xpath>
+    <value>
+      <li>StarWarsRaces_EwokEars</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="PJ_ImpNavyH"]/apparel/tags</xpath>
+    <value>
+      <li>StarWarsRaces_EwokEars</li>
+    </value>
+  </Operation>
+</Patch>

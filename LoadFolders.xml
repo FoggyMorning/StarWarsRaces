@@ -17,4 +17,8 @@
   <v1.3>
     <li>1.3</li>
   </v1.3>
+  <v1.4>
+    <li>1.4</li>
+    <li IfModActive="projectjedi.factions">MayRequire/StarWarsFactions/1.4</li>
+  </v1.4>
 </loadFolders>

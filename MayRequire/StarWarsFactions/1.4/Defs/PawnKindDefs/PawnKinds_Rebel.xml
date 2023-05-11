@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebVillager" ParentName="PJ_RebelPawnBase">
+    <label>villager</label>
+    <race>Human</race>
+    <combatPower>25</combatPower>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>PJ_Rebel</li>
+      <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>300</min>
+      <max>1900</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>1285</min>
+      <max>1380</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Blaster</li>
+      <li>Melee</li>
+      <li>ImpSCBlaster</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.75</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>70</max>
+          </countRange>
+        </li>
+        <li>
+          <choiceChance>10</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>700</min>
+            <max>1000</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebVillager">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie villager</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebVillager</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebVillager">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta villager</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebVillager">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian villager</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebVillager">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok villager</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebVillager</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebVillager">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek villager</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebVillager</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebCouncilman" ParentName="PJ_RebVillager">
+    <label>rebel base commander</label>
+    <labelPlural>rebel base commanders</labelPlural>
+    <factionLeader>true</factionLeader>
+    <minGenerationAge>40</minGenerationAge>
+    <maxGenerationAge>100</maxGenerationAge>
+    <apparelRequired>
+      <li>PJ_RebOfficer</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>5500</min>
+      <max>5500</max>
+    </apparelMoney>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebCouncilman">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel base commander</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebCouncilman</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebCouncilman">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel base commander</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebCouncilman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebCouncilman">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel base commander</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebCouncilman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebCouncilman">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel base commander</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebCouncilman</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebCouncilman">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel base commander</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebCouncilman</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebTrader" ParentName="PJ_RebVillager">
+    <label>rebel trader</label>
+    <trader>true</trader>
+    <apparelRequired>
+      <li>PJ_RebOfficer</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>5500</min>
+      <max>5500</max>
+    </apparelMoney>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebTrader">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel trader</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebTrader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebTrader">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel trader</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebTrader">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel trader</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebTrader">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel trader</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebTrader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebTrader">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel trader</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebTrader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebGuard" ParentName="PJ_RebelPawnBase">
+    <label>rebel guard</label>
+    <race>Human</race>
+    <combatPower>70</combatPower>
+    <maxGenerationAge>65</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>PJ_Rebel</li>
+      <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1700</min>
+      <max>1900</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PJ_Reb_TroopJacket</li>
+      <li>PJ_RebHat</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Blaster</li>
+      <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>3000</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.18</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebGuard">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel guard</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebGuard</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebGuard">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel guard</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebGuard">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel guard</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebGuard">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel guard</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebGuard</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebGuard">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel guard</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebGuard</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebSoldier" ParentName="PJ_RebelPawnBase">
+    <label>rebel soldier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>PJ_Rebel</li>
+      <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>5800</min>
+      <max>10900</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PJ_Reb_CamoJacket</li>
+      <li>PJ_RebScoutHat</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Blaster</li>
+      <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1500</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebSoldier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel soldier</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebSoldier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel soldier</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebSoldier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel soldier</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebSoldier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel soldier</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebSoldier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel soldier</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebLAVSoldier" ParentName="PJ_RebelPawnBase">
+    <label>rebel soldier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>PJ_Rebel</li>
+      <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>7800</min>
+      <max>10900</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PJ_Reb_ScoutLAVJacket</li>
+      <li>PJ_RebLAVHat</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Blaster</li>
+      <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1500</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebLAVSoldier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel soldier</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebLAVSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebLAVSoldier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel soldier</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebLAVSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebLAVSoldier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel soldier</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebLAVSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebLAVSoldier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel soldier</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebLAVSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebLAVSoldier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel soldier</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebLAVSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebNadeSoldier" ParentName="PJ_RebelPawnBase">
+    <label>rebel grenadier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>PJ_Rebel</li>
+      <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>5800</min>
+      <max>10900</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PJ_Reb_ScoutJacket</li>
+      <li>PJ_RebScoutHat</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1500</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebNadeSoldier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel grenadier</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebNadeSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebNadeSoldier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel grenadier</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebNadeSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebNadeSoldier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel grenadier</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebNadeSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebNadeSoldier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel grenadier</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebNadeSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebNadeSoldier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel grenadier</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebNadeSoldier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebPilot" ParentName="PJ_RebelPawnBase">
+    <label>rebel soldier</label>
+    <race>Human</race>
+    <combatPower>150</combatPower>
+    <maxGenerationAge>40</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>PJ_RebPilot</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>4800</min>
+      <max>10900</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PJ_RebFlight</li>
+      <li>PJ_RebPilot_H_Red</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Blaster</li>
+      <li>BlasterRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1500</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebPilot">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel soldier</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebPilot</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebPilot">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel soldier</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebPilot</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebPilot">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel soldier</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebPilot</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebPilot">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel soldier</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebPilot</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebPilot">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel soldier</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebPilot</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebMerc" ParentName="PJ_RebelPawnBase">
+    <label>rebel mercenary</label>
+    <race>Human</race>
+    <combatPower>200</combatPower>
+    <maxGenerationAge>45</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>12800</min>
+      <max>20900</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>PJ_Rebel</li>
+      <li>Military</li>
+      <li>PJ_Comp</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>2200</min>
+      <max>2600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Blaster</li>
+      <li>BlasterRifle</li>
+      <li>Melee</li>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>2000</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.1</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebMerc">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie rebel mercenary</label>
+    <defName>StarWarsRaces_Wookiee_PJ_RebMerc</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebMerc">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta rebel mercenary</label>
+    <defName>StarWarsRaces_Togruta_PJ_RebMerc</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebMerc">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian rebel mercenary</label>
+    <defName>StarWarsRaces_Rodian_PJ_RebMerc</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebMerc">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok rebel mercenary</label>
+    <defName>StarWarsRaces_Ewok_PJ_RebMerc</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_RebMerc">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek rebel mercenary</label>
+    <defName>StarWarsRaces_Twilek_PJ_RebMerc</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonRodianM</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[RodianfirstM] [Rodianlast]</li>
+        <li>name->[NicknamesM] [RodianfirstM]</li>
+        <li>name->[RodianfirstM] [NicknamesM] [Rodianlast]</li>
+        <li>name->[RodianfirstM] [NicknamesM]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>RodianfirstM</keyword>
+          <path>Rodian_Names/Rodian_M</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Rodianlast</keyword>
+          <path>Rodian_Names/Rodian_Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknamesM</keyword>
+          <path>Rodian_Names/Nicknames_M</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>StarWarsRaces_NamerPersonRodianF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[RodianfirstF] [Rodianlast]</li>
+        <li>name->[NicknamesF] [RodianfirstF]</li>
+        <li>name->[RodianfirstF] [NicknamesF] [Rodianlast]</li>
+        <li>name->[RodianfirstF] [NicknamesF]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>RodianfirstF</keyword>
+          <path>Rodian_Names/Rodian_F</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Rodianlast</keyword>
+          <path>Rodian_Names/Rodian_Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknamesF</keyword>
+          <path>Rodian_Names/Nicknames_F</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

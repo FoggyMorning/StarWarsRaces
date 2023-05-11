@@ -14,6 +14,80 @@
         <chemicalSettings>
         </chemicalSettings>
         <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <alienPartGenerator>
+          <anchorReplacements>
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>RightEye</tag>
+                <offset>(-0.095, 0, 0.16)</offset>
+                <canMirror>true</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>true</canMirror>
+                <offset>(0.095, 0, 0.16)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>East</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+                <offset>(0.15, 0, 0.16)</offset> 
+              </replacement>
+							<offsets>
+								<east>
+									<bodyTypes>
+										<Male>( 0.15,0.16)</Male> 
+										<Female>( 0.25,0.16)</Female>
+										<Hulk>( 0.22,0.16)</Hulk>
+										<Thin>( 0.22,0.16)</Thin>
+										<Fat>( 0.22,0.16)</Fat>
+									</bodyTypes>
+								</east>
+							</offsets>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>West</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+                <offset>(-0.12, 0, 0.16)</offset>
+              </replacement>
+							<offsets>
+								<west>
+									<bodyTypes>
+										<Male>( -0.15,0.16)</Male> 
+										<Female>( -0.25,0.16)</Female>
+										<Hulk>( -0.22,0.16)</Hulk>
+										<Thin>( -0.22,0.16)</Thin>
+										<Fat>( -0.22,0.16)</Fat>
+									</bodyTypes>
+								</west>
+							</offsets>
+            </li>
+          </anchorReplacements>
+        </alienPartGenerator>
       </generalSettings>
 
 

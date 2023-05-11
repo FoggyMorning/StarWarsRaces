@@ -165,6 +165,7 @@
                 <li>
                   <def>Eye</def>
                   <customLabel>left eye</customLabel>
+                  <woundAnchorTag>LeftEye</woundAnchorTag>
                   <coverage>0.17</coverage>
                   <groups>
                     <li>FullHead</li>
@@ -174,6 +175,7 @@
                 <li>
                   <def>Eye</def>
                   <customLabel>right eye</customLabel>
+                  <woundAnchorTag>RightEye</woundAnchorTag>
                   <coverage>0.17</coverage>
                   <groups>
                     <li>FullHead</li>
@@ -223,6 +225,7 @@
         <li>
           <def>Shoulder</def>
           <customLabel>left shoulder</customLabel>
+          <woundAnchorTag>LeftShoulder</woundAnchorTag>
           <coverage>0.12</coverage>
           <groups>
             <li>Shoulders</li>
@@ -327,6 +330,7 @@
         <li>
           <def>Shoulder</def>
           <customLabel>right shoulder</customLabel>
+          <woundAnchorTag>RightShoulder</woundAnchorTag>
           <coverage>0.12</coverage>
           <groups>
             <li>Shoulders</li>
@@ -439,6 +443,7 @@
         <li>
           <def>Leg</def>
           <customLabel>left leg</customLabel>
+          <woundAnchorTag>LeftLeg</woundAnchorTag>
           <coverage>0.14</coverage>
           <height>Bottom</height>
           <groups>
@@ -518,6 +523,7 @@
         <li>
           <def>Leg</def>
           <customLabel>right leg</customLabel>
+          <woundAnchorTag>RightLeg</woundAnchorTag>
           <coverage>0.14</coverage>
           <height>Bottom</height>
           <groups>

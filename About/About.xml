@@ -1,41 +1,100 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Star Wars Races</name>
-	<author>Foggy Morning</author>
-	<url>https://github.com/FoggyMorning/StarWarsRaces</url>
-   <supportedVersions><li>1.0</li><li>1.1</li><li>1.2</li></supportedVersions>
-   
+  <name>Star Wars Races</name>
+  <author>Foggy Morning</author>
+  <url>https://github.com/FoggyMorning/StarWarsRaces</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+
   <packageId>FoggyMorning.StarWarsRaces</packageId>
-  
-    <modDependencies>
+
+  <modDependenciesByVersion>
+    <v1.0>
       <li>
         <packageId>erdelf.HumanoidAlienRaces</packageId>
         <displayName>Humanoid Alien Races 2.0</displayName>
         <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
       </li>
-    </modDependencies>
-    <loadAfter>
-      <li>erdelf.HumanoidAlienRaces</li>
-    </loadAfter>
-	
-	<description>Adds the Wookiee, Rodian, Twi'lek, Ewok, and Togruta races to the PlayerColony and PlayerTribe factions.  
-This makes them available at game start for all scenarios that use those factions. 
-Does not add any additional factions.
-Additionally all three races can show up as refugees, wanderers, or slaves during game play.  
-They will also now show up as part of the Pirate, Outlander, and Tribal factions by default.  You can disable this in the settings.
-	
-[h1] What's different? [/h1]
+    </v1.0>
+    <v1.1>
+      <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      </li>
+    </v1.1>
+    <v1.2>
+      <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      </li>
+    </v1.2>
+    <v1.3>
+      <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      </li>
+    </v1.3>
+    <v1.4>
+      <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      </li>
+    </v1.4>
+  </modDependenciesByVersion>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>erdelf.HumanoidAlienRaces.dev</li>
+    <li>projectjedi.factions</li>
+  </loadAfter>
 
-- Rodians have the same stats as humans
-- Twi'leks ave the same stats as humans
-- Wookiees are bigger and tougher than humans
-- Ewoks have the same stats as humans, but are smaller than other pawns and always have tribal backstories.
-- Togruta have the same stats as humans
-	
-[h1] Credits [/h1]
-Should be compatible with other existing Star Wars mods including any others that add the same species.
-Thanks to erdelf for the Alien Race framework!
-Thanks to the owners and creators of Star Wars.
+  <description>
+    Adds the Wookiee, Rodian, Twi'lek, Ewok, and Togruta races to the PlayerColony and PlayerTribe factions.  
+    This makes them available at game start for all scenarios that use those factions. 
 
-	</description>
+
+    Does not add any additional factions.
+    Additionally all races can show up as refugees, or wanderers during game play.  
+    There is a settings option to have them show up as slaves, but it is off by default.
+    Twi'lek, Togruta, and Rodians will show up as part of the Pirate faction by default.
+    Twi'lek, Togruta, Wookiees, and Rodians will show up as part of the Outlander factions by default.
+    Wookiees and Ewoks show up as part of the Tribal factions by default.
+    You can disable or enable which races show up for which factions in the settings.
+    You will need to restart the game for most Setting changes to take effect.
+      
+    [h1] What's different? [/h1]
+
+    - Rodians have the same stats as humans, but have antennae which are a hearing source.
+    - Twi'leks ave the same stats as humans, but have Lekku bodyparts which function as a weak manipulation limb
+    - Wookiees are bigger and tougher and live longer than humans
+    - Wookiee work speed for research, mining, plants, and construction are slightly less than others.
+    - Ewoks have the same stats as humans, but are smaller than other pawns and always have tribal backstories.
+    - Togruta have the same stats as humans, but also have Lekku and a Montral which is a sight and hearing source.
+    - Togruta Lekku are not a manipulation limb.
+    - Ewoks and Wookiees cannot have bad thoughts about being naked since they are naturally furry 
+    - So they will never have the Nudist trait.  
+    - Ewoks do not get any extra comfortable temperature range.  Wookiees do.
+    - Rodians do not have teeth, so have one less attack option than other races.
+      
+    [h1] Credits [/h1]
+    Should be compatible with other existing Star Wars mods including any others that add the same species.
+    Thanks to erdelf for the Alien Race framework!
+    Thanks to the owners and creators of Star Wars.
+
+Github page
+https://github.com/FoggyMorning/StarWarsRaces
+
+Check out my other mod for even more races
+https://steamcommunity.com/sharedfiles/filedetails/?id=1654061947
+
+
+  </description>
 </ModMetaData>

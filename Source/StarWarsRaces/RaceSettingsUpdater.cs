@@ -1,8 +1,5 @@
 ﻿using Verse;
-using RimWorld;
 using AlienRace;
-using System.Linq;
-using System.Collections.Generic;
 
 namespace StarWarsRaces
 {

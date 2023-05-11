@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@ParentName="ApparelArmorHelmetReconBase"]/apparel/tags</xpath>
+    <value>
+      <li>StarWarsRaces_RodianEars</li>
+      <li>StarWarsRaces_RodianAntenna</li>
+      <li>StarWarsRaces_RodianSpines</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@ParentName="ApparelArmorHelmetPowerBase"]/apparel/tags</xpath>
+    <value>
+      <li>StarWarsRaces_RodianEars</li>
+      <li>StarWarsRaces_RodianAntenna</li>
+      <li>StarWarsRaces_RodianSpines</li>
+    </value>
+  </Operation>
+</Patch>
