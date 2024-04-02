@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- based on the lotr traits -->
+  <HediffDef Name="SWR_AlienTraits" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.0, 0.8, 0.0)</defaultLabelColor>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+  </HediffDef>
+
+
+  <HediffDef ParentName="SWR_AlienTraits">
+    <defName>SWR_AlienTrait_Ewok</defName>
+    <label>Ewok</label>
+    <description>This person is an Ewok from the forested moon of Endor.
+       A small and primitive, but ferocious killer that looks like a cute and fuzzy pet. 
+       They are heavily furred which provides some protection from the cold.
+       They are expert trap makers and have perfected guerrilla warfare.
+       Ewoks never have negative thoughts about being naked unless their ideology considers it wrong.
+      Their small size and weak constitution has made them undesirable to slavers of all sorts.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <Mass>-10</Mass>
+          <MarketValue>-200</MarketValue>
+          <CarryingCapacity>-20</CarryingCapacity>
+          <LeatherAmount>-30</LeatherAmount>
+          <MeatAmount>-40</MeatAmount>
+          <ResearchSpeed>0.2</ResearchSpeed>
+          <MiningSpeed>-0.5</MiningSpeed>
+          <SocialImpact>-0.1</SocialImpact>
+          <BondAnimalChanceFactor>1</BondAnimalChanceFactor>
+          <HuntingStealth>0.1</HuntingStealth>
+          <PawnTrapSpringChance>-0.1</PawnTrapSpringChance>
+          <ConstructionSpeed>0.1</ConstructionSpeed>
+          <ForagedNutritionPerDay>1</ForagedNutritionPerDay>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffGiverSetDef>
+    <defName>SWR_HediffGiverSet_Ewok</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>SWR_AlienTrait_Ewok</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffDef ParentName="SWR_AlienTraits">
+    <defName>SWR_AlienTrait_Rodian</defName>
+    <label>Rodian</label>
+    <description>Rodians are a reptilian species with antennae, green and scaled skin, large round pupil-less eyes, and snouts from the planet Rodia. They are excellent hunters.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <ComfyTemperatureMax>20</ComfyTemperatureMax>
+          <BondAnimalChanceFactor>-0.1</BondAnimalChanceFactor>
+          <HuntingStealth>0.2</HuntingStealth>
+          <AimingDelayFactor>-0.01</AimingDelayFactor>
+          <ForagedNutritionPerDay>10</ForagedNutritionPerDay>
+          <ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</ShootingAccuracyOutdoorsDarkOffset>
+          <ShootingAccuracyIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</ShootingAccuracyIndoorsDarkOffset>
+          <MeleeHitChanceOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeHitChanceOutdoorsDarkOffset>
+          <MeleeHitChanceIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeHitChanceIndoorsDarkOffset>
+          <MeleeDodgeChanceOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeDodgeChanceOutdoorsDarkOffset>
+          <MeleeDodgeChanceIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeDodgeChanceIndoorsDarkOffset>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffGiverSetDef>
+    <defName>SWR_HediffGiverSet_Rodian</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>SWR_AlienTrait_Rodian</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+
+  <HediffDef ParentName="SWR_AlienTraits">
+    <defName>SWR_AlienTrait_Togruta</defName>
+    <label>Togruta</label>
+    <description>Togrutas are a humanoid species from the planet Shili. 
+      Togruta are distinguished by montrals, large hollow horn-like projections from the top of their heads, that gave the species a form of passive echolocation. 
+      They are excellent hunters.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <HuntingStealth>1</HuntingStealth>
+          <BondAnimalChanceFactor>-0.1</BondAnimalChanceFactor>
+          <ForagedNutritionPerDay>0.1</ForagedNutritionPerDay>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffGiverSetDef>
+    <defName>SWR_HediffGiverSet_Togruta</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>SWR_AlienTrait_Togruta</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+
+  <HediffDef ParentName="SWR_AlienTraits">
+    <defName>SWR_AlienTrait_Twilek</defName>
+    <label>Twilek</label>
+    <description>Twi'leks are tall, thin humanoids with skin pigment that spans a rainbow of colors. 
+      As their Lekku have made it difficult to wear protective headgear they have developed strong negotiation skills to avoid conflict.
+      For some reason, humans find them especially attractive and this has made them increasingly valuable to slavers of all sorts.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <MarketValue>1000</MarketValue>
+          <SocialImpact>1</SocialImpact>
+          <NegotiationAbility>1</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffGiverSetDef>
+    <defName>SWR_HediffGiverSet_Twilek</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>SWR_AlienTrait_Twilek</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+
+  <HediffDef ParentName="SWR_AlienTraits">
+    <defName>SWR_AlienTrait_Wookiee</defName>
+    <label>Wookiee</label>
+    <description>Shaggy giants from an arboreal world, the tall and commanding Wookieee species is an impressive sight to even the most jaded spacer.
+      Wookiees cannot have negative thoughts about being naked unless their Ideology considers it wrong.
+      Their strong backs and hardy constitution have made them valuable targets for slavers of all sorts.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>20</Mass>
+          <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+          <ComfyTemperatureMax>10</ComfyTemperatureMax>
+          <LeatherAmount>10</LeatherAmount>
+          <MarketValue>500</MarketValue>
+          <CarryingCapacity>20</CarryingCapacity>
+          <MiningSpeed>0.2</MiningSpeed>
+          <SocialImpact>0.15</SocialImpact>
+          <PlantWorkSpeed>0.1</PlantWorkSpeed>
+          <ConstructionSpeed>0.1</ConstructionSpeed>
+          <ForagedNutritionPerDay>0.2</ForagedNutritionPerDay>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffGiverSetDef>
+    <defName>SWR_HediffGiverSet_Wookiee</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>SWR_AlienTrait_Wookiee</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+</Defs>

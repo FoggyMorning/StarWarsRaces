@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Colonist" ParentName="BasePlayerPawnKind">
+    <label>colonist</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Colonist">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie colonist</label>
+    <defName>StarWarsRaces_Wookiee_Colonist</defName>
+    <apparelRequired>
+      <li>StarWarsRaces_Wookiee_Bandolier_Tribalwear</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Colonist">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta colonist</label>
+    <defName>StarWarsRaces_Togruta_Colonist</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Colonist">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian colonist</label>
+    <defName>StarWarsRaces_Rodian_Colonist</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Colonist">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok colonist</label>
+    <defName>StarWarsRaces_Ewok_Colonist</defName>
+    <apparelRequired>
+      <li>StarWarsRaces_Ewok_Hood</li>
+      <li>StarWarsRaces_Ewok_Parka</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Colonist">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek colonist</label>
+    <defName>StarWarsRaces_Twilek_Colonist</defName>
+    <apparelMoney>550~700</apparelMoney>
+    <apparelRequired>
+      <li>StarWarsRaces_TwilekHeadCovering</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribesperson" ParentName="BasePlayerPawnKind">
+    <label>member</label>
+    <race>Human</race>
+    <defaultFactionType>PlayerTribe</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>200~200</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.02</techHediffsChance>
+    <initialResistanceRange>9~15</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribesperson">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie member</label>
+    <defName>StarWarsRaces_Wookiee_Tribesperson</defName>
+    <apparelRequired>
+      <li>StarWarsRaces_Wookiee_Bandolier_Tribalwear</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribesperson">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta member</label>
+    <defName>StarWarsRaces_Togruta_Tribesperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribesperson">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian member</label>
+    <defName>StarWarsRaces_Rodian_Tribesperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribesperson">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok member</label>
+    <defName>StarWarsRaces_Ewok_Tribesperson</defName>
+    <apparelRequired>
+      <li>StarWarsRaces_Ewok_Hood</li>
+      <li>StarWarsRaces_Ewok_Parka</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribesperson">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek member</label>
+    <defName>StarWarsRaces_Twilek_Tribesperson</defName>
+    <apparelRequired>
+      <li>StarWarsRaces_TwilekHeadCovering</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+</Defs>

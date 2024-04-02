@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>StarWarsRaces_Leather_Twilek</defName>
+    <label>twi'lek leather</label>
+    <description>Tanned, dried, scraped Twi'lek skin. Most sentients find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
+    <graphicData>
+      <color>(112,194,199)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(112,194,199)</color>
+      <commonality>0.01</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>StarWarsRaces_Leather_Rodian</defName>
+    <label>rodian leather</label>
+    <description>Tanned, dried, scraped Rodian skin. Most sentients find this material horrifying. Some find it fascinating. Rodian skin is reasonably tough, but does not insulate well at all.</description>
+    <statBases>
+      <MarketValue>2.1</MarketValue>
+      <StuffPower_Armor_Sharp>0.81</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.27</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(101,116,58)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(101,116,58)</color>
+      <commonality>0.01</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>StarWarsRaces_Leather_Humanlike</defName>
+    <label>humanlike leather</label>
+    <description>Tanned, dried, scraped skin from a humanlike sentient. Most sentients find this material horrifying. Some find it fascinating. Humanlike skin is reasonably tough, but does not insulate well at all.</description>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(134, 102, 60)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(134, 102, 60)</color>
+      <commonality>0.01</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>
