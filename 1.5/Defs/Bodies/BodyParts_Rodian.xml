@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>StarWarsRaces_RodianAntenna</defName>
+    <label>rodian antenna</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>true</skinCovered>
+    <bleedRate>1</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <solid>false</solid>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+    <spawnThingOnRemoved>StarWarsRaces_Rodian_Thing_Antenna</spawnThingOnRemoved>
+  </BodyPartDef>
+
+
+</Defs>

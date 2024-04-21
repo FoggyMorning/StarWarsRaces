@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="StarWarsRaces_VFES_Bandit">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie bandit</label>
+    <defName>StarWarsRaces_Wookiee_VFES_Bandit</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFES_Bandit">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta bandit</label>
+    <defName>StarWarsRaces_Togruta_VFES_Bandit</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFES_Bandit">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian bandit</label>
+    <defName>StarWarsRaces_Rodian_VFES_Bandit</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFES_Bandit">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok bandit</label>
+    <defName>StarWarsRaces_Ewok_VFES_Bandit</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFES_Bandit">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek bandit</label>
+    <defName>StarWarsRaces_Twilek_VFES_Bandit</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+</Defs>

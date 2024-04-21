@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_GunnerTox">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie waster gunner</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_GunnerTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_GunnerTox">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta waster gunner</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_GunnerTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_GunnerTox">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian waster gunner</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_GunnerTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_GunnerTox">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok waster gunner</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_GunnerTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_GunnerTox">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek waster gunner</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_GunnerTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_SlasherTox">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie waster slasher</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_SlasherTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_SlasherTox">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta waster slasher</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_SlasherTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_SlasherTox">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian waster slasher</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_SlasherTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_SlasherTox">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok waster slasher</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_SlasherTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_SlasherTox">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek waster slasher</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_SlasherTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_EliteTox">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie elite waster</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_EliteTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_EliteTox">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta elite waster</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_EliteTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_EliteTox">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian elite waster</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_EliteTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_EliteTox">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok elite waster</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_EliteTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_EliteTox">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek elite waster</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_EliteTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Tox">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie waster grenadier</label>
+    <defName>StarWarsRaces_Wookiee_Grenadier_Tox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Tox">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta waster grenadier</label>
+    <defName>StarWarsRaces_Togruta_Grenadier_Tox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Tox">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian waster grenadier</label>
+    <defName>StarWarsRaces_Rodian_Grenadier_Tox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Tox">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok waster grenadier</label>
+    <defName>StarWarsRaces_Ewok_Grenadier_Tox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Tox">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek waster grenadier</label>
+    <defName>StarWarsRaces_Twilek_Grenadier_Tox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_HeavyTox">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie heavy waster</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_HeavyTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_HeavyTox">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta heavy waster</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_HeavyTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_HeavyTox">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian heavy waster</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_HeavyTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_HeavyTox">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok heavy waster</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_HeavyTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_HeavyTox">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek heavy waster</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_HeavyTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBossTox">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie waster boss</label>
+    <defName>StarWarsRaces_Wookiee_PirateBossTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBossTox">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta waster boss</label>
+    <defName>StarWarsRaces_Togruta_PirateBossTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBossTox">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian waster boss</label>
+    <defName>StarWarsRaces_Rodian_PirateBossTox</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBossTox">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok waster boss</label>
+    <defName>StarWarsRaces_Ewok_PirateBossTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBossTox">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek waster boss</label>
+    <defName>StarWarsRaces_Twilek_PirateBossTox</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+</Defs>

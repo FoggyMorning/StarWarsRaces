@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>StarWarsRaces_Rodian_Thing_Antenna</defName>
+    <label>rodian antenna</label>
+    <description>A biological rodian antenna. Aids in hearing.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Rodian_Install_NaturalAntenna</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>StarWarsRaces_Rodian_Install_NaturalAntenna</defName>
+    <label>install rodian antenna</label>
+    <description>Install a biological antenna.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Rodian_Thing_Antenna</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>Installing antenna.</jobString>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Rodian_Thing_Antenna</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Rodian_Thing_Antenna</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_RodianAntenna</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>StarWarsRaces_Rodian_ProstheticAntenna</defName>
+    <label>cloth rodian antenna</label>
+    <description>A Rodian antenna prosthesis made of cloth. While it lacks a neural interface or any mechanisms, Rodian antennas are largely ornamental and this one does the job just fine.</description>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Rodian_Install_ProstheticAntenna</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>StarWarsRaces_Rodian_BionicAntenna</defName>
+    <descriptionHyperlinks>
+      <RecipeDef>StarWarsRaces_Rodian_Install_BionicAntenna</RecipeDef>
+    </descriptionHyperlinks>
+    <label>bionic rodian antenna</label>
+    <description>An advanced antenna prosthesis. It consists of a lightweight and flexible core anchored to the skull with artifical muscle fibers and controlled by a local expert system. It increases the hearing potential of an antenna considerably.</description>
+    <costList>
+      <Synthread>10</Synthread>
+      <Plasteel>1</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>StarWarsRaces_Rodian_Install_ProstheticAntenna</defName>
+    <label>install cloth rodian antenna</label>
+    <description>Install a cloth rodian antenna.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Rodian_ProstheticAntenna</ThingDef>
+      <HediffDef>StarWarsRaces_Rodian_Hediff_ProstheticAntenna</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing cloth rodian antenna.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Rodian_ProstheticAntenna</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Rodian_ProstheticAntenna</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_RodianAntenna</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>StarWarsRaces_Rodian_Hediff_ProstheticAntenna</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>StarWarsRaces_Rodian_Install_BionicAntenna</defName>
+    <label>install bionic rodian antenna</label>
+    <description>Install a bionic rodian antenna.</description>
+    <descriptionHyperlinks>
+      <ThingDef>StarWarsRaces_Rodian_BionicAntenna</ThingDef>
+      <HediffDef>StarWarsRaces_Rodian_Hediff_BionicAntenna</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing bionic rodian antenna.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>StarWarsRaces_Rodian_BionicAntenna</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>StarWarsRaces_Rodian_BionicAntenna</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>StarWarsRaces_RodianAntenna</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>StarWarsRaces_Rodian_Hediff_BionicAntenna</addsHediff>
+  </RecipeDef>
+
+</Defs>

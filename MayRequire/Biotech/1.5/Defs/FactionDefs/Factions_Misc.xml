@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="TribeSavageBase">
+    <defName>StarWarsRaces_TribeRoughEwok</defName>
+    <label>savage ewok tribe</label>
+    <description>A vicious tribe of small furry Ewoks. This particular tribe has no intention of coexisting peacefully with anyone else. Their warriors are experts at destroying the towns and children of other peoples using traps and overwhelming numbers.\n\nHaving been here for thousands of years, the origins of this tribe are lost in myth. They might descend from a group of settlers who lost their technology, or an Ewok community in some long-ruined moon of Endor.</description>
+    <pawnSingular>ewok</pawnSingular>
+    <pawnsPlural>ewoks</pawnsPlural>
+    <replacesFaction>TribeSavage</replacesFaction>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <StarWarsRaces_EwokBaseliner>999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Penitent>5</StarWarsRaces_Ewok_Tribal_Penitent>
+          <StarWarsRaces_Ewok_Tribal_Warrior>5</StarWarsRaces_Ewok_Tribal_Warrior>
+          <StarWarsRaces_Ewok_Tribal_Archer>1</StarWarsRaces_Ewok_Tribal_Archer>
+          <StarWarsRaces_Ewok_Tribal_Hunter>1</StarWarsRaces_Ewok_Tribal_Hunter>
+          <StarWarsRaces_Ewok_Tribal_HeavyArcher>1</StarWarsRaces_Ewok_Tribal_HeavyArcher>
+          <StarWarsRaces_Ewok_Tribal_Berserker>5</StarWarsRaces_Ewok_Tribal_Berserker>
+          <StarWarsRaces_Ewok_Tribal_ChiefRanged>1</StarWarsRaces_Ewok_Tribal_ChiefRanged>
+          <StarWarsRaces_Ewok_Tribal_ChiefMelee>3</StarWarsRaces_Ewok_Tribal_ChiefMelee>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>150</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Penitent>10</StarWarsRaces_Ewok_Tribal_Penitent>
+          <StarWarsRaces_Ewok_Tribal_Warrior>10</StarWarsRaces_Ewok_Tribal_Warrior>
+          <StarWarsRaces_Ewok_Tribal_Berserker>10</StarWarsRaces_Ewok_Tribal_Berserker>
+          <StarWarsRaces_Ewok_Tribal_ChiefMelee>5</StarWarsRaces_Ewok_Tribal_ChiefMelee>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Breacher>5</StarWarsRaces_Ewok_Tribal_Breacher>
+          <StarWarsRaces_Ewok_Tribal_Penitent>5</StarWarsRaces_Ewok_Tribal_Penitent>
+          <StarWarsRaces_Ewok_Tribal_Warrior>5</StarWarsRaces_Ewok_Tribal_Warrior>
+          <StarWarsRaces_Ewok_Tribal_Archer>1</StarWarsRaces_Ewok_Tribal_Archer>
+          <StarWarsRaces_Ewok_Tribal_Hunter>1</StarWarsRaces_Ewok_Tribal_Hunter>
+          <StarWarsRaces_Ewok_Tribal_HeavyArcher>1</StarWarsRaces_Ewok_Tribal_HeavyArcher>
+          <StarWarsRaces_Ewok_Tribal_Berserker>5</StarWarsRaces_Ewok_Tribal_Berserker>
+          <StarWarsRaces_Ewok_Tribal_ChiefRanged>1</StarWarsRaces_Ewok_Tribal_ChiefRanged>
+          <StarWarsRaces_Ewok_Tribal_ChiefMelee>3</StarWarsRaces_Ewok_Tribal_ChiefMelee>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Warrior>20</StarWarsRaces_Ewok_Tribal_Warrior>
+          <StarWarsRaces_Ewok_Tribal_Child>10</StarWarsRaces_Ewok_Tribal_Child>
+          <StarWarsRaces_Ewok_Tribal_Archer>1</StarWarsRaces_Ewok_Tribal_Archer>
+          <StarWarsRaces_Ewok_Tribal_Hunter>1</StarWarsRaces_Ewok_Tribal_Hunter>
+          <StarWarsRaces_Ewok_Tribal_HeavyArcher>1</StarWarsRaces_Ewok_Tribal_HeavyArcher>
+          <StarWarsRaces_Ewok_Tribal_Berserker>5</StarWarsRaces_Ewok_Tribal_Berserker>
+          <StarWarsRaces_Ewok_Tribal_ChiefRanged>1</StarWarsRaces_Ewok_Tribal_ChiefRanged>
+          <StarWarsRaces_Ewok_Tribal_ChiefMelee>3</StarWarsRaces_Ewok_Tribal_ChiefMelee>
+          <Cat>15</Cat>
+          <Monkey>15</Monkey>
+          <YorkshireTerrier>15</YorkshireTerrier>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <StarWarsRaces_Ewok_Tribal_Trader>1</StarWarsRaces_Ewok_Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <StarWarsRaces_Ewok_Tribal_Warrior>7</StarWarsRaces_Ewok_Tribal_Warrior>
+          <StarWarsRaces_Ewok_Tribal_Archer>1</StarWarsRaces_Ewok_Tribal_Archer>
+          <StarWarsRaces_Ewok_Tribal_Hunter>1</StarWarsRaces_Ewok_Tribal_Hunter>
+          <StarWarsRaces_Ewok_Tribal_HeavyArcher>1</StarWarsRaces_Ewok_Tribal_HeavyArcher>
+          <StarWarsRaces_Ewok_Tribal_Berserker>7</StarWarsRaces_Ewok_Tribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Warrior>7</StarWarsRaces_Ewok_Tribal_Warrior>
+          <StarWarsRaces_Ewok_Tribal_Archer>1</StarWarsRaces_Ewok_Tribal_Archer>
+          <StarWarsRaces_Ewok_Tribal_Hunter>1</StarWarsRaces_Ewok_Tribal_Hunter>
+          <StarWarsRaces_Ewok_Tribal_HeavyArcher>1</StarWarsRaces_Ewok_Tribal_HeavyArcher>
+          <StarWarsRaces_Ewok_Tribal_Berserker>7</StarWarsRaces_Ewok_Tribal_Berserker>
+          <StarWarsRaces_Ewok_Tribal_ChiefRanged>1</StarWarsRaces_Ewok_Tribal_ChiefRanged>
+          <StarWarsRaces_Ewok_Tribal_ChiefMelee>3</StarWarsRaces_Ewok_Tribal_ChiefMelee>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Archer>10</StarWarsRaces_Ewok_Tribal_Archer>
+          <StarWarsRaces_Ewok_Tribal_Hunter>10</StarWarsRaces_Ewok_Tribal_Hunter>
+          <StarWarsRaces_Ewok_Tribal_HeavyArcher>10</StarWarsRaces_Ewok_Tribal_HeavyArcher>
+          <StarWarsRaces_Ewok_Tribal_ChiefRanged>1</StarWarsRaces_Ewok_Tribal_ChiefRanged>
+          <StarWarsRaces_Ewok_Tribal_ChiefMelee>10</StarWarsRaces_Ewok_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Miner>100</StarWarsRaces_Ewok_Tribal_Miner>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Hunter>100</StarWarsRaces_Ewok_Tribal_Hunter>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Logger>100</StarWarsRaces_Ewok_Tribal_Logger>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Farmer>100</StarWarsRaces_Ewok_Tribal_Farmer>
+          <Warg>15</Warg>
+          <WildBoar>15</WildBoar>
+          <Wolf_Timber>15</Wolf_Timber>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <FactionDef ParentName="PirateBandBase">
+    <defName>StarWarsRaces_PirateWookiee</defName>
+    <label>wookiee pirates</label>
+    <description>A close-knit band of hulking, fur-bodied pirates of Wookiees. They refuse to deal with outsiders and are quick attack those who disrespect them - or whose wealth they intend to take.</description>
+    <pawnSingular>wookiee</pawnSingular>
+    <pawnsPlural>wookiee</pawnsPlural>
+    <requiredMemes Inherit="False">
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+    </requiredMemes>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <StarWarsRaces_WookieeBaseliner>999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>0.50</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Drifter>7.00</StarWarsRaces_Wookiee_Drifter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Villager>3.50</StarWarsRaces_Wookiee_Villager>
+          <StarWarsRaces_Wookiee_Town_Guard>7.00</StarWarsRaces_Wookiee_Town_Guard>
+          <StarWarsRaces_Wookiee_Grenadier_Destructive>1.05</StarWarsRaces_Wookiee_Grenadier_Destructive>
+          <StarWarsRaces_Wookiee_Mercenary_Slasher>4.90</StarWarsRaces_Wookiee_Mercenary_Slasher>
+          <StarWarsRaces_Wookiee_Mercenary_Gunner>7.00</StarWarsRaces_Wookiee_Mercenary_Gunner>
+          <StarWarsRaces_Wookiee_Mercenary_Elite>7.00</StarWarsRaces_Wookiee_Mercenary_Elite>
+          <StarWarsRaces_Wookiee_Town_Councilman>7.00</StarWarsRaces_Wookiee_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_Wookiee_Thrasher>2.10</StarWarsRaces_Wookiee_Thrasher>
+          <StarWarsRaces_Wookiee_Pirate>7.00</StarWarsRaces_Wookiee_Pirate>
+          <StarWarsRaces_Wookiee_Grenadier_Destructive>1.40</StarWarsRaces_Wookiee_Grenadier_Destructive>
+          <StarWarsRaces_Wookiee_Mercenary_Slasher>2.10</StarWarsRaces_Wookiee_Mercenary_Slasher>
+          <StarWarsRaces_Wookiee_Mercenary_Sniper>7.00</StarWarsRaces_Wookiee_Mercenary_Sniper>
+          <StarWarsRaces_Wookiee_Mercenary_Gunner>7.00</StarWarsRaces_Wookiee_Mercenary_Gunner>
+          <StarWarsRaces_Wookiee_Mercenary_Elite>7.00</StarWarsRaces_Wookiee_Mercenary_Elite>
+          <StarWarsRaces_Wookiee_PirateBoss>7.00</StarWarsRaces_Wookiee_PirateBoss>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Miner>1</StarWarsRaces_Wookiee_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Hunter>1</StarWarsRaces_Wookiee_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Logger>1</StarWarsRaces_Wookiee_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Farmer>1</StarWarsRaces_Wookiee_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <FactionDef ParentName="TribeRoughBase">
+    <defName>StarWarsRaces_TribeRoughTogruta</defName>
+    <label>rough togruta tribe</label>
+    <description>An unfriendly, territorial tribe of the montral crowned Togruta. They are open to peaceful trade, but are otherwise unfriendly and territorial. Warriors from their tribe won't hesitate to kill anyone they deem dangerous. Their numbers make them serious foes despite their lack of technology.\n\nHaving been on this planet for countless generations, they have no memory of how they got here.</description>
+    <pawnSingular>togruta</pawnSingular>
+    <pawnsPlural>togrutas</pawnsPlural>
+    <replacesFaction>TribeRough</replacesFaction>
+    <earliestRaidDays>20</earliestRaidDays>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <StarWarsRaces_TogrutaBaseliner>999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>1.00</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Breacher>5.00</StarWarsRaces_Togruta_Tribal_Breacher>
+          <StarWarsRaces_Togruta_Tribal_Penitent>5.00</StarWarsRaces_Togruta_Tribal_Penitent>
+          <StarWarsRaces_Togruta_Tribal_Warrior>5.00</StarWarsRaces_Togruta_Tribal_Warrior>
+          <StarWarsRaces_Togruta_Tribal_Archer>10.00</StarWarsRaces_Togruta_Tribal_Archer>
+          <StarWarsRaces_Togruta_Tribal_Hunter>10.00</StarWarsRaces_Togruta_Tribal_Hunter>
+          <StarWarsRaces_Togruta_Tribal_HeavyArcher>10.00</StarWarsRaces_Togruta_Tribal_HeavyArcher>
+          <StarWarsRaces_Togruta_Tribal_Berserker>5.00</StarWarsRaces_Togruta_Tribal_Berserker>
+          <StarWarsRaces_Togruta_Tribal_ChiefRanged>3.00</StarWarsRaces_Togruta_Tribal_ChiefRanged>
+          <StarWarsRaces_Togruta_Tribal_ChiefMelee>1.50</StarWarsRaces_Togruta_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Warrior>20.00</StarWarsRaces_Togruta_Tribal_Warrior>
+          <StarWarsRaces_Togruta_Tribal_Child MayRequire="Ludeon.RimWorld.Biotech">10.00</StarWarsRaces_Togruta_Tribal_Child>
+          <StarWarsRaces_Togruta_Tribal_Archer>10.00</StarWarsRaces_Togruta_Tribal_Archer>
+          <StarWarsRaces_Togruta_Tribal_Hunter>10.00</StarWarsRaces_Togruta_Tribal_Hunter>
+          <StarWarsRaces_Togruta_Tribal_HeavyArcher>10.00</StarWarsRaces_Togruta_Tribal_HeavyArcher>
+          <StarWarsRaces_Togruta_Tribal_Berserker>5.00</StarWarsRaces_Togruta_Tribal_Berserker>
+          <StarWarsRaces_Togruta_Tribal_ChiefRanged>3.00</StarWarsRaces_Togruta_Tribal_ChiefRanged>
+          <StarWarsRaces_Togruta_Tribal_ChiefMelee>1.50</StarWarsRaces_Togruta_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <StarWarsRaces_Togruta_Tribal_Trader>1</StarWarsRaces_Togruta_Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <StarWarsRaces_Togruta_Tribal_Warrior>7.00</StarWarsRaces_Togruta_Tribal_Warrior>
+          <StarWarsRaces_Togruta_Tribal_Archer>10.00</StarWarsRaces_Togruta_Tribal_Archer>
+          <StarWarsRaces_Togruta_Tribal_Hunter>10.00</StarWarsRaces_Togruta_Tribal_Hunter>
+          <StarWarsRaces_Togruta_Tribal_HeavyArcher>10.00</StarWarsRaces_Togruta_Tribal_HeavyArcher>
+          <StarWarsRaces_Togruta_Tribal_Berserker>7.00</StarWarsRaces_Togruta_Tribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Warrior>7.00</StarWarsRaces_Togruta_Tribal_Warrior>
+          <StarWarsRaces_Togruta_Tribal_Archer>10.00</StarWarsRaces_Togruta_Tribal_Archer>
+          <StarWarsRaces_Togruta_Tribal_Hunter>10.00</StarWarsRaces_Togruta_Tribal_Hunter>
+          <StarWarsRaces_Togruta_Tribal_HeavyArcher>10.00</StarWarsRaces_Togruta_Tribal_HeavyArcher>
+          <StarWarsRaces_Togruta_Tribal_Berserker>7.00</StarWarsRaces_Togruta_Tribal_Berserker>
+          <StarWarsRaces_Togruta_Tribal_ChiefRanged>10.00</StarWarsRaces_Togruta_Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Archer>10.00</StarWarsRaces_Togruta_Tribal_Archer>
+          <StarWarsRaces_Togruta_Tribal_Hunter>10.00</StarWarsRaces_Togruta_Tribal_Hunter>
+          <StarWarsRaces_Togruta_Tribal_HeavyArcher>10.00</StarWarsRaces_Togruta_Tribal_HeavyArcher>
+          <StarWarsRaces_Togruta_Tribal_ChiefRanged>10.00</StarWarsRaces_Togruta_Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Miner>1</StarWarsRaces_Togruta_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Hunter>1</StarWarsRaces_Togruta_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Logger>1</StarWarsRaces_Togruta_Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Farmer>1</StarWarsRaces_Togruta_Tribal_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <FactionDef ParentName="OutlanderRoughBase">
+    <defName>StarWarsRaces_OutlanderRoughTwilek</defName>
+    <label>rough twi'lek union</label>
+    <description>A loose union of hardy twi'lek townships. They're willing to make friends, even with roundheads, but they're also ready to toss a bomb and sharpen their teeth when it suits them. Treat them with respect and they'll offer a lekku to an ally in need. Turn against them and the last thing you hear will be the sound of a blaster.</description>
+    <pawnSingular>twi'lek</pawnSingular>
+    <pawnsPlural>twi'leks</pawnsPlural>
+    <replacesFaction>OutlanderRough</replacesFaction>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <StarWarsRaces_TwilekBaseliner>999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Villager>5.00</StarWarsRaces_Twilek_Villager>
+          <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
+          <StarWarsRaces_Twilek_Grenadier_Destructive>1.50</StarWarsRaces_Twilek_Grenadier_Destructive>
+          <StarWarsRaces_Twilek_Mercenary_Slasher>7.00</StarWarsRaces_Twilek_Mercenary_Slasher>
+          <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
+          <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
+          <StarWarsRaces_Twilek_Town_Councilman>10.00</StarWarsRaces_Twilek_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StarWarsRaces_Twilek_Villager>20.00</StarWarsRaces_Twilek_Villager>
+          <StarWarsRaces_Twilek_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10.00</StarWarsRaces_Twilek_Villager_Child>
+          <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
+          <StarWarsRaces_Twilek_Town_Councilman>10.00</StarWarsRaces_Twilek_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <StarWarsRaces_Twilek_Villager>3.00</StarWarsRaces_Twilek_Villager>
+          <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
+          <StarWarsRaces_Twilek_Grenadier_Destructive>1.50</StarWarsRaces_Twilek_Grenadier_Destructive>
+          <StarWarsRaces_Twilek_Mercenary_Slasher>7.00</StarWarsRaces_Twilek_Mercenary_Slasher>
+          <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
+          <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_Twilek_Villager>10.00</StarWarsRaces_Twilek_Villager>
+          <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
+          <StarWarsRaces_Twilek_Grenadier_Destructive>1.50</StarWarsRaces_Twilek_Grenadier_Destructive>
+          <StarWarsRaces_Twilek_Mercenary_Slasher>7.00</StarWarsRaces_Twilek_Mercenary_Slasher>
+          <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
+          <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
+          <StarWarsRaces_Twilek_Town_Councilman>10.00</StarWarsRaces_Twilek_Town_Councilman>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Miner>1</StarWarsRaces_Twilek_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Hunter>1</StarWarsRaces_Twilek_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Logger>1</StarWarsRaces_Twilek_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Farmer>1</StarWarsRaces_Twilek_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <FactionDef ParentName="PirateBandBase">
+    <defName>StarWarsRaces_PirateRodian</defName>
+    <label>rodian pirates</label>
+    <description>A loose collection of violent pirate bands made up primarily of rodians - reptilian aliens who thrive in the dark. They have little interest in building, or farming, preferring to take their sustenance from others using violence.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry ranged weapons, though some prefer to stab victims at close range.</description>
+    <pawnSingular>rodian</pawnSingular>
+    <pawnsPlural>rodians</pawnsPlural>
+    <replacesFaction>Pirate</replacesFaction>
+    <allowedMemes Inherit="False">
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+    </allowedMemes>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <StarWarsRaces_RodianBaseliner>0.725</StarWarsRaces_RodianBaseliner>
+        <Hussar>0.005</Hussar>
+        <Neanderthal>0.005</Neanderthal>
+        <Dirtmole>0.005</Dirtmole>
+        <Genie>0.005</Genie>
+        <Impid>0.005</Impid>
+      </xenotypeChances>
+    </xenotypeSet>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Drifter>10</StarWarsRaces_Rodian_Drifter>
+          <StarWarsRaces_Rodian_Thrasher>3</StarWarsRaces_Rodian_Thrasher>
+          <StarWarsRaces_Rodian_Scavenger>10</StarWarsRaces_Rodian_Scavenger>
+          <StarWarsRaces_Rodian_Pirate>10</StarWarsRaces_Rodian_Pirate>
+          <StarWarsRaces_Rodian_Grenadier_Destructive>0.25</StarWarsRaces_Rodian_Grenadier_Destructive>
+          <StarWarsRaces_Rodian_Mercenary_Gunner>5</StarWarsRaces_Rodian_Mercenary_Gunner>
+          <StarWarsRaces_Rodian_Mercenary_HeavyTox>6</StarWarsRaces_Rodian_Mercenary_HeavyTox>
+          <StarWarsRaces_Rodian_Mercenary_Heavy>1</StarWarsRaces_Rodian_Mercenary_Heavy>
+          <StarWarsRaces_Rodian_Mercenary_SlasherTox>3</StarWarsRaces_Rodian_Mercenary_SlasherTox>
+          <StarWarsRaces_Rodian_Mercenary_Slasher>1</StarWarsRaces_Rodian_Mercenary_Slasher>
+          <StarWarsRaces_Rodian_Mercenary_Sniper>7</StarWarsRaces_Rodian_Mercenary_Sniper>
+          <StarWarsRaces_Rodian_Mercenary_EliteTox>5</StarWarsRaces_Rodian_Mercenary_EliteTox>
+          <StarWarsRaces_Rodian_Mercenary_Elite>1</StarWarsRaces_Rodian_Mercenary_Elite>
+          <StarWarsRaces_Rodian_PirateBossTox>5</StarWarsRaces_Rodian_PirateBossTox>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee-only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <StarWarsRaces_Rodian_Thrasher>10</StarWarsRaces_Rodian_Thrasher>
+          <StarWarsRaces_Rodian_Mercenary_SlasherTox>10</StarWarsRaces_Rodian_Mercenary_SlasherTox>
+          <StarWarsRaces_Rodian_Mercenary_Slasher>1</StarWarsRaces_Rodian_Mercenary_Slasher>
+          <StarWarsRaces_Rodian_PirateBossTox>5</StarWarsRaces_Rodian_PirateBossTox>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Scavenger>10</StarWarsRaces_Rodian_Scavenger>
+          <StarWarsRaces_Rodian_Pirate>10</StarWarsRaces_Rodian_Pirate>
+          <StarWarsRaces_Rodian_Grenadier_Tox>2</StarWarsRaces_Rodian_Grenadier_Tox>
+          <StarWarsRaces_Rodian_Grenadier_Destructive>0.25</StarWarsRaces_Rodian_Grenadier_Destructive>
+          <StarWarsRaces_Rodian_Mercenary_GunnerTox>10</StarWarsRaces_Rodian_Mercenary_GunnerTox>
+          <StarWarsRaces_Rodian_Mercenary_Gunner>1</StarWarsRaces_Rodian_Mercenary_Gunner>
+          <StarWarsRaces_Rodian_Mercenary_HeavyTox>6</StarWarsRaces_Rodian_Mercenary_HeavyTox>
+          <StarWarsRaces_Rodian_Mercenary_Heavy>1</StarWarsRaces_Rodian_Mercenary_Heavy>
+          <StarWarsRaces_Rodian_Mercenary_Sniper>7</StarWarsRaces_Rodian_Mercenary_Sniper>
+          <StarWarsRaces_Rodian_Mercenary_EliteTox>5</StarWarsRaces_Rodian_Mercenary_EliteTox>
+          <StarWarsRaces_Rodian_Mercenary_Elite>1</StarWarsRaces_Rodian_Mercenary_Elite>
+          <StarWarsRaces_Rodian_PirateBossTox>5</StarWarsRaces_Rodian_PirateBossTox>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, explosives with ranged mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <StarWarsRaces_Rodian_Grenadier_Tox>10</StarWarsRaces_Rodian_Grenadier_Tox>
+          <StarWarsRaces_Rodian_Grenadier_Destructive>1</StarWarsRaces_Rodian_Grenadier_Destructive>
+          <StarWarsRaces_Rodian_Mercenary_GunnerTox>2</StarWarsRaces_Rodian_Mercenary_GunnerTox>
+          <StarWarsRaces_Rodian_Mercenary_Gunner>0.25</StarWarsRaces_Rodian_Mercenary_Gunner>
+          <StarWarsRaces_Rodian_Mercenary_HeavyTox>10</StarWarsRaces_Rodian_Mercenary_HeavyTox>
+          <StarWarsRaces_Rodian_Mercenary_Heavy>1</StarWarsRaces_Rodian_Mercenary_Heavy>
+          <StarWarsRaces_Rodian_Mercenary_EliteTox>1</StarWarsRaces_Rodian_Mercenary_EliteTox>
+          <StarWarsRaces_Rodian_Mercenary_Elite>0.25</StarWarsRaces_Rodian_Mercenary_Elite>
+          <StarWarsRaces_Rodian_PirateBossTox>1</StarWarsRaces_Rodian_PirateBossTox>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, snipers only -->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Mercenary_Sniper>10</StarWarsRaces_Rodian_Mercenary_Sniper>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, drifters only (very rare) -->
+        <kindDef>Combat</kindDef>
+        <commonality>2.5</commonality>
+        <maxTotalPoints>1000</maxTotalPoints>
+        <options>
+          <StarWarsRaces_Rodian_Drifter>10</StarWarsRaces_Rodian_Drifter>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_Rodian_Thrasher>3</StarWarsRaces_Rodian_Thrasher>
+          <StarWarsRaces_Rodian_Pirate>10</StarWarsRaces_Rodian_Pirate>
+          <StarWarsRaces_Rodian_Grenadier_Tox>2</StarWarsRaces_Rodian_Grenadier_Tox>
+          <StarWarsRaces_Rodian_Grenadier_Destructive>0.25</StarWarsRaces_Rodian_Grenadier_Destructive>
+          <StarWarsRaces_Rodian_Mercenary_SlasherTox>3</StarWarsRaces_Rodian_Mercenary_SlasherTox>
+          <StarWarsRaces_Rodian_Mercenary_Slasher>1</StarWarsRaces_Rodian_Mercenary_Slasher>
+          <StarWarsRaces_Rodian_Mercenary_Sniper>10</StarWarsRaces_Rodian_Mercenary_Sniper>
+          <StarWarsRaces_Rodian_Mercenary_GunnerTox>10</StarWarsRaces_Rodian_Mercenary_GunnerTox>
+          <StarWarsRaces_Rodian_Mercenary_Gunner>1</StarWarsRaces_Rodian_Mercenary_Gunner>
+          <StarWarsRaces_Rodian_Mercenary_EliteTox>10</StarWarsRaces_Rodian_Mercenary_EliteTox>
+          <StarWarsRaces_Rodian_Mercenary_Elite>1</StarWarsRaces_Rodian_Mercenary_Elite>
+          <StarWarsRaces_Rodian_PirateBossTox>10</StarWarsRaces_Rodian_PirateBossTox>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Miner>1</StarWarsRaces_Rodian_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Hunter>1</StarWarsRaces_Rodian_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Logger>1</StarWarsRaces_Rodian_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Farmer>1</StarWarsRaces_Rodian_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+
+</Defs>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Ewok" ParentName="Human">
+    <defName>StarWarsRaces_Ewok</defName>
+    <label>Ewok</label>
+    <description>Ewoks were sentient humanoids, averaging about one meter in height. Omnivorous, they were covered in fur from head to toe, with brown and black as the most common colors. Most Ewoks had solid-colored fur, though a few sported stripes. Ewoks had large, bright eyes, small humanoid noses, and hands that possessed two fingers and an opposable thumb. Despite their small size, Ewoks were physically strong enough to overpower combat-trained humans. https:/starwars.fandom.com/wiki/Ewok</description>
+    <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>ClothedNudist</li>
+          <li>Naked</li>
+        </cannotReceiveThoughts>
+      </thoughtSettings>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <disallowedTraits>
+          <li>
+            <defName>Nudist</defName>
+          </li>
+          <li>
+            <defName>Undergrounder</defName>
+          </li>
+        </disallowedTraits>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Cannibal</defName>
+            <chance>50</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <customDrawSize>( 0.65, 0.65 )</customDrawSize>
+          <customHeadDrawSize>( 0.65, 0.65 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 0.65, 0.65 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 0.65, 0.65 )</customPortraitHeadDrawSize>
+          <headOffset>(0,-0.1)</headOffset>
+          <colorChannels Inherit="False">
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(0.623, 0.380, 0.149,1)</only>
+                  </li>
+                  <li>
+                    <!-- #843e30 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.517, 0.243, 0.188,1)</only>
+                  </li>
+                  <li>
+                    <!-- #8b352d -->
+                    <weight>100</weight>
+                    <only>RGBA(0.545, 0.207, 0.176,1)</only>
+                  </li>
+                  <li>
+                    <!-- #784b44 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.470, 0.294, 0.266,1)</only>
+                  </li>
+                  <li>
+                    <!-- #685855 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.407, 0.345, 0.333,1)</only>
+                  </li>
+                  <li>
+                    <!-- #764c41 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.462, 0.298, 0.254,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(0.698, 0.615, 0.541,1)</only>
+                  </li>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(0.694, 0.478, 0.282,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>hair_1</colorChannel>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>hair_2</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons Inherit="False">
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>left ear</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>StarWarsRaces_EwokEars</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Ewok/Ear/LeftEar</path>
+              <debug>false</debug>
+              <inFrontOfBody>true</inFrontOfBody>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <offset>( -0.0293, 0.0227 )</offset>
+                </south>
+                <north>
+                  <offset>( -0.0, 0.007 )</offset>
+                </north>
+              </offsets>
+            </li>
+            <li>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>right ear</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>StarWarsRaces_EwokEars</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Ewok/Ear/RightEar</path>
+              <debug>false</debug>
+              <inFrontOfBody>true</inFrontOfBody>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <offset>( 0.025, 0.0227 )</offset>
+                </south>
+                <north>
+                  <offset>( -0.0, 0.007 )</offset>
+                </north>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <styleSettings Inherit="False">
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <graphicPaths>
+        <apparel>
+          <individualPaths>
+            <li>
+              <key>StarWarsRaces_Ewok_Hood</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/EwokHood/Head_Covering</path>
+                <extendedGraphics>
+                  <Gender For="Female">Things/Pawn/Humanlike/Apparel/EwokHood/Head_Covering_Female</Gender>
+                </extendedGraphics>
+              </value>
+            </li>
+          </individualPaths>
+        </apparel>
+        <skinShader>Cutout</skinShader>
+        <head>
+          <path>Things/Pawn/Humanlike/Heads/Male/Ewok/Ewok_Head_Male</path>
+          <extendedGraphics>
+            <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Male/Ewok/Ewok_Head_Male</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Male/Ewok/Ewok_Head_Male</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Male/Ewok/Ewok_Head_Male</HeadType>
+            <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Male/Ewok/Ewok_Head_Narrow_Male</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Male/Ewok/Ewok_Head_Narrow_Male</HeadType>
+            <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Male/Ewok/Ewok_Head_Narrow_Male</HeadType>
+
+            <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Female/Ewok/Ewok_Head_Female</HeadType>
+            <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Female/Ewok/Ewok_Head_Female</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Female/Ewok/Ewok_Head_Female</HeadType>
+            <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Female/Ewok/Ewok_Head_Narrow_Female</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Female/Ewok/Ewok_Head_Narrow_Female</HeadType>
+            <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Female/Ewok/Ewok_Head_Narrow_Female</HeadType>
+          </extendedGraphics>
+        </head>
+        <headMasks>
+          <path>Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Male_Pattern</path>
+          <extendedGraphics>
+            <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Male_Pattern</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Male_Pattern</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Male_Pattern</HeadType>
+            <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Narrow_Male_Pattern</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Narrow_Male_Pattern</HeadType>
+            <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Narrow_Male_Pattern</HeadType>
+
+            <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Female_Pattern</HeadType>
+            <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Female_Pattern</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Female_Pattern</HeadType>
+            <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Narrow_Female_Pattern</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Narrow_Female_Pattern</HeadType>
+            <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Masks/Ewok/Ewok_Head_Narrow_Female_Pattern</HeadType>
+          </extendedGraphics>
+        </headMasks>
+      </graphicPaths>
+      <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">StarWarsRaces_EwokBaseliner</li>
+        </xenotypeList>
+        <blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+        </blackXenotypeList>
+        <blackEndoCategories>
+          <li>Melanin</li>
+          <li>HairColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+        </blackEndoCategories>
+      </raceRestriction>
+    </alienRace>
+    <race>
+      <renderTree>Humanlike</renderTree>
+      <leatherDef>StarWarsRaces_Leather_Humanlike</leatherDef>
+      <nameGenerator>StarWarsRaces_NamerPersonEwokM</nameGenerator>
+      <nameGeneratorFemale>StarWarsRaces_NamerPersonEwokF</nameGeneratorFemale>
+      <hediffGiverSets Inherit="False">
+        <li>OrganicStandard</li>
+        <li>SWR_HediffGiverSet_Ewok</li>
+      </hediffGiverSets>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

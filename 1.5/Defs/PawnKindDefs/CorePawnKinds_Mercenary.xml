@@ -1,0 +1,770 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Destructive">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie grenadier</label>
+    <defName>StarWarsRaces_Wookiee_Grenadier_Destructive</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Destructive">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta grenadier</label>
+    <defName>StarWarsRaces_Togruta_Grenadier_Destructive</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Destructive">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian grenadier</label>
+    <defName>StarWarsRaces_Rodian_Grenadier_Destructive</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Destructive">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok grenadier</label>
+    <defName>StarWarsRaces_Ewok_Grenadier_Destructive</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Destructive">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek grenadier</label>
+    <defName>StarWarsRaces_Twilek_Grenadier_Destructive</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_EMP">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie EMP grenadier</label>
+    <defName>StarWarsRaces_Wookiee_Grenadier_EMP</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_EMP">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta EMP grenadier</label>
+    <defName>StarWarsRaces_Togruta_Grenadier_EMP</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_EMP">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian EMP grenadier</label>
+    <defName>StarWarsRaces_Rodian_Grenadier_EMP</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_EMP">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok EMP grenadier</label>
+    <defName>StarWarsRaces_Ewok_Grenadier_EMP</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_EMP">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek EMP grenadier</label>
+    <defName>StarWarsRaces_Twilek_Grenadier_EMP</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Smoke">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie smoke grenadier</label>
+    <defName>StarWarsRaces_Wookiee_Grenadier_Smoke</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Smoke">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta smoke grenadier</label>
+    <defName>StarWarsRaces_Togruta_Grenadier_Smoke</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Smoke">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian smoke grenadier</label>
+    <defName>StarWarsRaces_Rodian_Grenadier_Smoke</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Smoke">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok smoke grenadier</label>
+    <defName>StarWarsRaces_Ewok_Grenadier_Smoke</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Smoke">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek smoke grenadier</label>
+    <defName>StarWarsRaces_Twilek_Grenadier_Smoke</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mercenary gunner</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Gunner</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mercenary gunner</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Gunner</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mercenary gunner</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Gunner</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mercenary gunner</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Gunner</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mercenary gunner</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Gunner</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner_Acidifier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mercenary gunner</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Gunner_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner_Acidifier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mercenary gunner</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Gunner_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner_Acidifier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mercenary gunner</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Gunner_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner_Acidifier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mercenary gunner</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Gunner_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Gunner_Acidifier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mercenary gunner</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Gunner_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mercenary sniper</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Sniper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mercenary sniper</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Sniper</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mercenary sniper</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Sniper</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mercenary sniper</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Sniper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mercenary sniper</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Sniper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper_Acidifier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mercenary sniper</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Sniper_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper_Acidifier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mercenary sniper</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Sniper_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper_Acidifier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mercenary sniper</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Sniper_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper_Acidifier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mercenary sniper</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Sniper_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Sniper_Acidifier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mercenary sniper</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Sniper_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mercenary slasher</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Slasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mercenary slasher</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Slasher</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mercenary slasher</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Slasher</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mercenary slasher</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Slasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mercenary slasher</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Slasher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher_Acidifier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mercenary slasher</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Slasher_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher_Acidifier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mercenary slasher</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Slasher_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher_Acidifier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mercenary slasher</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Slasher_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher_Acidifier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mercenary slasher</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Slasher_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Slasher_Acidifier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mercenary slasher</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Slasher_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Heavy">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie heavy mercenary</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Heavy</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Heavy">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta heavy mercenary</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Heavy</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Heavy">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian heavy mercenary</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Heavy</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Heavy">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok heavy mercenary</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Heavy</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Heavy">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek heavy mercenary</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Heavy</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBoss">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie boss</label>
+    <defName>StarWarsRaces_Wookiee_PirateBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBoss">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta boss</label>
+    <defName>StarWarsRaces_Togruta_PirateBoss</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBoss">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian boss</label>
+    <defName>StarWarsRaces_Rodian_PirateBoss</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBoss">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok boss</label>
+    <defName>StarWarsRaces_Ewok_PirateBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBoss">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek boss</label>
+    <defName>StarWarsRaces_Twilek_PirateBoss</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie elite mercenary</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Elite</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta elite mercenary</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Elite</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian elite mercenary</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Elite</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok elite mercenary</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Elite</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek elite mercenary</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Elite</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite_Acidifier">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie elite mercenary</label>
+    <defName>StarWarsRaces_Wookiee_Mercenary_Elite_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite_Acidifier">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta elite mercenary</label>
+    <defName>StarWarsRaces_Togruta_Mercenary_Elite_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite_Acidifier">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian elite mercenary</label>
+    <defName>StarWarsRaces_Rodian_Mercenary_Elite_Acidifier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite_Acidifier">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok elite mercenary</label>
+    <defName>StarWarsRaces_Ewok_Mercenary_Elite_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_Elite_Acidifier">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek elite mercenary</label>
+    <defName>StarWarsRaces_Twilek_Mercenary_Elite_Acidifier</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+</Defs>

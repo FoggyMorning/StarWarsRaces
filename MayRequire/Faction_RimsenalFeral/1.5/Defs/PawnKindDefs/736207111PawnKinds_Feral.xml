@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="StarWarsRaces_FeralFodder">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie bullet bait</label>
+    <defName>StarWarsRaces_Wookiee_FeralFodder</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralFodder">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta bullet bait</label>
+    <defName>StarWarsRaces_Togruta_FeralFodder</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralFodder">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian bullet bait</label>
+    <defName>StarWarsRaces_Rodian_FeralFodder</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralFodder">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok bullet bait</label>
+    <defName>StarWarsRaces_Ewok_FeralFodder</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralFodder">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek bullet bait</label>
+    <defName>StarWarsRaces_Twilek_FeralFodder</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralHusker">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie husker</label>
+    <defName>StarWarsRaces_Wookiee_FeralHusker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralHusker">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta husker</label>
+    <defName>StarWarsRaces_Togruta_FeralHusker</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralHusker">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian husker</label>
+    <defName>StarWarsRaces_Rodian_FeralHusker</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralHusker">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok husker</label>
+    <defName>StarWarsRaces_Ewok_FeralHusker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralHusker">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek husker</label>
+    <defName>StarWarsRaces_Twilek_FeralHusker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralMangler">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mangler</label>
+    <defName>StarWarsRaces_Wookiee_FeralMangler</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralMangler">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mangler</label>
+    <defName>StarWarsRaces_Togruta_FeralMangler</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralMangler">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mangler</label>
+    <defName>StarWarsRaces_Rodian_FeralMangler</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralMangler">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mangler</label>
+    <defName>StarWarsRaces_Ewok_FeralMangler</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralMangler">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mangler</label>
+    <defName>StarWarsRaces_Twilek_FeralMangler</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralScorcher">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie scorcher</label>
+    <defName>StarWarsRaces_Wookiee_FeralScorcher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralScorcher">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta scorcher</label>
+    <defName>StarWarsRaces_Togruta_FeralScorcher</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralScorcher">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian scorcher</label>
+    <defName>StarWarsRaces_Rodian_FeralScorcher</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralScorcher">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok scorcher</label>
+    <defName>StarWarsRaces_Ewok_FeralScorcher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralScorcher">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek scorcher</label>
+    <defName>StarWarsRaces_Twilek_FeralScorcher</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralBoomer">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie boomer</label>
+    <defName>StarWarsRaces_Wookiee_FeralBoomer</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralBoomer">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta boomer</label>
+    <defName>StarWarsRaces_Togruta_FeralBoomer</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralBoomer">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian boomer</label>
+    <defName>StarWarsRaces_Rodian_FeralBoomer</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralBoomer">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok boomer</label>
+    <defName>StarWarsRaces_Ewok_FeralBoomer</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralBoomer">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek boomer</label>
+    <defName>StarWarsRaces_Twilek_FeralBoomer</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralThumper">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie thumper</label>
+    <defName>StarWarsRaces_Wookiee_FeralThumper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralThumper">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta thumper</label>
+    <defName>StarWarsRaces_Togruta_FeralThumper</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralThumper">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian thumper</label>
+    <defName>StarWarsRaces_Rodian_FeralThumper</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralThumper">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok thumper</label>
+    <defName>StarWarsRaces_Ewok_FeralThumper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralThumper">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek thumper</label>
+    <defName>StarWarsRaces_Twilek_FeralThumper</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralGrinder">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie grinder</label>
+    <defName>StarWarsRaces_Wookiee_FeralGrinder</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralGrinder">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta grinder</label>
+    <defName>StarWarsRaces_Togruta_FeralGrinder</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralGrinder">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian grinder</label>
+    <defName>StarWarsRaces_Rodian_FeralGrinder</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralGrinder">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok grinder</label>
+    <defName>StarWarsRaces_Ewok_FeralGrinder</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralGrinder">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek grinder</label>
+    <defName>StarWarsRaces_Twilek_FeralGrinder</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkulker">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie skulker</label>
+    <defName>StarWarsRaces_Wookiee_FeralSkulker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkulker">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta skulker</label>
+    <defName>StarWarsRaces_Togruta_FeralSkulker</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkulker">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian skulker</label>
+    <defName>StarWarsRaces_Rodian_FeralSkulker</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkulker">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok skulker</label>
+    <defName>StarWarsRaces_Ewok_FeralSkulker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkulker">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek skulker</label>
+    <defName>StarWarsRaces_Twilek_FeralSkulker</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralLeader">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie leader</label>
+    <defName>StarWarsRaces_Wookiee_FeralLeader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralLeader">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta leader</label>
+    <defName>StarWarsRaces_Togruta_FeralLeader</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralLeader">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian leader</label>
+    <defName>StarWarsRaces_Rodian_FeralLeader</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralLeader">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok leader</label>
+    <defName>StarWarsRaces_Ewok_FeralLeader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralLeader">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek leader</label>
+    <defName>StarWarsRaces_Twilek_FeralLeader</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkullBuster">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie skull buster</label>
+    <defName>StarWarsRaces_Wookiee_FeralSkullBuster</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkullBuster">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta skull buster</label>
+    <defName>StarWarsRaces_Togruta_FeralSkullBuster</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkullBuster">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian skull buster</label>
+    <defName>StarWarsRaces_Rodian_FeralSkullBuster</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkullBuster">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok skull buster</label>
+    <defName>StarWarsRaces_Ewok_FeralSkullBuster</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralSkullBuster">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek skull buster</label>
+    <defName>StarWarsRaces_Twilek_FeralSkullBuster</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralManiac">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie maniac</label>
+    <defName>StarWarsRaces_Wookiee_FeralManiac</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralManiac">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta maniac</label>
+    <defName>StarWarsRaces_Togruta_FeralManiac</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralManiac">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian maniac</label>
+    <defName>StarWarsRaces_Rodian_FeralManiac</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralManiac">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok maniac</label>
+    <defName>StarWarsRaces_Ewok_FeralManiac</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_FeralManiac">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek maniac</label>
+    <defName>StarWarsRaces_Twilek_FeralManiac</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+</Defs>

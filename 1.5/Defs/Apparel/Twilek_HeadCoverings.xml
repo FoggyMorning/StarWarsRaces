@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Hood stats -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>StarWarsRaces_TwilekHeadCovering</defName>
+    <label>twi'lek head wrap</label>
+    <techLevel>Neolithic</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>1</Crafting>
+      </skillRequirements>
+      <displayPriority>125</displayPriority>
+    </recipeMaker>
+    <description>A simple head covering with openings for Lekku.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TwilekHeadCover/Twilek_HeadCover_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>0.8</EquipDelay>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.01</generateCommonality>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TwilekHeadCover/Twilek_HeadCover</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_TwilekApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_TwilekApparelTag</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- basically a cowboy hat -->
+  <ThingDef ParentName="HatMakeableBase" Name="CowboyHat">
+    <defName>StarWarsRaces_TwilekGoggles</defName>
+    <label>twi'lek head wrap with goggles</label>
+    <description>A simple head covering with openings for Lekku. Includes a set of goggles and ear protection.</description>
+    <possessionCount>1</possessionCount>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>100</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TwilekGoggles/Twilek_HeadCover_Goggles_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <Steel>10</Steel>
+      <Cloth>40</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.14</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.10</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TwilekGoggles/Twilek_HeadCover_Goggles</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_TwilekApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_TwilekApparelTag</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- basically a Tribal Headdress -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>StarWarsRaces_TwilekDecorative</defName>
+    <label>twi'lek tiara with a decorative symbol</label>
+    <description>A decorative tiara worn by dancers and female Twi'leks.</description>
+
+    <techLevel>Neolithic</techLevel>
+    <recipeMaker>
+      <researchPrerequisite />
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <uiIconScale>1.15</uiIconScale>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TwilekDecorative/Twilek_Decorative_Tiara_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.11</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <generateCommonality>0.01</generateCommonality>
+    <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TwilekDecorative/Twilek_Decorative_Tiara</wornGraphicPath>
+      <ideoDesireAllowedFactionCategoryTags>
+        <li>Tribal</li>
+      </ideoDesireAllowedFactionCategoryTags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_TwilekApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_TwilekApparelTag</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

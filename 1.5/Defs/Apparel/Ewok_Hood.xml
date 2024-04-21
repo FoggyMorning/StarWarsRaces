@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- copied stats from the hood which is comparable -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>StarWarsRaces_Ewok_Hood</defName>
+    <label>ewok hood</label>
+    <description>Simple hood made of primitive material.</description>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/EwokHood/Head_Covering_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>0.8</EquipDelay>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+    </equippedStatOffsets>
+    <costStuffCount>50</costStuffCount>
+    <generateCommonality>0.01</generateCommonality>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/EwokHood/Head_Covering</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>StarWarsRaces_EwokApparelTag</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>StarWarsRaces_EwokApparelTag</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.6,0.45,0.18)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.8,0.6,0.23)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+</Defs>

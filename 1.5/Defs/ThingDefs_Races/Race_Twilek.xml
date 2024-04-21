@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Twilek" ParentName="Human">
+    <defName>StarWarsRaces_Twilek</defName>
+    <label>Twi'lek</label>
+    <description>Twi'leks were a species of tall humanoids whose skin spanned a vast array of colors, including white, orange, yellow, green, pink, blue, purple, black, grey, and red. Their most distinctive feature was the pair of prehensile appendages that sprouted from the crown or base of their skulls, known as lekku, or head-tails. Although Twi'leks normally had two lekku, some individuals had four. Super sensitive lekku could grab and hold objects and react to the slightest touch. A damaged lekku could cause serious harm to a Twi'lek's health. The species had two sexes, male and female. While most males typically had ears with lobes resembling those of humans, some males had cone-shaped hearing organs located in the same place on the head, a trait customarily found in the females of the same species. Although Twi'leks naturally had blunt teeth, males typically sharpened them to points. Twi'leks were usually thin, although corpulent individuals were known to exist. Under normal circumstances, they generally had a higher body temperature than other humanoid species.They had even higher body temperatures when in fear. Twi'leks and humans could breed to create a hybrid of the two species, such as when shortly after the death of Kanan Jarrus, he and Hera Syndulla gave birth to a son who appeared mostly human but inherited his mother's green pigment in his hair and ears. He was born after the liberation of Lothal, which Syndulla lived to participate in. https://starwars.fandom.com/wiki/Twi%27lek</description>
+    <alienRace>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Wimp</defName>
+            <chance>10</chance>
+          </li>
+          <li>
+            <defName>Nudist</defName>
+            <chance>10</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <min>RGBA(0,0,0,1)</min>
+                    <max>RGBA(1,1,1,1)</max>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <min>RGBA(0,0,0,1)</min>
+                    <max>RGBA(1,1,1,1)</max>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_2</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons Inherit="False">
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>Skull</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Twilek/Head/Twilek_HeadBumps_Narrow</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.2725</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.329</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.274</layerOffset>
+                  <!-- <offset>( -0.006430868, 0.006430868 )</offset> -->
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>StarWarsRaces_Left_Lekku</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Twilek/Lekku/Twilek_Lekku_Left</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.3</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.34</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.3</layerOffset>
+                  <offset>( 0.03858521, 0.02572347 )</offset>
+                </east>
+                <west>
+                  <layerOffset>-0.2733119</layerOffset>
+                  <offset>( 0.0, -0.0 )</offset>
+                </west>
+              </offsets>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>StarWarsRaces_Right_Lekku</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <path>Things/Pawn/Humanlike/Addons/Twilek/Lekku/Twilek_Lekku_Right</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.3</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.34</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.2733119</layerOffset>
+                  <offset>( 0.0, -0.0 )</offset>
+                </east>
+                <west>
+                  <layerOffset>-0.3</layerOffset>
+                  <offset>( 0.03858521, 0.02572347 )</offset>
+                </west>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <graphicPaths>
+        <skinShader>Cutout</skinShader>
+      </graphicPaths>
+      <styleSettings Inherit="False">
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">StarWarsRaces_TwilekBaseliner</li>
+        </xenotypeList>
+        <blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+        </blackXenotypeList>
+        <blackEndoCategories>
+          <li>Melanin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+        </blackEndoCategories>
+      </raceRestriction>
+    </alienRace>
+    <tools></tools>
+    <race>
+      <renderTree>Humanlike</renderTree>
+      <leatherDef>StarWarsRaces_Leather_Twilek</leatherDef>
+      <nameGenerator>StarWarsRaces_NamerPersonTwilekM</nameGenerator>
+      <nameGeneratorFemale>StarWarsRaces_NamerPersonTwilekF</nameGeneratorFemale>
+      <body>StarWarsRaces_Twilek_Body</body>
+      <bloodDef>StarWarsRaces_FilthBloodTwilek</bloodDef>
+      <hediffGiverSets Inherit="False">
+        <li>OrganicStandard</li>
+        <li>SWR_HediffGiverSet_Twilek</li>
+      </hediffGiverSets>
+    </race>
+    <!-- add to base list -->
+    <recipes>
+      <li>StarWarsRaces_Twilek_Install_ProstheticLekku</li>
+      <li>StarWarsRaces_Twilek_Install_BionicLekku</li>
+      <li>StarWarsRaces_Twilek_Install_NaturalLekku</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+
+</Defs>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Togruta" ParentName="Human">
+    <defName>StarWarsRaces_Togruta</defName>
+    <label>Togruta</label>
+    <description>Native to the Expansion Region planet Shili but later found throughout the galaxy, the Togruta were a species of sentient humanoids whose skin spanned a vast array of colors, including, but not limited to, orange, red, white, and yellow. These characteristics were a result of evolution; Togruta coloration was helpful as a method of camouflage from predators. Their most notable features were the large organic head formations upon their heads; two large cone-like horns called montrals atop their skull, and three lekku, also known as headtails, that sprouted downward. Both a Togruta's lekku and montrals tended to grow until they reached maturity, with females generally having longer lekku than the males. The male's montrals, however, were more branched than the females. A Togruta's montrals allowed them to sense the movement of objects around them through echolocation, and could sense up to 82 feet. https://starwars.fandom.com/wiki/Togruta</description>
+    <alienRace>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- #e6850f orange-ish -->
+                    <weight>80</weight>
+                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                  </li>
+                  <li>
+                    <!-- #3965a7 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7f2929 red-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #9b60a4 purple-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #609ca4 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #60a47c green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                  </li>
+                  <li>
+                    <!-- #80a460 green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- #3965a7 blue-ish -->
+                    <weight>80</weight>
+                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                  </li>
+                  <li>
+                    <!-- #e6850f orange-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7f2929 red-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7e7f29 yellow-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.494, 0.498, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #9b60a4 purple-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #609ca4 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #60a47c green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                  </li>
+                  <li>
+                    <!-- #80a460 green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                  </li>
+                  <li>
+                    <!-- #a48160 brown-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.643, 0.505, 0.376,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>montral</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- #e6850f orange-ish -->
+                    <weight>80</weight>
+                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                  </li>
+                  <li>
+                    <!-- #3965a7 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7f2929 red-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #9b60a4 purple-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #609ca4 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #60a47c green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                  </li>
+                  <li>
+                    <!-- #80a460 green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- #3965a7 blue-ish -->
+                    <weight>80</weight>
+                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                  </li>
+                  <li>
+                    <!-- #e6850f orange-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7f2929 red-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7e7f29 yellow-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.494, 0.498, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #9b60a4 purple-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #609ca4 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #60a47c green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                  </li>
+                  <li>
+                    <!-- #80a460 green-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                  </li>
+                  <li>
+                    <!-- #a48160 brown-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.643, 0.505, 0.376,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_2</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons Inherit="False">
+            <!-- in front of head, but behind light sabers for all views but north
+            Thanks
+            to Delta1138 from steam for finding this layeroffset that is behind hats and in front of
+            heads
+                ...the sweet spot so they are behind hats/helmets but still in
+            front of the head/face.
+                ...when they wear the jedi (or any headgear)
+            hood, the horns stick out behind the
+                apparel but the lekku render on
+            the front, looks pretty good tbh.
+            -->
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>Skull</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Togruta/Montral/Togruta_Montral</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>montral</colorChannel>
+              <offsets>
+                <south>
+                  <layerOffset>-0.2692</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.33</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.2692</layerOffset>
+                  <headTypes>
+                    <Male_AverageNormal>( -0.01288265, 0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( -0.01288265, 0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( -0.008596455, 0.0 )</Male_AverageWide>
+                    <Male_NarrowWide>( 0.0, 0.0 )</Male_NarrowWide>
+                    <Male_NarrowNormal>( 0.0, 0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.0, 0.0 )</Male_NarrowPointy>
+
+                    <Female_AverageNormal>( -0.01288265, 0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( -0.01288265, 0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( -0.008596455, 0.0 )</Female_AverageWide>
+                    <Female_NarrowWide>( 0.0, 0.0 )</Female_NarrowWide>
+                    <Female_NarrowNormal>( 0.0, 0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.0, 0.0 )</Female_NarrowPointy>
+                  </headTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>StarWarsRaces_Togruta_Left_Lekku</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <extendedGraphics>
+                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Child">Things/notexture</BodyType>
+                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Baby">Things/notexture</BodyType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/Togruta/Lekku/Togruta_Lekku_Left</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>montral</colorChannel>
+              <offsets>
+                <south>
+                  <layerOffset>-0.269199</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.2692</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.3</layerOffset>
+                  <offset>( 0.09, -0.12 )</offset>
+                </east>
+                <west>
+                  <layerOffset>0.25</layerOffset>
+                  <offset>( 0.1382637, -0.15 )</offset>
+                </west>
+              </offsets>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>StarWarsRaces_Togruta_Right_Lekku</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <extendedGraphics>
+                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Child">Things/notexture</BodyType>
+                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Baby">Things/notexture</BodyType>
+              </extendedGraphics>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <path>Things/Pawn/Humanlike/Addons/Togruta/Lekku/Togruta_Lekku_Right</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>montral</colorChannel>
+              <offsets>
+                <south>
+                  <layerOffset>-0.269199</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.2692</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>0.25</layerOffset>
+                  <offset>( 0.1382637, -0.15 )</offset>
+                </east>
+                <west>
+                  <layerOffset>-0.3</layerOffset>
+                  <offset>( 0.09, -0.12 )</offset>
+                </west>
+              </offsets>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>StarWarsRaces_Togruta_Rear_Lekku</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <extendedGraphics>
+                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Child">Things/notexture</BodyType>
+                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Baby">Things/notexture</BodyType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/Togruta/LekkuRear/Togruta_Lekku_Rear</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>false</inFrontOfBody>
+              <colorChannel>montral</colorChannel>
+              <offsets>
+                <south>
+                  <layerOffset>0</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.2692</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>-0.34</layerOffset>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <graphicPaths>
+        <skinShader>Cutout</skinShader>
+        <headMasks>Things/Pawn/Humanlike/Heads/Masks/Togruta/mask</headMasks>
+      </graphicPaths>
+      <styleSettings Inherit="False">
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+            <styleTagsOverride>
+              <li>Minimal</li>
+              <li>BeardPunk</li>
+              <li>BeardShort</li>
+              <li>BeardUrban</li>
+              <li>BeardTribal</li>
+              <li>MoustacheOnly</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">StarWarsRaces_TogrutaBaseliner</li>
+        </xenotypeList>
+        <blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+        </blackXenotypeList>
+        <blackEndoCategories>
+          <li>Melanin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+        </blackEndoCategories>
+      </raceRestriction>
+    </alienRace>
+    <race>
+      <renderTree>Humanlike</renderTree>
+      <body>StarWarsRaces_Togruta_Body</body>
+      <hediffGiverSets Inherit="False">
+        <li>OrganicStandard</li>
+        <li>SWR_HediffGiverSet_Togruta</li>
+      </hediffGiverSets>
+    </race>
+    <!-- add to base list -->
+    <recipes>
+      <li>StarWarsRaces_Togruta_Install_ProstheticLekku</li>
+      <li>StarWarsRaces_Togruta_Install_NaturalLekku</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

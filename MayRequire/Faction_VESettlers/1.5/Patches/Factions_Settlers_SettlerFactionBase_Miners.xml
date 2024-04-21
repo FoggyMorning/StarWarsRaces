@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="SettlerFactionBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Miner>1</Miner>
+          <StarWarsRaces_Wookiee_Miner>0.70</StarWarsRaces_Wookiee_Miner>
+          <StarWarsRaces_Togruta_Miner>1.00</StarWarsRaces_Togruta_Miner>
+          <StarWarsRaces_Rodian_Miner>1.00</StarWarsRaces_Rodian_Miner>
+          <StarWarsRaces_Ewok_Miner>0.50</StarWarsRaces_Ewok_Miner>
+          <StarWarsRaces_Twilek_Miner>1.00</StarWarsRaces_Twilek_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Miner>0.70</StarWarsRaces_Wookiee_Miner>
+          <StarWarsRaces_Togruta_Miner>1.00</StarWarsRaces_Togruta_Miner>
+          <StarWarsRaces_Rodian_Miner>1.00</StarWarsRaces_Rodian_Miner>
+          <StarWarsRaces_Ewok_Miner>0.50</StarWarsRaces_Ewok_Miner>
+          <StarWarsRaces_Twilek_Miner>1.00</StarWarsRaces_Twilek_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Miner>0.70</StarWarsRaces_Wookiee_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Miner>1.00</StarWarsRaces_Togruta_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Miner>1.00</StarWarsRaces_Rodian_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Miner>0.50</StarWarsRaces_Ewok_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Miner>1.00</StarWarsRaces_Twilek_Miner>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

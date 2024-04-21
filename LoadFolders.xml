@@ -21,4 +21,17 @@
     <li>1.4</li>
     <li IfModActive="projectjedi.factions">MayRequire/StarWarsFactions/1.4</li>
   </v1.4>
+  <v1.5>
+    <li>1.5</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">MayRequire/Royalty/1.5</li>
+    <li IfModActive="Ludeon.RimWorld.Ideology">MayRequire/Ideology/1.5</li>
+    <li IfModActive="Ludeon.RimWorld.Biotech">MayRequire/Biotech/1.5</li>
+    <li IfModActive="projectjedi.factions">MayRequire/Faction_SWFactions/1.5</li>
+    <!-- uncomment below lines only if you want to include the star wars races in those factions -->
+    <!-- <li IfModActive="Albion.SparklingWorlds.Full">MayRequire/Faction_BlueMoon/1.5</li> -->
+    <!-- <li IfModActive="rimsenal.federation">MayRequire/Faction_RimsenalFederation/1.5</li> -->
+    <!-- <li IfModActive="rimsenal.feral">MayRequire/Faction_RimsenalFeral/1.5</li> -->
+    <!-- <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">MayRequire/Faction_VESettlers/1.5</li> -->
+    <!-- <li IfModActive="VanillaExpanded.VFEA">MayRequire/Faction_Ancients/1.5</li> -->
+  </v1.5>
 </loadFolders>

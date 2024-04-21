@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Wookiee" ParentName="Human">
+    <defName>StarWarsRaces_Wookiee</defName>
+    <label>Wookiee</label>
+    <description>Wookiees were a tall species of furry humanoids from the planet Kashyyyk, who could grow to a height of nearly three meters. They were covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that notably came in shades of brown, black, gray, and white. The species had two sexes, female and male. The latter grew long beards in adult life. The average male weighed 150 kilograms while the average female weighed 100 kilograms. The Wookiees eye color ranged from blue to brown. Wookiees were big eaters, with the average adult requiring 3,500-6,000 calories a day of food. Their diet consisted of wild plants, berries, meat, and spices. They preferred their spices to be hot. While Wookiees did not like eating blosphi extract, it provided them with enough nutrition to survive. The literary collective term for Wookiees was a grove of Wookiees. Many of their kind were known to understand Galactic Basic but were unable to speak it due to their species' vocal structure. Wookiees had extendable claws which they used for climbing; using them for anything else violated the Wookiee honor code. Despite their fearsome appearance and volatile temperament, Wookiees were regarded as intelligent, sophisticated, loyal and trusting. When angered, Wookiees were known to descend into a berserker rage. Wookiees had an average lifespan of 400 standard years, and they appeared not to age over a span of fifty years. Their lifespans dramatically decreased due to the harsh working conditions in the spice mines of Kessel. During their prime growing years, Wookiees were often hungry, forcing them to eat whenever they could. They could learn to understand other languages, like Galactic Basic Standard, but they were physically unable to speak them due to their strange vocal chords. To those who had not learned to understand Shyriiwook, the Wookiee language, it appeared they spoke in a series of growls and purrs. Although a rare phenomenon, Force-sensitive Wookiees were possible and some joined the ranks of the Jedi, a source of great pride to their people. https://starwars.fandom.com/wiki/Wookiee</description>
+    <statBases></statBases>
+    <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts Inherit="False">
+          <li>ClothedNudist</li>
+          <li>Naked</li>
+        </cannotReceiveThoughts>
+      </thoughtSettings>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <borderScale>2</borderScale>
+          <customDrawSize>( 1.5, 1.5 )</customDrawSize>
+          <customHeadDrawSize>( 1.2, 1.2 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 1.5, 1.5 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 1.2, 1.2 )</customPortraitHeadDrawSize>
+          <headOffset>(0.0,0.2)</headOffset>
+          <headOffsetDirectional Inherit="False">
+            <south>
+              <offset>(0.0, 0.0)</offset>
+            </south>
+            <north>
+              <offset>(0.0, 0.0)</offset>
+            </north>
+            <east>
+              <offset>(0.1, 0.0)</offset>
+            </east>
+            <west>
+              <offset>(-0.1, 0.0)</offset>
+            </west>
+          </headOffsetDirectional>
+          <colorChannels Inherit="False">
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(0.623, 0.380, 0.149,1)</only>
+                  </li>
+                  <li>
+                    <!-- #843e30 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.517, 0.243, 0.188,1)</only>
+                  </li>
+                  <li>
+                    <!-- #8b352d -->
+                    <weight>100</weight>
+                    <only>RGBA(0.545, 0.207, 0.176,1)</only>
+                  </li>
+                  <li>
+                    <!-- #784b44 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.470, 0.294, 0.266,1)</only>
+                  </li>
+                  <li>
+                    <!-- #685855 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.407, 0.345, 0.333,1)</only>
+                  </li>
+                  <li>
+                    <!-- #764c41 -->
+                    <weight>100</weight>
+                    <only>RGBA(0.462, 0.298, 0.254,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>90</weight>
+                    <only>RGBA(0.86, 0.84, 0.78, 1)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.85, 0.77, 0.61, 1)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(228, 213, 195, 255)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(214, 201, 185, 255)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(179, 166, 159, 255)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>hair_1</colorChannel>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>hair_2</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <oldHairAgeCurve>
+            <points>
+              <li>(0, 0)</li>
+              <li>(100, 0)</li>
+              <li>(200, 0)</li>
+              <li>(300, 0)</li>
+              <li>(350, 0.0001)</li>
+              <li>(399, 0.5)</li>
+              <li>(400, 1)</li>
+            </points>
+          </oldHairAgeCurve>
+        </alienPartGenerator>
+        <disallowedTraits>
+          <li>
+            <defName>Nudist</defName>
+          </li>
+        </disallowedTraits>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Bloodlust</defName>
+            <chance>10</chance>
+          </li>
+          <li>
+            <defName>AnnoyingVoice</defName>
+            <chance>1</chance>
+          </li>
+          <li>
+            <defName>Brawler</defName>
+            <chance>1</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <growthAges MayRequire="Ludeon.RimWorld.Biotech">
+          <li>7</li>
+          <li>10</li>
+          <li>12</li>
+        </growthAges>
+        <lovinIntervalHoursFromAge>
+          <points>
+            <li>(14, 0)</li>
+            <li>(20, 1)</li>
+            <li>(28, 1)</li>
+            <li>(350, 0.1)</li>
+            <li>(399, 0.02)</li>
+            <li>(400, 0)</li>
+          </points>
+        </lovinIntervalHoursFromAge>
+        <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <reproduction MayRequire="Ludeon.RimWorld.Biotech">
+          <femaleFertilityAgeFactor MayRequire="Ludeon.RimWorld.Biotech">
+            <points>
+              <li>(14, 0)</li>
+              <li>(20, 1)</li>
+              <li>(28, 1)</li>
+              <li>(225, 0.5)</li>
+              <li>(250, 0.1)</li>
+              <li>(299, 0.02)</li>
+              <li>(400, 0)</li>
+            </points>
+          </femaleFertilityAgeFactor>
+          <maleFertilityAgeFactor MayRequire="Ludeon.RimWorld.Biotech">
+            <points>
+              <li>(14, 0)</li>
+              <li>(20, 1)</li>
+              <li>(28, 1)</li>
+              <li>(225, 0.5)</li>
+              <li>(250, 0.1)</li>
+              <li>(299, 0.02)</li>
+              <li>(400, 0)</li>
+            </points>
+          </maleFertilityAgeFactor>
+        </reproduction>
+      </generalSettings>
+      <styleSettings Inherit="False">
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+            <styleTagsOverride>
+              <li>StarWarsRaces_Wookiee</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+            <styleTagsOverride>
+              <li>Minimal</li>
+              <li>BeardTribal</li>
+              <li>BeardBushy</li>
+              <li>BeardLong</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <graphicPaths>
+        <skinShader>Cutout</skinShader>
+        <apparel>
+          <bodyTypeFallback>Fat</bodyTypeFallback>
+        </apparel>
+        <body>
+          <path>Things/Pawn/Humanlike/Bodies/StarWarsRaces_Wookiee/Wookiee_Naked_Thin</path>
+          <extendedGraphics>
+            <BodyType For="Male">Things/Pawn/Humanlike/Bodies/StarWarsRaces_Wookiee/Wookiee_Naked_Male</BodyType>
+            <BodyType For="Female">Things/Pawn/Humanlike/Bodies/StarWarsRaces_Wookiee/Wookiee_Naked_Female</BodyType>
+            <BodyType For="Thin">Things/Pawn/Humanlike/Bodies/StarWarsRaces_Wookiee/Wookiee_Naked_Thin</BodyType>
+            <BodyType For="Fat">Things/Pawn/Humanlike/Bodies/StarWarsRaces_Wookiee/Wookiee_Naked_Fat</BodyType>
+            <BodyType For="Hulk">Things/Pawn/Humanlike/Bodies/StarWarsRaces_Wookiee/Wookiee_Naked_Hulk</BodyType>
+            <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Baby">Things/Pawn/Humanlike/Apparel/SwaddledBaby/Swaddled_Child</BodyType>
+            <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Child">Things/Pawn/Humanlike/Bodies/Naked_FurChild</BodyType>
+          </extendedGraphics>
+        </body>
+        <head>
+          <path>Things/Pawn/Humanlike/Heads/Male/Wookiee/Wookiee_Head_Male</path>
+          <extendedGraphics>
+            <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Male/Wookiee/Wookiee_Head_Male</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Male/Wookiee/Wookiee_Head_Male</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Male/Wookiee/Wookiee_Head_Male</HeadType>
+            <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Male/Wookiee/Wookiee_Head_Narrow_Male</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Male/Wookiee/Wookiee_Head_Narrow_Male</HeadType>
+            <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Male/Wookiee/Wookiee_Head_Narrow_Male</HeadType>
+
+            <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Female/Wookiee/Wookiee_Head_Female</HeadType>
+            <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Female/Wookiee/Wookiee_Head_Female</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Female/Wookiee/Wookiee_Head_Female</HeadType>
+            <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Female/Wookiee/Wookiee_Head_Narrow_Female</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Female/Wookiee/Wookiee_Head_Narrow_Female</HeadType>
+            <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Female/Wookiee/Wookiee_Head_Narrow_Female</HeadType>
+          </extendedGraphics>
+        </head>
+      </graphicPaths>
+      <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">StarWarsRaces_WookieeBaseliner</li>
+        </xenotypeList>
+        <blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+        </blackXenotypeList>
+        <blackEndoCategories>
+          <li>Melanin</li>
+          <li>HairColor</li>
+        </blackEndoCategories>
+      </raceRestriction>
+    </alienRace>
+    <tools Inherit="False">
+      <!-- increased power for natural attacks -->
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <renderTree>Humanlike</renderTree>
+      <leatherDef>StarWarsRaces_Leather_Humanlike</leatherDef>
+      <nameGenerator>StarWarsRaces_NamerPersonWookieeM</nameGenerator>
+      <nameGeneratorFemale>StarWarsRaces_NamerPersonWookieeF</nameGeneratorFemale>
+      <ageGenerationCurve>
+        <!-- longer lifespan requires custom curve -->
+        <points Inherit="False">
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>          <!-- Exclude 12.5-13 years to
+          avoid spawning pawns who are very close to becoming adults -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>          <!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(17,0)</li>
+          <li>(18,1)</li>
+          <li>(20,1)</li>
+          <li>(30,2)</li>
+          <li>(40,10)</li>
+          <li>(50,20)</li>
+          <li>(60,30)</li>
+          <li>(70,40)</li>
+          <li>(80,50)</li>
+          <li>(90,100)</li>
+          <li>(95,100)</li>
+          <li>(105,100)</li>
+          <li>(120,80)</li>
+          <li>(130,70)</li>
+          <li>(140,60)</li>
+          <li>(150,50)</li>
+          <li>(160,40)</li>
+          <li>(170,50)</li>
+          <li>(180,60)</li>
+          <li>(200,3)</li>
+          <li>(300,2)</li>
+          <li>(395,1)</li>
+          <li>(396,1)</li>
+          <li>(397,1)</li>
+          <li>(398,1)</li>
+          <li>(399,1)</li>
+          <li>(400,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <lifeExpectancy>400</lifeExpectancy>
+      <hediffGiverSets Inherit="False">
+        <li>OrganicStandard</li>
+        <li>SWR_HediffGiverSet_Wookiee</li>
+      </hediffGiverSets>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+
+</Defs>
