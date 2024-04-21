@@ -5,6 +5,7 @@
     <defName>StarWarsRaces_FleshType</defName>
     <corpseCategory>CorpsesAnimal</corpseCategory>
     <damageEffecter>Damage_HitFlesh</damageEffecter>
+    <isOrganic>true</isOrganic>
     <genericWounds>
       <li>
         <texture>Things/Pawn/Wounds/WoundFleshA</texture>
@@ -28,7 +29,7 @@
       </li>
     </bandagedWounds>
     <hediffWounds>
-      <!-- <li  MayRequire="Ludeon.RimWorld.Ideology">
+      <li  MayRequire="Ludeon.RimWorld.Ideology">
         <hediff>Scarification</hediff>
         <wounds>
           <li>
@@ -36,21 +37,27 @@
             <tintWithSkinColor>true</tintWithSkinColor>
             <displayOverApparel>false</displayOverApparel>
             <displayPermanent>false</displayPermanent>
+            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>
+            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>
           </li>
           <li>
             <texture>Things/Pawn/Wounds/ScarificationB</texture>
             <tintWithSkinColor>true</tintWithSkinColor>
             <displayOverApparel>false</displayOverApparel>
             <displayPermanent>false</displayPermanent>
+            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>
+            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>
           </li>
           <li>
             <texture>Things/Pawn/Wounds/ScarificationC</texture>
             <tintWithSkinColor>true</tintWithSkinColor>
             <displayOverApparel>false</displayOverApparel>
             <displayPermanent>false</displayPermanent>
+            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>
+            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>
           </li>
         </wounds>
-      </li> -->
+      </li>
       <li>
         <hediff>MissingBodyPart</hediff>
         <wounds>
@@ -66,6 +73,8 @@
             <tintWithSkinColor>true</tintWithSkinColor>
             <missingBodyPartFresh>false</missingBodyPartFresh>
             <scale>0.7</scale>
+            <drawOffsetSouth>(0, 0, -0.24)</drawOffsetSouth>
+            <drawOffsetEastWest>(0, 0, -0.24)</drawOffsetEastWest>
           </li>
           <li>
             <textureSouth>Things/Pawn/Wounds/MissingEye_Fresh</textureSouth>
@@ -78,6 +87,8 @@
             <flipOnRotation>South</flipOnRotation>
             <missingBodyPartFresh>true</missingBodyPartFresh>
             <scale>0.7</scale>
+            <drawOffsetSouth>(0, 0, -0.24)</drawOffsetSouth>
+            <drawOffsetEastWest>(0, 0, -0.24)</drawOffsetEastWest>
           </li>
         </wounds>
       </li>
@@ -93,6 +104,8 @@
             <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
             <flipOnRotation>South</flipOnRotation>
             <scale>0.85</scale>
+            <drawOffsetSouth>(0, 0, -0.24)</drawOffsetSouth>
+            <drawOffsetEastWest>(0, 0, -0.24)</drawOffsetEastWest>
           </li>
         </wounds>
       </li>
@@ -108,6 +121,8 @@
             <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
             <flipOnRotation>South</flipOnRotation>
             <scale>0.85</scale>
+            <drawOffsetSouth>(0, 0, -0.24)</drawOffsetSouth>
+            <drawOffsetEastWest>(0, 0, -0.24)</drawOffsetEastWest>
           </li>
         </wounds>
       </li>

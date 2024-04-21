@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="SettlerFactionBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Farmer>1</Farmer>
+          <StarWarsRaces_Wookiee_Farmer>0.70</StarWarsRaces_Wookiee_Farmer>
+          <StarWarsRaces_Togruta_Farmer>1.00</StarWarsRaces_Togruta_Farmer>
+          <StarWarsRaces_Rodian_Farmer>1.00</StarWarsRaces_Rodian_Farmer>
+          <StarWarsRaces_Ewok_Farmer>0.50</StarWarsRaces_Ewok_Farmer>
+          <StarWarsRaces_Twilek_Farmer>1.00</StarWarsRaces_Twilek_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Farmer>0.70</StarWarsRaces_Wookiee_Farmer>
+          <StarWarsRaces_Togruta_Farmer>1.00</StarWarsRaces_Togruta_Farmer>
+          <StarWarsRaces_Rodian_Farmer>1.00</StarWarsRaces_Rodian_Farmer>
+          <StarWarsRaces_Ewok_Farmer>0.50</StarWarsRaces_Ewok_Farmer>
+          <StarWarsRaces_Twilek_Farmer>1.00</StarWarsRaces_Twilek_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Farmer>0.70</StarWarsRaces_Wookiee_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Farmer>1.00</StarWarsRaces_Togruta_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Farmer>1.00</StarWarsRaces_Rodian_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Farmer>0.50</StarWarsRaces_Ewok_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Farmer>1.00</StarWarsRaces_Twilek_Farmer>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

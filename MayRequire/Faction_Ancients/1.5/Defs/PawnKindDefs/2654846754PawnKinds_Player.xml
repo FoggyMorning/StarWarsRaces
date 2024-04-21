@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="StarWarsRaces_VFEA_PlayerAncientSoldierOneAbility">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie ancient soldier</label>
+    <defName>StarWarsRaces_Wookiee_VFEA_PlayerAncientSoldierOneAbility</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_WookieeBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_WookieeBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFEA_PlayerAncientSoldierOneAbility">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta ancient soldier</label>
+    <defName>StarWarsRaces_Togruta_VFEA_PlayerAncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TogrutaBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TogrutaBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFEA_PlayerAncientSoldierOneAbility">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian ancient soldier</label>
+    <defName>StarWarsRaces_Rodian_VFEA_PlayerAncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_RodianBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_RodianBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFEA_PlayerAncientSoldierOneAbility">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok ancient soldier</label>
+    <defName>StarWarsRaces_Ewok_VFEA_PlayerAncientSoldierOneAbility</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_EwokBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_EwokBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFEA_PlayerAncientSoldierOneAbility">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek ancient soldier</label>
+    <defName>StarWarsRaces_Twilek_VFEA_PlayerAncientSoldierOneAbility</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+</Defs>

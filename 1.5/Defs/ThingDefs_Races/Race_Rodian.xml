@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Rodian" ParentName="HumanRace">
+  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Rodian" ParentName="Human">
     <defName>StarWarsRaces_Rodian</defName>
     <label>Rodian</label>
-    <description>Rodians were a species of reptilian humanoids.
-      They possessed large pupil-less eyes that could see in infrared spectrum.
-      Indeed, the Pantoran Kevmo Zink suspected the Rodians and his people saw different spectrums
-      of light, but he was not sure what the exact divide was.
-      Rodians also had twin saucer-like antennae that detected vibrations and twitched atop their
-      head. Rodians also had slender snouts, pointed ears, and a ridge of spines cresting their
-      skulls.
-      Their snouts were said to resemble those of tapirs.
-      Green—but sometimes red, yellow, or turquoise—scales covered their bodies, and their skin had
-      a rough, pebbly texture, except on the snout and hands.
-      They were cold blooded and had green blood. Females were physically distinguished by their
-      mammary glands, and some of them, like Greeata Jendowanian, were capable of growing long
-      tresses.
-      The Rodian hand featured five long, dexterous fingers with suction cups at the ends. The pads
-      helped them cope with the variety of conditions associated with living in a swamp, and could
-      be used to help them climb aquatic vegetation.
-      The shape of the Rodian hand, however, was as such that if an object was designed for their
-      species, it would be uncomfortable for a human to use. Their toes were a lot like their
-      fingers: long and tipped by suction cups.
-      Although they were oxygen breathers, Rodians could breathe an air saturated with Clouzon-36
-      without the assistance of a respirator. Rodians smelled rank to humans.
-      https://starwars.fandom.com/wiki/Rodian</description>
+    <description>Rodians were a species of reptilian humanoids. They possessed large pupil-less eyes that could see in infrared spectrum. Indeed, the Pantoran Kevmo Zink suspected the Rodians and his people saw different spectrums of light, but he was not sure what the exact divide was. Rodians also had twin saucer-like antennae that detected vibrations and twitched atop their head. Rodians also had slender snouts, pointed ears, and a ridge of spines cresting their skulls. Their snouts were said to resemble those of tapirs. Green—but sometimes red, yellow, or turquoise—scales covered their bodies, and their skin had a rough, pebbly texture, except on the snout and hands. They were cold blooded and had green blood. Females were physically distinguished by their mammary glands, and some of them, like Greeata Jendowanian, were capable of growing long tresses. The Rodian hand featured five long, dexterous fingers with suction cups at the ends. The pads helped them cope with the variety of conditions associated with living in a swamp, and could be used to help them climb aquatic vegetation. The shape of the Rodian hand, however, was as such that if an object was designed for their species, it would be uncomfortable for a human to use. Their toes were a lot like their fingers: long and tipped by suction cups. Although they were oxygen breathers, Rodians could breathe an air saturated with Clouzon-36 without the assistance of a respirator. Rodians smelled rank to humans. starwars.fandom.com/wiki/Rodian</description>
     <alienRace>
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
@@ -39,34 +18,6 @@
           </li>
         </forcedRaceTraitEntries>
         <alienPartGenerator>
-          <headTypes Inherit="False">
-            <li>StarWarsRaces_Rodian_Male_Average_Normal</li>
-            <li>StarWarsRaces_Rodian_Male_Average_Pointy</li>
-            <li>StarWarsRaces_Rodian_Male_Average_Wide</li>
-            <li>StarWarsRaces_Rodian_Male_Narrow_Normal</li>
-            <li>StarWarsRaces_Rodian_Male_Narrow_Pointy</li>
-            <li>StarWarsRaces_Rodian_Male_Narrow_Wide</li>
-            <li>StarWarsRaces_Rodian_Female_Average_Normal</li>
-            <li>StarWarsRaces_Rodian_Female_Average_Pointy</li>
-            <li>StarWarsRaces_Rodian_Female_Average_Wide</li>
-            <li>StarWarsRaces_Rodian_Female_Narrow_Normal</li>
-            <li>StarWarsRaces_Rodian_Female_Narrow_Pointy</li>
-            <li>StarWarsRaces_Rodian_Female_Narrow_Wide</li>
-
-            <li MayRequire="Ludeon.RimWorld.Biotech">Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Male_HeavyJawNormal</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Female_HeavyJawNormal</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy3</li>
-          </headTypes>
           <colorChannels Inherit="False">
             <li>
               <name>skin</name>
@@ -103,6 +54,57 @@
               </second>
             </li>
             <li>
+              <name>eyes</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <!-- Reds -->
+                    <weight>100</weight>
+                    <min>RGBA(155,0,0, 255)</min>
+                    <max>RGBA(255,155,155, 255)</max>
+                  </li>
+                  <li>
+                    <!-- #3965a7 blue-ish -->
+                    <weight>80</weight>
+                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                  </li>
+                  <li>
+                    <!-- #e6850f orange-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7f2929 red-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #7e7f29 yellow-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.494, 0.498, 0.160,1)</only>
+                  </li>
+                  <li>
+                    <!-- #9b60a4 purple-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                  </li>
+                  <li>
+                    <!-- #609ca4 blue-ish -->
+                    <weight>10</weight>
+                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <min>RGBA(0,0,0,1)</min>
+                    <max>RGBA(1,1,1,1)</max>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
               <name>hair</name>
               <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
                 <colorChannel>skin_1</colorChannel>
@@ -114,163 +116,274 @@
           </colorChannels>
           <bodyAddons Inherit="False">
             <li>
-              <headtypeGraphics>
-                <!-- fucking biotech -->
-                <Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Gaunt>
-                <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Gaunt>
-                <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average1>
-                <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average2>
-                <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average3>
-                <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexturel</Male_HeavyJawNormal>
-                <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Female_HeavyJawNormal>
-                <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow1>
-                <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow2>
-                <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow3>
-                <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy1>
-                <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy2>
-                <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy3>
-              </headtypeGraphics>
               <!-- render the mohawk of spines as an addon -->
-              <drawnDesiccated>false</drawnDesiccated>
-              <path>StarWarsRaces/Rodian/Hairs/Rodian1</path>
-              <bodyPart>Head</bodyPart>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>Skull</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>StarWarsRaces_RodianSpines</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+              <extendedGraphics>
+                <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Addons/Rodian/Hairs/Rodian_Spines_Wide</HeadType>
+                <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Addons/Rodian/Hairs/Rodian_Spines_Wide</HeadType>
+                <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Addons/Rodian/Hairs/Rodian_Spines_Wide</HeadType>
+                <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Addons/Rodian/Hairs/Rodian_Spines_Wide</HeadType>
+                <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Addons/Rodian/Hairs/Rodian_Spines_Wide</HeadType>
+                <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Addons/Rodian/Hairs/Rodian_Spines_Wide</HeadType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/Rodian/Hairs/Rodian_Spines_Narrow</path>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <defaultOffset>Center</defaultOffset>
-              <offsets>
-                <south></south>
-                <north></north>
-                <east></east>
-              </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>StarWarsRaces_RodianSpines</li>
-              </hiddenUnderApparelTag>
             </li>
             <li>
-              <headtypeGraphics>
-                <!-- fucking biotech -->
-                <Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Gaunt>
-                <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Gaunt>
-                <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average1>
-                <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average2>
-                <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average3>
-                <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexturel</Male_HeavyJawNormal>
-                <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Female_HeavyJawNormal>
-                <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow1>
-                <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow2>
-                <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow3>
-                <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy1>
-                <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy2>
-                <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy3>
-              </headtypeGraphics>
-              <!-- left antenna is not visible from the east unless the other antenna is destroyed -->
-              <drawnDesiccated>false</drawnDesiccated>
-              <path>StarWarsRaces/Rodian/Antenna/Left_Antenna</path>
-              <bodyPart>StarWarsRaces_LeftRodianAntenna</bodyPart>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>left antenna</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>StarWarsRaces_RodianAntenna</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Rodian/Antenna/Rodian_Antenna_Left</path>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <defaultOffset>Center</defaultOffset>
               <offsets>
-                <south></south>
-                <north></north>
+                <south>
+                  <layerOffset>-0.269199</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.2692</layerOffset>
+                </north>
                 <east>
-                  <layerOffset>0.01</layerOffset>
+                  <layerOffset>-0.3</layerOffset>
+                </east>
+                <west>
+                  <layerOffset>0.25</layerOffset>
+                </west>
+              </offsets>
+            </li>
+            <li>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>right antenna</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>StarWarsRaces_RodianAntenna</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Rodian/Antenna/Rodian_Antenna_Right</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <layerOffset>-0.269199</layerOffset>
+                </south>
+                <north>
+                  <layerOffset>-0.2692</layerOffset>
+                </north>
+                <east>
+                  <layerOffset>0.25</layerOffset>
+                </east>
+                <west>
+                  <layerOffset>-0.3</layerOffset>
+                </west>
+              </offsets>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>left ear</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>StarWarsRaces_RodianEars</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Rodian/Ears/Rodian_Ear_Left</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+            </li>
+            <li>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>right ear</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>StarWarsRaces_RodianEars</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
+              <path>Things/Pawn/Humanlike/Addons/Rodian/Ears/Rodian_Ear_Right</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>left eye</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <colorChannel>eyes</colorChannel>
+              <path>Things/Pawn/Humanlike/Addons/Rodian/Eyes/Rodian_Eye_Left</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <layerOffset>-0.2733119</layerOffset>
+                </south>
+                <west>
+                  <layerOffset>-0.2797428</layerOffset>
+                  <headTypes>
+                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+
+                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+
+                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+
+                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                  </headTypes>
+                </west>
+                <east>
+                  <layerOffset>-0.2797428</layerOffset>
+                  <headTypes>
+                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+
+                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+
+                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+
+                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                  </headTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>StarWarsRaces_RodianAntenna</li>
-              </hiddenUnderApparelTag>
             </li>
             <li>
-              <headtypeGraphics>
-                <!-- fucking biotech -->
-                <Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Gaunt>
-                <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Gaunt>
-                <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average1>
-                <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average2>
-                <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average3>
-                <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexturel</Male_HeavyJawNormal>
-                <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Female_HeavyJawNormal>
-                <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow1>
-                <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow2>
-                <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow3>
-                <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy1>
-                <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy2>
-                <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy3>
-              </headtypeGraphics>
-              <!-- right antenna is not visible from the west unless the left antenna is destroyed -->
-              <drawnDesiccated>false</drawnDesiccated>
-              <path>StarWarsRaces/Rodian/Antenna/Right_Antenna</path>
-              <bodyPart>StarWarsRaces_RightRodianAntenna</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>right eye</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <colorChannel>eyes</colorChannel>
+              <path>Things/Pawn/Humanlike/Addons/Rodian/Eyes/Rodian_Eye_Right</path>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <defaultOffset>Center</defaultOffset>
               <offsets>
-                <south></south>
-                <north></north>
+                <south>
+                  <layerOffset>-0.2733119</layerOffset>
+                </south>
+                <west>
+                  <layerOffset>-0.2797428</layerOffset>
+                  <headTypes>
+                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+
+                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+
+                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+
+                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                  </headTypes>
+                </west>
                 <east>
-                  <layerOffset>0.01</layerOffset>
+                  <layerOffset>-0.2797428</layerOffset>
+                  <headTypes>
+                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+
+                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+
+                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+
+                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                  </headTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>StarWarsRaces_RodianAntenna</li>
-              </hiddenUnderApparelTag>
-            </li>
-            <li>
-              <headtypeGraphics>
-                <!-- fucking biotech -->
-                <Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Gaunt>
-                <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Gaunt>
-                <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average1>
-                <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average2>
-                <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Average3>
-                <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexturel</Male_HeavyJawNormal>
-                <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Female_HeavyJawNormal>
-                <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow1>
-                <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow2>
-                <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Narrow3>
-                <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy1>
-                <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy2>
-                <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Furskin_Heavy3>
-              </headtypeGraphics>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Pig>
-                <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Floppy>
-                <Ears_Cat MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Cat>
-                <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Pointed>
-                <Ears_Human MayRequire="Ludeon.RimWorld.Biotech">Things/notexture</Ears_Human>
-              </geneGraphics>
-              <!-- ears rendered as one addon instead of two -->
-              <drawnDesiccated>false</drawnDesiccated>
-              <path>StarWarsRaces/Rodian/Head/Ear</path>
-              <bodyPart>Ear</bodyPart>
-              <alignWithHead>true</alignWithHead>
-              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-              <inFrontOfBody>true</inFrontOfBody>
-              <defaultOffset>Center</defaultOffset>
-              <offsets>
-                <south></south>
-                <north></north>
-                <east></east>
-              </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>StarWarsRaces_RodianEars</li>
-              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -298,58 +411,37 @@
       <graphicPaths>
         <skinShader>Cutout</skinShader>
         <head>
-          <headtypeGraphics>
-            <StarWarsRaces_Rodian_Male_Average_Normal>StarWarsRaces/Rodian/Head/Male_Average_Normal</StarWarsRaces_Rodian_Male_Average_Normal>
-            <StarWarsRaces_Rodian_Male_Average_Pointy>StarWarsRaces/Rodian/Head/Male_Average_Pointy</StarWarsRaces_Rodian_Male_Average_Pointy>
-            <StarWarsRaces_Rodian_Male_Average_Wide>StarWarsRaces/Rodian/Head/Male_Average_Wide</StarWarsRaces_Rodian_Male_Average_Wide>
-            <StarWarsRaces_Rodian_Male_Narrow_Normal>StarWarsRaces/Rodian/Head/Male_Narrow_Normal</StarWarsRaces_Rodian_Male_Narrow_Normal>
-            <StarWarsRaces_Rodian_Male_Narrow_Pointy>StarWarsRaces/Rodian/Head/Male_Narrow_Pointy</StarWarsRaces_Rodian_Male_Narrow_Pointy>
-            <StarWarsRaces_Rodian_Male_Narrow_Wide>StarWarsRaces/Rodian/Head/Male_Narrow_Wide</StarWarsRaces_Rodian_Male_Narrow_Wide>
+          <path>Things/Pawn/Humanlike/Heads/Male/Rodian/Rodian_Head_Male_Wide</path>
+          <extendedGraphics>
+            <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Male/Rodian/Rodian_Head_Male_Wide</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Male/Rodian/Rodian_Head_Male_Wide</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Male/Rodian/Rodian_Head_Male_Wide</HeadType>
+            <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Male/Rodian/Rodian_Head_Male_Narrow</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Male/Rodian/Rodian_Head_Male_Narrow</HeadType>
+            <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Male/Rodian/Rodian_Head_Male_Narrow</HeadType>
 
-
-            <StarWarsRaces_Rodian_Female_Average_Normal>
-              StarWarsRaces/Rodian/Head/Female_Average_Normal</StarWarsRaces_Rodian_Female_Average_Normal>
-            <StarWarsRaces_Rodian_Female_Average_Pointy>
-              StarWarsRaces/Rodian/Head/Female_Average_Pointy</StarWarsRaces_Rodian_Female_Average_Pointy>
-            <StarWarsRaces_Rodian_Female_Average_Wide>StarWarsRaces/Rodian/Head/Female_Average_Wide</StarWarsRaces_Rodian_Female_Average_Wide>
-            <StarWarsRaces_Rodian_Female_Narrow_Normal>
-              StarWarsRaces/Rodian/Head/Female_Narrow_Normal</StarWarsRaces_Rodian_Female_Narrow_Normal>
-            <StarWarsRaces_Rodian_Female_Narrow_Pointy>
-              StarWarsRaces/Rodian/Head/Female_Narrow_Pointy</StarWarsRaces_Rodian_Female_Narrow_Pointy>
-            <StarWarsRaces_Rodian_Female_Narrow_Wide>StarWarsRaces/Rodian/Head/Female_Narrow_Wide</StarWarsRaces_Rodian_Female_Narrow_Wide>
-            <!-- fucking biotech -->
-            <Gaunt MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Genes/None_Gaunt_Average</Gaunt>
-            <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Gaunt_Normal</Furskin_Gaunt>
-            <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average1_Normal</Furskin_Average1>
-            <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average2_Normal</Furskin_Average2>
-            <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average3_Normal</Furskin_Average3>
-            <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Male/Male_HeavyJaw_Normal</Male_HeavyJawNormal>
-            <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Female/Female_HeavyJaw_Normal</Female_HeavyJawNormal>
-            <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow1_Normal</Furskin_Narrow1>
-            <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow2_Normal</Furskin_Narrow2>
-            <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow3_Normal</Furskin_Narrow3>
-            <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide1_Normal</Furskin_Heavy1>
-            <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide2_Normal</Furskin_Heavy2>
-            <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide3_Normal</Furskin_Heavy3>
-          </headtypeGraphics>
+            <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Female/Rodian/Rodian_Head_Female_Wide</HeadType>
+            <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Female/Rodian/Rodian_Head_Female_Wide</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Female/Rodian/Rodian_Head_Female_Wide</HeadType>
+            <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Female/Rodian/Rodian_Head_Female_Narrow</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Female/Rodian/Rodian_Head_Female_Narrow</HeadType>
+            <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Female/Rodian/Rodian_Head_Female_Narrow</HeadType>
+          </extendedGraphics>
         </head>
       </graphicPaths>
       <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">StarWarsRaces_RodianBaseliner</li>
+        </xenotypeList>
+        <blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+        </blackXenotypeList>
         <blackEndoCategories>
           <li>Melanin</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
         </blackEndoCategories>
       </raceRestriction>
     </alienRace>
@@ -402,6 +494,7 @@
       </li>
     </tools>
     <race>
+      <renderTree>Humanlike</renderTree>
       <leatherDef>StarWarsRaces_Leather_Rodian</leatherDef>
       <nameGenerator>StarWarsRaces_NamerPersonRodianM</nameGenerator>
       <nameGeneratorFemale>StarWarsRaces_NamerPersonRodianF</nameGeneratorFemale>

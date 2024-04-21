@@ -42,8 +42,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>StarWarsRaces_LeftRodianAntenna</li>
-      <li>StarWarsRaces_RightRodianAntenna</li>
+      <li>StarWarsRaces_RodianAntenna</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
 
@@ -107,8 +106,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>StarWarsRaces_RightRodianAntenna</li>
-      <li>StarWarsRaces_LeftRodianAntenna</li>
+      <li>StarWarsRaces_RodianAntenna</li>
     </appliedOnFixedBodyParts>
     <addsHediff>StarWarsRaces_Rodian_Hediff_ProstheticAntenna</addsHediff>
   </RecipeDef>
@@ -138,8 +136,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>StarWarsRaces_RightRodianAntenna</li>
-      <li>StarWarsRaces_LeftRodianAntenna</li>
+      <li>StarWarsRaces_RodianAntenna</li>
     </appliedOnFixedBodyParts>
     <addsHediff>StarWarsRaces_Rodian_Hediff_BionicAntenna</addsHediff>
   </RecipeDef>

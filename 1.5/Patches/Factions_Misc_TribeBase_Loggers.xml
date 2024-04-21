@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Tribal_Logger>1</Tribal_Logger>
+          <StarWarsRaces_Wookiee_Tribal_Logger>0.70</StarWarsRaces_Wookiee_Tribal_Logger>
+          <StarWarsRaces_Togruta_Tribal_Logger>1.00</StarWarsRaces_Togruta_Tribal_Logger>
+          <StarWarsRaces_Rodian_Tribal_Logger>1.00</StarWarsRaces_Rodian_Tribal_Logger>
+          <StarWarsRaces_Ewok_Tribal_Logger>0.50</StarWarsRaces_Ewok_Tribal_Logger>
+          <StarWarsRaces_Twilek_Tribal_Logger>1.00</StarWarsRaces_Twilek_Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Tribal_Logger>0.70</StarWarsRaces_Wookiee_Tribal_Logger>
+          <StarWarsRaces_Togruta_Tribal_Logger>1.00</StarWarsRaces_Togruta_Tribal_Logger>
+          <StarWarsRaces_Rodian_Tribal_Logger>1.00</StarWarsRaces_Rodian_Tribal_Logger>
+          <StarWarsRaces_Ewok_Tribal_Logger>0.50</StarWarsRaces_Ewok_Tribal_Logger>
+          <StarWarsRaces_Twilek_Tribal_Logger>1.00</StarWarsRaces_Twilek_Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Tribal_Logger>0.70</StarWarsRaces_Wookiee_Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Logger>1.00</StarWarsRaces_Togruta_Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Tribal_Logger>1.00</StarWarsRaces_Rodian_Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Logger>0.50</StarWarsRaces_Ewok_Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Tribal_Logger>1.00</StarWarsRaces_Twilek_Tribal_Logger>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mechanitor</label>
+    <defName>StarWarsRaces_Wookiee_Mechanitor</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mechanitor</label>
+    <defName>StarWarsRaces_Togruta_Mechanitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mechanitor</label>
+    <defName>StarWarsRaces_Rodian_Mechanitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mechanitor</label>
+    <defName>StarWarsRaces_Ewok_Mechanitor</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mechanitor</label>
+    <defName>StarWarsRaces_Twilek_Mechanitor</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor_Basic">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie mechanitor</label>
+    <defName>StarWarsRaces_Wookiee_Mechanitor_Basic</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor_Basic">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta mechanitor</label>
+    <defName>StarWarsRaces_Togruta_Mechanitor_Basic</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor_Basic">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian mechanitor</label>
+    <defName>StarWarsRaces_Rodian_Mechanitor_Basic</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor_Basic">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok mechanitor</label>
+    <defName>StarWarsRaces_Ewok_Mechanitor_Basic</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor_Basic">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek mechanitor</label>
+    <defName>StarWarsRaces_Twilek_Mechanitor_Basic</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie sanguophage</label>
+    <defName>StarWarsRaces_Wookiee_Sanguophage</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta sanguophage</label>
+    <defName>StarWarsRaces_Togruta_Sanguophage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian sanguophage</label>
+    <defName>StarWarsRaces_Rodian_Sanguophage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok sanguophage</label>
+    <defName>StarWarsRaces_Ewok_Sanguophage</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek sanguophage</label>
+    <defName>StarWarsRaces_Twilek_Sanguophage</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage_Player">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie sanguophage</label>
+    <defName>StarWarsRaces_Wookiee_Sanguophage_Player</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage_Player">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta sanguophage</label>
+    <defName>StarWarsRaces_Togruta_Sanguophage_Player</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage_Player">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian sanguophage</label>
+    <defName>StarWarsRaces_Rodian_Sanguophage_Player</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage_Player">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok sanguophage</label>
+    <defName>StarWarsRaces_Ewok_Sanguophage_Player</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage_Player">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek sanguophage</label>
+    <defName>StarWarsRaces_Twilek_Sanguophage_Player</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SanguophageThrall">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie thrall</label>
+    <defName>StarWarsRaces_Wookiee_SanguophageThrall</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SanguophageThrall">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta thrall</label>
+    <defName>StarWarsRaces_Togruta_SanguophageThrall</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SanguophageThrall">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian thrall</label>
+    <defName>StarWarsRaces_Rodian_SanguophageThrall</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SanguophageThrall">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok thrall</label>
+    <defName>StarWarsRaces_Ewok_SanguophageThrall</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SanguophageThrall">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek thrall</label>
+    <defName>StarWarsRaces_Twilek_SanguophageThrall</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Villager_Child">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie villager</label>
+    <defName>StarWarsRaces_Wookiee_Villager_Child</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Villager_Child">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta villager</label>
+    <defName>StarWarsRaces_Togruta_Villager_Child</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Villager_Child">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian villager</label>
+    <defName>StarWarsRaces_Rodian_Villager_Child</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Villager_Child">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok villager</label>
+    <defName>StarWarsRaces_Ewok_Villager_Child</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Villager_Child">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek villager</label>
+    <defName>StarWarsRaces_Twilek_Villager_Child</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Child">
+    <race>StarWarsRaces_Wookiee</race>
+    <label>Wookie villager</label>
+    <defName>StarWarsRaces_Wookiee_Tribal_Child</defName>
+    <apparelTags>
+      <li>StarWarsRaces_WookieeApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Child">
+    <race>StarWarsRaces_Togruta</race>
+    <label>Togruta villager</label>
+    <defName>StarWarsRaces_Togruta_Tribal_Child</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Child">
+    <race>StarWarsRaces_Rodian</race>
+    <label>Rodian villager</label>
+    <defName>StarWarsRaces_Rodian_Tribal_Child</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Child">
+    <race>StarWarsRaces_Ewok</race>
+    <label>Ewok villager</label>
+    <defName>StarWarsRaces_Ewok_Tribal_Child</defName>
+    <apparelTags>
+      <li>StarWarsRaces_EwokApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Child">
+    <race>StarWarsRaces_Twilek</race>
+    <label>Twi'lek villager</label>
+    <defName>StarWarsRaces_Twilek_Tribal_Child</defName>
+    <apparelTags>
+      <li>StarWarsRaces_TwilekApparelTag</li>
+    </apparelTags>
+  </PawnKindDef>
+</Defs>

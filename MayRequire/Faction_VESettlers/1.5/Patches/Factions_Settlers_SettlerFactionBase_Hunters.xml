@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="SettlerFactionBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Hunter>1</Hunter>
+          <StarWarsRaces_Wookiee_Hunter>0.70</StarWarsRaces_Wookiee_Hunter>
+          <StarWarsRaces_Togruta_Hunter>1.00</StarWarsRaces_Togruta_Hunter>
+          <StarWarsRaces_Rodian_Hunter>1.00</StarWarsRaces_Rodian_Hunter>
+          <StarWarsRaces_Ewok_Hunter>0.50</StarWarsRaces_Ewok_Hunter>
+          <StarWarsRaces_Twilek_Hunter>1.00</StarWarsRaces_Twilek_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Hunter>0.70</StarWarsRaces_Wookiee_Hunter>
+          <StarWarsRaces_Togruta_Hunter>1.00</StarWarsRaces_Togruta_Hunter>
+          <StarWarsRaces_Rodian_Hunter>1.00</StarWarsRaces_Rodian_Hunter>
+          <StarWarsRaces_Ewok_Hunter>0.50</StarWarsRaces_Ewok_Hunter>
+          <StarWarsRaces_Twilek_Hunter>1.00</StarWarsRaces_Twilek_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Hunter>0.70</StarWarsRaces_Wookiee_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Hunter>1.00</StarWarsRaces_Togruta_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Hunter>1.00</StarWarsRaces_Rodian_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Hunter>0.50</StarWarsRaces_Ewok_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Hunter>1.00</StarWarsRaces_Twilek_Hunter>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

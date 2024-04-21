@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>StarWarsRaces_Wookiee_Braid</defName>
+    <label>Right Side Braid</label>
+    <texPath>Things/Pawn/Humanlike/Hairs/StarWarsRaces_Wookiee/Wookiee_Head_Braid</texPath>
+    <styleTags>
+      <li>StarWarsRaces_Wookiee</li>
+    </styleTags>
+    <styleGender>Female</styleGender>
+  </HairDef>
+  <HairDef>
+    <defName>StarWarsRaces_Wookiee_Braid1</defName>
+    <label>Left Side Braid</label>
+    <texPath>Things/Pawn/Humanlike/Hairs/StarWarsRaces_Wookiee/Wookiee_Head_Braid1</texPath>
+    <styleTags>
+      <li>StarWarsRaces_Wookiee</li>
+    </styleTags>
+    <styleGender>Female</styleGender>
+  </HairDef>
+</Defs>

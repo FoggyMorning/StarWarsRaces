@@ -5,12 +5,8 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>StarWarsRaces_TwilekHeadCovering</defName>
     <label>twi'lek head wrap</label>
-    <thingCategories>
-      <li>StarWarsRaces_TwilekHatCategory</li>
-    </thingCategories>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
-      <researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -23,18 +19,13 @@
     </recipeMaker>
     <description>A simple head covering with openings for Lekku.</description>
     <graphicData>
-      <texPath>StarWarsRaces/Twilek/Hats/Head_Cover1_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/TwilekHeadCover/Twilek_HeadCover_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>50</costStuffCount>
-    <stuffCategories>
-      <li>Leathery</li>
-      <li>Fabric</li>
-    </stuffCategories>
     <uiIconScale>1.15</uiIconScale>
     <statBases>
-      <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
       <Mass>0.1</Mass>
       <EquipDelay>0.8</EquipDelay>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
@@ -45,9 +36,14 @@
       <SocialImpact>0.2</SocialImpact>
     </equippedStatOffsets>
     <generateCommonality>0.01</generateCommonality>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
     <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <developmentalStageFilter>Child, Adult</developmentalStageFilter>
-      <wornGraphicPath>StarWarsRaces/Twilek/Hats/Head_Cover1</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TwilekHeadCover/Twilek_HeadCover</wornGraphicPath>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
@@ -67,124 +63,30 @@
     </tradeTags>
   </ThingDef>
 
-
-  <!-- a tuque -->
-  <ThingDef ParentName="HatMakeableBase">
-    <defName>StarWarsRaces_TwilekTuque</defName>
-    <label>twi'lek tuque</label>
-    <thingCategories>
-      <li>StarWarsRaces_TwilekHatCategory</li>
-    </thingCategories>
-    <recipeMaker>
-      <researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
-      <displayPriority>105</displayPriority>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <description>A soft, thick cap. Great for keeping warm in winter, but with openings for Lekku.</description>
-    <graphicData>
-      <texPath>StarWarsRaces/Twilek/Hats/Tuque_south</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <uiIconScale>1.25</uiIconScale>
-    <costStuffCount>20</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-    </stuffCategories>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>0.07</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
-    <equippedStatOffsets></equippedStatOffsets>
-    <generateCommonality>0.01</generateCommonality>
-    <apparel>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
-      <bodyPartGroups>
-        <li>UpperHead</li>
-      </bodyPartGroups>
-      <wornGraphicPath>StarWarsRaces/Twilek/Hats/Tuque</wornGraphicPath>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-      <tags>
-        <li>StarWarsRaces_TwilekApparelTag</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>StarWarsRaces_TwilekApparelTag</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.33,0.33,0.33,1)</only>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.65,0.65,0.65,1)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>(0.3,0.3,0.3,1)</min>
-          <max>(0.5,0.5,0.5,1)</max>
-        </li>
-        <li>
-          <weight>10</weight>
-          <only>(0.9,0.9,0.9,1)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <tradeTags>
-      <li>BasicClothing</li>
-    </tradeTags>
-  </ThingDef>
-
   <!-- basically a cowboy hat -->
-  <ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBase" Name="CowboyHat">
     <defName>StarWarsRaces_TwilekGoggles</defName>
     <label>twi'lek head wrap with goggles</label>
-    <thingCategories>
-      <li>StarWarsRaces_TwilekHatCategory</li>
-    </thingCategories>
+    <description>A simple head covering with openings for Lekku. Includes a set of goggles and ear protection.</description>
     <possessionCount>1</possessionCount>
     <recipeMaker>
-      <researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
       <displayPriority>100</displayPriority>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
     </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/TwilekGoggles/Twilek_HeadCover_Goggles_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
     <stuffCategories>
-      <li>Leathery</li>
       <li>Fabric</li>
+      <li>Leathery</li>
     </stuffCategories>
     <costList>
       <Steel>10</Steel>
       <Cloth>40</Cloth>
     </costList>
-    <description>A simple head covering with openings for Lekku. Includes a set of goggles and ear protection.</description>
-    <graphicData>
-      <texPath>StarWarsRaces/Twilek/Hats/Goggles_south</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>25</costStuffCount>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <WorkToMake>1800</WorkToMake>
@@ -198,14 +100,14 @@
       <SocialImpact>0.10</SocialImpact>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
     </equippedStatOffsets>
-    <generateCommonality>0.01</generateCommonality>
     <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <developmentalStageFilter>Child, Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>StarWarsRaces/Twilek/Hats/Goggles</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TwilekGoggles/Twilek_HeadCover_Goggles</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -225,13 +127,12 @@
   <!-- basically a Tribal Headdress -->
   <ThingDef ParentName="HatMakeableBase">
     <defName>StarWarsRaces_TwilekDecorative</defName>
-    <label>twi'lek head wrap with a decorative symbol</label>
-    <thingCategories>
-      <li>StarWarsRaces_TwilekHatCategory</li>
-    </thingCategories>
+    <label>twi'lek tiara with a decorative symbol</label>
+    <description>A decorative tiara worn by dancers and female Twi'leks.</description>
+
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
-      <researchPrerequisite>StarWarsRaces_TwilekBasicHats</researchPrerequisite>
+      <researchPrerequisite />
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
@@ -245,9 +146,8 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <description>A simple head wrap with openings for Lekku and adorned with a decorative symbol. Improves social impact.</description>
     <graphicData>
-      <texPath>StarWarsRaces/Twilek/Hats/Decorative_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/TwilekDecorative/Twilek_Decorative_Tiara_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -265,12 +165,16 @@
     </equippedStatOffsets>
     <generateCommonality>0.01</generateCommonality>
     <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <developmentalStageFilter>Child, Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>StarWarsRaces/Twilek/Hats/Decorative</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TwilekDecorative/Twilek_Decorative_Tiara</wornGraphicPath>
+      <ideoDesireAllowedFactionCategoryTags>
+        <li>Tribal</li>
+      </ideoDesireAllowedFactionCategoryTags>
       <layers>
         <li>Overhead</li>
       </layers>

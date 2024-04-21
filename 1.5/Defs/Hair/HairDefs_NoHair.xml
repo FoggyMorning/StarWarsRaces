@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>StarWarsRaces_NoHair</defName>
+    <label>No Style</label>
+    <texPath>Things/notexture</texPath>
+    <styleTags>
+      <li>StarWarsRaces_Wookiee</li>
+    </styleTags>
+  </HairDef>
+</Defs>

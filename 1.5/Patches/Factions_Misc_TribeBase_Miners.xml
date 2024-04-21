@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Tribal_Miner>1</Tribal_Miner>
+          <StarWarsRaces_Wookiee_Tribal_Miner>0.70</StarWarsRaces_Wookiee_Tribal_Miner>
+          <StarWarsRaces_Togruta_Tribal_Miner>1.00</StarWarsRaces_Togruta_Tribal_Miner>
+          <StarWarsRaces_Rodian_Tribal_Miner>1.00</StarWarsRaces_Rodian_Tribal_Miner>
+          <StarWarsRaces_Ewok_Tribal_Miner>0.50</StarWarsRaces_Ewok_Tribal_Miner>
+          <StarWarsRaces_Twilek_Tribal_Miner>1.00</StarWarsRaces_Twilek_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Tribal_Miner>0.70</StarWarsRaces_Wookiee_Tribal_Miner>
+          <StarWarsRaces_Togruta_Tribal_Miner>1.00</StarWarsRaces_Togruta_Tribal_Miner>
+          <StarWarsRaces_Rodian_Tribal_Miner>1.00</StarWarsRaces_Rodian_Tribal_Miner>
+          <StarWarsRaces_Ewok_Tribal_Miner>0.50</StarWarsRaces_Ewok_Tribal_Miner>
+          <StarWarsRaces_Twilek_Tribal_Miner>1.00</StarWarsRaces_Twilek_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Wookiee_Tribal_Miner>0.70</StarWarsRaces_Wookiee_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Togruta_Tribal_Miner>1.00</StarWarsRaces_Togruta_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Rodian_Tribal_Miner>1.00</StarWarsRaces_Rodian_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Ewok_Tribal_Miner>0.50</StarWarsRaces_Ewok_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_Twilek_Tribal_Miner>1.00</StarWarsRaces_Twilek_Tribal_Miner>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

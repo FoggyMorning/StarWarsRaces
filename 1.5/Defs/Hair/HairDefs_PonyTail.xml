@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>StarWarsRaces_Wookiee_PonyTail</defName>
+    <label>High Ponytail</label>
+    <texPath>Things/Pawn/Humanlike/Hairs/StarWarsRaces_Wookiee/Wookiee_Head_PonyTail</texPath>
+    <styleTags>
+      <li>StarWarsRaces_Wookiee</li>
+    </styleTags>
+    <styleGender>Female</styleGender>
+  </HairDef>
+</Defs>
