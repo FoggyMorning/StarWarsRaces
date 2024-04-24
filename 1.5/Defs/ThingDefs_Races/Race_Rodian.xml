@@ -510,6 +510,17 @@
       <li>StarWarsRaces_Rodian_Install_BionicAntenna</li>
       <li>StarWarsRaces_Rodian_Install_NaturalAntenna</li>
     </recipes>
+    <comps Inherit="False">
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+        <getsColdContainmentBonus>true</getsColdContainmentBonus>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresImprisonment>true</requiresImprisonment>
+      </li>
+    </comps>
   </AlienRace.ThingDef_AlienRace>
 
 </Defs>
