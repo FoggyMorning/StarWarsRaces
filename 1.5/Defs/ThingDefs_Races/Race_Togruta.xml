@@ -370,6 +370,7 @@
           <value>
             <hasStyle>true</hasStyle>
             <styleTagsOverride>
+              <li>NoBeard</li>
               <li>Minimal</li>
               <li>BeardPunk</li>
               <li>BeardShort</li>
