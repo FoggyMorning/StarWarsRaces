@@ -145,6 +145,11 @@
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <north>
+                  <layerOffset>-0.321</layerOffset>
+                </north>
+              </offsets>
             </li>
             <li>
               <conditions>
