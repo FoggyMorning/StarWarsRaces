@@ -24,16 +24,19 @@
           <StarWarsRaces_Rodian_PJ_ScoutTrooper>60.00</StarWarsRaces_Rodian_PJ_ScoutTrooper>
           <StarWarsRaces_Ewok_PJ_ScoutTrooper>30.00</StarWarsRaces_Ewok_PJ_ScoutTrooper>
           <StarWarsRaces_Twilek_PJ_ScoutTrooper>60.00</StarWarsRaces_Twilek_PJ_ScoutTrooper>
+          <StarWarsRaces_MonCalamari_PJ_ScoutTrooper>30.00</StarWarsRaces_MonCalamari_PJ_ScoutTrooper>
           <StarWarsRaces_Wookiee_PJ_ImpSoldier>49.00</StarWarsRaces_Wookiee_PJ_ImpSoldier>
           <StarWarsRaces_Togruta_PJ_ImpSoldier>70.00</StarWarsRaces_Togruta_PJ_ImpSoldier>
           <StarWarsRaces_Rodian_PJ_ImpSoldier>70.00</StarWarsRaces_Rodian_PJ_ImpSoldier>
           <StarWarsRaces_Ewok_PJ_ImpSoldier>35.00</StarWarsRaces_Ewok_PJ_ImpSoldier>
           <StarWarsRaces_Twilek_PJ_ImpSoldier>70.00</StarWarsRaces_Twilek_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>35.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
           <StarWarsRaces_Wookiee_PJ_Stormtrooper>56.00</StarWarsRaces_Wookiee_PJ_Stormtrooper>
           <StarWarsRaces_Togruta_PJ_Stormtrooper>80.00</StarWarsRaces_Togruta_PJ_Stormtrooper>
           <StarWarsRaces_Rodian_PJ_Stormtrooper>80.00</StarWarsRaces_Rodian_PJ_Stormtrooper>
           <StarWarsRaces_Ewok_PJ_Stormtrooper>40.00</StarWarsRaces_Ewok_PJ_Stormtrooper>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>80.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>40.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
         </guards>
       </li>
       <li>
@@ -64,6 +67,9 @@
           <StarWarsRaces_Twilek_PJ_ScoutTrooper>60.00</StarWarsRaces_Twilek_PJ_ScoutTrooper>
           <StarWarsRaces_Twilek_PJ_ImpSoldier>70.00</StarWarsRaces_Twilek_PJ_ImpSoldier>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>80.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
+          <StarWarsRaces_MonCalamari_PJ_ScoutTrooper>30.00</StarWarsRaces_MonCalamari_PJ_ScoutTrooper>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>35.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>40.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
         </guards>
       </li>
       <li>
@@ -154,6 +160,24 @@
           <StarWarsRaces_Twilek_PJ_ScoutTrooper>60.00</StarWarsRaces_Twilek_PJ_ScoutTrooper>
           <StarWarsRaces_Twilek_PJ_ImpSoldier>70.00</StarWarsRaces_Twilek_PJ_ImpSoldier>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>80.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <PJ_ImpTrader>1</PJ_ImpTrader>
+        </traders>
+        <carriers>
+          <Dewback MayRequire="Guy.StarWarsAnimalCollection">100</Dewback>
+          <Muffalo>2</Muffalo>
+          <Dromedary>2</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <StarWarsRaces_MonCalamari_PJ_ScoutTrooper>30.00</StarWarsRaces_MonCalamari_PJ_ScoutTrooper>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>35.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>40.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
         </guards>
       </li>
     </value>

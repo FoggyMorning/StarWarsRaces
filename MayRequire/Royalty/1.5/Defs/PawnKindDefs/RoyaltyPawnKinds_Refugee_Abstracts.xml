@@ -41,6 +41,6 @@
     </inventoryOptions>
     <initialWillRange>0~1</initialWillRange>
     <initialResistanceRange>8~14</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

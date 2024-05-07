@@ -16,11 +16,13 @@
           <StarWarsRaces_Rodian_FPCAuxiliary>1.00</StarWarsRaces_Rodian_FPCAuxiliary>
           <StarWarsRaces_Ewok_FPCAuxiliary>0.50</StarWarsRaces_Ewok_FPCAuxiliary>
           <StarWarsRaces_Twilek_FPCAuxiliary>1.00</StarWarsRaces_Twilek_FPCAuxiliary>
+          <StarWarsRaces_MonCalamari_FPCAuxiliary>0.50</StarWarsRaces_MonCalamari_FPCAuxiliary>
           <StarWarsRaces_Wookiee_FPCAssassin>3.50</StarWarsRaces_Wookiee_FPCAssassin>
           <StarWarsRaces_Togruta_FPCAssassin>5.00</StarWarsRaces_Togruta_FPCAssassin>
           <StarWarsRaces_Rodian_FPCAssassin>5.00</StarWarsRaces_Rodian_FPCAssassin>
           <StarWarsRaces_Ewok_FPCAssassin>2.50</StarWarsRaces_Ewok_FPCAssassin>
           <StarWarsRaces_Twilek_FPCAssassin>5.00</StarWarsRaces_Twilek_FPCAssassin>
+          <StarWarsRaces_MonCalamari_FPCAssassin>2.50</StarWarsRaces_MonCalamari_FPCAssassin>
         </options>
       </li>
       <li>
@@ -37,6 +39,8 @@
           <StarWarsRaces_Ewok_FPCAssassin>2.50</StarWarsRaces_Ewok_FPCAssassin>
           <StarWarsRaces_Twilek_FPCAuxiliary>1.00</StarWarsRaces_Twilek_FPCAuxiliary>
           <StarWarsRaces_Twilek_FPCAssassin>5.00</StarWarsRaces_Twilek_FPCAssassin>
+          <StarWarsRaces_MonCalamari_FPCAuxiliary>0.50</StarWarsRaces_MonCalamari_FPCAuxiliary>
+          <StarWarsRaces_MonCalamari_FPCAssassin>2.50</StarWarsRaces_MonCalamari_FPCAssassin>
         </options>
       </li>
       <li>
@@ -77,6 +81,14 @@
         <options>
           <StarWarsRaces_Twilek_FPCAuxiliary>1.00</StarWarsRaces_Twilek_FPCAuxiliary>
           <StarWarsRaces_Twilek_FPCAssassin>5.00</StarWarsRaces_Twilek_FPCAssassin>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>4.00</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_FPCAuxiliary>0.50</StarWarsRaces_MonCalamari_FPCAuxiliary>
+          <StarWarsRaces_MonCalamari_FPCAssassin>2.50</StarWarsRaces_MonCalamari_FPCAssassin>
         </options>
       </li>
     </value>

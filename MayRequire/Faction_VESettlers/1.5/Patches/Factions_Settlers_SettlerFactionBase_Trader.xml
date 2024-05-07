@@ -21,21 +21,25 @@
           <StarWarsRaces_Rodian_Settler>5.00</StarWarsRaces_Rodian_Settler>
           <StarWarsRaces_Ewok_Settler>2.50</StarWarsRaces_Ewok_Settler>
           <StarWarsRaces_Twilek_Settler>5.00</StarWarsRaces_Twilek_Settler>
+          <StarWarsRaces_MonCalamari_Settler>2.50</StarWarsRaces_MonCalamari_Settler>
           <StarWarsRaces_Wookiee_Militia>7.00</StarWarsRaces_Wookiee_Militia>
           <StarWarsRaces_Togruta_Militia>10.00</StarWarsRaces_Togruta_Militia>
           <StarWarsRaces_Rodian_Militia>10.00</StarWarsRaces_Rodian_Militia>
           <StarWarsRaces_Ewok_Militia>5.00</StarWarsRaces_Ewok_Militia>
           <StarWarsRaces_Twilek_Militia>10.00</StarWarsRaces_Twilek_Militia>
+          <StarWarsRaces_MonCalamari_Militia>5.00</StarWarsRaces_MonCalamari_Militia>
           <StarWarsRaces_Wookiee_BountyHunter>3.50</StarWarsRaces_Wookiee_BountyHunter>
           <StarWarsRaces_Togruta_BountyHunter>5.00</StarWarsRaces_Togruta_BountyHunter>
           <StarWarsRaces_Rodian_BountyHunter>5.00</StarWarsRaces_Rodian_BountyHunter>
           <StarWarsRaces_Ewok_BountyHunter>2.50</StarWarsRaces_Ewok_BountyHunter>
           <StarWarsRaces_Twilek_BountyHunter>5.00</StarWarsRaces_Twilek_BountyHunter>
+          <StarWarsRaces_MonCalamari_BountyHunter>2.50</StarWarsRaces_MonCalamari_BountyHunter>
           <StarWarsRaces_Wookiee_Deputy>0.70</StarWarsRaces_Wookiee_Deputy>
           <StarWarsRaces_Togruta_Deputy>1.00</StarWarsRaces_Togruta_Deputy>
           <StarWarsRaces_Rodian_Deputy>1.00</StarWarsRaces_Rodian_Deputy>
           <StarWarsRaces_Ewok_Deputy>0.50</StarWarsRaces_Ewok_Deputy>
           <StarWarsRaces_Twilek_Deputy>1.00</StarWarsRaces_Twilek_Deputy>
+          <StarWarsRaces_MonCalamari_Deputy>0.50</StarWarsRaces_MonCalamari_Deputy>
         </guards>
       </li>
       <li>
@@ -67,6 +71,10 @@
           <StarWarsRaces_Twilek_Militia>10.00</StarWarsRaces_Twilek_Militia>
           <StarWarsRaces_Twilek_BountyHunter>5.00</StarWarsRaces_Twilek_BountyHunter>
           <StarWarsRaces_Twilek_Deputy>1.00</StarWarsRaces_Twilek_Deputy>
+          <StarWarsRaces_MonCalamari_Settler>2.50</StarWarsRaces_MonCalamari_Settler>
+          <StarWarsRaces_MonCalamari_Militia>5.00</StarWarsRaces_MonCalamari_Militia>
+          <StarWarsRaces_MonCalamari_BountyHunter>2.50</StarWarsRaces_MonCalamari_BountyHunter>
+          <StarWarsRaces_MonCalamari_Deputy>0.50</StarWarsRaces_MonCalamari_Deputy>
         </guards>
       </li>
       <li>
@@ -142,6 +150,21 @@
           <StarWarsRaces_Twilek_Militia>10.00</StarWarsRaces_Twilek_Militia>
           <StarWarsRaces_Twilek_BountyHunter>5.00</StarWarsRaces_Twilek_BountyHunter>
           <StarWarsRaces_Twilek_Deputy>1.00</StarWarsRaces_Twilek_Deputy>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Frontier_Trader>1</Frontier_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>10</Muffalo>
+        </carriers>
+        <guards>
+          <StarWarsRaces_MonCalamari_Settler>2.50</StarWarsRaces_MonCalamari_Settler>
+          <StarWarsRaces_MonCalamari_Militia>5.00</StarWarsRaces_MonCalamari_Militia>
+          <StarWarsRaces_MonCalamari_BountyHunter>2.50</StarWarsRaces_MonCalamari_BountyHunter>
+          <StarWarsRaces_MonCalamari_Deputy>0.50</StarWarsRaces_MonCalamari_Deputy>
         </guards>
       </li>
     </value>

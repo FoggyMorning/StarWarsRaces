@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>StarWarsRaces_EwokBaseliner</defName>
+    <label>ewok</label>
+    <description>A naturally-evolved Ewok. A short, fur covered, humanoid</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+    </genes>
+    <doubleXenotypeChances>
+      <Yttakin>0.1</Yttakin>
+      <Neanderthal>0.02</Neanderthal>
+    </doubleXenotypeChances>
+  </XenotypeDef>
+</Defs>

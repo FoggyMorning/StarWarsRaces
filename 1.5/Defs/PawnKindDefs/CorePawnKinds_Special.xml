@@ -59,6 +59,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Slave">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari slave</label>
+    <defName>StarWarsRaces_MonCalamari_Slave</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_WildMan">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie wild man</label>
@@ -118,6 +128,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_WildMan">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari wild man</label>
+    <defName>StarWarsRaces_MonCalamari_WildMan</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_StrangerInBlack">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie stranger in black</label>
@@ -174,6 +194,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_StrangerInBlack">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari stranger in black</label>
+    <defName>StarWarsRaces_MonCalamari_StrangerInBlack</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>

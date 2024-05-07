@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef ParentName="GeneJawBase">
+    <defName>StarWarsRaces_MonCalamari_Jaw</defName>
+    <label>mon calamari jaw</label>
+    <description>Carriers of this gene have regular mon calamari-shaped jaws.</description>
+    <iconPath>UI/Icons/Genes/Gene_JawBaseline</iconPath>
+    <displayOrderInCategory>90</displayOrderInCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <forcedHeadTypes>
+      <li>StarWarsRaces_MonCalamari_Male_Average_Normal</li>
+      <li>StarWarsRaces_MonCalamari_Female_Average_Normal</li>
+    </forcedHeadTypes>
+  </GeneDef>
+  <GeneDef ParentName="GeneHandsBase">
+    <defName>StarWarsRaces_MonCalamari_Hands</defName>
+    <label>mon calamari hands</label>
+    <description>Carriers of this gene have regular mon calamari hands.</description>
+    <iconPath>UI/Icons/Genes/Gene_HandsHuman</iconPath>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <biostatCpx>0</biostatCpx>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneNoseBase">
+    <defName>StarWarsRaces_MonCalamari_Nose</defName>
+    <label>mon calamari nose</label>
+    <description>Carriers of this gene have regular mon calamari noses.</description>
+    <iconPath>UI/Icons/Genes/Gene_NoseHuman</iconPath>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneEarsBase">
+    <defName>StarWarsRaces_MonCalamari_Ears</defName>
+    <label>mon calamari ears</label>
+    <description>Carriers of this gene have regular mon calamari ears.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarHuman</iconPath>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+  </GeneDef>
+  <GeneDef ParentName="GeneEyeColor">
+    <defName>StarWarsRaces_MonCalamari_Eyes</defName>
+    <label>mon calamari eyes</label>
+    <labelShortAdj>fish-eyed</labelShortAdj>
+    <description>Carriers of this gene have large fish-like eyes.</description>
+    <iconPath>UI/Icons/Genes/Gene_GrayEyes</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Things/notexture</texPath>
+        <texPathFemale>Things/notexture</texPathFemale>
+        <anchorTag>RightEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Right</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+          </defaultData>
+        </drawData>
+      </li>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Things/notexture</texPath>
+        <texPathFemale>Things/notexture</texPathFemale>
+        <anchorTag>LeftEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Left</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+            <flip>true</flip>
+          </defaultData>
+          <dataWest>
+            <flip>false</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+</Defs>

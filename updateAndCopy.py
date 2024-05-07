@@ -10,7 +10,6 @@ modPrefix = 'StarWarsRaces'
 destinationPathVersion = '1.5'
 otherModsPath = 'MayRequire'
 
-folderName = 'StarWarsRaces'
 destinationPathVersion = '1.5'
 species = [
     {
@@ -52,6 +51,14 @@ species = [
         'apparelRequired':['StarWarsRaces_TwilekHeadCovering'],
         'apparelTags':['StarWarsRaces_TwilekApparelTag'],
         "xenoType": [{"label": "StarWarsRaces_TwilekBaseliner", "modifier": "999"}],
+    },
+    {
+        'race': ['StarWarsRaces_MonCalamari'],
+        'label':'Mon Calamari',
+        'modifier':0.5,
+        'apparelRequired':[],
+        'apparelTags':[],
+        "xenoType": [{"label": "StarWarsRaces_MonCalamariBaseliner", "modifier": "999"}],
     }
 ]
 
@@ -72,7 +79,7 @@ pawnKindDefsFiles = [
 ]
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName+'\\'+destinationPathVersion,
+    destinationPathVersion,
     pawnKindDefsFiles,
     species,
     coreModID,
@@ -94,7 +101,7 @@ pawnKindDefsFiles = [
 ]
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\'+ideologyModID+'\\'+destinationPathVersion,
+    otherModsPath+'\\'+ideologyModID+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
     ideologyModID,
@@ -114,7 +121,7 @@ pawnKindDefsFiles = [
 ]
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\'+royaltyModId+'\\'+destinationPathVersion,
+    otherModsPath+'\\'+royaltyModId+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
     royaltyModId,
@@ -134,7 +141,7 @@ pawnKindDefsFiles = [
 ]
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\'+biotechModId+'\\'+destinationPathVersion,
+    otherModsPath+'\\'+biotechModId+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
     biotechModId,
@@ -164,7 +171,7 @@ pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 
 # pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 #     modPrefix,
-#     folderName + '\\'+otherModsPath+'\\' +
+#     otherModsPath+'\\' +
 #     destinationFolderNameFaction_40kAstraMilitarum+'\\'+destinationPathVersion,
 #     pawnKindDefsFiles,
 #     species,
@@ -187,7 +194,7 @@ pawnKindDefsFiles = [
 
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_Ancients+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
@@ -210,7 +217,7 @@ pawnKindDefsFiles = [
 
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_BlueMoon+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
@@ -234,7 +241,7 @@ pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 
 # pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 #     modPrefix,
-#     folderName + '\\'+otherModsPath+'\\' +
+#     otherModsPath+'\\' +
 #     destinationFolderNameFaction_PolarisBloc+'\\'+destinationPathVersion,
 #     pawnKindDefsFiles,
 #     species,
@@ -255,7 +262,7 @@ pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 # ]
 # pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 #     modPrefix,
-#     folderName + '\\'+otherModsPath+'\\' +
+#     otherModsPath+'\\' +
 #     destinationFolderNameFaction_PsiTech+'\\'+destinationPathVersion,
 #     pawnKindDefsFiles,
 #     species,
@@ -277,7 +284,7 @@ pawnKindDefsFiles = [
 
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_RimsenalFederation+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
@@ -298,7 +305,7 @@ pawnKindDefsFiles = [
 ]
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_RimsenalFeral+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
@@ -323,7 +330,7 @@ pawnKindDefsFiles = [
 ]
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_SWFactions+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
@@ -346,7 +353,7 @@ pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 # ]
 # pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
 #     modPrefix,
-#     folderName + '\\'+otherModsPath+'\\' +
+#     otherModsPath+'\\' +
 #     destinationFolderNameFaction_SWFirstOrder+'\\'+destinationPathVersion,
 #     pawnKindDefsFiles,
 #     species,
@@ -370,7 +377,7 @@ pawnKindDefsFiles = [
 ]
 pawnKindDefNamesArray, pawnKindDefsArray = createPKD(
     modPrefix,
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_VESettlers+'\\'+destinationPathVersion,
     pawnKindDefsFiles,
     species,
@@ -401,7 +408,7 @@ factionFileNames = [
     '\\Defs\\FactionDefs\\Factions_Misc'
 ]
 createFactionPatch(
-    folderName+'\\'+destinationPathVersion,
+    destinationPathVersion,
     factionFileNames,
     coreModID,
     species,
@@ -415,7 +422,7 @@ factionFileNames = [
     '\\Defs\\FactionDefs\\Factions_Misc'
 ]
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\'+ideologyModID+'\\'+destinationPathVersion,
+    otherModsPath+'\\'+ideologyModID+'\\'+destinationPathVersion,
     factionFileNames,
     ideologyModID,
     species,
@@ -429,7 +436,7 @@ factionFileNames = [
     '\\Defs\\FactionDefs\\Factions_Misc',
 ]
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\'+royaltyModId+'\\'+destinationPathVersion,
+    otherModsPath+'\\'+royaltyModId+'\\'+destinationPathVersion,
     factionFileNames,
     royaltyModId,
     species,
@@ -446,7 +453,7 @@ factionFileNames = [
     factionDefFolder+'Factions_Player'
 ]
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_Ancients+'\\'+destinationPathVersion,
     factionFileNames,
     modIDFaction_Ancients,
@@ -464,7 +471,7 @@ factionFileNames = [
 ]
 
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_BlueMoon+'\\'+destinationPathVersion,
     factionFileNames,
     modIDFaction_BlueMoon,
@@ -482,7 +489,7 @@ createFactionPatch(
 
 
 # createFactionPatch(
-#     folderName + '\\'+otherModsPath+'\\' +
+#     otherModsPath+'\\' +
 #     destinationFolderNameFaction_PolarisBloc+'\\'+destinationPathVersion,
 #     factionFileNames,
 #     modIDFaction_PolarisBloc,
@@ -499,7 +506,7 @@ createFactionPatch(
 
 
 # createFactionPatch(
-#     folderName + '\\'+otherModsPath+'\\' +
+#     otherModsPath+'\\' +
 #     destinationFolderNameFaction_PsiTech+'\\'+destinationPathVersion,
 #     factionFileNames,
 #     modIDFaction_PsiTech,
@@ -517,7 +524,7 @@ factionFileNames = [
 
 
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_RimsenalFederation+'\\'+destinationPathVersion,
     factionFileNames,
     modIDFaction_RimsenalFederation,
@@ -534,7 +541,7 @@ factionFileNames = [
 
 
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_RimsenalFeral+'\\'+destinationPathVersion,
     factionFileNames,
     modIDFaction_RimsenalFeral,
@@ -553,7 +560,7 @@ factionFileNames = [
 ]
 
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_SWFactions+'\\'+destinationPathVersion,
     factionFileNames,
     modIDFaction_SWFactions,
@@ -572,7 +579,7 @@ createFactionPatch(
 # ]
 
 # createFactionPatch(
-#     folderName + '\\'+otherModsPath+'\\' +
+#     otherModsPath+'\\' +
 #     destinationFolderNameFaction_SWFirstOrder+'\\'+destinationPathVersion,
 #     factionFileNames,
 #     modIDFaction_SWFirstOrder,
@@ -590,7 +597,7 @@ factionFileNames = [
 
 
 createFactionPatch(
-    folderName + '\\'+otherModsPath+'\\' +
+    otherModsPath+'\\' +
     destinationFolderNameFaction_VESettlers+'\\'+destinationPathVersion,
     factionFileNames,
     modIDFaction_VESettlers,

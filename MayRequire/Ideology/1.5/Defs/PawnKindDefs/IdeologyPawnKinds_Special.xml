@@ -59,6 +59,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Beggar">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari beggar</label>
+    <defName>StarWarsRaces_MonCalamari_Beggar</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PovertyPilgrim">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie pilgrim</label>
@@ -118,6 +128,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PovertyPilgrim">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari pilgrim</label>
+    <defName>StarWarsRaces_MonCalamari_PovertyPilgrim</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_WellEquippedTraveler">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie well-equipped traveler</label>
@@ -174,6 +194,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_WellEquippedTraveler">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari well-equipped traveler</label>
+    <defName>StarWarsRaces_MonCalamari_WellEquippedTraveler</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>

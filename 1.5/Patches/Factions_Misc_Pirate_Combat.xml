@@ -13,6 +13,7 @@
           <StarWarsRaces_Rodian_Drifter>10.00</StarWarsRaces_Rodian_Drifter>
           <StarWarsRaces_Ewok_Drifter>5.00</StarWarsRaces_Ewok_Drifter>
           <StarWarsRaces_Twilek_Drifter>10.00</StarWarsRaces_Twilek_Drifter>
+          <StarWarsRaces_MonCalamari_Drifter>5.00</StarWarsRaces_MonCalamari_Drifter>
         </options>
       </li>
       <li>
@@ -24,6 +25,7 @@
           <StarWarsRaces_Rodian_Drifter>10.00</StarWarsRaces_Rodian_Drifter>
           <StarWarsRaces_Ewok_Drifter>5.00</StarWarsRaces_Ewok_Drifter>
           <StarWarsRaces_Twilek_Drifter>10.00</StarWarsRaces_Twilek_Drifter>
+          <StarWarsRaces_MonCalamari_Drifter>5.00</StarWarsRaces_MonCalamari_Drifter>
         </options>
       </li>
       <li>
@@ -59,6 +61,13 @@
         <commonality>0.50</commonality>
         <options>
           <StarWarsRaces_Twilek_Drifter>10.00</StarWarsRaces_Twilek_Drifter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>0.50</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_Drifter>5.00</StarWarsRaces_MonCalamari_Drifter>
         </options>
       </li>
     </value>

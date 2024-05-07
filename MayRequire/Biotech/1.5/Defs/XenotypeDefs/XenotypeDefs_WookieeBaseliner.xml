@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>StarWarsRaces_WookieeBaseliner</defName>
+    <label>wookiee</label>
+    <description>A naturally-evolved Wookiee. A tall, fur covered, humanoid with sharp teeth</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>MeleeDamage_Strong</li>
+      <li>VoiceRoar</li>
+    </genes>
+    <doubleXenotypeChances>
+      <Yttakin>0.1</Yttakin>
+      <Neanderthal>0.02</Neanderthal>
+    </doubleXenotypeChances>
+  </XenotypeDef>
+</Defs>

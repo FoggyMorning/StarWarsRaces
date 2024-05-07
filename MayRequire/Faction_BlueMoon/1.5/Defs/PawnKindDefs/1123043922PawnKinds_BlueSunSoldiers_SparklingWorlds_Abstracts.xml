@@ -49,7 +49,7 @@
     <weaponTags>
       <li>GrenadeDestructive</li>
     </weaponTags>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_EMPGrenadierBlueSunSW">
     <race>Human</race>
@@ -100,7 +100,7 @@
     <weaponTags>
       <li>GrenadeEMP</li>
     </weaponTags>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_SmokeGrenadierBlueSunSW">
     <race>Human</race>
@@ -147,7 +147,7 @@
       <li>GrenadeSmoke</li>
     </weaponTags>
     <weaponMoney>400~900</weaponMoney>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_SniperBlueSunSW">
     <race>Human</race>
@@ -207,7 +207,7 @@
         <range>6~20</range>
       </li>
     </skills>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_SlasherBlueSunSW">
     <race>Human</race>
@@ -271,7 +271,7 @@
         <range>6~20</range>
       </li>
     </skills>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_HeavyWeaponsBlueSunSW">
     <race>Human</race>
@@ -325,7 +325,7 @@
     <weaponTags>
       <li>GunHeavy</li>
     </weaponTags>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_SoldierBlueSunSW">
     <race>Human</race>
@@ -384,7 +384,7 @@
         <range>6~20</range>
       </li>
     </skills>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_BlueSunBossSW">
     <race>Human</race>
@@ -460,7 +460,7 @@
     <label>executive</label>
     <labelPlural>executives</labelPlural>
     <factionLeader>true</factionLeader>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_SoldierEliteBlueSunSW">
     <race>Human</race>
@@ -535,6 +535,6 @@
     </skills>
     <label>elite corporate soldier</label>
     <labelPlural>elite corporate soldiers</labelPlural>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

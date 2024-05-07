@@ -15,21 +15,25 @@
           <StarWarsRaces_Rodian_Empire_Fighter_Trooper>5.00</StarWarsRaces_Rodian_Empire_Fighter_Trooper>
           <StarWarsRaces_Ewok_Empire_Fighter_Trooper>2.50</StarWarsRaces_Ewok_Empire_Fighter_Trooper>
           <StarWarsRaces_Twilek_Empire_Fighter_Trooper>5.00</StarWarsRaces_Twilek_Empire_Fighter_Trooper>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Trooper>2.50</StarWarsRaces_MonCalamari_Empire_Fighter_Trooper>
           <StarWarsRaces_Wookiee_Empire_Fighter_Janissary>2.45</StarWarsRaces_Wookiee_Empire_Fighter_Janissary>
           <StarWarsRaces_Togruta_Empire_Fighter_Janissary>3.50</StarWarsRaces_Togruta_Empire_Fighter_Janissary>
           <StarWarsRaces_Rodian_Empire_Fighter_Janissary>3.50</StarWarsRaces_Rodian_Empire_Fighter_Janissary>
           <StarWarsRaces_Ewok_Empire_Fighter_Janissary>1.75</StarWarsRaces_Ewok_Empire_Fighter_Janissary>
           <StarWarsRaces_Twilek_Empire_Fighter_Janissary>3.50</StarWarsRaces_Twilek_Empire_Fighter_Janissary>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Janissary>1.75</StarWarsRaces_MonCalamari_Empire_Fighter_Janissary>
           <StarWarsRaces_Wookiee_Empire_Fighter_Cataphract>1.40</StarWarsRaces_Wookiee_Empire_Fighter_Cataphract>
           <StarWarsRaces_Togruta_Empire_Fighter_Cataphract>2.00</StarWarsRaces_Togruta_Empire_Fighter_Cataphract>
           <StarWarsRaces_Rodian_Empire_Fighter_Cataphract>2.00</StarWarsRaces_Rodian_Empire_Fighter_Cataphract>
           <StarWarsRaces_Ewok_Empire_Fighter_Cataphract>1.00</StarWarsRaces_Ewok_Empire_Fighter_Cataphract>
           <StarWarsRaces_Twilek_Empire_Fighter_Cataphract>2.00</StarWarsRaces_Twilek_Empire_Fighter_Cataphract>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Cataphract>1.00</StarWarsRaces_MonCalamari_Empire_Fighter_Cataphract>
           <StarWarsRaces_Wookiee_Empire_Fighter_Champion>2.80</StarWarsRaces_Wookiee_Empire_Fighter_Champion>
           <StarWarsRaces_Togruta_Empire_Fighter_Champion>4.00</StarWarsRaces_Togruta_Empire_Fighter_Champion>
           <StarWarsRaces_Rodian_Empire_Fighter_Champion>4.00</StarWarsRaces_Rodian_Empire_Fighter_Champion>
           <StarWarsRaces_Ewok_Empire_Fighter_Champion>2.00</StarWarsRaces_Ewok_Empire_Fighter_Champion>
           <StarWarsRaces_Twilek_Empire_Fighter_Champion>4.00</StarWarsRaces_Twilek_Empire_Fighter_Champion>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Champion>2.00</StarWarsRaces_MonCalamari_Empire_Fighter_Champion>
         </options>
       </li>
       <li>
@@ -55,6 +59,10 @@
           <StarWarsRaces_Twilek_Empire_Fighter_Janissary>3.50</StarWarsRaces_Twilek_Empire_Fighter_Janissary>
           <StarWarsRaces_Twilek_Empire_Fighter_Cataphract>2.00</StarWarsRaces_Twilek_Empire_Fighter_Cataphract>
           <StarWarsRaces_Twilek_Empire_Fighter_Champion>4.00</StarWarsRaces_Twilek_Empire_Fighter_Champion>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Trooper>2.50</StarWarsRaces_MonCalamari_Empire_Fighter_Trooper>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Janissary>1.75</StarWarsRaces_MonCalamari_Empire_Fighter_Janissary>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Cataphract>1.00</StarWarsRaces_MonCalamari_Empire_Fighter_Cataphract>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Champion>2.00</StarWarsRaces_MonCalamari_Empire_Fighter_Champion>
         </options>
       </li>
       <li>
@@ -100,6 +108,15 @@
           <StarWarsRaces_Twilek_Empire_Fighter_Janissary>3.50</StarWarsRaces_Twilek_Empire_Fighter_Janissary>
           <StarWarsRaces_Twilek_Empire_Fighter_Cataphract>2.00</StarWarsRaces_Twilek_Empire_Fighter_Cataphract>
           <StarWarsRaces_Twilek_Empire_Fighter_Champion>4.00</StarWarsRaces_Twilek_Empire_Fighter_Champion>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Trooper>2.50</StarWarsRaces_MonCalamari_Empire_Fighter_Trooper>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Janissary>1.75</StarWarsRaces_MonCalamari_Empire_Fighter_Janissary>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Cataphract>1.00</StarWarsRaces_MonCalamari_Empire_Fighter_Cataphract>
+          <StarWarsRaces_MonCalamari_Empire_Fighter_Champion>2.00</StarWarsRaces_MonCalamari_Empire_Fighter_Champion>
         </options>
       </li>
     </value>

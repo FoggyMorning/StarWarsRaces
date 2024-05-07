@@ -59,6 +59,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_ImpBase">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari imperial</label>
+    <defName>StarWarsRaces_MonCalamari_ImpBase</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PJ_ImpInspector">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie Tax Inspector</label>
@@ -115,6 +125,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ImpInspector">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari Tax Inspector</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_ImpInspector</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
@@ -177,6 +197,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ImpTaxOfficer">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari Tax Officer</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_ImpTaxOfficer</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PJ_ImpSoldier">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie Soldier</label>
@@ -233,6 +263,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ImpSoldier">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari Soldier</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_ImpSoldier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
@@ -295,6 +335,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ImpTrader">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari Imperial Provisioner</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_ImpTrader</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PJ_Stormtrooper">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie Stormtrooper</label>
@@ -351,6 +401,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_Stormtrooper">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari Stormtrooper</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_Stormtrooper</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
@@ -413,6 +473,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_StormtrooperSO">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari Stormtrooper officer</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_StormtrooperSO</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PJ_ImpCommander">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie commander</label>
@@ -472,6 +542,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ImpCommander">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari commander</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_ImpCommander</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PJ_ScoutTrooper">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie Scout trooper</label>
@@ -528,6 +608,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PJ_ScoutTrooper">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari Scout trooper</label>
+    <defName>StarWarsRaces_MonCalamari_PJ_ScoutTrooper</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>StarWarsRaces_MonCalamariBaseliner</defName>
+    <label>MonCalamari</label>
+    <description>A naturally-evolved MonCalamari. An aquatic humanoid with large eyes and the ability to breathe underwater</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>StarWarsRaces_MonCalamari_Jaw</li>
+      <li>StarWarsRaces_MonCalamari_Hands</li>
+      <li>Voice_Human</li>
+      <li>StarWarsRaces_MonCalamari_Nose</li>
+      <li>StarWarsRaces_MonCalamari_Ears</li>
+      <li>StarWarsRaces_MonCalamari_Eyes</li>
+    </genes>
+  </XenotypeDef>
+</Defs>

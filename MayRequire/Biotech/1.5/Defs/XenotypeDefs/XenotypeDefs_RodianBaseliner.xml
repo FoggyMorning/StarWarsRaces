@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>StarWarsRaces_RodianBaseliner</defName>
+    <label>rodian</label>
+    <description>A naturally-evolved Rodian. A reptilian humanoid with large eyes and antennae</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>DarkVision</li>
+    </genes>
+    <doubleXenotypeChances>
+      <Neanderthal>0.02</Neanderthal>
+      <Waster>0.02</Waster>
+      <Dirtmole>0.02</Dirtmole>
+    </doubleXenotypeChances>
+  </XenotypeDef>
+</Defs>

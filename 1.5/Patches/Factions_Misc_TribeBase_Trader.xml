@@ -25,26 +25,31 @@
           <StarWarsRaces_Rodian_Tribal_Warrior>7.00</StarWarsRaces_Rodian_Tribal_Warrior>
           <StarWarsRaces_Ewok_Tribal_Warrior>3.50</StarWarsRaces_Ewok_Tribal_Warrior>
           <StarWarsRaces_Twilek_Tribal_Warrior>7.00</StarWarsRaces_Twilek_Tribal_Warrior>
+          <StarWarsRaces_MonCalamari_Tribal_Warrior>3.50</StarWarsRaces_MonCalamari_Tribal_Warrior>
           <StarWarsRaces_Wookiee_Tribal_Archer>7.00</StarWarsRaces_Wookiee_Tribal_Archer>
           <StarWarsRaces_Togruta_Tribal_Archer>10.00</StarWarsRaces_Togruta_Tribal_Archer>
           <StarWarsRaces_Rodian_Tribal_Archer>10.00</StarWarsRaces_Rodian_Tribal_Archer>
           <StarWarsRaces_Ewok_Tribal_Archer>5.00</StarWarsRaces_Ewok_Tribal_Archer>
           <StarWarsRaces_Twilek_Tribal_Archer>10.00</StarWarsRaces_Twilek_Tribal_Archer>
+          <StarWarsRaces_MonCalamari_Tribal_Archer>5.00</StarWarsRaces_MonCalamari_Tribal_Archer>
           <StarWarsRaces_Wookiee_Tribal_Hunter>7.00</StarWarsRaces_Wookiee_Tribal_Hunter>
           <StarWarsRaces_Togruta_Tribal_Hunter>10.00</StarWarsRaces_Togruta_Tribal_Hunter>
           <StarWarsRaces_Rodian_Tribal_Hunter>10.00</StarWarsRaces_Rodian_Tribal_Hunter>
           <StarWarsRaces_Ewok_Tribal_Hunter>5.00</StarWarsRaces_Ewok_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_Hunter>10.00</StarWarsRaces_Twilek_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>5.00</StarWarsRaces_MonCalamari_Tribal_Hunter>
           <StarWarsRaces_Wookiee_Tribal_HeavyArcher>7.00</StarWarsRaces_Wookiee_Tribal_HeavyArcher>
           <StarWarsRaces_Togruta_Tribal_HeavyArcher>10.00</StarWarsRaces_Togruta_Tribal_HeavyArcher>
           <StarWarsRaces_Rodian_Tribal_HeavyArcher>10.00</StarWarsRaces_Rodian_Tribal_HeavyArcher>
           <StarWarsRaces_Ewok_Tribal_HeavyArcher>5.00</StarWarsRaces_Ewok_Tribal_HeavyArcher>
           <StarWarsRaces_Twilek_Tribal_HeavyArcher>10.00</StarWarsRaces_Twilek_Tribal_HeavyArcher>
+          <StarWarsRaces_MonCalamari_Tribal_HeavyArcher>5.00</StarWarsRaces_MonCalamari_Tribal_HeavyArcher>
           <StarWarsRaces_Wookiee_Tribal_Berserker>4.90</StarWarsRaces_Wookiee_Tribal_Berserker>
           <StarWarsRaces_Togruta_Tribal_Berserker>7.00</StarWarsRaces_Togruta_Tribal_Berserker>
           <StarWarsRaces_Rodian_Tribal_Berserker>7.00</StarWarsRaces_Rodian_Tribal_Berserker>
           <StarWarsRaces_Ewok_Tribal_Berserker>3.50</StarWarsRaces_Ewok_Tribal_Berserker>
           <StarWarsRaces_Twilek_Tribal_Berserker>7.00</StarWarsRaces_Twilek_Tribal_Berserker>
+          <StarWarsRaces_MonCalamari_Tribal_Berserker>3.50</StarWarsRaces_MonCalamari_Tribal_Berserker>
         </guards>
       </li>
       <li>
@@ -84,6 +89,11 @@
           <StarWarsRaces_Twilek_Tribal_Hunter>10.00</StarWarsRaces_Twilek_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_HeavyArcher>10.00</StarWarsRaces_Twilek_Tribal_HeavyArcher>
           <StarWarsRaces_Twilek_Tribal_Berserker>7.00</StarWarsRaces_Twilek_Tribal_Berserker>
+          <StarWarsRaces_MonCalamari_Tribal_Warrior>3.50</StarWarsRaces_MonCalamari_Tribal_Warrior>
+          <StarWarsRaces_MonCalamari_Tribal_Archer>5.00</StarWarsRaces_MonCalamari_Tribal_Archer>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>5.00</StarWarsRaces_MonCalamari_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_HeavyArcher>5.00</StarWarsRaces_MonCalamari_Tribal_HeavyArcher>
+          <StarWarsRaces_MonCalamari_Tribal_Berserker>3.50</StarWarsRaces_MonCalamari_Tribal_Berserker>
         </guards>
       </li>
       <li>
@@ -179,6 +189,25 @@
           <StarWarsRaces_Twilek_Tribal_Hunter>10.00</StarWarsRaces_Twilek_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_HeavyArcher>10.00</StarWarsRaces_Twilek_Tribal_HeavyArcher>
           <StarWarsRaces_Twilek_Tribal_Berserker>7.00</StarWarsRaces_Twilek_Tribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Tribal_Trader>1</Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <StarWarsRaces_MonCalamari_Tribal_Warrior>3.50</StarWarsRaces_MonCalamari_Tribal_Warrior>
+          <StarWarsRaces_MonCalamari_Tribal_Archer>5.00</StarWarsRaces_MonCalamari_Tribal_Archer>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>5.00</StarWarsRaces_MonCalamari_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_HeavyArcher>5.00</StarWarsRaces_MonCalamari_Tribal_HeavyArcher>
+          <StarWarsRaces_MonCalamari_Tribal_Berserker>3.50</StarWarsRaces_MonCalamari_Tribal_Berserker>
         </guards>
       </li>
     </value>

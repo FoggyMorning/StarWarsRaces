@@ -15,21 +15,25 @@
           <StarWarsRaces_Rodian_Settler>20.00</StarWarsRaces_Rodian_Settler>
           <StarWarsRaces_Ewok_Settler>10.00</StarWarsRaces_Ewok_Settler>
           <StarWarsRaces_Twilek_Settler>20.00</StarWarsRaces_Twilek_Settler>
+          <StarWarsRaces_MonCalamari_Settler>10.00</StarWarsRaces_MonCalamari_Settler>
           <StarWarsRaces_Wookiee_Militia>7.00</StarWarsRaces_Wookiee_Militia>
           <StarWarsRaces_Togruta_Militia>10.00</StarWarsRaces_Togruta_Militia>
           <StarWarsRaces_Rodian_Militia>10.00</StarWarsRaces_Rodian_Militia>
           <StarWarsRaces_Ewok_Militia>5.00</StarWarsRaces_Ewok_Militia>
           <StarWarsRaces_Twilek_Militia>10.00</StarWarsRaces_Twilek_Militia>
+          <StarWarsRaces_MonCalamari_Militia>5.00</StarWarsRaces_MonCalamari_Militia>
           <StarWarsRaces_Wookiee_Deputy>3.50</StarWarsRaces_Wookiee_Deputy>
           <StarWarsRaces_Togruta_Deputy>5.00</StarWarsRaces_Togruta_Deputy>
           <StarWarsRaces_Rodian_Deputy>5.00</StarWarsRaces_Rodian_Deputy>
           <StarWarsRaces_Ewok_Deputy>2.50</StarWarsRaces_Ewok_Deputy>
           <StarWarsRaces_Twilek_Deputy>5.00</StarWarsRaces_Twilek_Deputy>
+          <StarWarsRaces_MonCalamari_Deputy>2.50</StarWarsRaces_MonCalamari_Deputy>
           <StarWarsRaces_Wookiee_Frontier_Trader>7.00</StarWarsRaces_Wookiee_Frontier_Trader>
           <StarWarsRaces_Togruta_Frontier_Trader>10.00</StarWarsRaces_Togruta_Frontier_Trader>
           <StarWarsRaces_Rodian_Frontier_Trader>10.00</StarWarsRaces_Rodian_Frontier_Trader>
           <StarWarsRaces_Ewok_Frontier_Trader>5.00</StarWarsRaces_Ewok_Frontier_Trader>
           <StarWarsRaces_Twilek_Frontier_Trader>10.00</StarWarsRaces_Twilek_Frontier_Trader>
+          <StarWarsRaces_MonCalamari_Frontier_Trader>5.00</StarWarsRaces_MonCalamari_Frontier_Trader>
         </options>
       </li>
       <li>
@@ -55,6 +59,10 @@
           <StarWarsRaces_Twilek_Militia>10.00</StarWarsRaces_Twilek_Militia>
           <StarWarsRaces_Twilek_Deputy>5.00</StarWarsRaces_Twilek_Deputy>
           <StarWarsRaces_Twilek_Frontier_Trader>10.00</StarWarsRaces_Twilek_Frontier_Trader>
+          <StarWarsRaces_MonCalamari_Settler>10.00</StarWarsRaces_MonCalamari_Settler>
+          <StarWarsRaces_MonCalamari_Militia>5.00</StarWarsRaces_MonCalamari_Militia>
+          <StarWarsRaces_MonCalamari_Deputy>2.50</StarWarsRaces_MonCalamari_Deputy>
+          <StarWarsRaces_MonCalamari_Frontier_Trader>5.00</StarWarsRaces_MonCalamari_Frontier_Trader>
         </options>
       </li>
       <li>
@@ -100,6 +108,15 @@
           <StarWarsRaces_Twilek_Militia>10.00</StarWarsRaces_Twilek_Militia>
           <StarWarsRaces_Twilek_Deputy>5.00</StarWarsRaces_Twilek_Deputy>
           <StarWarsRaces_Twilek_Frontier_Trader>10.00</StarWarsRaces_Twilek_Frontier_Trader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StarWarsRaces_MonCalamari_Settler>10.00</StarWarsRaces_MonCalamari_Settler>
+          <StarWarsRaces_MonCalamari_Militia>5.00</StarWarsRaces_MonCalamari_Militia>
+          <StarWarsRaces_MonCalamari_Deputy>2.50</StarWarsRaces_MonCalamari_Deputy>
+          <StarWarsRaces_MonCalamari_Frontier_Trader>5.00</StarWarsRaces_MonCalamari_Frontier_Trader>
         </options>
       </li>
     </value>

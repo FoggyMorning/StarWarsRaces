@@ -13,6 +13,7 @@
           <StarWarsRaces_Rodian_Tribal_Farmer>1.00</StarWarsRaces_Rodian_Tribal_Farmer>
           <StarWarsRaces_Ewok_Tribal_Farmer>0.50</StarWarsRaces_Ewok_Tribal_Farmer>
           <StarWarsRaces_Twilek_Tribal_Farmer>1.00</StarWarsRaces_Twilek_Tribal_Farmer>
+          <StarWarsRaces_MonCalamari_Tribal_Farmer>0.50</StarWarsRaces_MonCalamari_Tribal_Farmer>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -24,6 +25,7 @@
           <StarWarsRaces_Rodian_Tribal_Farmer>1.00</StarWarsRaces_Rodian_Tribal_Farmer>
           <StarWarsRaces_Ewok_Tribal_Farmer>0.50</StarWarsRaces_Ewok_Tribal_Farmer>
           <StarWarsRaces_Twilek_Tribal_Farmer>1.00</StarWarsRaces_Twilek_Tribal_Farmer>
+          <StarWarsRaces_MonCalamari_Tribal_Farmer>0.50</StarWarsRaces_MonCalamari_Tribal_Farmer>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -59,6 +61,13 @@
         <commonality>0.20</commonality>
         <options>
           <StarWarsRaces_Twilek_Tribal_Farmer>1.00</StarWarsRaces_Twilek_Tribal_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_Tribal_Farmer>0.50</StarWarsRaces_MonCalamari_Tribal_Farmer>
         </options>
       </li>
     </value>

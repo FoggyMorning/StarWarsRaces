@@ -15,21 +15,25 @@
           <StarWarsRaces_Rodian_Tribal_Archer>10.00</StarWarsRaces_Rodian_Tribal_Archer>
           <StarWarsRaces_Ewok_Tribal_Archer>5.00</StarWarsRaces_Ewok_Tribal_Archer>
           <StarWarsRaces_Twilek_Tribal_Archer>10.00</StarWarsRaces_Twilek_Tribal_Archer>
+          <StarWarsRaces_MonCalamari_Tribal_Archer>5.00</StarWarsRaces_MonCalamari_Tribal_Archer>
           <StarWarsRaces_Wookiee_Tribal_Hunter>7.00</StarWarsRaces_Wookiee_Tribal_Hunter>
           <StarWarsRaces_Togruta_Tribal_Hunter>10.00</StarWarsRaces_Togruta_Tribal_Hunter>
           <StarWarsRaces_Rodian_Tribal_Hunter>10.00</StarWarsRaces_Rodian_Tribal_Hunter>
           <StarWarsRaces_Ewok_Tribal_Hunter>5.00</StarWarsRaces_Ewok_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_Hunter>10.00</StarWarsRaces_Twilek_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>5.00</StarWarsRaces_MonCalamari_Tribal_Hunter>
           <StarWarsRaces_Wookiee_Tribal_HeavyArcher>7.00</StarWarsRaces_Wookiee_Tribal_HeavyArcher>
           <StarWarsRaces_Togruta_Tribal_HeavyArcher>10.00</StarWarsRaces_Togruta_Tribal_HeavyArcher>
           <StarWarsRaces_Rodian_Tribal_HeavyArcher>10.00</StarWarsRaces_Rodian_Tribal_HeavyArcher>
           <StarWarsRaces_Ewok_Tribal_HeavyArcher>5.00</StarWarsRaces_Ewok_Tribal_HeavyArcher>
           <StarWarsRaces_Twilek_Tribal_HeavyArcher>10.00</StarWarsRaces_Twilek_Tribal_HeavyArcher>
+          <StarWarsRaces_MonCalamari_Tribal_HeavyArcher>5.00</StarWarsRaces_MonCalamari_Tribal_HeavyArcher>
           <StarWarsRaces_Wookiee_Tribal_ChiefRanged>7.00</StarWarsRaces_Wookiee_Tribal_ChiefRanged>
           <StarWarsRaces_Togruta_Tribal_ChiefRanged>10.00</StarWarsRaces_Togruta_Tribal_ChiefRanged>
           <StarWarsRaces_Rodian_Tribal_ChiefRanged>10.00</StarWarsRaces_Rodian_Tribal_ChiefRanged>
           <StarWarsRaces_Ewok_Tribal_ChiefRanged>5.00</StarWarsRaces_Ewok_Tribal_ChiefRanged>
           <StarWarsRaces_Twilek_Tribal_ChiefRanged>10.00</StarWarsRaces_Twilek_Tribal_ChiefRanged>
+          <StarWarsRaces_MonCalamari_Tribal_ChiefRanged>5.00</StarWarsRaces_MonCalamari_Tribal_ChiefRanged>
         </options>
       </li>
       <li>
@@ -55,6 +59,10 @@
           <StarWarsRaces_Twilek_Tribal_Hunter>10.00</StarWarsRaces_Twilek_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_HeavyArcher>10.00</StarWarsRaces_Twilek_Tribal_HeavyArcher>
           <StarWarsRaces_Twilek_Tribal_ChiefRanged>10.00</StarWarsRaces_Twilek_Tribal_ChiefRanged>
+          <StarWarsRaces_MonCalamari_Tribal_Archer>5.00</StarWarsRaces_MonCalamari_Tribal_Archer>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>5.00</StarWarsRaces_MonCalamari_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_HeavyArcher>5.00</StarWarsRaces_MonCalamari_Tribal_HeavyArcher>
+          <StarWarsRaces_MonCalamari_Tribal_ChiefRanged>5.00</StarWarsRaces_MonCalamari_Tribal_ChiefRanged>
         </options>
       </li>
       <li>
@@ -100,6 +108,15 @@
           <StarWarsRaces_Twilek_Tribal_Hunter>10.00</StarWarsRaces_Twilek_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_HeavyArcher>10.00</StarWarsRaces_Twilek_Tribal_HeavyArcher>
           <StarWarsRaces_Twilek_Tribal_ChiefRanged>10.00</StarWarsRaces_Twilek_Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <StarWarsRaces_MonCalamari_Tribal_Archer>5.00</StarWarsRaces_MonCalamari_Tribal_Archer>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>5.00</StarWarsRaces_MonCalamari_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_HeavyArcher>5.00</StarWarsRaces_MonCalamari_Tribal_HeavyArcher>
+          <StarWarsRaces_MonCalamari_Tribal_ChiefRanged>5.00</StarWarsRaces_MonCalamari_Tribal_ChiefRanged>
         </options>
       </li>
     </value>

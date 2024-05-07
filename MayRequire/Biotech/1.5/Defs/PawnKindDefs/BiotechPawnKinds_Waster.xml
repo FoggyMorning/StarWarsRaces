@@ -34,6 +34,11 @@
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_GunnerTox">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari waster gunner</label>
+    <defName>StarWarsRaces_MonCalamari_Mercenary_GunnerTox</defName>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_SlasherTox">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie waster slasher</label>
@@ -67,6 +72,11 @@
     <apparelTags>
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_SlasherTox">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari waster slasher</label>
+    <defName>StarWarsRaces_MonCalamari_Mercenary_SlasherTox</defName>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_EliteTox">
     <race>StarWarsRaces_Wookiee</race>
@@ -102,6 +112,11 @@
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_EliteTox">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari elite waster</label>
+    <defName>StarWarsRaces_MonCalamari_Mercenary_EliteTox</defName>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Grenadier_Tox">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie waster grenadier</label>
@@ -135,6 +150,11 @@
     <apparelTags>
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Grenadier_Tox">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari waster grenadier</label>
+    <defName>StarWarsRaces_MonCalamari_Grenadier_Tox</defName>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mercenary_HeavyTox">
     <race>StarWarsRaces_Wookiee</race>
@@ -170,6 +190,11 @@
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mercenary_HeavyTox">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari heavy waster</label>
+    <defName>StarWarsRaces_MonCalamari_Mercenary_HeavyTox</defName>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_PirateBossTox">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie waster boss</label>
@@ -203,5 +228,10 @@
     <apparelTags>
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_PirateBossTox">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari waster boss</label>
+    <defName>StarWarsRaces_MonCalamari_PirateBossTox</defName>
   </PawnKindDef>
 </Defs>

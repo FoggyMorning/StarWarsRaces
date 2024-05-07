@@ -59,6 +59,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFEA_AncientSoldierOneAbility">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari ancient super-soldier</label>
+    <defName>StarWarsRaces_MonCalamari_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_VFEA_AncientSoldierTwoAbilities">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie ancient super-soldier</label>
@@ -115,6 +125,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_VFEA_AncientSoldierTwoAbilities">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari ancient super-soldier</label>
+    <defName>StarWarsRaces_MonCalamari_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>

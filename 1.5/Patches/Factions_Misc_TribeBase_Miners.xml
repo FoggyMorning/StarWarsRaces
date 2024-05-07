@@ -13,6 +13,7 @@
           <StarWarsRaces_Rodian_Tribal_Miner>1.00</StarWarsRaces_Rodian_Tribal_Miner>
           <StarWarsRaces_Ewok_Tribal_Miner>0.50</StarWarsRaces_Ewok_Tribal_Miner>
           <StarWarsRaces_Twilek_Tribal_Miner>1.00</StarWarsRaces_Twilek_Tribal_Miner>
+          <StarWarsRaces_MonCalamari_Tribal_Miner>0.50</StarWarsRaces_MonCalamari_Tribal_Miner>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -24,6 +25,7 @@
           <StarWarsRaces_Rodian_Tribal_Miner>1.00</StarWarsRaces_Rodian_Tribal_Miner>
           <StarWarsRaces_Ewok_Tribal_Miner>0.50</StarWarsRaces_Ewok_Tribal_Miner>
           <StarWarsRaces_Twilek_Tribal_Miner>1.00</StarWarsRaces_Twilek_Tribal_Miner>
+          <StarWarsRaces_MonCalamari_Tribal_Miner>0.50</StarWarsRaces_MonCalamari_Tribal_Miner>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -59,6 +61,13 @@
         <commonality>0.20</commonality>
         <options>
           <StarWarsRaces_Twilek_Tribal_Miner>1.00</StarWarsRaces_Twilek_Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_Tribal_Miner>0.50</StarWarsRaces_MonCalamari_Tribal_Miner>
         </options>
       </li>
     </value>

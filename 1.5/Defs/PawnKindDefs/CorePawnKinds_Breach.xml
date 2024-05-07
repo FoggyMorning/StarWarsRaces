@@ -59,4 +59,14 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Breacher">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari breacher</label>
+    <defName>StarWarsRaces_MonCalamari_Tribal_Breacher</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
 </Defs>

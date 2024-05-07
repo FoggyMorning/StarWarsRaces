@@ -16,7 +16,7 @@
       <li>IndustrialBasic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-    <apparelMoney>350~600</apparelMoney>
+    <apparelMoney>350~700</apparelMoney>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <techHediffsChance>0.03</techHediffsChance>
     <techHediffsMoney>50~800</techHediffsMoney>
@@ -29,7 +29,6 @@
       <li>PainCauser</li>
     </techHediffsDisallowTags>
     <initialResistanceRange>13~21</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
     <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribesperson">
@@ -47,7 +46,7 @@
     <apparelTags>
       <li>Neolithic</li>
     </apparelTags>
-    <apparelMoney>200~200</apparelMoney>
+    <apparelMoney>200~300</apparelMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <techHediffsMoney>50~50</techHediffsMoney>
     <techHediffsTags>
@@ -55,7 +54,6 @@
     </techHediffsTags>
     <techHediffsChance>0.02</techHediffsChance>
     <initialResistanceRange>9~15</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
     <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

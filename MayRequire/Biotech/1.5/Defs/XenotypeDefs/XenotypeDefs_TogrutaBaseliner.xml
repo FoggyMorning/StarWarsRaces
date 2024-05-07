@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>StarWarsRaces_TogrutaBaseliner</defName>
+    <label>togruta</label>
+    <description>A naturally-evolved Togruta. A mostly hairless humanoid with head montrals and multiple lekku</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Hair_BaldOnly</li>
+      <li>DarkVision</li>
+    </genes>
+    <doubleXenotypeChances>
+      <Impid>0.01</Impid>
+      <Neanderthal>0.05</Neanderthal>
+    </doubleXenotypeChances>
+  </XenotypeDef>
+</Defs>

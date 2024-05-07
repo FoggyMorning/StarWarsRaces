@@ -54,7 +54,7 @@
     <label>waster gunner</label>
     <initialResistanceRange>6~10</initialResistanceRange>
     <defaultFactionType>PirateWaster</defaultFactionType>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_SlasherTox">
     <race>Human</race>
@@ -105,7 +105,7 @@
     <label>waster slasher</label>
     <initialResistanceRange>10~16</initialResistanceRange>
     <defaultFactionType>PirateWaster</defaultFactionType>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_EliteTox">
     <race>Human</race>
@@ -162,7 +162,7 @@
     <label>elite waster</label>
     <initialResistanceRange>15~23</initialResistanceRange>
     <defaultFactionType>PirateWaster</defaultFactionType>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Grenadier_Tox">
     <race>Human</race>
@@ -211,7 +211,7 @@
       <li>GrenadeTox</li>
     </weaponTags>
     <initialResistanceRange>15~24</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_HeavyTox">
     <race>Human</race>
@@ -248,7 +248,7 @@
       <li>HeavyTox</li>
     </weaponTags>
     <initialResistanceRange>14~23</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PirateBossTox">
     <race>Human</race>
@@ -292,6 +292,6 @@
     <canBeSapper>true</canBeSapper>
     <initialResistanceRange>17~27</initialResistanceRange>
     <defaultFactionType>PirateWaster</defaultFactionType>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

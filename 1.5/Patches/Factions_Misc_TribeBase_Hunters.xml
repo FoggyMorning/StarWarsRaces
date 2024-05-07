@@ -13,6 +13,7 @@
           <StarWarsRaces_Rodian_Tribal_Hunter>1.00</StarWarsRaces_Rodian_Tribal_Hunter>
           <StarWarsRaces_Ewok_Tribal_Hunter>0.50</StarWarsRaces_Ewok_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_Hunter>1.00</StarWarsRaces_Twilek_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>0.50</StarWarsRaces_MonCalamari_Tribal_Hunter>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -24,6 +25,7 @@
           <StarWarsRaces_Rodian_Tribal_Hunter>1.00</StarWarsRaces_Rodian_Tribal_Hunter>
           <StarWarsRaces_Ewok_Tribal_Hunter>0.50</StarWarsRaces_Ewok_Tribal_Hunter>
           <StarWarsRaces_Twilek_Tribal_Hunter>1.00</StarWarsRaces_Twilek_Tribal_Hunter>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>0.50</StarWarsRaces_MonCalamari_Tribal_Hunter>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -59,6 +61,13 @@
         <commonality>0.20</commonality>
         <options>
           <StarWarsRaces_Twilek_Tribal_Hunter>1.00</StarWarsRaces_Twilek_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_Tribal_Hunter>0.50</StarWarsRaces_MonCalamari_Tribal_Hunter>
         </options>
       </li>
     </value>

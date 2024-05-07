@@ -3,7 +3,7 @@
   <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Ewok" ParentName="Human">
     <defName>StarWarsRaces_Ewok</defName>
     <label>Ewok</label>
-    <description>Ewoks were sentient humanoids, averaging about one meter in height. Omnivorous, they were covered in fur from head to toe, with brown and black as the most common colors. Most Ewoks had solid-colored fur, though a few sported stripes. Ewoks had large, bright eyes, small humanoid noses, and hands that possessed two fingers and an opposable thumb. Despite their small size, Ewoks were physically strong enough to overpower combat-trained humans. https:/starwars.fandom.com/wiki/Ewok</description>
+    <description>Ewoks were sentient humanoids,averaging about one meter in height. Omnivorous,they were covered in fur from head to toe,with brown and black as the most common colors. Most Ewoks had solid-colored fur,though a few sported stripes. Ewoks had large,bright eyes,small humanoid noses,and hands that possessed two fingers and an opposable thumb. Despite their small size,Ewoks were physically strong enough to overpower combat-trained humans. https:/starwars.fandom.com/wiki/Ewok</description>
     <alienRace>
       <thoughtSettings>
         <cannotReceiveThoughts>
@@ -28,10 +28,10 @@
           </li>
         </forcedRaceTraitEntries>
         <alienPartGenerator>
-          <customDrawSize>( 0.65, 0.65 )</customDrawSize>
-          <customHeadDrawSize>( 0.65, 0.65 )</customHeadDrawSize>
-          <customPortraitDrawSize>( 0.65, 0.65 )</customPortraitDrawSize>
-          <customPortraitHeadDrawSize>( 0.65, 0.65 )</customPortraitHeadDrawSize>
+          <customDrawSize>( 0.65,0.65 )</customDrawSize>
+          <customHeadDrawSize>( 0.65,0.65 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 0.65,0.65 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 0.65,0.65 )</customPortraitHeadDrawSize>
           <headOffset>(0,-0.1)</headOffset>
           <colorChannels Inherit="False">
             <li>
@@ -40,32 +40,32 @@
                 <options>
                   <li>
                     <weight>100</weight>
-                    <only>RGBA(0.623, 0.380, 0.149,1)</only>
+                    <only>RGBA(0.623,0.380,0.149,1)</only>
                   </li>
                   <li>
                     <!-- #843e30 -->
                     <weight>100</weight>
-                    <only>RGBA(0.517, 0.243, 0.188,1)</only>
+                    <only>RGBA(0.517,0.243,0.188,1)</only>
                   </li>
                   <li>
                     <!-- #8b352d -->
                     <weight>100</weight>
-                    <only>RGBA(0.545, 0.207, 0.176,1)</only>
+                    <only>RGBA(0.545,0.207,0.176,1)</only>
                   </li>
                   <li>
                     <!-- #784b44 -->
                     <weight>100</weight>
-                    <only>RGBA(0.470, 0.294, 0.266,1)</only>
+                    <only>RGBA(0.470,0.294,0.266,1)</only>
                   </li>
                   <li>
                     <!-- #685855 -->
                     <weight>100</weight>
-                    <only>RGBA(0.407, 0.345, 0.333,1)</only>
+                    <only>RGBA(0.407,0.345,0.333,1)</only>
                   </li>
                   <li>
                     <!-- #764c41 -->
                     <weight>100</weight>
-                    <only>RGBA(0.462, 0.298, 0.254,1)</only>
+                    <only>RGBA(0.462,0.298,0.254,1)</only>
                   </li>
                 </options>
               </first>
@@ -73,11 +73,11 @@
                 <options>
                   <li>
                     <weight>100</weight>
-                    <only>RGBA(0.698, 0.615, 0.541,1)</only>
+                    <only>RGBA(0.698,0.615,0.541,1)</only>
                   </li>
                   <li>
                     <weight>100</weight>
-                    <only>RGBA(0.694, 0.478, 0.282,1)</only>
+                    <only>RGBA(0.694,0.478,0.282,1)</only>
                   </li>
                 </options>
               </second>
@@ -117,10 +117,10 @@
               <defaultOffset>Center</defaultOffset>
               <offsets>
                 <south>
-                  <offset>( -0.0293, 0.0227 )</offset>
+                  <offset>( -0.0293,0.0227 )</offset>
                 </south>
                 <north>
-                  <offset>( -0.0, 0.007 )</offset>
+                  <offset>( -0.0,0.007 )</offset>
                 </north>
               </offsets>
             </li>
@@ -149,10 +149,10 @@
               <defaultOffset>Center</defaultOffset>
               <offsets>
                 <south>
-                  <offset>( 0.025, 0.0227 )</offset>
+                  <offset>( 0.025,0.0227 )</offset>
                 </south>
                 <north>
-                  <offset>( -0.0, 0.007 )</offset>
+                  <offset>( -0.0,0.007 )</offset>
                 </north>
               </offsets>
             </li>

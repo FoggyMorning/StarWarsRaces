@@ -26,7 +26,6 @@
     <invFoodDef>Pemmican</invFoodDef>
     <initialWillRange>0~0</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_WildMan">
     <label>wild man</label>
@@ -57,7 +56,6 @@
     </techHediffsTags>
     <initialWillRange>2~4</initialWillRange>
     <initialResistanceRange>28~44</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_StrangerInBlack">
     <label>stranger in black</label>
@@ -67,6 +65,7 @@
     <race>Human</race>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <combatPower>55</combatPower>
+    <minGenerationAge>20</minGenerationAge>
     <maxGenerationAge>55</maxGenerationAge>
     <isFighter>true</isFighter>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
@@ -113,6 +112,5 @@
         <range>8~16</range>
       </li>
     </skills>
-    <minGenerationAge>20</minGenerationAge>
   </PawnKindDef>
 </Defs>

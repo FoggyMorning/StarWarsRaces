@@ -37,7 +37,6 @@
     </inventoryOptions>
     <initialWillRange>0~1</initialWillRange>
     <initialResistanceRange>4~8</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PovertyPilgrim">
     <label>pilgrim</label>
@@ -76,7 +75,6 @@
     </inventoryOptions>
     <initialWillRange>0~1</initialWillRange>
     <initialResistanceRange>4~8</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_WellEquippedTraveler">
     <label>well-equipped traveler</label>
@@ -114,6 +112,5 @@
     </inventoryOptions>
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>30~40</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
 </Defs>

@@ -13,6 +13,7 @@
           <StarWarsRaces_Rodian_Logger>1.00</StarWarsRaces_Rodian_Logger>
           <StarWarsRaces_Ewok_Logger>0.50</StarWarsRaces_Ewok_Logger>
           <StarWarsRaces_Twilek_Logger>1.00</StarWarsRaces_Twilek_Logger>
+          <StarWarsRaces_MonCalamari_Logger>0.50</StarWarsRaces_MonCalamari_Logger>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -24,6 +25,7 @@
           <StarWarsRaces_Rodian_Logger>1.00</StarWarsRaces_Rodian_Logger>
           <StarWarsRaces_Ewok_Logger>0.50</StarWarsRaces_Ewok_Logger>
           <StarWarsRaces_Twilek_Logger>1.00</StarWarsRaces_Twilek_Logger>
+          <StarWarsRaces_MonCalamari_Logger>0.50</StarWarsRaces_MonCalamari_Logger>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -59,6 +61,13 @@
         <commonality>0.20</commonality>
         <options>
           <StarWarsRaces_Twilek_Logger>1.00</StarWarsRaces_Twilek_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_Logger>0.50</StarWarsRaces_MonCalamari_Logger>
         </options>
       </li>
     </value>

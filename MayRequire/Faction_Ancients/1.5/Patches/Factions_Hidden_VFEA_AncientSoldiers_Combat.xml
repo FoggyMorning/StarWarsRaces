@@ -14,11 +14,13 @@
           <StarWarsRaces_Rodian_VFEA_AncientSoldierOneAbility>15.00</StarWarsRaces_Rodian_VFEA_AncientSoldierOneAbility>
           <StarWarsRaces_Ewok_VFEA_AncientSoldierOneAbility>7.50</StarWarsRaces_Ewok_VFEA_AncientSoldierOneAbility>
           <StarWarsRaces_Twilek_VFEA_AncientSoldierOneAbility>15.00</StarWarsRaces_Twilek_VFEA_AncientSoldierOneAbility>
+          <StarWarsRaces_MonCalamari_VFEA_AncientSoldierOneAbility>7.50</StarWarsRaces_MonCalamari_VFEA_AncientSoldierOneAbility>
           <StarWarsRaces_Wookiee_VFEA_AncientSoldierTwoAbilities>3.50</StarWarsRaces_Wookiee_VFEA_AncientSoldierTwoAbilities>
           <StarWarsRaces_Togruta_VFEA_AncientSoldierTwoAbilities>5.00</StarWarsRaces_Togruta_VFEA_AncientSoldierTwoAbilities>
           <StarWarsRaces_Rodian_VFEA_AncientSoldierTwoAbilities>5.00</StarWarsRaces_Rodian_VFEA_AncientSoldierTwoAbilities>
           <StarWarsRaces_Ewok_VFEA_AncientSoldierTwoAbilities>2.50</StarWarsRaces_Ewok_VFEA_AncientSoldierTwoAbilities>
           <StarWarsRaces_Twilek_VFEA_AncientSoldierTwoAbilities>5.00</StarWarsRaces_Twilek_VFEA_AncientSoldierTwoAbilities>
+          <StarWarsRaces_MonCalamari_VFEA_AncientSoldierTwoAbilities>2.50</StarWarsRaces_MonCalamari_VFEA_AncientSoldierTwoAbilities>
         </options>
       </li>
       <li>
@@ -35,6 +37,8 @@
           <StarWarsRaces_Ewok_VFEA_AncientSoldierTwoAbilities>2.50</StarWarsRaces_Ewok_VFEA_AncientSoldierTwoAbilities>
           <StarWarsRaces_Twilek_VFEA_AncientSoldierOneAbility>15.00</StarWarsRaces_Twilek_VFEA_AncientSoldierOneAbility>
           <StarWarsRaces_Twilek_VFEA_AncientSoldierTwoAbilities>5.00</StarWarsRaces_Twilek_VFEA_AncientSoldierTwoAbilities>
+          <StarWarsRaces_MonCalamari_VFEA_AncientSoldierOneAbility>7.50</StarWarsRaces_MonCalamari_VFEA_AncientSoldierOneAbility>
+          <StarWarsRaces_MonCalamari_VFEA_AncientSoldierTwoAbilities>2.50</StarWarsRaces_MonCalamari_VFEA_AncientSoldierTwoAbilities>
         </options>
       </li>
       <li>
@@ -75,6 +79,14 @@
         <options>
           <StarWarsRaces_Twilek_VFEA_AncientSoldierOneAbility>15.00</StarWarsRaces_Twilek_VFEA_AncientSoldierOneAbility>
           <StarWarsRaces_Twilek_VFEA_AncientSoldierTwoAbilities>5.00</StarWarsRaces_Twilek_VFEA_AncientSoldierTwoAbilities>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_VFEA_AncientSoldierOneAbility>7.50</StarWarsRaces_MonCalamari_VFEA_AncientSoldierOneAbility>
+          <StarWarsRaces_MonCalamari_VFEA_AncientSoldierTwoAbilities>2.50</StarWarsRaces_MonCalamari_VFEA_AncientSoldierTwoAbilities>
         </options>
       </li>
     </value>

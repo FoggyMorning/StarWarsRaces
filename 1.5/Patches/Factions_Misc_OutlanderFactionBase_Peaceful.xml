@@ -15,21 +15,25 @@
           <StarWarsRaces_Rodian_Villager>20.00</StarWarsRaces_Rodian_Villager>
           <StarWarsRaces_Ewok_Villager>10.00</StarWarsRaces_Ewok_Villager>
           <StarWarsRaces_Twilek_Villager>20.00</StarWarsRaces_Twilek_Villager>
+          <StarWarsRaces_MonCalamari_Villager>10.00</StarWarsRaces_MonCalamari_Villager>
           <StarWarsRaces_Wookiee_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">7.00</StarWarsRaces_Wookiee_Villager_Child>
           <StarWarsRaces_Togruta_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10.00</StarWarsRaces_Togruta_Villager_Child>
           <StarWarsRaces_Rodian_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10.00</StarWarsRaces_Rodian_Villager_Child>
           <StarWarsRaces_Ewok_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">5.00</StarWarsRaces_Ewok_Villager_Child>
           <StarWarsRaces_Twilek_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10.00</StarWarsRaces_Twilek_Villager_Child>
+          <StarWarsRaces_MonCalamari_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">5.00</StarWarsRaces_MonCalamari_Villager_Child>
           <StarWarsRaces_Wookiee_Town_Guard>7.00</StarWarsRaces_Wookiee_Town_Guard>
           <StarWarsRaces_Togruta_Town_Guard>10.00</StarWarsRaces_Togruta_Town_Guard>
           <StarWarsRaces_Rodian_Town_Guard>10.00</StarWarsRaces_Rodian_Town_Guard>
           <StarWarsRaces_Ewok_Town_Guard>5.00</StarWarsRaces_Ewok_Town_Guard>
           <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
+          <StarWarsRaces_MonCalamari_Town_Guard>5.00</StarWarsRaces_MonCalamari_Town_Guard>
           <StarWarsRaces_Wookiee_Town_Councilman>7.00</StarWarsRaces_Wookiee_Town_Councilman>
           <StarWarsRaces_Togruta_Town_Councilman>10.00</StarWarsRaces_Togruta_Town_Councilman>
           <StarWarsRaces_Rodian_Town_Councilman>10.00</StarWarsRaces_Rodian_Town_Councilman>
           <StarWarsRaces_Ewok_Town_Councilman>5.00</StarWarsRaces_Ewok_Town_Councilman>
           <StarWarsRaces_Twilek_Town_Councilman>10.00</StarWarsRaces_Twilek_Town_Councilman>
+          <StarWarsRaces_MonCalamari_Town_Councilman>5.00</StarWarsRaces_MonCalamari_Town_Councilman>
         </options>
       </li>
       <li>
@@ -55,6 +59,10 @@
           <StarWarsRaces_Twilek_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10.00</StarWarsRaces_Twilek_Villager_Child>
           <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
           <StarWarsRaces_Twilek_Town_Councilman>10.00</StarWarsRaces_Twilek_Town_Councilman>
+          <StarWarsRaces_MonCalamari_Villager>10.00</StarWarsRaces_MonCalamari_Villager>
+          <StarWarsRaces_MonCalamari_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">5.00</StarWarsRaces_MonCalamari_Villager_Child>
+          <StarWarsRaces_MonCalamari_Town_Guard>5.00</StarWarsRaces_MonCalamari_Town_Guard>
+          <StarWarsRaces_MonCalamari_Town_Councilman>5.00</StarWarsRaces_MonCalamari_Town_Councilman>
         </options>
       </li>
       <li>
@@ -100,6 +108,15 @@
           <StarWarsRaces_Twilek_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10.00</StarWarsRaces_Twilek_Villager_Child>
           <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
           <StarWarsRaces_Twilek_Town_Councilman>10.00</StarWarsRaces_Twilek_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <StarWarsRaces_MonCalamari_Villager>10.00</StarWarsRaces_MonCalamari_Villager>
+          <StarWarsRaces_MonCalamari_Villager_Child MayRequire="Ludeon.RimWorld.Biotech">5.00</StarWarsRaces_MonCalamari_Villager_Child>
+          <StarWarsRaces_MonCalamari_Town_Guard>5.00</StarWarsRaces_MonCalamari_Town_Guard>
+          <StarWarsRaces_MonCalamari_Town_Councilman>5.00</StarWarsRaces_MonCalamari_Town_Councilman>
         </options>
       </li>
     </value>

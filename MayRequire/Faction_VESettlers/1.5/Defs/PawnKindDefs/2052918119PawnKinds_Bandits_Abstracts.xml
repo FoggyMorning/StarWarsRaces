@@ -36,7 +36,7 @@
     <apparelRequired>
       <li>VFES_Headgear_Bandana</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_BountyHunter">
     <race>Human</race>
@@ -72,7 +72,7 @@
     <apparelRequired>
       <li>VFES_Headgear_Sombrero</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Outlaw">
     <race>Human</race>
@@ -108,7 +108,7 @@
     <apparelRequired>
       <li>VFES_Headgear_Bandana</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Gunslinger">
     <race>Human</race>
@@ -146,7 +146,7 @@
     <apparelRequired>
       <li>VFES_Headgear_Sombrero</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_BanditLeader">
     <race>Human</race>
@@ -162,6 +162,7 @@
     <labelPlural>bandit leaders</labelPlural>
     <combatPower>120</combatPower>
     <factionLeader>true</factionLeader>
+    <minGenerationAge>30</minGenerationAge>
     <isFighter>false</isFighter>
     <gearHealthRange>1~1</gearHealthRange>
     <itemQuality>Good</itemQuality>
@@ -179,6 +180,6 @@
     </techHediffsTags>
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>24~35</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

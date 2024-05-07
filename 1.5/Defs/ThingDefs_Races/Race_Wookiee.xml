@@ -3,7 +3,7 @@
   <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Wookiee" ParentName="Human">
     <defName>StarWarsRaces_Wookiee</defName>
     <label>Wookiee</label>
-    <description>Wookiees were a tall species of furry humanoids from the planet Kashyyyk, who could grow to a height of nearly three meters. They were covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that notably came in shades of brown, black, gray, and white. The species had two sexes, female and male. The latter grew long beards in adult life. The average male weighed 150 kilograms while the average female weighed 100 kilograms. The Wookiees eye color ranged from blue to brown. Wookiees were big eaters, with the average adult requiring 3,500-6,000 calories a day of food. Their diet consisted of wild plants, berries, meat, and spices. They preferred their spices to be hot. While Wookiees did not like eating blosphi extract, it provided them with enough nutrition to survive. The literary collective term for Wookiees was a grove of Wookiees. Many of their kind were known to understand Galactic Basic but were unable to speak it due to their species' vocal structure. Wookiees had extendable claws which they used for climbing; using them for anything else violated the Wookiee honor code. Despite their fearsome appearance and volatile temperament, Wookiees were regarded as intelligent, sophisticated, loyal and trusting. When angered, Wookiees were known to descend into a berserker rage. Wookiees had an average lifespan of 400 standard years, and they appeared not to age over a span of fifty years. Their lifespans dramatically decreased due to the harsh working conditions in the spice mines of Kessel. During their prime growing years, Wookiees were often hungry, forcing them to eat whenever they could. They could learn to understand other languages, like Galactic Basic Standard, but they were physically unable to speak them due to their strange vocal chords. To those who had not learned to understand Shyriiwook, the Wookiee language, it appeared they spoke in a series of growls and purrs. Although a rare phenomenon, Force-sensitive Wookiees were possible and some joined the ranks of the Jedi, a source of great pride to their people. https://starwars.fandom.com/wiki/Wookiee</description>
+    <description>Wookiees were a tall species of furry humanoids from the planet Kashyyyk,who could grow to a height of nearly three meters. They were covered from head to toe in a thick,shaggy coat of hair with water-shedding properties that notably came in shades of brown,black,gray,and white. The species had two sexes,female and male. The latter grew long beards in adult life. The average male weighed 150 kilograms while the average female weighed 100 kilograms. The Wookiees eye color ranged from blue to brown. Wookiees were big eaters,with the average adult requiring 3,500-6,000 calories a day of food. Their diet consisted of wild plants,berries,meat,and spices. They preferred their spices to be hot. While Wookiees did not like eating blosphi extract,it provided them with enough nutrition to survive. The literary collective term for Wookiees was a grove of Wookiees. Many of their kind were known to understand Galactic Basic but were unable to speak it due to their species' vocal structure. Wookiees had extendable claws which they used for climbing; using them for anything else violated the Wookiee honor code. Despite their fearsome appearance and volatile temperament,Wookiees were regarded as intelligent,sophisticated,loyal and trusting. When angered,Wookiees were known to descend into a berserker rage. Wookiees had an average lifespan of 400 standard years,and they appeared not to age over a span of fifty years. Their lifespans dramatically decreased due to the harsh working conditions in the spice mines of Kessel. During their prime growing years,Wookiees were often hungry,forcing them to eat whenever they could. They could learn to understand other languages,like Galactic Basic Standard,but they were physically unable to speak them due to their strange vocal chords. To those who had not learned to understand Shyriiwook,the Wookiee language,it appeared they spoke in a series of growls and purrs. Although a rare phenomenon,Force-sensitive Wookiees were possible and some joined the ranks of the Jedi,a source of great pride to their people. https://starwars.fandom.com/wiki/Wookiee</description>
     <statBases></statBases>
     <alienRace>
       <thoughtSettings>
@@ -16,23 +16,23 @@
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
           <borderScale>2</borderScale>
-          <customDrawSize>( 1.5, 1.5 )</customDrawSize>
-          <customHeadDrawSize>( 1.2, 1.2 )</customHeadDrawSize>
-          <customPortraitDrawSize>( 1.5, 1.5 )</customPortraitDrawSize>
-          <customPortraitHeadDrawSize>( 1.2, 1.2 )</customPortraitHeadDrawSize>
+          <customDrawSize>( 1.5,1.5 )</customDrawSize>
+          <customHeadDrawSize>( 1.2,1.2 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 1.5,1.5 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 1.2,1.2 )</customPortraitHeadDrawSize>
           <headOffset>(0.0,0.2)</headOffset>
           <headOffsetDirectional Inherit="False">
             <south>
-              <offset>(0.0, 0.0)</offset>
+              <offset>(0.0,0.0)</offset>
             </south>
             <north>
-              <offset>(0.0, 0.0)</offset>
+              <offset>(0.0,0.0)</offset>
             </north>
             <east>
-              <offset>(0.1, 0.0)</offset>
+              <offset>(0.1,0.0)</offset>
             </east>
             <west>
-              <offset>(-0.1, 0.0)</offset>
+              <offset>(-0.1,0.0)</offset>
             </west>
           </headOffsetDirectional>
           <colorChannels Inherit="False">
@@ -42,32 +42,32 @@
                 <options>
                   <li>
                     <weight>100</weight>
-                    <only>RGBA(0.623, 0.380, 0.149,1)</only>
+                    <only>RGBA(0.623,0.380,0.149,1)</only>
                   </li>
                   <li>
                     <!-- #843e30 -->
                     <weight>100</weight>
-                    <only>RGBA(0.517, 0.243, 0.188,1)</only>
+                    <only>RGBA(0.517,0.243,0.188,1)</only>
                   </li>
                   <li>
                     <!-- #8b352d -->
                     <weight>100</weight>
-                    <only>RGBA(0.545, 0.207, 0.176,1)</only>
+                    <only>RGBA(0.545,0.207,0.176,1)</only>
                   </li>
                   <li>
                     <!-- #784b44 -->
                     <weight>100</weight>
-                    <only>RGBA(0.470, 0.294, 0.266,1)</only>
+                    <only>RGBA(0.470,0.294,0.266,1)</only>
                   </li>
                   <li>
                     <!-- #685855 -->
                     <weight>100</weight>
-                    <only>RGBA(0.407, 0.345, 0.333,1)</only>
+                    <only>RGBA(0.407,0.345,0.333,1)</only>
                   </li>
                   <li>
                     <!-- #764c41 -->
                     <weight>100</weight>
-                    <only>RGBA(0.462, 0.298, 0.254,1)</only>
+                    <only>RGBA(0.462,0.298,0.254,1)</only>
                   </li>
                 </options>
               </first>
@@ -75,23 +75,23 @@
                 <options>
                   <li>
                     <weight>90</weight>
-                    <only>RGBA(0.86, 0.84, 0.78, 1)</only>
+                    <only>RGBA(0.86,0.84,0.78,1)</only>
                   </li>
                   <li>
                     <weight>10</weight>
-                    <only>RGBA(0.85, 0.77, 0.61, 1)</only>
+                    <only>RGBA(0.85,0.77,0.61,1)</only>
                   </li>
                   <li>
                     <weight>5</weight>
-                    <only>RGBA(228, 213, 195, 255)</only>
+                    <only>RGBA(228,213,195,255)</only>
                   </li>
                   <li>
                     <weight>5</weight>
-                    <only>RGBA(214, 201, 185, 255)</only>
+                    <only>RGBA(214,201,185,255)</only>
                   </li>
                   <li>
                     <weight>5</weight>
-                    <only>RGBA(179, 166, 159, 255)</only>
+                    <only>RGBA(179,166,159,255)</only>
                   </li>
                 </options>
               </second>
@@ -108,13 +108,13 @@
           </colorChannels>
           <oldHairAgeCurve>
             <points>
-              <li>(0, 0)</li>
-              <li>(100, 0)</li>
-              <li>(200, 0)</li>
-              <li>(300, 0)</li>
-              <li>(350, 0.0001)</li>
-              <li>(399, 0.5)</li>
-              <li>(400, 1)</li>
+              <li>(0,0)</li>
+              <li>(100,0)</li>
+              <li>(200,0)</li>
+              <li>(300,0)</li>
+              <li>(350,0.0001)</li>
+              <li>(399,0.5)</li>
+              <li>(400,1)</li>
             </points>
           </oldHairAgeCurve>
         </alienPartGenerator>
@@ -144,36 +144,36 @@
         </growthAges>
         <lovinIntervalHoursFromAge>
           <points>
-            <li>(14, 0)</li>
-            <li>(20, 1)</li>
-            <li>(28, 1)</li>
-            <li>(350, 0.1)</li>
-            <li>(399, 0.02)</li>
-            <li>(400, 0)</li>
+            <li>(14,0)</li>
+            <li>(20,1)</li>
+            <li>(28,1)</li>
+            <li>(350,0.1)</li>
+            <li>(399,0.02)</li>
+            <li>(400,0)</li>
           </points>
         </lovinIntervalHoursFromAge>
         <maxDamageForSocialfight>6</maxDamageForSocialfight>
         <reproduction MayRequire="Ludeon.RimWorld.Biotech">
           <femaleFertilityAgeFactor MayRequire="Ludeon.RimWorld.Biotech">
             <points>
-              <li>(14, 0)</li>
-              <li>(20, 1)</li>
-              <li>(28, 1)</li>
-              <li>(225, 0.5)</li>
-              <li>(250, 0.1)</li>
-              <li>(299, 0.02)</li>
-              <li>(400, 0)</li>
+              <li>(14,0)</li>
+              <li>(20,1)</li>
+              <li>(28,1)</li>
+              <li>(225,0.5)</li>
+              <li>(250,0.1)</li>
+              <li>(299,0.02)</li>
+              <li>(400,0)</li>
             </points>
           </femaleFertilityAgeFactor>
           <maleFertilityAgeFactor MayRequire="Ludeon.RimWorld.Biotech">
             <points>
-              <li>(14, 0)</li>
-              <li>(20, 1)</li>
-              <li>(28, 1)</li>
-              <li>(225, 0.5)</li>
-              <li>(250, 0.1)</li>
-              <li>(299, 0.02)</li>
-              <li>(400, 0)</li>
+              <li>(14,0)</li>
+              <li>(20,1)</li>
+              <li>(28,1)</li>
+              <li>(225,0.5)</li>
+              <li>(250,0.1)</li>
+              <li>(299,0.02)</li>
+              <li>(400,0)</li>
             </points>
           </maleFertilityAgeFactor>
         </reproduction>

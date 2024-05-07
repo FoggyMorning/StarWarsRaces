@@ -59,6 +59,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SpaceRefugee">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari space refugee</label>
+    <defName>StarWarsRaces_MonCalamari_SpaceRefugee</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_SpaceRefugee_Clothed">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie space refugee</label>
@@ -118,6 +128,16 @@
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SpaceRefugee_Clothed">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari space refugee</label>
+    <defName>StarWarsRaces_MonCalamari_SpaceRefugee_Clothed</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_AncientSoldier">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie ancient soldier</label>
@@ -174,6 +194,16 @@
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <StarWarsRaces_TwilekBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_TwilekBaseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_AncientSoldier">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari ancient soldier</label>
+    <defName>StarWarsRaces_MonCalamari_AncientSoldier</defName>
+    <xenotypeSet>
+      <xenotypeChances Inherit="False">
+        <StarWarsRaces_MonCalamariBaseliner MayRequire="Ludeon.RimWorld.Biotech">999</StarWarsRaces_MonCalamariBaseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>

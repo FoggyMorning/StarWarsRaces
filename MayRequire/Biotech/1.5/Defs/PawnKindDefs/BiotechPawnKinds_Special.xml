@@ -34,6 +34,11 @@
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari mechanitor</label>
+    <defName>StarWarsRaces_MonCalamari_Mechanitor</defName>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Mechanitor_Basic">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie mechanitor</label>
@@ -67,6 +72,11 @@
     <apparelTags>
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Mechanitor_Basic">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari mechanitor</label>
+    <defName>StarWarsRaces_MonCalamari_Mechanitor_Basic</defName>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Sanguophage">
     <race>StarWarsRaces_Wookiee</race>
@@ -102,6 +112,11 @@
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari sanguophage</label>
+    <defName>StarWarsRaces_MonCalamari_Sanguophage</defName>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Sanguophage_Player">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie sanguophage</label>
@@ -135,6 +150,11 @@
     <apparelTags>
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Sanguophage_Player">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari sanguophage</label>
+    <defName>StarWarsRaces_MonCalamari_Sanguophage_Player</defName>
   </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_SanguophageThrall">
     <race>StarWarsRaces_Wookiee</race>
@@ -170,6 +190,11 @@
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_SanguophageThrall">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari thrall</label>
+    <defName>StarWarsRaces_MonCalamari_SanguophageThrall</defName>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Villager_Child">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie villager</label>
@@ -204,6 +229,11 @@
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
   </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Villager_Child">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari villager</label>
+    <defName>StarWarsRaces_MonCalamari_Villager_Child</defName>
+  </PawnKindDef>
   <PawnKindDef ParentName="StarWarsRaces_Tribal_Child">
     <race>StarWarsRaces_Wookiee</race>
     <label>Wookie villager</label>
@@ -237,5 +267,10 @@
     <apparelTags>
       <li>StarWarsRaces_TwilekApparelTag</li>
     </apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="StarWarsRaces_Tribal_Child">
+    <race>StarWarsRaces_MonCalamari</race>
+    <label>Mon Calamari villager</label>
+    <defName>StarWarsRaces_MonCalamari_Tribal_Child</defName>
   </PawnKindDef>
 </Defs>

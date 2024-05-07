@@ -37,7 +37,7 @@
     </inventoryOptions>
     <initialWillRange>0~1</initialWillRange>
     <initialResistanceRange>7~12</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Scavenger">
     <race>Human</race>
@@ -76,7 +76,7 @@
       <li>Gun</li>
     </weaponTags>
     <initialResistanceRange>17~26</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Thrasher">
     <race>Human</race>
@@ -118,7 +118,7 @@
       <li>MedievalMeleeDecent</li>
     </weaponTags>
     <initialResistanceRange>14~23</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Pirate">
     <race>Human</race>
@@ -161,6 +161,6 @@
     <biocodeWeaponChance>0.2</biocodeWeaponChance>
     <initialWillRange>2~3</initialWillRange>
     <initialResistanceRange>7~12</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

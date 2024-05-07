@@ -3,7 +3,7 @@
   <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Rodian" ParentName="Human">
     <defName>StarWarsRaces_Rodian</defName>
     <label>Rodian</label>
-    <description>Rodians were a species of reptilian humanoids. They possessed large pupil-less eyes that could see in infrared spectrum. Indeed, the Pantoran Kevmo Zink suspected the Rodians and his people saw different spectrums of light, but he was not sure what the exact divide was. Rodians also had twin saucer-like antennae that detected vibrations and twitched atop their head. Rodians also had slender snouts, pointed ears, and a ridge of spines cresting their skulls. Their snouts were said to resemble those of tapirs. Green—but sometimes red, yellow, or turquoise—scales covered their bodies, and their skin had a rough, pebbly texture, except on the snout and hands. They were cold blooded and had green blood. Females were physically distinguished by their mammary glands, and some of them, like Greeata Jendowanian, were capable of growing long tresses. The Rodian hand featured five long, dexterous fingers with suction cups at the ends. The pads helped them cope with the variety of conditions associated with living in a swamp, and could be used to help them climb aquatic vegetation. The shape of the Rodian hand, however, was as such that if an object was designed for their species, it would be uncomfortable for a human to use. Their toes were a lot like their fingers: long and tipped by suction cups. Although they were oxygen breathers, Rodians could breathe an air saturated with Clouzon-36 without the assistance of a respirator. Rodians smelled rank to humans. starwars.fandom.com/wiki/Rodian</description>
+    <description>Rodians were a species of reptilian humanoids. They possessed large pupil-less eyes that could see in infrared spectrum. Indeed,the Pantoran Kevmo Zink suspected the Rodians and his people saw different spectrums of light,but he was not sure what the exact divide was. Rodians also had twin saucer-like antennae that detected vibrations and twitched atop their head. Rodians also had slender snouts,pointed ears,and a ridge of spines cresting their skulls. Their snouts were said to resemble those of tapirs. Green—but sometimes red,yellow,or turquoise—scales covered their bodies,and their skin had a rough,pebbly texture,except on the snout and hands. They were cold blooded and had green blood. Females were physically distinguished by their mammary glands,and some of them,like Greeata Jendowanian,were capable of growing long tresses. The Rodian hand featured five long,dexterous fingers with suction cups at the ends. The pads helped them cope with the variety of conditions associated with living in a swamp,and could be used to help them climb aquatic vegetation. The shape of the Rodian hand,however,was as such that if an object was designed for their species,it would be uncomfortable for a human to use. Their toes were a lot like their fingers: long and tipped by suction cups. Although they were oxygen breathers,Rodians could breathe an air saturated with Clouzon-36 without the assistance of a respirator. Rodians smelled rank to humans. starwars.fandom.com/wiki/Rodian</description>
     <alienRace>
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
@@ -26,18 +26,18 @@
                   <!-- greens -->
                   <li>
                     <weight>100</weight>
-                    <min>RGBA(0,155,0, 255)</min>
-                    <max>RGBA(155,255,155, 255)</max>
+                    <min>RGBA(0,155,0,255)</min>
+                    <max>RGBA(155,255,155,255)</max>
                   </li>
                   <li>
                     <weight>50</weight>
-                    <min>RGBA(0,155,155, 255)</min>
-                    <max>RGBA(155,255,255, 255)</max>
+                    <min>RGBA(0,155,155,255)</min>
+                    <max>RGBA(155,255,255,255)</max>
                   </li>
                   <li>
                     <weight>10</weight>
-                    <min>RGBA(155,155,0, 255)</min>
-                    <max>RGBA(255,255,155, 255)</max>
+                    <min>RGBA(155,155,0,255)</min>
+                    <max>RGBA(255,255,155,255)</max>
                   </li>
                 </options>
               </first>
@@ -47,8 +47,8 @@
                   <!-- Reds -->
                   <li>
                     <weight>100</weight>
-                    <min>RGBA(155,0,0, 255)</min>
-                    <max>RGBA(255,155,155, 255)</max>
+                    <min>RGBA(155,0,0,255)</min>
+                    <max>RGBA(255,155,155,255)</max>
                   </li>
                 </options>
               </second>
@@ -60,46 +60,46 @@
                   <li>
                     <!-- Reds -->
                     <weight>100</weight>
-                    <min>RGBA(155,0,0, 255)</min>
-                    <max>RGBA(255,155,155, 255)</max>
+                    <min>RGBA(155,0,0,255)</min>
+                    <max>RGBA(255,155,155,255)</max>
                   </li>
                   <li>
                     <!-- #3965a7 blue-ish -->
                     <weight>80</weight>
-                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                    <only>RGBA(0.223,0.396,0.654,1)</only>
                   </li>
                   <li>
                     <!-- #e6850f orange-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                    <only>RGBA(0.901,0.521,0.058,1)</only>
                   </li>
                   <li>
                     <!-- #7f2929 red-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                    <only>RGBA(0.498,0.160,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #7e7f29 yellow-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.494, 0.498, 0.160,1)</only>
+                    <only>RGBA(0.494,0.498,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #9b60a4 purple-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                    <only>RGBA(0.607,0.376,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #609ca4 blue-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                    <only>RGBA(0.376,0.611,0.643,1)</only>
                   </li>
                 </options>
               </first>
               <second Class="ColorGenerator_Options">
                 <options>
                   <li>
-                    <min>RGBA(0,0,0,1)</min>
-                    <max>RGBA(1,1,1,1)</max>
+                    <min>RGBA(0,0,0,255)</min>
+                    <max>RGBA(1,1,1,255)</max>
                   </li>
                 </options>
               </second>
@@ -290,41 +290,41 @@
                 <west>
                   <layerOffset>-0.2797428</layerOffset>
                   <headTypes>
-                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
-                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
-                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+                    <Male_AverageNormal>( 0.0,0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0,0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0,0.0 )</Male_AverageWide>
 
-                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
-                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
-                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+                    <Female_AverageNormal>( 0.0,0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0,0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0,0.0 )</Female_AverageWide>
 
-                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
-                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
-                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+                    <Female_NarrowNormal>( 0.06,0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06,0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06,0.0 )</Female_NarrowWide>
 
-                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
-                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
-                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                    <Male_NarrowNormal>( 0.06,0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06,0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06,0.0 )</Male_NarrowWide>
                   </headTypes>
                 </west>
                 <east>
                   <layerOffset>-0.2797428</layerOffset>
                   <headTypes>
-                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
-                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
-                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+                    <Male_AverageNormal>( 0.0,0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0,0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0,0.0 )</Male_AverageWide>
 
-                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
-                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
-                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+                    <Female_AverageNormal>( 0.0,0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0,0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0,0.0 )</Female_AverageWide>
 
-                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
-                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
-                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+                    <Female_NarrowNormal>( 0.06,0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06,0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06,0.0 )</Female_NarrowWide>
 
-                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
-                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
-                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                    <Male_NarrowNormal>( 0.06,0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06,0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06,0.0 )</Male_NarrowWide>
                   </headTypes>
                 </east>
               </offsets>
@@ -351,41 +351,41 @@
                 <west>
                   <layerOffset>-0.2797428</layerOffset>
                   <headTypes>
-                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
-                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
-                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+                    <Male_AverageNormal>( 0.0,0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0,0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0,0.0 )</Male_AverageWide>
 
-                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
-                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
-                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+                    <Female_AverageNormal>( 0.0,0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0,0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0,0.0 )</Female_AverageWide>
 
-                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
-                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
-                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+                    <Female_NarrowNormal>( 0.06,0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06,0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06,0.0 )</Female_NarrowWide>
 
-                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
-                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
-                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                    <Male_NarrowNormal>( 0.06,0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06,0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06,0.0 )</Male_NarrowWide>
                   </headTypes>
                 </west>
                 <east>
                   <layerOffset>-0.2797428</layerOffset>
                   <headTypes>
-                    <Male_AverageNormal>( 0.0, 0.0 )</Male_AverageNormal>
-                    <Male_AveragePointy>( 0.0, 0.0 )</Male_AveragePointy>
-                    <Male_AverageWide>( 0.0, 0.0 )</Male_AverageWide>
+                    <Male_AverageNormal>( 0.0,0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( 0.0,0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( 0.0,0.0 )</Male_AverageWide>
 
-                    <Female_AverageNormal>( 0.0, 0.0 )</Female_AverageNormal>
-                    <Female_AveragePointy>( 0.0, 0.0 )</Female_AveragePointy>
-                    <Female_AverageWide>( 0.0, 0.0 )</Female_AverageWide>
+                    <Female_AverageNormal>( 0.0,0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( 0.0,0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( 0.0,0.0 )</Female_AverageWide>
 
-                    <Female_NarrowNormal>( 0.06, 0.0 )</Female_NarrowNormal>
-                    <Female_NarrowPointy>( 0.06, 0.0 )</Female_NarrowPointy>
-                    <Female_NarrowWide>( 0.06, 0.0 )</Female_NarrowWide>
+                    <Female_NarrowNormal>( 0.06,0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.06,0.0 )</Female_NarrowPointy>
+                    <Female_NarrowWide>( 0.06,0.0 )</Female_NarrowWide>
 
-                    <Male_NarrowNormal>( 0.06, 0.0 )</Male_NarrowNormal>
-                    <Male_NarrowPointy>( 0.06, 0.0 )</Male_NarrowPointy>
-                    <Male_NarrowWide>( 0.06, 0.0 )</Male_NarrowWide>
+                    <Male_NarrowNormal>( 0.06,0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.06,0.0 )</Male_NarrowPointy>
+                    <Male_NarrowWide>( 0.06,0.0 )</Male_NarrowWide>
                   </headTypes>
                 </east>
               </offsets>

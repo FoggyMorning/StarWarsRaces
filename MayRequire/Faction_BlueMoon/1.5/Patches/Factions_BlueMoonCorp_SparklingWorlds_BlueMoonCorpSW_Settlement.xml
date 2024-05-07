@@ -20,46 +20,55 @@
           <StarWarsRaces_Rodian_GrenadierBlueSunSW>20.00</StarWarsRaces_Rodian_GrenadierBlueSunSW>
           <StarWarsRaces_Ewok_GrenadierBlueSunSW>10.00</StarWarsRaces_Ewok_GrenadierBlueSunSW>
           <StarWarsRaces_Twilek_GrenadierBlueSunSW>20.00</StarWarsRaces_Twilek_GrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_GrenadierBlueSunSW>10.00</StarWarsRaces_MonCalamari_GrenadierBlueSunSW>
           <StarWarsRaces_Wookiee_EMPGrenadierBlueSunSW>3.50</StarWarsRaces_Wookiee_EMPGrenadierBlueSunSW>
           <StarWarsRaces_Togruta_EMPGrenadierBlueSunSW>5.00</StarWarsRaces_Togruta_EMPGrenadierBlueSunSW>
           <StarWarsRaces_Rodian_EMPGrenadierBlueSunSW>5.00</StarWarsRaces_Rodian_EMPGrenadierBlueSunSW>
           <StarWarsRaces_Ewok_EMPGrenadierBlueSunSW>2.50</StarWarsRaces_Ewok_EMPGrenadierBlueSunSW>
           <StarWarsRaces_Twilek_EMPGrenadierBlueSunSW>5.00</StarWarsRaces_Twilek_EMPGrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_EMPGrenadierBlueSunSW>2.50</StarWarsRaces_MonCalamari_EMPGrenadierBlueSunSW>
           <StarWarsRaces_Wookiee_SmokeGrenadierBlueSunSW>3.50</StarWarsRaces_Wookiee_SmokeGrenadierBlueSunSW>
           <StarWarsRaces_Togruta_SmokeGrenadierBlueSunSW>5.00</StarWarsRaces_Togruta_SmokeGrenadierBlueSunSW>
           <StarWarsRaces_Rodian_SmokeGrenadierBlueSunSW>5.00</StarWarsRaces_Rodian_SmokeGrenadierBlueSunSW>
           <StarWarsRaces_Ewok_SmokeGrenadierBlueSunSW>2.50</StarWarsRaces_Ewok_SmokeGrenadierBlueSunSW>
           <StarWarsRaces_Twilek_SmokeGrenadierBlueSunSW>5.00</StarWarsRaces_Twilek_SmokeGrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SmokeGrenadierBlueSunSW>2.50</StarWarsRaces_MonCalamari_SmokeGrenadierBlueSunSW>
           <StarWarsRaces_Wookiee_SniperBlueSunSW>56.00</StarWarsRaces_Wookiee_SniperBlueSunSW>
           <StarWarsRaces_Togruta_SniperBlueSunSW>80.00</StarWarsRaces_Togruta_SniperBlueSunSW>
           <StarWarsRaces_Rodian_SniperBlueSunSW>80.00</StarWarsRaces_Rodian_SniperBlueSunSW>
           <StarWarsRaces_Ewok_SniperBlueSunSW>40.00</StarWarsRaces_Ewok_SniperBlueSunSW>
           <StarWarsRaces_Twilek_SniperBlueSunSW>80.00</StarWarsRaces_Twilek_SniperBlueSunSW>
+          <StarWarsRaces_MonCalamari_SniperBlueSunSW>40.00</StarWarsRaces_MonCalamari_SniperBlueSunSW>
           <StarWarsRaces_Wookiee_SlasherBlueSunSW>28.00</StarWarsRaces_Wookiee_SlasherBlueSunSW>
           <StarWarsRaces_Togruta_SlasherBlueSunSW>40.00</StarWarsRaces_Togruta_SlasherBlueSunSW>
           <StarWarsRaces_Rodian_SlasherBlueSunSW>40.00</StarWarsRaces_Rodian_SlasherBlueSunSW>
           <StarWarsRaces_Ewok_SlasherBlueSunSW>20.00</StarWarsRaces_Ewok_SlasherBlueSunSW>
           <StarWarsRaces_Twilek_SlasherBlueSunSW>40.00</StarWarsRaces_Twilek_SlasherBlueSunSW>
+          <StarWarsRaces_MonCalamari_SlasherBlueSunSW>20.00</StarWarsRaces_MonCalamari_SlasherBlueSunSW>
           <StarWarsRaces_Wookiee_HeavyWeaponsBlueSunSW>49.00</StarWarsRaces_Wookiee_HeavyWeaponsBlueSunSW>
           <StarWarsRaces_Togruta_HeavyWeaponsBlueSunSW>70.00</StarWarsRaces_Togruta_HeavyWeaponsBlueSunSW>
           <StarWarsRaces_Rodian_HeavyWeaponsBlueSunSW>70.00</StarWarsRaces_Rodian_HeavyWeaponsBlueSunSW>
           <StarWarsRaces_Ewok_HeavyWeaponsBlueSunSW>35.00</StarWarsRaces_Ewok_HeavyWeaponsBlueSunSW>
           <StarWarsRaces_Twilek_HeavyWeaponsBlueSunSW>70.00</StarWarsRaces_Twilek_HeavyWeaponsBlueSunSW>
+          <StarWarsRaces_MonCalamari_HeavyWeaponsBlueSunSW>35.00</StarWarsRaces_MonCalamari_HeavyWeaponsBlueSunSW>
           <StarWarsRaces_Wookiee_SoldierBlueSunSW>140.00</StarWarsRaces_Wookiee_SoldierBlueSunSW>
           <StarWarsRaces_Togruta_SoldierBlueSunSW>200.00</StarWarsRaces_Togruta_SoldierBlueSunSW>
           <StarWarsRaces_Rodian_SoldierBlueSunSW>200.00</StarWarsRaces_Rodian_SoldierBlueSunSW>
           <StarWarsRaces_Ewok_SoldierBlueSunSW>100.00</StarWarsRaces_Ewok_SoldierBlueSunSW>
           <StarWarsRaces_Twilek_SoldierBlueSunSW>200.00</StarWarsRaces_Twilek_SoldierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SoldierBlueSunSW>100.00</StarWarsRaces_MonCalamari_SoldierBlueSunSW>
           <StarWarsRaces_Wookiee_SoldierEliteBlueSunSW>126.00</StarWarsRaces_Wookiee_SoldierEliteBlueSunSW>
           <StarWarsRaces_Togruta_SoldierEliteBlueSunSW>180.00</StarWarsRaces_Togruta_SoldierEliteBlueSunSW>
           <StarWarsRaces_Rodian_SoldierEliteBlueSunSW>180.00</StarWarsRaces_Rodian_SoldierEliteBlueSunSW>
           <StarWarsRaces_Ewok_SoldierEliteBlueSunSW>90.00</StarWarsRaces_Ewok_SoldierEliteBlueSunSW>
           <StarWarsRaces_Twilek_SoldierEliteBlueSunSW>180.00</StarWarsRaces_Twilek_SoldierEliteBlueSunSW>
+          <StarWarsRaces_MonCalamari_SoldierEliteBlueSunSW>90.00</StarWarsRaces_MonCalamari_SoldierEliteBlueSunSW>
           <StarWarsRaces_Wookiee_BlueSunBossSW>98.00</StarWarsRaces_Wookiee_BlueSunBossSW>
           <StarWarsRaces_Togruta_BlueSunBossSW>140.00</StarWarsRaces_Togruta_BlueSunBossSW>
           <StarWarsRaces_Rodian_BlueSunBossSW>140.00</StarWarsRaces_Rodian_BlueSunBossSW>
           <StarWarsRaces_Ewok_BlueSunBossSW>70.00</StarWarsRaces_Ewok_BlueSunBossSW>
           <StarWarsRaces_Twilek_BlueSunBossSW>140.00</StarWarsRaces_Twilek_BlueSunBossSW>
+          <StarWarsRaces_MonCalamari_BlueSunBossSW>70.00</StarWarsRaces_MonCalamari_BlueSunBossSW>
         </options>
       </li>
       <li>
@@ -110,6 +119,15 @@
           <StarWarsRaces_Twilek_SoldierBlueSunSW>200.00</StarWarsRaces_Twilek_SoldierBlueSunSW>
           <StarWarsRaces_Twilek_SoldierEliteBlueSunSW>180.00</StarWarsRaces_Twilek_SoldierEliteBlueSunSW>
           <StarWarsRaces_Twilek_BlueSunBossSW>140.00</StarWarsRaces_Twilek_BlueSunBossSW>
+          <StarWarsRaces_MonCalamari_GrenadierBlueSunSW>10.00</StarWarsRaces_MonCalamari_GrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_EMPGrenadierBlueSunSW>2.50</StarWarsRaces_MonCalamari_EMPGrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SmokeGrenadierBlueSunSW>2.50</StarWarsRaces_MonCalamari_SmokeGrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SniperBlueSunSW>40.00</StarWarsRaces_MonCalamari_SniperBlueSunSW>
+          <StarWarsRaces_MonCalamari_SlasherBlueSunSW>20.00</StarWarsRaces_MonCalamari_SlasherBlueSunSW>
+          <StarWarsRaces_MonCalamari_HeavyWeaponsBlueSunSW>35.00</StarWarsRaces_MonCalamari_HeavyWeaponsBlueSunSW>
+          <StarWarsRaces_MonCalamari_SoldierBlueSunSW>100.00</StarWarsRaces_MonCalamari_SoldierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SoldierEliteBlueSunSW>90.00</StarWarsRaces_MonCalamari_SoldierEliteBlueSunSW>
+          <StarWarsRaces_MonCalamari_BlueSunBossSW>70.00</StarWarsRaces_MonCalamari_BlueSunBossSW>
         </options>
       </li>
       <li>
@@ -180,6 +198,20 @@
           <StarWarsRaces_Twilek_SoldierBlueSunSW>200.00</StarWarsRaces_Twilek_SoldierBlueSunSW>
           <StarWarsRaces_Twilek_SoldierEliteBlueSunSW>180.00</StarWarsRaces_Twilek_SoldierEliteBlueSunSW>
           <StarWarsRaces_Twilek_BlueSunBossSW>140.00</StarWarsRaces_Twilek_BlueSunBossSW>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_MonCalamari_GrenadierBlueSunSW>10.00</StarWarsRaces_MonCalamari_GrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_EMPGrenadierBlueSunSW>2.50</StarWarsRaces_MonCalamari_EMPGrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SmokeGrenadierBlueSunSW>2.50</StarWarsRaces_MonCalamari_SmokeGrenadierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SniperBlueSunSW>40.00</StarWarsRaces_MonCalamari_SniperBlueSunSW>
+          <StarWarsRaces_MonCalamari_SlasherBlueSunSW>20.00</StarWarsRaces_MonCalamari_SlasherBlueSunSW>
+          <StarWarsRaces_MonCalamari_HeavyWeaponsBlueSunSW>35.00</StarWarsRaces_MonCalamari_HeavyWeaponsBlueSunSW>
+          <StarWarsRaces_MonCalamari_SoldierBlueSunSW>100.00</StarWarsRaces_MonCalamari_SoldierBlueSunSW>
+          <StarWarsRaces_MonCalamari_SoldierEliteBlueSunSW>90.00</StarWarsRaces_MonCalamari_SoldierEliteBlueSunSW>
+          <StarWarsRaces_MonCalamari_BlueSunBossSW>70.00</StarWarsRaces_MonCalamari_BlueSunBossSW>
         </options>
       </li>
     </value>

@@ -26,31 +26,37 @@
           <StarWarsRaces_Rodian_Villager>3.00</StarWarsRaces_Rodian_Villager>
           <StarWarsRaces_Ewok_Villager>1.50</StarWarsRaces_Ewok_Villager>
           <StarWarsRaces_Twilek_Villager>3.00</StarWarsRaces_Twilek_Villager>
+          <StarWarsRaces_MonCalamari_Villager>1.50</StarWarsRaces_MonCalamari_Villager>
           <StarWarsRaces_Wookiee_Town_Guard>7.00</StarWarsRaces_Wookiee_Town_Guard>
           <StarWarsRaces_Togruta_Town_Guard>10.00</StarWarsRaces_Togruta_Town_Guard>
           <StarWarsRaces_Rodian_Town_Guard>10.00</StarWarsRaces_Rodian_Town_Guard>
           <StarWarsRaces_Ewok_Town_Guard>5.00</StarWarsRaces_Ewok_Town_Guard>
           <StarWarsRaces_Twilek_Town_Guard>10.00</StarWarsRaces_Twilek_Town_Guard>
+          <StarWarsRaces_MonCalamari_Town_Guard>5.00</StarWarsRaces_MonCalamari_Town_Guard>
           <StarWarsRaces_Wookiee_Grenadier_Destructive>1.05</StarWarsRaces_Wookiee_Grenadier_Destructive>
           <StarWarsRaces_Togruta_Grenadier_Destructive>1.50</StarWarsRaces_Togruta_Grenadier_Destructive>
           <StarWarsRaces_Rodian_Grenadier_Destructive>1.50</StarWarsRaces_Rodian_Grenadier_Destructive>
           <StarWarsRaces_Ewok_Grenadier_Destructive>0.75</StarWarsRaces_Ewok_Grenadier_Destructive>
           <StarWarsRaces_Twilek_Grenadier_Destructive>1.50</StarWarsRaces_Twilek_Grenadier_Destructive>
+          <StarWarsRaces_MonCalamari_Grenadier_Destructive>0.75</StarWarsRaces_MonCalamari_Grenadier_Destructive>
           <StarWarsRaces_Wookiee_Mercenary_Slasher>4.90</StarWarsRaces_Wookiee_Mercenary_Slasher>
           <StarWarsRaces_Togruta_Mercenary_Slasher>7.00</StarWarsRaces_Togruta_Mercenary_Slasher>
           <StarWarsRaces_Rodian_Mercenary_Slasher>7.00</StarWarsRaces_Rodian_Mercenary_Slasher>
           <StarWarsRaces_Ewok_Mercenary_Slasher>3.50</StarWarsRaces_Ewok_Mercenary_Slasher>
           <StarWarsRaces_Twilek_Mercenary_Slasher>7.00</StarWarsRaces_Twilek_Mercenary_Slasher>
+          <StarWarsRaces_MonCalamari_Mercenary_Slasher>3.50</StarWarsRaces_MonCalamari_Mercenary_Slasher>
           <StarWarsRaces_Wookiee_Mercenary_Gunner>7.00</StarWarsRaces_Wookiee_Mercenary_Gunner>
           <StarWarsRaces_Togruta_Mercenary_Gunner>10.00</StarWarsRaces_Togruta_Mercenary_Gunner>
           <StarWarsRaces_Rodian_Mercenary_Gunner>10.00</StarWarsRaces_Rodian_Mercenary_Gunner>
           <StarWarsRaces_Ewok_Mercenary_Gunner>5.00</StarWarsRaces_Ewok_Mercenary_Gunner>
           <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
+          <StarWarsRaces_MonCalamari_Mercenary_Gunner>5.00</StarWarsRaces_MonCalamari_Mercenary_Gunner>
           <StarWarsRaces_Wookiee_Mercenary_Elite>7.00</StarWarsRaces_Wookiee_Mercenary_Elite>
           <StarWarsRaces_Togruta_Mercenary_Elite>10.00</StarWarsRaces_Togruta_Mercenary_Elite>
           <StarWarsRaces_Rodian_Mercenary_Elite>10.00</StarWarsRaces_Rodian_Mercenary_Elite>
           <StarWarsRaces_Ewok_Mercenary_Elite>5.00</StarWarsRaces_Ewok_Mercenary_Elite>
           <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
+          <StarWarsRaces_MonCalamari_Mercenary_Elite>5.00</StarWarsRaces_MonCalamari_Mercenary_Elite>
         </guards>
       </li>
       <li>
@@ -95,6 +101,12 @@
           <StarWarsRaces_Twilek_Mercenary_Slasher>7.00</StarWarsRaces_Twilek_Mercenary_Slasher>
           <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
           <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
+          <StarWarsRaces_MonCalamari_Villager>1.50</StarWarsRaces_MonCalamari_Villager>
+          <StarWarsRaces_MonCalamari_Town_Guard>5.00</StarWarsRaces_MonCalamari_Town_Guard>
+          <StarWarsRaces_MonCalamari_Grenadier_Destructive>0.75</StarWarsRaces_MonCalamari_Grenadier_Destructive>
+          <StarWarsRaces_MonCalamari_Mercenary_Slasher>3.50</StarWarsRaces_MonCalamari_Mercenary_Slasher>
+          <StarWarsRaces_MonCalamari_Mercenary_Gunner>5.00</StarWarsRaces_MonCalamari_Mercenary_Gunner>
+          <StarWarsRaces_MonCalamari_Mercenary_Elite>5.00</StarWarsRaces_MonCalamari_Mercenary_Elite>
         </guards>
       </li>
       <li>
@@ -195,6 +207,26 @@
           <StarWarsRaces_Twilek_Mercenary_Slasher>7.00</StarWarsRaces_Twilek_Mercenary_Slasher>
           <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
           <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <StarWarsRaces_MonCalamari_Villager>1.50</StarWarsRaces_MonCalamari_Villager>
+          <StarWarsRaces_MonCalamari_Town_Guard>5.00</StarWarsRaces_MonCalamari_Town_Guard>
+          <StarWarsRaces_MonCalamari_Grenadier_Destructive>0.75</StarWarsRaces_MonCalamari_Grenadier_Destructive>
+          <StarWarsRaces_MonCalamari_Mercenary_Slasher>3.50</StarWarsRaces_MonCalamari_Mercenary_Slasher>
+          <StarWarsRaces_MonCalamari_Mercenary_Gunner>5.00</StarWarsRaces_MonCalamari_Mercenary_Gunner>
+          <StarWarsRaces_MonCalamari_Mercenary_Elite>5.00</StarWarsRaces_MonCalamari_Mercenary_Elite>
         </guards>
       </li>
     </value>

@@ -28,7 +28,7 @@
     <techHediffsChance>0.03</techHediffsChance>
     <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Miner">
     <race>Human</race>
@@ -60,7 +60,7 @@
     <techHediffsMaxAmount>1</techHediffsMaxAmount>
     <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Hunter">
     <race>Human</race>
@@ -95,7 +95,7 @@
     </techHediffsTags>
     <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Logger">
     <race>Human</race>
@@ -128,7 +128,7 @@
     <techHediffsChance>0.03</techHediffsChance>
     <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Logger">
     <race>Human</race>
@@ -161,7 +161,7 @@
     </techHediffsTags>
     <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Tribal_Farmer">
     <race>Human</race>
@@ -194,7 +194,7 @@
     <techHediffsChance>0.03</techHediffsChance>
     <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Farmer">
     <race>Human</race>
@@ -229,6 +229,6 @@
     <techHediffsMaxAmount>1</techHediffsMaxAmount>
     <initialWillRange>1~2</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

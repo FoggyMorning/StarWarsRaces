@@ -19,41 +19,49 @@
           <StarWarsRaces_Rodian_Thrasher>3.00</StarWarsRaces_Rodian_Thrasher>
           <StarWarsRaces_Ewok_Thrasher>1.50</StarWarsRaces_Ewok_Thrasher>
           <StarWarsRaces_Twilek_Thrasher>3.00</StarWarsRaces_Twilek_Thrasher>
+          <StarWarsRaces_MonCalamari_Thrasher>1.50</StarWarsRaces_MonCalamari_Thrasher>
           <StarWarsRaces_Wookiee_Pirate>7.00</StarWarsRaces_Wookiee_Pirate>
           <StarWarsRaces_Togruta_Pirate>10.00</StarWarsRaces_Togruta_Pirate>
           <StarWarsRaces_Rodian_Pirate>10.00</StarWarsRaces_Rodian_Pirate>
           <StarWarsRaces_Ewok_Pirate>5.00</StarWarsRaces_Ewok_Pirate>
           <StarWarsRaces_Twilek_Pirate>10.00</StarWarsRaces_Twilek_Pirate>
+          <StarWarsRaces_MonCalamari_Pirate>5.00</StarWarsRaces_MonCalamari_Pirate>
           <StarWarsRaces_Wookiee_Grenadier_Destructive>1.40</StarWarsRaces_Wookiee_Grenadier_Destructive>
           <StarWarsRaces_Togruta_Grenadier_Destructive>2.00</StarWarsRaces_Togruta_Grenadier_Destructive>
           <StarWarsRaces_Rodian_Grenadier_Destructive>2.00</StarWarsRaces_Rodian_Grenadier_Destructive>
           <StarWarsRaces_Ewok_Grenadier_Destructive>1.00</StarWarsRaces_Ewok_Grenadier_Destructive>
           <StarWarsRaces_Twilek_Grenadier_Destructive>2.00</StarWarsRaces_Twilek_Grenadier_Destructive>
+          <StarWarsRaces_MonCalamari_Grenadier_Destructive>1.00</StarWarsRaces_MonCalamari_Grenadier_Destructive>
           <StarWarsRaces_Wookiee_Mercenary_Slasher>2.10</StarWarsRaces_Wookiee_Mercenary_Slasher>
           <StarWarsRaces_Togruta_Mercenary_Slasher>3.00</StarWarsRaces_Togruta_Mercenary_Slasher>
           <StarWarsRaces_Rodian_Mercenary_Slasher>3.00</StarWarsRaces_Rodian_Mercenary_Slasher>
           <StarWarsRaces_Ewok_Mercenary_Slasher>1.50</StarWarsRaces_Ewok_Mercenary_Slasher>
           <StarWarsRaces_Twilek_Mercenary_Slasher>3.00</StarWarsRaces_Twilek_Mercenary_Slasher>
+          <StarWarsRaces_MonCalamari_Mercenary_Slasher>1.50</StarWarsRaces_MonCalamari_Mercenary_Slasher>
           <StarWarsRaces_Wookiee_Mercenary_Sniper>7.00</StarWarsRaces_Wookiee_Mercenary_Sniper>
           <StarWarsRaces_Togruta_Mercenary_Sniper>10.00</StarWarsRaces_Togruta_Mercenary_Sniper>
           <StarWarsRaces_Rodian_Mercenary_Sniper>10.00</StarWarsRaces_Rodian_Mercenary_Sniper>
           <StarWarsRaces_Ewok_Mercenary_Sniper>5.00</StarWarsRaces_Ewok_Mercenary_Sniper>
           <StarWarsRaces_Twilek_Mercenary_Sniper>10.00</StarWarsRaces_Twilek_Mercenary_Sniper>
+          <StarWarsRaces_MonCalamari_Mercenary_Sniper>5.00</StarWarsRaces_MonCalamari_Mercenary_Sniper>
           <StarWarsRaces_Wookiee_Mercenary_Gunner>7.00</StarWarsRaces_Wookiee_Mercenary_Gunner>
           <StarWarsRaces_Togruta_Mercenary_Gunner>10.00</StarWarsRaces_Togruta_Mercenary_Gunner>
           <StarWarsRaces_Rodian_Mercenary_Gunner>10.00</StarWarsRaces_Rodian_Mercenary_Gunner>
           <StarWarsRaces_Ewok_Mercenary_Gunner>5.00</StarWarsRaces_Ewok_Mercenary_Gunner>
           <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
+          <StarWarsRaces_MonCalamari_Mercenary_Gunner>5.00</StarWarsRaces_MonCalamari_Mercenary_Gunner>
           <StarWarsRaces_Wookiee_Mercenary_Elite>7.00</StarWarsRaces_Wookiee_Mercenary_Elite>
           <StarWarsRaces_Togruta_Mercenary_Elite>10.00</StarWarsRaces_Togruta_Mercenary_Elite>
           <StarWarsRaces_Rodian_Mercenary_Elite>10.00</StarWarsRaces_Rodian_Mercenary_Elite>
           <StarWarsRaces_Ewok_Mercenary_Elite>5.00</StarWarsRaces_Ewok_Mercenary_Elite>
           <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
+          <StarWarsRaces_MonCalamari_Mercenary_Elite>5.00</StarWarsRaces_MonCalamari_Mercenary_Elite>
           <StarWarsRaces_Wookiee_PirateBoss>7.00</StarWarsRaces_Wookiee_PirateBoss>
           <StarWarsRaces_Togruta_PirateBoss>10.00</StarWarsRaces_Togruta_PirateBoss>
           <StarWarsRaces_Rodian_PirateBoss>10.00</StarWarsRaces_Rodian_PirateBoss>
           <StarWarsRaces_Ewok_PirateBoss>5.00</StarWarsRaces_Ewok_PirateBoss>
           <StarWarsRaces_Twilek_PirateBoss>10.00</StarWarsRaces_Twilek_PirateBoss>
+          <StarWarsRaces_MonCalamari_PirateBoss>5.00</StarWarsRaces_MonCalamari_PirateBoss>
         </options>
       </li>
       <li>
@@ -99,6 +107,14 @@
           <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
           <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
           <StarWarsRaces_Twilek_PirateBoss>10.00</StarWarsRaces_Twilek_PirateBoss>
+          <StarWarsRaces_MonCalamari_Thrasher>1.50</StarWarsRaces_MonCalamari_Thrasher>
+          <StarWarsRaces_MonCalamari_Pirate>5.00</StarWarsRaces_MonCalamari_Pirate>
+          <StarWarsRaces_MonCalamari_Grenadier_Destructive>1.00</StarWarsRaces_MonCalamari_Grenadier_Destructive>
+          <StarWarsRaces_MonCalamari_Mercenary_Slasher>1.50</StarWarsRaces_MonCalamari_Mercenary_Slasher>
+          <StarWarsRaces_MonCalamari_Mercenary_Sniper>5.00</StarWarsRaces_MonCalamari_Mercenary_Sniper>
+          <StarWarsRaces_MonCalamari_Mercenary_Gunner>5.00</StarWarsRaces_MonCalamari_Mercenary_Gunner>
+          <StarWarsRaces_MonCalamari_Mercenary_Elite>5.00</StarWarsRaces_MonCalamari_Mercenary_Elite>
+          <StarWarsRaces_MonCalamari_PirateBoss>5.00</StarWarsRaces_MonCalamari_PirateBoss>
         </options>
       </li>
       <li>
@@ -164,6 +180,19 @@
           <StarWarsRaces_Twilek_Mercenary_Gunner>10.00</StarWarsRaces_Twilek_Mercenary_Gunner>
           <StarWarsRaces_Twilek_Mercenary_Elite>10.00</StarWarsRaces_Twilek_Mercenary_Elite>
           <StarWarsRaces_Twilek_PirateBoss>10.00</StarWarsRaces_Twilek_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_MonCalamari_Thrasher>1.50</StarWarsRaces_MonCalamari_Thrasher>
+          <StarWarsRaces_MonCalamari_Pirate>5.00</StarWarsRaces_MonCalamari_Pirate>
+          <StarWarsRaces_MonCalamari_Grenadier_Destructive>1.00</StarWarsRaces_MonCalamari_Grenadier_Destructive>
+          <StarWarsRaces_MonCalamari_Mercenary_Slasher>1.50</StarWarsRaces_MonCalamari_Mercenary_Slasher>
+          <StarWarsRaces_MonCalamari_Mercenary_Sniper>5.00</StarWarsRaces_MonCalamari_Mercenary_Sniper>
+          <StarWarsRaces_MonCalamari_Mercenary_Gunner>5.00</StarWarsRaces_MonCalamari_Mercenary_Gunner>
+          <StarWarsRaces_MonCalamari_Mercenary_Elite>5.00</StarWarsRaces_MonCalamari_Mercenary_Elite>
+          <StarWarsRaces_MonCalamari_PirateBoss>5.00</StarWarsRaces_MonCalamari_PirateBoss>
         </options>
       </li>
     </value>

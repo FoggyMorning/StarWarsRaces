@@ -42,6 +42,5 @@
         <numRandomWeaknesses>1</numRandomWeaknesses>
       </li>
     </modExtensions>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
 </Defs>

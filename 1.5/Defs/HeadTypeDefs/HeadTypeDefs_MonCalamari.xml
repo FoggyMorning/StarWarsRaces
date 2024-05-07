@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>StarWarsRaces_MonCalamari_Male_Average_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/StarWarsRaces_MonCalamari_Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>StarWarsRaces_MonCalamari_Female_Average_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/StarWarsRaces_MonCalamari_Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+</Defs>

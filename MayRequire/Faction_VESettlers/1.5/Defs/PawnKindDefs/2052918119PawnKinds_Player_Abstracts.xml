@@ -35,6 +35,6 @@
     </techHediffsTags>
     <techHediffsChance>0.06</techHediffsChance>
     <initialResistanceRange>13~21</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

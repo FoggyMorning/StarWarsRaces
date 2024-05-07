@@ -3,7 +3,7 @@
   <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Togruta" ParentName="Human">
     <defName>StarWarsRaces_Togruta</defName>
     <label>Togruta</label>
-    <description>Native to the Expansion Region planet Shili but later found throughout the galaxy, the Togruta were a species of sentient humanoids whose skin spanned a vast array of colors, including, but not limited to, orange, red, white, and yellow. These characteristics were a result of evolution; Togruta coloration was helpful as a method of camouflage from predators. Their most notable features were the large organic head formations upon their heads; two large cone-like horns called montrals atop their skull, and three lekku, also known as headtails, that sprouted downward. Both a Togruta's lekku and montrals tended to grow until they reached maturity, with females generally having longer lekku than the males. The male's montrals, however, were more branched than the females. A Togruta's montrals allowed them to sense the movement of objects around them through echolocation, and could sense up to 82 feet. https://starwars.fandom.com/wiki/Togruta</description>
+    <description>Native to the Expansion Region planet Shili but later found throughout the galaxy,the Togruta were a species of sentient humanoids whose skin spanned a vast array of colors,including,but not limited to,orange,red,white,and yellow. These characteristics were a result of evolution; Togruta coloration was helpful as a method of camouflage from predators. Their most notable features were the large organic head formations upon their heads; two large cone-like horns called montrals atop their skull,and three lekku,also known as headtails,that sprouted downward. Both a Togruta's lekku and montrals tended to grow until they reached maturity,with females generally having longer lekku than the males. The male's montrals,however,were more branched than the females. A Togruta's montrals allowed them to sense the movement of objects around them through echolocation,and could sense up to 82 feet. https://starwars.fandom.com/wiki/Togruta</description>
     <alienRace>
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
@@ -16,37 +16,37 @@
                   <li>
                     <!-- #e6850f orange-ish -->
                     <weight>80</weight>
-                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                    <only>RGBA(0.901,0.521,0.058,1)</only>
                   </li>
                   <li>
                     <!-- #3965a7 blue-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                    <only>RGBA(0.223,0.396,0.654,1)</only>
                   </li>
                   <li>
                     <!-- #7f2929 red-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                    <only>RGBA(0.498,0.160,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #9b60a4 purple-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                    <only>RGBA(0.607,0.376,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #609ca4 blue-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                    <only>RGBA(0.376,0.611,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #60a47c green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                    <only>RGBA(0.376,0.643,0.486,1)</only>
                   </li>
                   <li>
                     <!-- #80a460 green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                    <only>RGBA(0.501,0.643,0.376,1)</only>
                   </li>
                 </options>
               </first>
@@ -55,47 +55,47 @@
                   <li>
                     <!-- #3965a7 blue-ish -->
                     <weight>80</weight>
-                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                    <only>RGBA(0.223,0.396,0.654,1)</only>
                   </li>
                   <li>
                     <!-- #e6850f orange-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                    <only>RGBA(0.901,0.521,0.058,1)</only>
                   </li>
                   <li>
                     <!-- #7f2929 red-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                    <only>RGBA(0.498,0.160,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #7e7f29 yellow-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.494, 0.498, 0.160,1)</only>
+                    <only>RGBA(0.494,0.498,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #9b60a4 purple-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                    <only>RGBA(0.607,0.376,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #609ca4 blue-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                    <only>RGBA(0.376,0.611,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #60a47c green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                    <only>RGBA(0.376,0.643,0.486,1)</only>
                   </li>
                   <li>
                     <!-- #80a460 green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                    <only>RGBA(0.501,0.643,0.376,1)</only>
                   </li>
                   <li>
                     <!-- #a48160 brown-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.643, 0.505, 0.376,1)</only>
+                    <only>RGBA(0.643,0.505,0.376,1)</only>
                   </li>
                 </options>
               </second>
@@ -107,37 +107,37 @@
                   <li>
                     <!-- #e6850f orange-ish -->
                     <weight>80</weight>
-                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                    <only>RGBA(0.901,0.521,0.058,1)</only>
                   </li>
                   <li>
                     <!-- #3965a7 blue-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                    <only>RGBA(0.223,0.396,0.654,1)</only>
                   </li>
                   <li>
                     <!-- #7f2929 red-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                    <only>RGBA(0.498,0.160,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #9b60a4 purple-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                    <only>RGBA(0.607,0.376,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #609ca4 blue-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                    <only>RGBA(0.376,0.611,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #60a47c green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                    <only>RGBA(0.376,0.643,0.486,1)</only>
                   </li>
                   <li>
                     <!-- #80a460 green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                    <only>RGBA(0.501,0.643,0.376,1)</only>
                   </li>
                 </options>
               </first>
@@ -146,47 +146,47 @@
                   <li>
                     <!-- #3965a7 blue-ish -->
                     <weight>80</weight>
-                    <only>RGBA(0.223, 0.396, 0.654,1)</only>
+                    <only>RGBA(0.223,0.396,0.654,1)</only>
                   </li>
                   <li>
                     <!-- #e6850f orange-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.901, 0.521, 0.058,1)</only>
+                    <only>RGBA(0.901,0.521,0.058,1)</only>
                   </li>
                   <li>
                     <!-- #7f2929 red-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.498, 0.160, 0.160,1)</only>
+                    <only>RGBA(0.498,0.160,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #7e7f29 yellow-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.494, 0.498, 0.160,1)</only>
+                    <only>RGBA(0.494,0.498,0.160,1)</only>
                   </li>
                   <li>
                     <!-- #9b60a4 purple-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.607, 0.376, 0.643,1)</only>
+                    <only>RGBA(0.607,0.376,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #609ca4 blue-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.611, 0.643,1)</only>
+                    <only>RGBA(0.376,0.611,0.643,1)</only>
                   </li>
                   <li>
                     <!-- #60a47c green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.376, 0.643, 0.486,1)</only>
+                    <only>RGBA(0.376,0.643,0.486,1)</only>
                   </li>
                   <li>
                     <!-- #80a460 green-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.501, 0.643, 0.376,1)</only>
+                    <only>RGBA(0.501,0.643,0.376,1)</only>
                   </li>
                   <li>
                     <!-- #a48160 brown-ish -->
                     <weight>10</weight>
-                    <only>RGBA(0.643, 0.505, 0.376,1)</only>
+                    <only>RGBA(0.643,0.505,0.376,1)</only>
                   </li>
                 </options>
               </second>
@@ -202,16 +202,16 @@
             </li>
           </colorChannels>
           <bodyAddons Inherit="False">
-            <!-- in front of head, but behind light sabers for all views but north
+            <!-- in front of head,but behind light sabers for all views but north
             Thanks
             to Delta1138 from steam for finding this layeroffset that is behind hats and in front of
             heads
                 ...the sweet spot so they are behind hats/helmets but still in
             front of the head/face.
                 ...when they wear the jedi (or any headgear)
-            hood, the horns stick out behind the
+            hood,the horns stick out behind the
                 apparel but the lekku render on
-            the front, looks pretty good tbh.
+            the front,looks pretty good tbh.
             -->
             <li>
               <conditions>
@@ -236,19 +236,19 @@
                 <east>
                   <layerOffset>-0.2692</layerOffset>
                   <headTypes>
-                    <Male_AverageNormal>( -0.01288265, 0.0 )</Male_AverageNormal>
-                    <Male_AveragePointy>( -0.01288265, 0.0 )</Male_AveragePointy>
-                    <Male_AverageWide>( -0.008596455, 0.0 )</Male_AverageWide>
-                    <Male_NarrowWide>( 0.0, 0.0 )</Male_NarrowWide>
-                    <Male_NarrowNormal>( 0.0, 0.0 )</Male_NarrowNormal>
-                    <Male_NarrowPointy>( 0.0, 0.0 )</Male_NarrowPointy>
+                    <Male_AverageNormal>( -0.01288265,0.0 )</Male_AverageNormal>
+                    <Male_AveragePointy>( -0.01288265,0.0 )</Male_AveragePointy>
+                    <Male_AverageWide>( -0.008596455,0.0 )</Male_AverageWide>
+                    <Male_NarrowWide>( 0.0,0.0 )</Male_NarrowWide>
+                    <Male_NarrowNormal>( 0.0,0.0 )</Male_NarrowNormal>
+                    <Male_NarrowPointy>( 0.0,0.0 )</Male_NarrowPointy>
 
-                    <Female_AverageNormal>( -0.01288265, 0.0 )</Female_AverageNormal>
-                    <Female_AveragePointy>( -0.01288265, 0.0 )</Female_AveragePointy>
-                    <Female_AverageWide>( -0.008596455, 0.0 )</Female_AverageWide>
-                    <Female_NarrowWide>( 0.0, 0.0 )</Female_NarrowWide>
-                    <Female_NarrowNormal>( 0.0, 0.0 )</Female_NarrowNormal>
-                    <Female_NarrowPointy>( 0.0, 0.0 )</Female_NarrowPointy>
+                    <Female_AverageNormal>( -0.01288265,0.0 )</Female_AverageNormal>
+                    <Female_AveragePointy>( -0.01288265,0.0 )</Female_AveragePointy>
+                    <Female_AverageWide>( -0.008596455,0.0 )</Female_AverageWide>
+                    <Female_NarrowWide>( 0.0,0.0 )</Female_NarrowWide>
+                    <Female_NarrowNormal>( 0.0,0.0 )</Female_NarrowNormal>
+                    <Female_NarrowPointy>( 0.0,0.0 )</Female_NarrowPointy>
                   </headTypes>
                 </east>
               </offsets>
@@ -279,11 +279,11 @@
                 </north>
                 <east>
                   <layerOffset>-0.3</layerOffset>
-                  <offset>( 0.09, -0.12 )</offset>
+                  <offset>( 0.09,-0.12 )</offset>
                 </east>
                 <west>
                   <layerOffset>0.25</layerOffset>
-                  <offset>( 0.1382637, -0.15 )</offset>
+                  <offset>( 0.1382637,-0.15 )</offset>
                 </west>
               </offsets>
             </li>
@@ -314,11 +314,11 @@
                 </north>
                 <east>
                   <layerOffset>0.25</layerOffset>
-                  <offset>( 0.1382637, -0.15 )</offset>
+                  <offset>( 0.1382637,-0.15 )</offset>
                 </east>
                 <west>
                   <layerOffset>-0.3</layerOffset>
-                  <offset>( 0.09, -0.12 )</offset>
+                  <offset>( 0.09,-0.12 )</offset>
                 </west>
               </offsets>
             </li>

@@ -18,8 +18,7 @@ def getWorkshopModsPath(modID):
 
 
 def getPersonalPath(folderName: str):
-    return 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Rimworld\\Mods\\'+folderName
-    # return 'D:\\Personal\\rimworld_mods\\'+folderName
+    return os.getcwd() + '\\' + folderName
 
 
 

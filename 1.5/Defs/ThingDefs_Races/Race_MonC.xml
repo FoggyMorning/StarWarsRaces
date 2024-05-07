@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_MonCalamari" ParentName="Human">
+    <defName>StarWarsRaces_MonCalamari</defName>
+    <label>MonCalamari</label>
+    <description>It's a trap! Also fish/lobster people from Star Wars. TODO</description>
+    <alienRace>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <headTypes Inherit="False">
+            <li>StarWarsRaces_MonCalamari_Male_Average_Normal</li>
+            <li>StarWarsRaces_MonCalamari_Female_Average_Normal</li>
+          </headTypes>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- Reds -->
+                  <li>
+                    <weight>100</weight>
+                    <min>RGBA(155,0,0,255)</min>
+                    <max>RGBA(255,155,155,255)</max>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <min>RGBA(0,0,0,1)</min>
+                    <max>RGBA(1,1,1,1)</max>
+                  </li>
+                </options>
+              </first>
+              <!-- eyes -->
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <!-- Reds -->
+                  <li>
+                    <weight>100</weight>
+                    <min>RGBA(155,0,0,255)</min>
+                    <max>RGBA(255,155,155,255)</max>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <min>RGBA(0,0,0,1)</min>
+                    <max>RGBA(1,1,1,1)</max>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_2</colorChannel>
+              </second>
+            </li>
+            <li>
+              <name>eyes</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- yellows -->
+                  <li>
+                    <weight>100</weight>
+                    <min>RGBA(255,255,0,255)</min>
+                    <max>RGBA(160,160,0,255)</max>
+                  </li>
+                  <li>
+                    <weight>100</weight>
+                    <min>RGBA(255,255,65,255)</min>
+                    <max>RGBA(160,160,65,255)</max>
+                  </li>
+                  <!-- greens -->
+                  <li>
+                    <weight>10</weight>
+                    <min>RGBA(0,255,0,255)</min>
+                    <max>RGBA(0,160,0,255)</max>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <min>RGBA(100,255,100,255)</min>
+                    <max>RGBA(100,160,100,255)</max>
+                  </li>
+                  <!-- blues -->
+                  <li>
+                    <weight>10</weight>
+                    <min>RGBA(0,0,255,255)</min>
+                    <max>RGBA(0,0,100,255)</max>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <min>RGBA(100,100,255,255)</min>
+                    <max>RGBA(0,0,255,255)</max>
+                  </li>
+                  <!-- any -->
+                  <li>
+                    <weight>1</weight>
+                    <min>RGBA(0,0,0,255)</min>
+                    <max>RGBA(1,1,1,255)</max>
+                  </li>
+                </options>
+              </first>
+              <!-- eyes -->
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(255,255,255,255)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons Inherit="False">
+            <li>
+              <conditions>
+                <RotStage>Fresh,Rotting,Dessicated</RotStage>
+                <BodyPart>
+                  <bodyPart>Skull</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                </Apparel>
+              </conditions>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">Things/Pawn/Humanlike/Addons/MonCalamari/HeadMarkings/HeadMarking</HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">Things/Pawn/Humanlike/Addons/MonCalamari/HeadMarkings/HeadMarking</HeadType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/MonCalamari/HeadMarkings/head_marking</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <layerOffset>-0.273</layerOffset>
+                </south>
+                <west>
+                  <layerOffset>-0.273</layerOffset>
+                </west>
+                <east>
+                  <layerOffset>-0.273</layerOffset>
+                </east>
+                <north>
+                  <layerOffset>-0.321</layerOffset>
+                </north>
+              </offsets>
+            </li>
+            <li>
+              <colorChannel>eyes</colorChannel>
+              <conditions>
+                <RotStage>Fresh</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>left eye</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/Eyes/Eye_Left</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/Eyes/Eye_Left</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/MonCalamari/Eyes/left_eye</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <layerOffset>-0.2733119</layerOffset>
+                </south>
+                <west>
+                  <layerOffset>-0.2797428</layerOffset>
+                </west>
+                <east>
+                  <layerOffset>-0.2797428</layerOffset>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <colorChannel>eyes</colorChannel>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>right eye</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+              </conditions>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/Eyes/Eye_Right</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/Eyes/Eye_Right</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/MonCalamari/Eyes/right_eye</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <layerOffset>-0.2733119</layerOffset>
+                </south>
+                <west>
+                  <layerOffset>-0.2797428</layerOffset>
+                </west>
+                <east>
+                  <layerOffset>-0.2797428</layerOffset>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <conditions>
+                <RotStage>Fresh</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>left eye</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <!-- Draw only for the specified postures -->
+                <Posture>
+                  <drawnStanding>false</drawnStanding>
+                  <drawnLaying>true</drawnLaying>
+                  <drawnInBed>true</drawnInBed>
+                </Posture>
+              </conditions>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/EyeLids/EyeLidClosed_Male_Left</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/EyeLids/EyeLidClosed_Female_Left</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/MonCalamari/EyeLids/left_eyelid</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <layerOffset>-0.2733119</layerOffset>
+                </south>
+                <west>
+                  <layerOffset>-0.2797428</layerOffset>
+                </west>
+                <east>
+                  <layerOffset>-0.2797428</layerOffset>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>right eye</bodyPartLabel>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <!-- Draw only for the specified postures -->
+                <Posture>
+                  <drawnStanding>false</drawnStanding>
+                  <drawnLaying>true</drawnLaying>
+                  <drawnInBed>true</drawnInBed>
+                </Posture>
+              </conditions>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/EyeLids/EyeLidClosed_Male_Right</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                  <path>Things/Pawn/Humanlike/Addons/MonCalamari/EyeLids/EyeLidClosed_Female_Right</path>
+                  <extendedGraphics>
+                    <Hediff For="StarWarsRaces_MonCalamari_BionicEye">Things/notexture</Hediff>
+                    <Hediff For="StarWarsRaces_MonCalamari_ArchotechEye">Things/notexture</Hediff>
+                    <Hediff For="MissingBodyPart">Things/notexture</Hediff>
+                  </extendedGraphics>
+                </HeadType>
+              </extendedGraphics>
+              <path>Things/Pawn/Humanlike/Addons/MonCalamari/EyeLids/right_eyelid</path>
+              <alignWithHead>true</alignWithHead>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <defaultOffset>Center</defaultOffset>
+              <offsets>
+                <south>
+                  <layerOffset>-0.2733119</layerOffset>
+                </south>
+                <west>
+                  <layerOffset>-0.2797428</layerOffset>
+                </west>
+                <east>
+                  <layerOffset>-0.2797428</layerOffset>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <styleSettings Inherit="False">
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <graphicPaths>
+        <skinShader>Cutout</skinShader>
+        <apparel>
+          <individualPaths>
+            <li>
+              <key>Apparel_BowlerHat</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/BowlerHat/BowlerHat</path>
+              </value>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_Bowler</path>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_Bowler</path>
+                </HeadType>
+              </extendedGraphics>
+            </li>
+            <li>
+              <key>Apparel_WarMask</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/WarMask/WarMask</path>
+              </value>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_WarMask</path>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_WarMask</path>
+                </HeadType>
+              </extendedGraphics>
+            </li>
+            <li>
+              <key>Apparel_WarVeil</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/Veil/Veil</path>
+              </value>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_WarVeil</path>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_WarVeil</path>
+                </HeadType>
+              </extendedGraphics>
+            </li>
+            <li>
+              <key>Apparel_AdvancedHelmet</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</path>
+              </value>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_AdvHelm</path>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_AdvHelm</path>
+                </HeadType>
+              </extendedGraphics>
+            </li>
+            <li>
+              <key>Apparel_PowerArmorHelmet</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</path>
+              </value>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_PAH</path>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_PAH</path>
+                </HeadType>
+              </extendedGraphics>
+            </li>
+            <li>
+              <key>Apparel_ArmorHelmetRecon</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</path>
+              </value>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_Recon</path>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_Recon</path>
+                </HeadType>
+              </extendedGraphics>
+            </li>
+            <li>
+              <key>Apparel_HatHood</key>
+              <value>
+                <path>Things/Pawn/Humanlike/Apparel/Hood/Hood</path>
+              </value>
+              <extendedGraphics>
+                <HeadType For="StarWarsRaces_MonCalamari_Male_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_Hood</path>
+                </HeadType>
+                <HeadType For="StarWarsRaces_MonCalamari_Female_Average_Normal">
+                <path>Things/Pawn/Humanlike/Apparel/MonCVanillaReplacements/MonC_Hood</path>
+                </HeadType>
+              </extendedGraphics>
+            </li>
+          </individualPaths>
+        </apparel>
+      </graphicPaths>
+      <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">StarWarsRaces_MonCalamariBaseliner</li>
+        </xenotypeList>
+        <whiteXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+          <li MayRequire="Ludeon.RimWorld.Biotech">StarWarsRaces_MonCalamariBaseliner</li>
+        </whiteXenotypeList>
+        <blackEndoCategories>
+          <li>Melanin</li>
+          <li>HairColor</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+        </blackEndoCategories>
+      </raceRestriction>
+    </alienRace>
+    <race>
+      <body>StarWarsRaces_MonCalamari_Body</body>
+      <fleshType>StarWarsRaces_MonCalamari_FleshType</fleshType>
+      <renderTree>Humanlike</renderTree>
+      <hediffGiverSets Inherit="False">
+        <li>OrganicStandard</li>
+        <li>SWR_HediffGiverSet_MonCalamari</li>
+      </hediffGiverSets>
+    </race>
+    <comps Inherit="False">
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+        <getsColdContainmentBonus>true</getsColdContainmentBonus>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresImprisonment>true</requiresImprisonment>
+      </li>
+    </comps>
+  </AlienRace.ThingDef_AlienRace>
+
+</Defs>

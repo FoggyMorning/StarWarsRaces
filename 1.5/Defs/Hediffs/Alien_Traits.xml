@@ -191,4 +191,35 @@
       </li>
     </hediffGivers>
   </HediffGiverSetDef>
+
+  
+  <HediffDef ParentName="SWR_AlienTraits">
+    <defName>SWR_AlienTrait_MonCalamari</defName>
+    <label>Mon Calamari</label>
+    <description>Fish or Lobster people TODO</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <PawnTrapSpringChance>-0.5</PawnTrapSpringChance>
+          <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffGiverSetDef>
+    <defName>SWR_HediffGiverSet_MonCalamari</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>SWR_AlienTrait_MonCalamari</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
 </Defs>

@@ -33,7 +33,7 @@
       <max>400</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Deputy">
     <race>Human</race>
@@ -70,7 +70,7 @@
     <apparelRequired>
       <li>VFES_Headgear_Sombrero</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Militia">
     <race>Human</race>
@@ -103,7 +103,7 @@
       <max>500</max>
     </weaponMoney>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Frontier_Trader">
     <race>Human</race>
@@ -141,7 +141,7 @@
     <apparelRequired>
       <li>VFES_Headgear_Sombrero</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Sheriff">
     <race>Human</race>
@@ -157,6 +157,7 @@
     <initialResistanceRange>13~20</initialResistanceRange>
     <label>sheriff</label>
     <combatPower>95</combatPower>
+    <minGenerationAge>30</minGenerationAge>
     <isFighter>false</isFighter>
     <gearHealthRange>
       <min>1</min>
@@ -174,7 +175,7 @@
       <min>700</min>
       <max>1200</max>
     </apparelMoney>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mayor">
     <race>Human</race>
@@ -190,6 +191,7 @@
     <labelPlural>mayors</labelPlural>
     <combatPower>120</combatPower>
     <factionLeader>true</factionLeader>
+    <minGenerationAge>30</minGenerationAge>
     <isFighter>false</isFighter>
     <gearHealthRange>1~1</gearHealthRange>
     <itemQuality>Good</itemQuality>
@@ -210,6 +212,6 @@
     </techHediffsTags>
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>24~35</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

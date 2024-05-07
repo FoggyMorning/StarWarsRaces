@@ -64,7 +64,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebCouncilman">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -132,11 +132,12 @@
     <label>rebel base commander</label>
     <labelPlural>rebel base commanders</labelPlural>
     <factionLeader>true</factionLeader>
+    <minGenerationAge>40</minGenerationAge>
     <maxGenerationAge>100</maxGenerationAge>
     <apparelRequired>
       <li>PJ_RebOfficer</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebTrader">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -206,7 +207,7 @@
     <apparelRequired>
       <li>PJ_RebOfficer</li>
     </apparelRequired>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebGuard">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -260,7 +261,7 @@
         <max>100</max>
       </countRange>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebSoldier">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -314,7 +315,7 @@
         <max>100</max>
       </countRange>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebLAVSoldier">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -368,7 +369,7 @@
         <max>100</max>
       </countRange>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebNadeSoldier">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -421,7 +422,7 @@
         <max>100</max>
       </countRange>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebPilot">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -474,7 +475,7 @@
         <max>100</max>
       </countRange>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_RebMerc">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -527,6 +528,6 @@
         <max>100</max>
       </countRange>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

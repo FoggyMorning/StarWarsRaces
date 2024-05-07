@@ -40,7 +40,7 @@
     </inventoryOptions>
     <initialWillRange>0~1</initialWillRange>
     <initialResistanceRange>7~12</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralHusker">
     <race>Human</race>
@@ -97,7 +97,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralMangler">
     <race>Human</race>
@@ -156,7 +156,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralScorcher">
     <race>Human</race>
@@ -226,7 +226,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralBoomer">
     <race>Human</race>
@@ -297,7 +297,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralThumper">
     <race>Human</race>
@@ -348,7 +348,7 @@
       <li>Advanced</li>
     </techHediffsTags>
     <techHediffsChance>0.08</techHediffsChance>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralGrinder">
     <race>Human</race>
@@ -418,7 +418,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralSkulker">
     <race>Human</race>
@@ -488,7 +488,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralLeader">
     <race>Human</race>
@@ -558,7 +558,7 @@
       <li>FeralAssault</li>
     </weaponTags>
     <initialResistanceRange>25~42</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralSkullBuster">
     <race>Human</race>
@@ -628,7 +628,7 @@
       <li>FeralAssault</li>
     </weaponTags>
     <initialResistanceRange>12~24</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FeralManiac">
     <race>Human</race>
@@ -700,6 +700,6 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

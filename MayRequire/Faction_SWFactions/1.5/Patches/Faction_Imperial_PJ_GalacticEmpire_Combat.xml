@@ -17,26 +17,31 @@
           <StarWarsRaces_Rodian_PJ_ImpInspector>1.00</StarWarsRaces_Rodian_PJ_ImpInspector>
           <StarWarsRaces_Ewok_PJ_ImpInspector>0.50</StarWarsRaces_Ewok_PJ_ImpInspector>
           <StarWarsRaces_Twilek_PJ_ImpInspector>1.00</StarWarsRaces_Twilek_PJ_ImpInspector>
+          <StarWarsRaces_MonCalamari_PJ_ImpInspector>0.50</StarWarsRaces_MonCalamari_PJ_ImpInspector>
           <StarWarsRaces_Wookiee_PJ_ImpTaxOfficer>0.70</StarWarsRaces_Wookiee_PJ_ImpTaxOfficer>
           <StarWarsRaces_Togruta_PJ_ImpTaxOfficer>1.00</StarWarsRaces_Togruta_PJ_ImpTaxOfficer>
           <StarWarsRaces_Rodian_PJ_ImpTaxOfficer>1.00</StarWarsRaces_Rodian_PJ_ImpTaxOfficer>
           <StarWarsRaces_Ewok_PJ_ImpTaxOfficer>0.50</StarWarsRaces_Ewok_PJ_ImpTaxOfficer>
           <StarWarsRaces_Twilek_PJ_ImpTaxOfficer>1.00</StarWarsRaces_Twilek_PJ_ImpTaxOfficer>
+          <StarWarsRaces_MonCalamari_PJ_ImpTaxOfficer>0.50</StarWarsRaces_MonCalamari_PJ_ImpTaxOfficer>
           <StarWarsRaces_Wookiee_PJ_ImpSoldier>175.00</StarWarsRaces_Wookiee_PJ_ImpSoldier>
           <StarWarsRaces_Togruta_PJ_ImpSoldier>250.00</StarWarsRaces_Togruta_PJ_ImpSoldier>
           <StarWarsRaces_Rodian_PJ_ImpSoldier>250.00</StarWarsRaces_Rodian_PJ_ImpSoldier>
           <StarWarsRaces_Ewok_PJ_ImpSoldier>125.00</StarWarsRaces_Ewok_PJ_ImpSoldier>
           <StarWarsRaces_Twilek_PJ_ImpSoldier>250.00</StarWarsRaces_Twilek_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>125.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
           <StarWarsRaces_Wookiee_PJ_ImpCommander>175.00</StarWarsRaces_Wookiee_PJ_ImpCommander>
           <StarWarsRaces_Togruta_PJ_ImpCommander>250.00</StarWarsRaces_Togruta_PJ_ImpCommander>
           <StarWarsRaces_Rodian_PJ_ImpCommander>250.00</StarWarsRaces_Rodian_PJ_ImpCommander>
           <StarWarsRaces_Ewok_PJ_ImpCommander>125.00</StarWarsRaces_Ewok_PJ_ImpCommander>
           <StarWarsRaces_Twilek_PJ_ImpCommander>250.00</StarWarsRaces_Twilek_PJ_ImpCommander>
+          <StarWarsRaces_MonCalamari_PJ_ImpCommander>125.00</StarWarsRaces_MonCalamari_PJ_ImpCommander>
           <StarWarsRaces_Wookiee_PJ_Stormtrooper>175.00</StarWarsRaces_Wookiee_PJ_Stormtrooper>
           <StarWarsRaces_Togruta_PJ_Stormtrooper>250.00</StarWarsRaces_Togruta_PJ_Stormtrooper>
           <StarWarsRaces_Rodian_PJ_Stormtrooper>250.00</StarWarsRaces_Rodian_PJ_Stormtrooper>
           <StarWarsRaces_Ewok_PJ_Stormtrooper>125.00</StarWarsRaces_Ewok_PJ_Stormtrooper>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>250.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>125.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
         </options>
       </li>
       <li>
@@ -68,6 +73,11 @@
           <StarWarsRaces_Twilek_PJ_ImpSoldier>250.00</StarWarsRaces_Twilek_PJ_ImpSoldier>
           <StarWarsRaces_Twilek_PJ_ImpCommander>250.00</StarWarsRaces_Twilek_PJ_ImpCommander>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>250.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
+          <StarWarsRaces_MonCalamari_PJ_ImpInspector>0.50</StarWarsRaces_MonCalamari_PJ_ImpInspector>
+          <StarWarsRaces_MonCalamari_PJ_ImpTaxOfficer>0.50</StarWarsRaces_MonCalamari_PJ_ImpTaxOfficer>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>125.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_ImpCommander>125.00</StarWarsRaces_MonCalamari_PJ_ImpCommander>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>125.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
         </options>
       </li>
       <li>
@@ -123,6 +133,17 @@
           <StarWarsRaces_Twilek_PJ_ImpSoldier>250.00</StarWarsRaces_Twilek_PJ_ImpSoldier>
           <StarWarsRaces_Twilek_PJ_ImpCommander>250.00</StarWarsRaces_Twilek_PJ_ImpCommander>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>250.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>20.00</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_PJ_ImpInspector>0.50</StarWarsRaces_MonCalamari_PJ_ImpInspector>
+          <StarWarsRaces_MonCalamari_PJ_ImpTaxOfficer>0.50</StarWarsRaces_MonCalamari_PJ_ImpTaxOfficer>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>125.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_ImpCommander>125.00</StarWarsRaces_MonCalamari_PJ_ImpCommander>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>125.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
         </options>
       </li>
     </value>

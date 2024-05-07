@@ -62,7 +62,7 @@
       <li>IonBlaster</li>
     </weaponTags>
     <combatPower>75</combatPower>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_Ruffian">
     <race>Human</race>
@@ -125,7 +125,7 @@
       <li>Blaster</li>
     </weaponTags>
     <combatPower>85</combatPower>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_ScumBoss">
     <label>boss</label>
@@ -190,7 +190,6 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PJ_BountyHunter">
     <label>Bounty hunter</label>
@@ -255,6 +254,5 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
 </Defs>

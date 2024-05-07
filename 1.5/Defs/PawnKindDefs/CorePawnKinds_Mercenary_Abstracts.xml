@@ -49,7 +49,7 @@
       <li>GrenadeDestructive</li>
     </weaponTags>
     <initialResistanceRange>10~16</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Grenadier_EMP">
     <race>Human</race>
@@ -98,7 +98,7 @@
       <li>GrenadeEMP</li>
     </weaponTags>
     <initialResistanceRange>15~24</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Grenadier_Smoke">
     <race>Human</race>
@@ -147,7 +147,7 @@
     </weaponTags>
     <weaponMoney>400~400</weaponMoney>
     <initialResistanceRange>18~28</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Gunner">
     <race>Human</race>
@@ -203,7 +203,7 @@
       </li>
     </skills>
     <initialResistanceRange>6~10</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Gunner_Acidifier">
     <race>Human</race>
@@ -262,7 +262,7 @@
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>10~16</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Sniper">
     <race>Human</race>
@@ -314,7 +314,7 @@
       </li>
     </skills>
     <initialResistanceRange>13~20</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Sniper_Acidifier">
     <race>Human</race>
@@ -369,7 +369,7 @@
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>14~23</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Slasher">
     <race>Human</race>
@@ -420,7 +420,7 @@
       </subOptionsChooseOne>
     </inventoryOptions>
     <initialResistanceRange>10~16</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Slasher_Acidifier">
     <race>Human</race>
@@ -474,7 +474,7 @@
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>9~15</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Heavy">
     <race>Human</race>
@@ -515,7 +515,7 @@
       <li>Flamethrower</li>
     </weaponTags>
     <initialResistanceRange>14~23</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_PirateBoss">
     <race>Human</race>
@@ -559,7 +559,7 @@
     <factionLeader>true</factionLeader>
     <canBeSapper>true</canBeSapper>
     <initialResistanceRange>17~27</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Elite">
     <race>Human</race>
@@ -616,7 +616,7 @@
       </li>
     </skills>
     <initialResistanceRange>15~23</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_Mercenary_Elite_Acidifier">
     <race>Human</race>
@@ -676,6 +676,6 @@
       <li>DeathAcidifier</li>
     </techHediffsRequired>
     <initialResistanceRange>12~20</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
 </Defs>

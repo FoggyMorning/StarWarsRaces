@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>StarWarsRaces_TwilekBaseliner</defName>
+    <label>twi'lek</label>
+    <description>A naturally-evolved Twi'lek. A mostly hairless humanoid with vibrant skin colors and two lekku</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+    </genes>
+    <doubleXenotypeChances>
+      <Impid>0.01</Impid>
+      <Dirtmole>0.02</Dirtmole>
+      <Waster>0.02</Waster>
+    </doubleXenotypeChances>
+  </XenotypeDef>
+</Defs>

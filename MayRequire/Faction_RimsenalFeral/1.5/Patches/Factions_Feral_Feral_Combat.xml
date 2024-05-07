@@ -20,21 +20,25 @@
           <StarWarsRaces_Rodian_FeralFodder>5.00</StarWarsRaces_Rodian_FeralFodder>
           <StarWarsRaces_Ewok_FeralFodder>2.50</StarWarsRaces_Ewok_FeralFodder>
           <StarWarsRaces_Twilek_FeralFodder>5.00</StarWarsRaces_Twilek_FeralFodder>
+          <StarWarsRaces_MonCalamari_FeralFodder>2.50</StarWarsRaces_MonCalamari_FeralFodder>
           <StarWarsRaces_Wookiee_FeralScorcher>1.40</StarWarsRaces_Wookiee_FeralScorcher>
           <StarWarsRaces_Togruta_FeralScorcher>2.00</StarWarsRaces_Togruta_FeralScorcher>
           <StarWarsRaces_Rodian_FeralScorcher>2.00</StarWarsRaces_Rodian_FeralScorcher>
           <StarWarsRaces_Ewok_FeralScorcher>1.00</StarWarsRaces_Ewok_FeralScorcher>
           <StarWarsRaces_Twilek_FeralScorcher>2.00</StarWarsRaces_Twilek_FeralScorcher>
+          <StarWarsRaces_MonCalamari_FeralScorcher>1.00</StarWarsRaces_MonCalamari_FeralScorcher>
           <StarWarsRaces_Wookiee_FeralGrinder>7.00</StarWarsRaces_Wookiee_FeralGrinder>
           <StarWarsRaces_Togruta_FeralGrinder>10.00</StarWarsRaces_Togruta_FeralGrinder>
           <StarWarsRaces_Rodian_FeralGrinder>10.00</StarWarsRaces_Rodian_FeralGrinder>
           <StarWarsRaces_Ewok_FeralGrinder>5.00</StarWarsRaces_Ewok_FeralGrinder>
           <StarWarsRaces_Twilek_FeralGrinder>10.00</StarWarsRaces_Twilek_FeralGrinder>
+          <StarWarsRaces_MonCalamari_FeralGrinder>5.00</StarWarsRaces_MonCalamari_FeralGrinder>
           <StarWarsRaces_Wookiee_FeralManiac>3.50</StarWarsRaces_Wookiee_FeralManiac>
           <StarWarsRaces_Togruta_FeralManiac>5.00</StarWarsRaces_Togruta_FeralManiac>
           <StarWarsRaces_Rodian_FeralManiac>5.00</StarWarsRaces_Rodian_FeralManiac>
           <StarWarsRaces_Ewok_FeralManiac>2.50</StarWarsRaces_Ewok_FeralManiac>
           <StarWarsRaces_Twilek_FeralManiac>5.00</StarWarsRaces_Twilek_FeralManiac>
+          <StarWarsRaces_MonCalamari_FeralManiac>2.50</StarWarsRaces_MonCalamari_FeralManiac>
         </options>
       </li>
       <li>
@@ -61,6 +65,10 @@
           <StarWarsRaces_Twilek_FeralScorcher>2.00</StarWarsRaces_Twilek_FeralScorcher>
           <StarWarsRaces_Twilek_FeralGrinder>10.00</StarWarsRaces_Twilek_FeralGrinder>
           <StarWarsRaces_Twilek_FeralManiac>5.00</StarWarsRaces_Twilek_FeralManiac>
+          <StarWarsRaces_MonCalamari_FeralFodder>2.50</StarWarsRaces_MonCalamari_FeralFodder>
+          <StarWarsRaces_MonCalamari_FeralScorcher>1.00</StarWarsRaces_MonCalamari_FeralScorcher>
+          <StarWarsRaces_MonCalamari_FeralGrinder>5.00</StarWarsRaces_MonCalamari_FeralGrinder>
+          <StarWarsRaces_MonCalamari_FeralManiac>2.50</StarWarsRaces_MonCalamari_FeralManiac>
         </options>
       </li>
       <li>
@@ -111,6 +119,16 @@
           <StarWarsRaces_Twilek_FeralScorcher>2.00</StarWarsRaces_Twilek_FeralScorcher>
           <StarWarsRaces_Twilek_FeralGrinder>10.00</StarWarsRaces_Twilek_FeralGrinder>
           <StarWarsRaces_Twilek_FeralManiac>5.00</StarWarsRaces_Twilek_FeralManiac>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>4.00</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_FeralFodder>2.50</StarWarsRaces_MonCalamari_FeralFodder>
+          <StarWarsRaces_MonCalamari_FeralScorcher>1.00</StarWarsRaces_MonCalamari_FeralScorcher>
+          <StarWarsRaces_MonCalamari_FeralGrinder>5.00</StarWarsRaces_MonCalamari_FeralGrinder>
+          <StarWarsRaces_MonCalamari_FeralManiac>2.50</StarWarsRaces_MonCalamari_FeralManiac>
         </options>
       </li>
     </value>

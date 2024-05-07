@@ -20,16 +20,19 @@
           <StarWarsRaces_Rodian_PJ_ScumBoss>100.00</StarWarsRaces_Rodian_PJ_ScumBoss>
           <StarWarsRaces_Ewok_PJ_ScumBoss>50.00</StarWarsRaces_Ewok_PJ_ScumBoss>
           <StarWarsRaces_Twilek_PJ_ScumBoss>100.00</StarWarsRaces_Twilek_PJ_ScumBoss>
+          <StarWarsRaces_MonCalamari_PJ_ScumBoss>50.00</StarWarsRaces_MonCalamari_PJ_ScumBoss>
           <StarWarsRaces_Wookiee_PJ_Ruffian>70.00</StarWarsRaces_Wookiee_PJ_Ruffian>
           <StarWarsRaces_Togruta_PJ_Ruffian>100.00</StarWarsRaces_Togruta_PJ_Ruffian>
           <StarWarsRaces_Rodian_PJ_Ruffian>100.00</StarWarsRaces_Rodian_PJ_Ruffian>
           <StarWarsRaces_Ewok_PJ_Ruffian>50.00</StarWarsRaces_Ewok_PJ_Ruffian>
           <StarWarsRaces_Twilek_PJ_Ruffian>100.00</StarWarsRaces_Twilek_PJ_Ruffian>
+          <StarWarsRaces_MonCalamari_PJ_Ruffian>50.00</StarWarsRaces_MonCalamari_PJ_Ruffian>
           <StarWarsRaces_Wookiee_PJ_BountyHunter>210.00</StarWarsRaces_Wookiee_PJ_BountyHunter>
           <StarWarsRaces_Togruta_PJ_BountyHunter>300.00</StarWarsRaces_Togruta_PJ_BountyHunter>
           <StarWarsRaces_Rodian_PJ_BountyHunter>300.00</StarWarsRaces_Rodian_PJ_BountyHunter>
           <StarWarsRaces_Ewok_PJ_BountyHunter>150.00</StarWarsRaces_Ewok_PJ_BountyHunter>
           <StarWarsRaces_Twilek_PJ_BountyHunter>300.00</StarWarsRaces_Twilek_PJ_BountyHunter>
+          <StarWarsRaces_MonCalamari_PJ_BountyHunter>150.00</StarWarsRaces_MonCalamari_PJ_BountyHunter>
         </options>
       </li>
       <li>
@@ -54,6 +57,9 @@
           <StarWarsRaces_Twilek_PJ_ScumBoss>100.00</StarWarsRaces_Twilek_PJ_ScumBoss>
           <StarWarsRaces_Twilek_PJ_Ruffian>100.00</StarWarsRaces_Twilek_PJ_Ruffian>
           <StarWarsRaces_Twilek_PJ_BountyHunter>300.00</StarWarsRaces_Twilek_PJ_BountyHunter>
+          <StarWarsRaces_MonCalamari_PJ_ScumBoss>50.00</StarWarsRaces_MonCalamari_PJ_ScumBoss>
+          <StarWarsRaces_MonCalamari_PJ_Ruffian>50.00</StarWarsRaces_MonCalamari_PJ_Ruffian>
+          <StarWarsRaces_MonCalamari_PJ_BountyHunter>150.00</StarWarsRaces_MonCalamari_PJ_BountyHunter>
         </options>
       </li>
       <li>
@@ -114,6 +120,18 @@
           <StarWarsRaces_Twilek_PJ_ScumBoss>100.00</StarWarsRaces_Twilek_PJ_ScumBoss>
           <StarWarsRaces_Twilek_PJ_Ruffian>100.00</StarWarsRaces_Twilek_PJ_Ruffian>
           <StarWarsRaces_Twilek_PJ_BountyHunter>300.00</StarWarsRaces_Twilek_PJ_BountyHunter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <commonality>5.00</commonality>
+        <options>
+          <StarWarsRaces_MonCalamari_PJ_ScumBoss>50.00</StarWarsRaces_MonCalamari_PJ_ScumBoss>
+          <StarWarsRaces_MonCalamari_PJ_Ruffian>50.00</StarWarsRaces_MonCalamari_PJ_Ruffian>
+          <StarWarsRaces_MonCalamari_PJ_BountyHunter>150.00</StarWarsRaces_MonCalamari_PJ_BountyHunter>
         </options>
       </li>
     </value>

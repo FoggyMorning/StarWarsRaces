@@ -59,7 +59,7 @@
       <li>AuxPistol</li>
     </weaponTags>
     <combatPower>45</combatPower>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FPCBomber">
     <race>Human</race>
@@ -121,7 +121,7 @@
       <li>FedBomb</li>
     </weaponTags>
     <combatPower>105</combatPower>
-    <minGenerationAge>17</minGenerationAge>
+    <useFactionXenotypes MayRequire="Ludeon.RimWorld.Biotech">false</useFactionXenotypes>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FPCCommander">
     <label>commander</label>
@@ -200,7 +200,6 @@
     </inventoryOptions>
     <initialWillRange>4~6</initialWillRange>
     <initialResistanceRange>45~54</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FPCAssassin">
     <label>assassin</label>
@@ -276,7 +275,6 @@
     </inventoryOptions>
     <initialWillRange>4~5</initialWillRange>
     <initialResistanceRange>22~38</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_FPCUnityGuard">
     <label>unity guard</label>
@@ -360,6 +358,5 @@
     </inventoryOptions>
     <initialWillRange>2~4</initialWillRange>
     <initialResistanceRange>10~20</initialResistanceRange>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
 </Defs>

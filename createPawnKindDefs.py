@@ -36,7 +36,7 @@ def getWorkshopModsPath(modID):
     return getSteamAppsPath()+'\\workshop\\content\\294100\\'+modID
 
 def getPersonalPath(folderName: str):
-    return 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Rimworld\\Mods\\'+folderName
+    return os.getcwd() + '\\' + folderName
 
 def getPersonalPawnKindDefsPath(folderName):
     return getPersonalPath(folderName)+'\\Defs\\PawnKindDefs'
@@ -101,18 +101,12 @@ def createPKD(
         newPKD = ET.Element('PawnKindDef', {
                             'Abstract': 'True', 'Name': destinationModPrefix+'_'+nameOrDefName})
 
-        age = ET.Element('minGenerationAge')
-        age.text = "17"
         backstoryprefix = destinationModPrefix+'Backstory'
         parentName = pawnKind.attrib.get('ParentName')
         if parentName != None:
             newPKD.attrib['ParentName'] = parentName
         for ele in pawnKind:
             if ele == None or ele.tag == None or ele.tag in ['xenotypeSet', 'backstoryFiltersOverride']:
-                continue
-            if ele.tag == 'minGenerationAge':
-                if ele.text != None and int(ele.text) > int(age.text):
-                    age.text = ele.text
                 continue
             if includeBackstories == True and ele.tag in ['backstoryCategories', 'backstoryFilters']:
                 continue
@@ -132,7 +126,6 @@ def createPKD(
             newPKD.remove(newPKD.find('defName'))
         pawnKindsFound[key]['element'] = newPKD
 
-        newPKD.append(age)
         if pawnKindsFound[key]['source'] == sourceModID and pawnKindsFound[key]['filename'] in outputFiles.keys():
             outputFiles[pawnKindsFound[key]['filename']
                         ]['abstracts'].append(newPKD)
@@ -177,6 +170,7 @@ def outputPawnKindFile(defStructure, destinationModFolderName, sourceFile, fileP
             sourceFile, '\\')+1:len(sourceFile)]+'.xml'
     
     
+    print(x)
     if not os.path.exists(folder):
         os.makedirs(folder)
     if os.path.exists(x):
@@ -318,8 +312,6 @@ def getParentStuff(pawnKindDef: ET.Element, possibleParents):
             if ele.tag == 'race' and ele.text not in nonHumanExceptionList:
                 updateNonHumanWatchList(parent)
                 return None
-            if ele.tag == 'minGenerationAge':
-                continue
             if ele.tag == 'backstoryCategories':
                 continue
             if ele.tag == 'backstoryFilters':
@@ -327,6 +319,8 @@ def getParentStuff(pawnKindDef: ET.Element, possibleParents):
             if ele.tag == 'backstoryFiltersOverride':
                 continue
             if ele.tag == 'defName':
+                continue
+            if ele.tag == 'useFactionXenotypes':
                 continue
             existing = newPawnKD.find(ele.tag)
             if existing != None:
@@ -337,6 +331,11 @@ def getParentStuff(pawnKindDef: ET.Element, possibleParents):
                 else:
                     newPawnKD.remove(existing)
             newPawnKD.append(ele)
+    useFactionXenotypes = ET.Element('useFactionXenotypes')
+    useFactionXenotypes.tag = 'useFactionXenotypes'
+    useFactionXenotypes.text = 'false'
+    useFactionXenotypes.attrib['MayRequire'] = 'Ludeon.RimWorld.Biotech'
+    newPawnKD.append(useFactionXenotypes)
     return newPawnKD
 
 def getNameOrDefName(pawnKindDef):

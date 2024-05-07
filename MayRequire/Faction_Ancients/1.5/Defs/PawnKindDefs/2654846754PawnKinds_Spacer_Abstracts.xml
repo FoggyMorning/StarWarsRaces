@@ -42,7 +42,6 @@
         <numRandomWeaknesses>1</numRandomWeaknesses>
       </li>
     </modExtensions>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="StarWarsRaces_VFEA_AncientSoldierTwoAbilities">
     <label>ancient super-soldier</label>
@@ -86,6 +85,5 @@
         <numRandomWeaknesses>2</numRandomWeaknesses>
       </li>
     </modExtensions>
-    <minGenerationAge>17</minGenerationAge>
   </PawnKindDef>
 </Defs>

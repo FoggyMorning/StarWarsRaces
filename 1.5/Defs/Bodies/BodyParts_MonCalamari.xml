@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>StarWarsRaces_MonCalamari_Eye</defName>
+    <label>eye</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <canScarify>true</canScarify>
+    <socketed>true</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+
+</Defs>

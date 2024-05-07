@@ -3,7 +3,7 @@
   <AlienRace.ThingDef_AlienRace Name="StarWarsRaces_Twilek" ParentName="Human">
     <defName>StarWarsRaces_Twilek</defName>
     <label>Twi'lek</label>
-    <description>Twi'leks were a species of tall humanoids whose skin spanned a vast array of colors, including white, orange, yellow, green, pink, blue, purple, black, grey, and red. Their most distinctive feature was the pair of prehensile appendages that sprouted from the crown or base of their skulls, known as lekku, or head-tails. Although Twi'leks normally had two lekku, some individuals had four. Super sensitive lekku could grab and hold objects and react to the slightest touch. A damaged lekku could cause serious harm to a Twi'lek's health. The species had two sexes, male and female. While most males typically had ears with lobes resembling those of humans, some males had cone-shaped hearing organs located in the same place on the head, a trait customarily found in the females of the same species. Although Twi'leks naturally had blunt teeth, males typically sharpened them to points. Twi'leks were usually thin, although corpulent individuals were known to exist. Under normal circumstances, they generally had a higher body temperature than other humanoid species.They had even higher body temperatures when in fear. Twi'leks and humans could breed to create a hybrid of the two species, such as when shortly after the death of Kanan Jarrus, he and Hera Syndulla gave birth to a son who appeared mostly human but inherited his mother's green pigment in his hair and ears. He was born after the liberation of Lothal, which Syndulla lived to participate in. https://starwars.fandom.com/wiki/Twi%27lek</description>
+    <description>Twi'leks were a species of tall humanoids whose skin spanned a vast array of colors,including white,orange,yellow,green,pink,blue,purple,black,grey,and red. Their most distinctive feature was the pair of prehensile appendages that sprouted from the crown or base of their skulls,known as lekku,or head-tails. Although Twi'leks normally had two lekku,some individuals had four. Super sensitive lekku could grab and hold objects and react to the slightest touch. A damaged lekku could cause serious harm to a Twi'lek's health. The species had two sexes,male and female. While most males typically had ears with lobes resembling those of humans,some males had cone-shaped hearing organs located in the same place on the head,a trait customarily found in the females of the same species. Although Twi'leks naturally had blunt teeth,males typically sharpened them to points. Twi'leks were usually thin,although corpulent individuals were known to exist. Under normal circumstances,they generally had a higher body temperature than other humanoid species.They had even higher body temperatures when in fear. Twi'leks and humans could breed to create a hybrid of the two species,such as when shortly after the death of Kanan Jarrus,he and Hera Syndulla gave birth to a son who appeared mostly human but inherited his mother's green pigment in his hair and ears. He was born after the liberation of Lothal,which Syndulla lived to participate in. https://starwars.fandom.com/wiki/Twi%27lek</description>
     <alienRace>
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
@@ -24,16 +24,16 @@
               <first Class="ColorGenerator_Options">
                 <options>
                   <li>
-                    <min>RGBA(0,0,0,1)</min>
-                    <max>RGBA(1,1,1,1)</max>
+                    <min>RGBA(0,0,0,255)</min>
+                    <max>RGBA(1,1,1,255)</max>
                   </li>
                 </options>
               </first>
               <second Class="ColorGenerator_Options">
                 <options>
                   <li>
-                    <min>RGBA(0,0,0,1)</min>
-                    <max>RGBA(1,1,1,1)</max>
+                    <min>RGBA(0,0,0,255)</min>
+                    <max>RGBA(1,1,1,255)</max>
                   </li>
                 </options>
               </second>
@@ -70,7 +70,7 @@
                 </north>
                 <east>
                   <layerOffset>-0.274</layerOffset>
-                  <!-- <offset>( -0.006430868, 0.006430868 )</offset> -->
+                  <!-- <offset>( -0.006430868,0.006430868 )</offset> -->
                 </east>
               </offsets>
             </li>
@@ -95,11 +95,11 @@
                 </north>
                 <east>
                   <layerOffset>-0.3</layerOffset>
-                  <offset>( 0.03858521, 0.02572347 )</offset>
+                  <offset>( 0.03858521,0.02572347 )</offset>
                 </east>
                 <west>
                   <layerOffset>-0.2733119</layerOffset>
-                  <offset>( 0.0, -0.0 )</offset>
+                  <offset>( 0.0,-0.0 )</offset>
                 </west>
               </offsets>
             </li>
@@ -125,11 +125,11 @@
                 </north>
                 <east>
                   <layerOffset>-0.2733119</layerOffset>
-                  <offset>( 0.0, -0.0 )</offset>
+                  <offset>( 0.0,-0.0 )</offset>
                 </east>
                 <west>
                   <layerOffset>-0.3</layerOffset>
-                  <offset>( 0.03858521, 0.02572347 )</offset>
+                  <offset>( 0.03858521,0.02572347 )</offset>
                 </west>
               </offsets>
             </li>

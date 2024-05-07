@@ -11,6 +11,7 @@
             <li>StarWarsRaces_Wookiee_Slave</li>
             <li>StarWarsRaces_Ewok_Slave</li>
             <li>StarWarsRaces_Togruta_Slave</li>
+            <li>StarWarsRaces_MonCalamari_Slave</li>
           </kindDefs>
           <chance>30.0</chance>
         </li>
@@ -28,6 +29,8 @@
             <li>StarWarsRaces_Ewok_SpaceRefugee_Clothed</li>
             <li>StarWarsRaces_Togruta_SpaceRefugee</li>
             <li>StarWarsRaces_Togruta_SpaceRefugee_Clothed</li>
+            <li>StarWarsRaces_MonCalamari_SpaceRefugee</li>
+            <li>StarWarsRaces_MonCalamari_SpaceRefugee_Clothed</li>
           </kindDefs>
           <chance>30.0</chance>
         </li>
@@ -42,6 +45,7 @@
                 <li>StarWarsRaces_Twilek_Colonist</li>
                 <li>StarWarsRaces_Ewok_Colonist</li>
                 <li>StarWarsRaces_Togruta_Colonist</li>
+                <li>StarWarsRaces_MonCalamari_Colonist</li>
               </kindDefs>
               <chance>30.0</chance>
             </li>
@@ -59,6 +63,7 @@
                 <li>StarWarsRaces_Rodian_Tribesperson</li>
                 <li>StarWarsRaces_Ewok_Tribesperson</li>
                 <li>StarWarsRaces_Togruta_Tribesperson</li>
+                <li>StarWarsRaces_MonCalamari_Tribesperson</li>
               </kindDefs>
               <chance>30.0</chance>
             </li>
@@ -78,6 +83,7 @@
                 <li>StarWarsRaces_Twilek_Colonist</li>
                 <li>StarWarsRaces_Ewok_Colonist</li>
                 <li>StarWarsRaces_Togruta_Colonist</li>
+                <li>StarWarsRaces_MonCalamari_Colonist</li>
               </kindDefs>
               <chance>30.0</chance>
             </li>
@@ -95,6 +101,7 @@
                 <li>StarWarsRaces_Rodian_Tribesperson</li>
                 <li>StarWarsRaces_Ewok_Tribesperson</li>
                 <li>StarWarsRaces_Togruta_Tribesperson</li>
+                <li>StarWarsRaces_MonCalamari_Tribesperson</li>
               </kindDefs>
               <chance>30.0</chance>
             </li>

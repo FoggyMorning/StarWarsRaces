@@ -15,21 +15,25 @@
           <StarWarsRaces_Rodian_PJ_ImpSoldier>250.00</StarWarsRaces_Rodian_PJ_ImpSoldier>
           <StarWarsRaces_Ewok_PJ_ImpSoldier>125.00</StarWarsRaces_Ewok_PJ_ImpSoldier>
           <StarWarsRaces_Twilek_PJ_ImpSoldier>250.00</StarWarsRaces_Twilek_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>125.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
           <StarWarsRaces_Wookiee_PJ_ImpCommander>175.00</StarWarsRaces_Wookiee_PJ_ImpCommander>
           <StarWarsRaces_Togruta_PJ_ImpCommander>250.00</StarWarsRaces_Togruta_PJ_ImpCommander>
           <StarWarsRaces_Rodian_PJ_ImpCommander>250.00</StarWarsRaces_Rodian_PJ_ImpCommander>
           <StarWarsRaces_Ewok_PJ_ImpCommander>125.00</StarWarsRaces_Ewok_PJ_ImpCommander>
           <StarWarsRaces_Twilek_PJ_ImpCommander>250.00</StarWarsRaces_Twilek_PJ_ImpCommander>
+          <StarWarsRaces_MonCalamari_PJ_ImpCommander>125.00</StarWarsRaces_MonCalamari_PJ_ImpCommander>
           <StarWarsRaces_Wookiee_PJ_Stormtrooper>245.00</StarWarsRaces_Wookiee_PJ_Stormtrooper>
           <StarWarsRaces_Togruta_PJ_Stormtrooper>350.00</StarWarsRaces_Togruta_PJ_Stormtrooper>
           <StarWarsRaces_Rodian_PJ_Stormtrooper>350.00</StarWarsRaces_Rodian_PJ_Stormtrooper>
           <StarWarsRaces_Ewok_PJ_Stormtrooper>175.00</StarWarsRaces_Ewok_PJ_Stormtrooper>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>350.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>175.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
           <StarWarsRaces_Wookiee_PJ_ScoutTrooper>196.00</StarWarsRaces_Wookiee_PJ_ScoutTrooper>
           <StarWarsRaces_Togruta_PJ_ScoutTrooper>280.00</StarWarsRaces_Togruta_PJ_ScoutTrooper>
           <StarWarsRaces_Rodian_PJ_ScoutTrooper>280.00</StarWarsRaces_Rodian_PJ_ScoutTrooper>
           <StarWarsRaces_Ewok_PJ_ScoutTrooper>140.00</StarWarsRaces_Ewok_PJ_ScoutTrooper>
           <StarWarsRaces_Twilek_PJ_ScoutTrooper>280.00</StarWarsRaces_Twilek_PJ_ScoutTrooper>
+          <StarWarsRaces_MonCalamari_PJ_ScoutTrooper>140.00</StarWarsRaces_MonCalamari_PJ_ScoutTrooper>
         </options>
       </li>
       <li>
@@ -55,6 +59,10 @@
           <StarWarsRaces_Twilek_PJ_ImpCommander>250.00</StarWarsRaces_Twilek_PJ_ImpCommander>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>350.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
           <StarWarsRaces_Twilek_PJ_ScoutTrooper>280.00</StarWarsRaces_Twilek_PJ_ScoutTrooper>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>125.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_ImpCommander>125.00</StarWarsRaces_MonCalamari_PJ_ImpCommander>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>175.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
+          <StarWarsRaces_MonCalamari_PJ_ScoutTrooper>140.00</StarWarsRaces_MonCalamari_PJ_ScoutTrooper>
         </options>
       </li>
       <li>
@@ -100,6 +108,15 @@
           <StarWarsRaces_Twilek_PJ_ImpCommander>250.00</StarWarsRaces_Twilek_PJ_ImpCommander>
           <StarWarsRaces_Twilek_PJ_Stormtrooper>350.00</StarWarsRaces_Twilek_PJ_Stormtrooper>
           <StarWarsRaces_Twilek_PJ_ScoutTrooper>280.00</StarWarsRaces_Twilek_PJ_ScoutTrooper>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <StarWarsRaces_MonCalamari_PJ_ImpSoldier>125.00</StarWarsRaces_MonCalamari_PJ_ImpSoldier>
+          <StarWarsRaces_MonCalamari_PJ_ImpCommander>125.00</StarWarsRaces_MonCalamari_PJ_ImpCommander>
+          <StarWarsRaces_MonCalamari_PJ_Stormtrooper>175.00</StarWarsRaces_MonCalamari_PJ_Stormtrooper>
+          <StarWarsRaces_MonCalamari_PJ_ScoutTrooper>140.00</StarWarsRaces_MonCalamari_PJ_ScoutTrooper>
         </options>
       </li>
     </value>
